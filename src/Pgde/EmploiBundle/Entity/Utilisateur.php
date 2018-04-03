@@ -54,6 +54,10 @@ class Utilisateur extends BaseUser
      */
     protected $numberid;
 
+    /**
+     * @ORM\OneToOne(targetEntity="Pgde\EmploiBundle\Entity\Userdata", cascade={"persist"}, mappedBy="utilisateur")
+     */
+    private $userdata;
 
     /**
      * Get id
@@ -141,5 +145,29 @@ class Utilisateur extends BaseUser
     {
         parent::__construct();
         // your own logic
+    }
+
+    /**
+     * Set userdata.
+     *
+     * @param \Pgde\EmploiBundle\Entity\Userdata|null $userdata
+     *
+     * @return Utilisateur
+     */
+    public function setUserdata(\Pgde\EmploiBundle\Entity\Userdata $userdata = null)
+    {
+        $this->userdata = $userdata;
+
+        return $this;
+    }
+
+    /**
+     * Get userdata.
+     *
+     * @return \Pgde\EmploiBundle\Entity\Userdata|null
+     */
+    public function getUserdata()
+    {
+        return $this->userdata;
     }
 }

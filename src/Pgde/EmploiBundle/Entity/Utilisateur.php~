@@ -54,6 +54,10 @@ class Utilisateur extends BaseUser
      */
     protected $numberid;
 
+    /**
+     * @ORM\OneToOne(targetEntity="Pgde\EmploiBundle\Entity\Userdata", cascade={"persist"}, mappedBy="utilisateur")
+     */
+    private $userdata;
 
     /**
      * Get id

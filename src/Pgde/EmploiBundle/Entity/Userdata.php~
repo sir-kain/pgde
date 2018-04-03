@@ -1,0 +1,201 @@
+<?php
+
+namespace Pgde\EmploiBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Userdata
+ *
+ * @ORM\Table(name="userdata")
+ * @ORM\Entity(repositoryClass="Pgde\EmploiBundle\Repository\UserdataRepository")
+ */
+class Userdata
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="datenaiss", type="date")
+     */
+    private $datenaiss;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="lieuresidence", type="string", length=255)
+     */
+    private $lieuresidence;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="lieunaiss", type="string", length=255)
+     */
+    private $lieunaiss;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="genre", type="string", length=10)
+     */
+    private $genre;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="situationmatrimoniale", type="string", length=255)
+     */
+    private $situationmatrimoniale;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="telephone1", type="string", length=45)
+     */
+    private $telephone1;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="telephone2", type="string", length=45, nullable=true)
+     */
+    private $telephone2;
+
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="nombreenfant", type="integer", nullable=true)
+     */
+    private $nombreenfant;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="diplome", type="string", length=255)
+     */
+    private $diplome;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="autresdiplomes", type="string", length=255, nullable=true)
+     */
+    private $autresdiplomes;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="experiences", type="text", nullable=true)
+     */
+    private $experiences;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="motivation", type="text", nullable=true)
+     */
+    private $motivation;
+
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="anneediplome", type="integer", nullable=true)
+     */
+    private $anneediplome;
+
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="anneeexperience1", type="integer", nullable=true)
+     */
+    private $anneeexperience1;
+
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="anneeexperience2", type="integer", nullable=true)
+     */
+    private $anneeexperience2;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="specialite", type="string", length=255, nullable=true)
+     */
+    private $specialite;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="etablissementdiplome", type="string", length=255, nullable=true)
+     */
+    private $etablissementdiplome;
+
+
+    /**
+     *
+     * @ORM\ManyToOne(targetEntity="Pgde\EmploiBundle\Entity\Departement")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $departementnaiss;
+
+    /**
+     *
+     * @ORM\ManyToOne(targetEntity="Pgde\EmploiBundle\Entity\Departement")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $departementresidence;
+
+    /**
+     *
+     * @ORM\ManyToOne(targetEntity="Pgde\EmploiBundle\Entity\Emploi")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $emploi1;
+
+    /**
+     *
+     * @ORM\ManyToOne(targetEntity="Pgde\EmploiBundle\Entity\Emploi")
+     * @ORM\JoinColumn(nullable=true)
+     */
+    private $emploi2;
+
+    /**
+     *
+     * @ORM\ManyToOne(targetEntity="Pgde\EmploiBundle\Entity\Handicap")
+     * @ORM\JoinColumn(nullable=true)
+     */
+    private $handicap;
+
+    /**
+     *
+     * @ORM\ManyToOne(targetEntity="Pgde\EmploiBundle\Entity\Academic")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $academic;
+
+    /**
+     * One Cart has One Customer.
+     * @ORM\OneToOne(targetEntity="Pgde\EmploiBundle\Entity\Utilisateur", cascade={"persist"}, inversedBy="userdata")
+     */
+    private $utilisateur;
+
+    /**
+     * Get id.
+     *
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+}
