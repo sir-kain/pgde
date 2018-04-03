@@ -1,1 +1,6 @@
-Hello World!
+<div class="container">
+    {% if app.user is defined %}
+    {{ app.user.username }} <br>
+    {% endif %}
+    Hello world !
+</div>

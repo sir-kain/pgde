@@ -38,3 +38,8 @@ security:
 
     encoders:
         Pgde\EmploiBundle\Entity\Utilisateur: sha512
+
+    access_control:
+        - { path: ^/login$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/register, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/, role: ROLE_USER }

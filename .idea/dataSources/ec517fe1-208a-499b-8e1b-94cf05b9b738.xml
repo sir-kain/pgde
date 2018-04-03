@@ -84,34 +84,57 @@
       <DataType>longtext|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="35" parent="22" name="UNIQ_1D1C63B392FC23A8">
+    <column id="35" parent="22" name="firstname">
+      <Position>13</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="22" name="lastname">
+      <Position>14</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="22" name="numberid">
+      <Position>15</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="38" parent="22" name="UNIQ_1D1C63B392FC23A8">
       <ColNames>username_canonical</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="36" parent="22" name="UNIQ_1D1C63B3A0D96FBF">
+    <index id="39" parent="22" name="UNIQ_1D1C63B3A0D96FBF">
       <ColNames>email_canonical</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="37" parent="22" name="UNIQ_1D1C63B3C05FB297">
+    <index id="40" parent="22" name="UNIQ_1D1C63B3C05FB297">
       <ColNames>confirmation_token</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="38" parent="22" name="PRIMARY">
+    <index id="41" parent="22" name="UNIQ_1D1C63B3ECE66465">
+      <ColNames>numberid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="42" parent="22" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="39" parent="22" name="UNIQ_1D1C63B392FC23A8">
+    <key id="43" parent="22" name="UNIQ_1D1C63B392FC23A8">
       <ColNames>username_canonical</ColNames>
       <UnderlyingIndexName>UNIQ_1D1C63B392FC23A8</UnderlyingIndexName>
     </key>
-    <key id="40" parent="22" name="UNIQ_1D1C63B3A0D96FBF">
+    <key id="44" parent="22" name="UNIQ_1D1C63B3A0D96FBF">
       <ColNames>email_canonical</ColNames>
       <UnderlyingIndexName>UNIQ_1D1C63B3A0D96FBF</UnderlyingIndexName>
     </key>
-    <key id="41" parent="22" name="UNIQ_1D1C63B3C05FB297">
+    <key id="45" parent="22" name="UNIQ_1D1C63B3C05FB297">
       <ColNames>confirmation_token</ColNames>
       <UnderlyingIndexName>UNIQ_1D1C63B3C05FB297</UnderlyingIndexName>
+    </key>
+    <key id="46" parent="22" name="UNIQ_1D1C63B3ECE66465">
+      <ColNames>numberid</ColNames>
+      <UnderlyingIndexName>UNIQ_1D1C63B3ECE66465</UnderlyingIndexName>
     </key>
   </database-model>
 </dataSource>

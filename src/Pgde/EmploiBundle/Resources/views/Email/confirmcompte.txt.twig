@@ -1,0 +1,19 @@
+{% trans_default_domain 'FOSUserBundle' %}
+{% block subject %}
+{%- autoescape false -%}
+Activation compte sur la PGDE (Plateform de Gestion des Demandes d'Emploi)
+{%- endautoescape -%}
+{% endblock %}
+
+{% block body_text %}
+{% autoescape false %}
+Bonjour {{ user.username }},
+
+Votre compte est crée.
+Pour finaliser votre inscription, merci de cliquer sur ce lien {{ confirmationUrl }}
+
+Greetings,
+the App team
+{% endautoescape %}
+{% endblock %}
+{% block body_html %}{% endblock %}
