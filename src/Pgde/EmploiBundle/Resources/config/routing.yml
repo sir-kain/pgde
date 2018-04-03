@@ -1,0 +1,3 @@
+pgde_emploi_homepage:
+    path:     /
+    defaults: { _controller: PgdeEmploiBundle:Default:index }
