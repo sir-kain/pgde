@@ -1,3 +1,7 @@
+pgde_emploi_userdata:
+    resource: "@PgdeEmploiBundle/Controller/UserdataController.php"
+    type:     annotation
+
 pgde_emploi:
     resource: "@PgdeEmploiBundle/Resources/config/routing.yml"
     prefix:   /

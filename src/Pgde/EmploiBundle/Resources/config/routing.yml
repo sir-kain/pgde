@@ -1,3 +1,7 @@
+pgde_emploi_userdata:
+    resource: "@PgdeEmploiBundle/Resources/config/routing/userdata.yml"
+    prefix:   /
+
 pgde_emploi_homepage:
-    path:     /
+    path:     /empl
     defaults: { _controller: PgdeEmploiBundle:Default:index }

@@ -1,0 +1,24 @@
+userdata_index:
+    path:     /
+    defaults: { _controller: "PgdeEmploiBundle:Userdata:index" }
+    methods:  GET
+
+userdata_show:
+    path:     /{id}/show
+    defaults: { _controller: "PgdeEmploiBundle:Userdata:show" }
+    methods:  GET
+
+userdata_new:
+    path:     /new
+    defaults: { _controller: "PgdeEmploiBundle:Userdata:new" }
+    methods:  [GET, POST]
+
+userdata_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "PgdeEmploiBundle:Userdata:edit" }
+    methods:  [GET, POST]
+
+userdata_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "PgdeEmploiBundle:Userdata:delete" }
+    methods:  DELETE

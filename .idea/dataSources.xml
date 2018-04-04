@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="pgdemploi@localhost" uuid="ec517fe1-208a-499b-8e1b-94cf05b9b738">
+    <data-source source="LOCAL" name="pgde@localhost" uuid="aba105bb-a1ef-46db-a1a7-e70310f96ab5">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/pgdemploi</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/pgde</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />

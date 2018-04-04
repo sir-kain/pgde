@@ -1,0 +1,96 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Userdatum</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ userdatum.id }}</td>
+            </tr>
+            <tr>
+                <th>Datenaiss</th>
+                <td>{% if userdatum.datenaiss %}{{ userdatum.datenaiss|date('Y-m-d') }}{% endif %}</td>
+            </tr>
+            <tr>
+                <th>Lieuresidence</th>
+                <td>{{ userdatum.lieuresidence }}</td>
+            </tr>
+            <tr>
+                <th>Lieunaiss</th>
+                <td>{{ userdatum.lieunaiss }}</td>
+            </tr>
+            <tr>
+                <th>Genre</th>
+                <td>{{ userdatum.genre }}</td>
+            </tr>
+            <tr>
+                <th>Situationmatrimoniale</th>
+                <td>{{ userdatum.situationmatrimoniale }}</td>
+            </tr>
+            <tr>
+                <th>Telephone1</th>
+                <td>{{ userdatum.telephone1 }}</td>
+            </tr>
+            <tr>
+                <th>Telephone2</th>
+                <td>{{ userdatum.telephone2 }}</td>
+            </tr>
+            <tr>
+                <th>Nombreenfant</th>
+                <td>{{ userdatum.nombreenfant }}</td>
+            </tr>
+            <tr>
+                <th>Diplome</th>
+                <td>{{ userdatum.diplome }}</td>
+            </tr>
+            <tr>
+                <th>Autresdiplomes</th>
+                <td>{{ userdatum.autresdiplomes }}</td>
+            </tr>
+            <tr>
+                <th>Experiences</th>
+                <td>{{ userdatum.experiences }}</td>
+            </tr>
+            <tr>
+                <th>Motivation</th>
+                <td>{{ userdatum.motivation }}</td>
+            </tr>
+            <tr>
+                <th>Anneediplome</th>
+                <td>{{ userdatum.anneediplome }}</td>
+            </tr>
+            <tr>
+                <th>Anneeexperience1</th>
+                <td>{{ userdatum.anneeexperience1 }}</td>
+            </tr>
+            <tr>
+                <th>Anneeexperience2</th>
+                <td>{{ userdatum.anneeexperience2 }}</td>
+            </tr>
+            <tr>
+                <th>Specialite</th>
+                <td>{{ userdatum.specialite }}</td>
+            </tr>
+            <tr>
+                <th>Etablissementdiplome</th>
+                <td>{{ userdatum.etablissementdiplome }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('userdata_index') }}">Back to the list</a>
+        </li>
+        <li>
+            <a href="{{ path('userdata_edit', { 'id': userdatum.id }) }}">Edit</a>
+        </li>
+        <li>
+            {{ form_start(delete_form) }}
+                <input type="submit" value="Delete">
+            {{ form_end(delete_form) }}
+        </li>
+    </ul>
+{% endblock %}

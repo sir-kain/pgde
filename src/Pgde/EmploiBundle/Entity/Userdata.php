@@ -24,7 +24,7 @@ class Userdata
     /**
      * @var \DateTime
      *
-     * @ORM\Column(name="datenaiss", type="date")
+     * @ORM\Column(name="datenaiss", type="date", nullable=true)
      */
     private $datenaiss;
 
@@ -186,6 +186,7 @@ class Userdata
     /**
      * One Cart has One Customer.
      * @ORM\OneToOne(targetEntity="Pgde\EmploiBundle\Entity\Utilisateur", cascade={"persist"}, inversedBy="userdata")
+     * @ORM\JoinColumn(nullable=false)
      */
     private $utilisateur;
 

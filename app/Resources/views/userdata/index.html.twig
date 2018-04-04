@@ -1,0 +1,71 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Userdatas list</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Datenaiss</th>
+                <th>Lieuresidence</th>
+                <th>Lieunaiss</th>
+                <th>Genre</th>
+                <th>Situationmatrimoniale</th>
+                <th>Telephone1</th>
+                <th>Telephone2</th>
+                <th>Nombreenfant</th>
+                <th>Diplome</th>
+                <th>Autresdiplomes</th>
+                <th>Experiences</th>
+                <th>Motivation</th>
+                <th>Anneediplome</th>
+                <th>Anneeexperience1</th>
+                <th>Anneeexperience2</th>
+                <th>Specialite</th>
+                <th>Etablissementdiplome</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for userdatum in userdatas %}
+            <tr>
+                <td><a href="{{ path('userdata_show', { 'id': userdatum.id }) }}">{{ userdatum.id }}</a></td>
+                <td>{% if userdatum.datenaiss %}{{ userdatum.datenaiss|date('Y-m-d') }}{% endif %}</td>
+                <td>{{ userdatum.lieuresidence }}</td>
+                <td>{{ userdatum.lieunaiss }}</td>
+                <td>{{ userdatum.genre }}</td>
+                <td>{{ userdatum.situationmatrimoniale }}</td>
+                <td>{{ userdatum.telephone1 }}</td>
+                <td>{{ userdatum.telephone2 }}</td>
+                <td>{{ userdatum.nombreenfant }}</td>
+                <td>{{ userdatum.diplome }}</td>
+                <td>{{ userdatum.autresdiplomes }}</td>
+                <td>{{ userdatum.experiences }}</td>
+                <td>{{ userdatum.motivation }}</td>
+                <td>{{ userdatum.anneediplome }}</td>
+                <td>{{ userdatum.anneeexperience1 }}</td>
+                <td>{{ userdatum.anneeexperience2 }}</td>
+                <td>{{ userdatum.specialite }}</td>
+                <td>{{ userdatum.etablissementdiplome }}</td>
+                <td>
+                    <ul>
+                        <li>
+                            <a href="{{ path('userdata_show', { 'id': userdatum.id }) }}">show</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('userdata_edit', { 'id': userdatum.id }) }}">edit</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('userdata_new') }}">Create a new userdatum</a>
+        </li>
+    </ul>
+{% endblock %}
