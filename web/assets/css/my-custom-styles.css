@@ -1,0 +1,8 @@
+body.sidebar-fixed .left-sidebar {
+    position: absolute;
+    height: 100%;
+}
+
+.content-wrapper {
+    background: #ffffff;
+}
