@@ -213,8 +213,8 @@
                         <div class="btn-group">
                             <a href="{{ path('userdata_index') }}#" class="btn btn-link dropdown-toggle"
                                data-toggle="dropdown">
-                                <img src="{{ asset('assets/img/user-avatar.png') }}" alt="User Avatar"/>
-                                <span class="name">Stacy Rose</span> <span class="caret"></span>
+                                <img src="{{ asset(urlavatar) }}" alt="User Avatar"/>
+                                <span class="name">{{ userdatum.utilisateur.username }}</span> <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu" role="menu">
                                 <li>

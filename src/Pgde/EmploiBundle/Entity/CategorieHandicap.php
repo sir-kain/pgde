@@ -110,4 +110,9 @@ class CategorieHandicap
     {
         return $this->handicaps;
     }
+
+    public function __toString()
+    {
+        return $this->libelle;
+    }
 }

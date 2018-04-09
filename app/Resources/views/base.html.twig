@@ -35,42 +35,11 @@
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ asset('assets/ico/kingadmin-favicon57x57.png') }}">
     <link rel="shortcut icon" href="{{ asset('assets/ico/favicon.png') }}">
 </head>
-<body class="sidebar-fixed dashboard">
+<body class="">
+<img src="{{ asset('assets/img/header/header.png') }}" alt="" class="img-responsive">
+{% block demande_content %} {% endblock %}
 
-<!-- WRAPPER -->
-<div id="wrapper" class="wrapper">
-    <!-- TOP BAR -->
-    <img src="{{ asset('assets/img/header/header.png') }}" alt="" class="img-responsive">
-    {% block topbar %} {% endblock %}
-    <!-- END TOP BAR -->
-    <!-- LEFT SIDEBAR -->
-    {% block sidebar %} {% endblock %}
-
-    <!-- END LEFT SIDEBAR -->
-    <!-- MAIN CONTENT WRAPPER -->
-    <div id="main-content-wrapper" class="content-wrapper expanded-full">
-        <!-- top general alert -->
-        {% block alert_message %} {% endblock %}
-
-        {% block second_menu %} {% endblock %}
-
-        <!-- main -->
-        <div class="content">
-            <div class="main-content">
-                {% block fos_user_content %} {% endblock fos_user_content %}
-                {% block body %} {% endblock %}
-            </div>
-        </div>
-        <!-- /main -->
-        <!-- FOOTER -->
-        <footer class="footer">
-            &copy; 2017 The Develovers
-        </footer>
-        <!-- END FOOTER -->
-    </div>
-    <!-- END CONTENT WRAPPER -->
-</div>
-<!-- END WRAPPER -->
+{% block security_content %} {% endblock %}
 
 
 {% block javascripts %}{% endblock %}

@@ -1,5 +1,7 @@
-{% extends 'base.html.twig' %}
-
+{% extends '@PgdeEmploi/Page/demande.html.twig' %}
+{% block topbar %}
+ {% include '@PgdeEmploi/partials/topbar.html.twig' %}
+{% endblock %}
 {% block body %}
     <h1>Soumission demande</h1>
 
@@ -8,6 +10,11 @@
     <input class="btn btn-primary" type="submit" value="Create"/>
     {{ form_errors(form) }}
     {{ form_end(form) }}
+    <ul>
+        {% for error in form.vars.errors.form.getErrors(true) %}
+            <li>{{ error.message }}</li>
+        {% endfor %}
+    </ul>
 
 
 {% endblock %}

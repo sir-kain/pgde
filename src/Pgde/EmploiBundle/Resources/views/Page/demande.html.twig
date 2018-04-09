@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block demande_content %}
+    <!-- WRAPPER -->
+    <div id="wrapper" class="wrapper">
+        <!-- TOP BAR -->
+        {% block topbar %} {% endblock %}
+        <!-- END TOP BAR -->
+        <!-- LEFT SIDEBAR -->
+        {% block sidebar %} {% endblock %}
+
+        <!-- END LEFT SIDEBAR -->
+        <!-- MAIN CONTENT WRAPPER -->
+        <div id="main-content-wrapper" class="content-wrapper expanded-full">
+            <!-- top general alert -->
+            {% block alert_message %}
+                {% include '@PgdeEmploi/partials/alert_message.html.twig' %}
+            {% endblock %}
+
+            {% block second_menu %} {% endblock %}
+
+            <!-- main -->
+            <div class="content">
+                <div class="main-content">
+                    {% block body %}
+                    {% endblock %}
+                </div>
+            </div>
+            <!-- /main -->
+            <!-- FOOTER -->
+            <footer class="footer">
+                &copy; 2017 The Develovers
+            </footer>
+            <!-- END FOOTER -->
+        </div>
+        <!-- END CONTENT WRAPPER -->
+    </div>
+    <!-- END WRAPPER -->
+{% endblock %}

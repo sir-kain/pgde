@@ -3,9 +3,9 @@
 namespace Pgde\EmploiBundle\Controller;
 
 use Pgde\EmploiBundle\Entity\Userdata;
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 
 /**
@@ -41,13 +41,14 @@ class UserdataController extends Controller
     public function newAction(Request $request)
     {
         $userconnecter = $this->getUser();
-        $userdatum = $this->getDoctrine()->getRepository(Userdata::class)
-            ->findOneBy(['utilisateur' => $userconnecter]);
+        $repository = $this->getDoctrine()->getRepository(Userdata::class);
+        $userdatum = $repository->findOneBy(['utilisateur' => $userconnecter]);
+        $avatar = $repository->get_gravatar($userconnecter->getEmail());
         $ajout = false;
-        if ($userconnecter == null) {
+        if ($userdatum == null) {
             $ajout = true;
             $userdatum = new Userdata();
-            $userdatum->setUtilisateur($this->getUser());
+            $userdatum->setUtilisateur($userconnecter);
         }
         $form = $this->createForm('Pgde\EmploiBundle\Form\UserdataType', $userdatum);
         $form->handleRequest($request);
@@ -62,8 +63,10 @@ class UserdataController extends Controller
             return $this->redirectToRoute('userdata_new');
         }
 
+
         return $this->render('userdata/new.html.twig', array(
             'userdatum' => $userdatum,
+            'urlavatar' => $avatar,
             'form' => $form->createView(),
         ));
     }

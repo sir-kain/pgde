@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+{% block security_content %}
+    <div class="wrapper full-page-wrapper page-auth page-login text-center">
+        <div>
+            {% include '@PgdeEmploi/partials/alert_message.html.twig' %}
+        </div>
+        <div class="inner-page" style="padding-top: 0px">
+            <div class="col-sm-4">
+                <button type="button" class="btn btn-auth-facebook" style="width: 100%;">
+                    <span>Se créer un compte</span>
+                </button>
+                <div class="separator" style="width: 100%;"><span>Ou</span></div>
+                <div class="login-box center-block" style="margin: 0px; width: 100%">
+                    {% block fos_user_content %} {% endblock %}
+                    <div class="links">
+                        <p><a href="page-login.html#">Forgot Username or Password?</a></p>
+                        <p><a href="page-login.html#">Create New Account</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+
+            </div>
+        </div>
+    </div>
+{% endblock %}
