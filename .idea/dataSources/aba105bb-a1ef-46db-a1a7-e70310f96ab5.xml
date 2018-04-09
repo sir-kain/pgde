@@ -234,17 +234,14 @@
     <column id="72" parent="29" name="departementnaiss_id">
       <Position>2</Position>
       <DataType>int(11)|0</DataType>
-      <NotNull>1</NotNull>
     </column>
     <column id="73" parent="29" name="departementresidence_id">
       <Position>3</Position>
       <DataType>int(11)|0</DataType>
-      <NotNull>1</NotNull>
     </column>
     <column id="74" parent="29" name="emploi1_id">
       <Position>4</Position>
       <DataType>int(11)|0</DataType>
-      <NotNull>1</NotNull>
     </column>
     <column id="75" parent="29" name="emploi2_id">
       <Position>5</Position>
@@ -257,11 +254,11 @@
     <column id="77" parent="29" name="academic_id">
       <Position>7</Position>
       <DataType>int(11)|0</DataType>
-      <NotNull>1</NotNull>
     </column>
     <column id="78" parent="29" name="utilisateur_id">
       <Position>8</Position>
       <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
     </column>
     <column id="79" parent="29" name="datenaiss">
       <Position>9</Position>

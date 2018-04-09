@@ -3,6 +3,7 @@
 namespace Pgde\EmploiBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * Userdata
@@ -25,6 +26,7 @@ class Userdata
      * @var \DateTime
      *
      * @ORM\Column(name="datenaiss", type="date", nullable=true)
+     * @Assert\NotBlank(message="Merci de renseigner votre date de naissance")
      */
     private $datenaiss;
 
@@ -32,6 +34,7 @@ class Userdata
      * @var string
      *
      * @ORM\Column(name="lieuresidence", type="string", length=255)
+     * @Assert\NotBlank(message="Merci de renseigner votre lieu de naissance")
      */
     private $lieuresidence;
 
@@ -144,21 +147,24 @@ class Userdata
     /**
      *
      * @ORM\ManyToOne(targetEntity="Pgde\EmploiBundle\Entity\Departement")
-     * @ORM\JoinColumn(nullable=false)
+     * @ORM\JoinColumn(nullable=true)
+     * @Assert\NotBlank(message="Merci de renseigner votre departement de naissance")
      */
     private $departementnaiss;
 
     /**
      *
      * @ORM\ManyToOne(targetEntity="Pgde\EmploiBundle\Entity\Departement")
-     * @ORM\JoinColumn(nullable=false)
+     * @ORM\JoinColumn(nullable=true)
+     * @Assert\NotBlank(message="Merci de renseigner votre departement de residence")
      */
     private $departementresidence;
 
     /**
      *
      * @ORM\ManyToOne(targetEntity="Pgde\EmploiBundle\Entity\Emploi")
-     * @ORM\JoinColumn(nullable=false)
+     * @ORM\JoinColumn(nullable=true)
+     * @Assert\NotBlank(message="Merci de renseigner le type d'emploi demandé - Choix 1")
      */
     private $emploi1;
 
@@ -179,7 +185,8 @@ class Userdata
     /**
      *
      * @ORM\ManyToOne(targetEntity="Pgde\EmploiBundle\Entity\Academic")
-     * @ORM\JoinColumn(nullable=false)
+     * @ORM\JoinColumn(nullable=true)
+     * @Assert\NotBlank(message="Merci de renseigner votre niveau d'etude")
      */
     private $academic;
 
@@ -189,6 +196,7 @@ class Userdata
      * @ORM\JoinColumn(nullable=false)
      */
     private $utilisateur;
+
 
     /**
      * Get id.
@@ -203,11 +211,11 @@ class Userdata
     /**
      * Set datenaiss.
      *
-     * @param \DateTime $datenaiss
+     * @param \DateTime|null $datenaiss
      *
      * @return Userdata
      */
-    public function setDatenaiss($datenaiss)
+    public function setDatenaiss($datenaiss = null)
     {
         $this->datenaiss = $datenaiss;
 
@@ -217,7 +225,7 @@ class Userdata
     /**
      * Get datenaiss.
      *
-     * @return \DateTime
+     * @return \DateTime|null
      */
     public function getDatenaiss()
     {
@@ -611,11 +619,11 @@ class Userdata
     /**
      * Set departementnaiss.
      *
-     * @param \Pgde\EmploiBundle\Entity\Departement $departementnaiss
+     * @param \Pgde\EmploiBundle\Entity\Departement|null $departementnaiss
      *
      * @return Userdata
      */
-    public function setDepartementnaiss(\Pgde\EmploiBundle\Entity\Departement $departementnaiss)
+    public function setDepartementnaiss(\Pgde\EmploiBundle\Entity\Departement $departementnaiss = null)
     {
         $this->departementnaiss = $departementnaiss;
 
@@ -625,7 +633,7 @@ class Userdata
     /**
      * Get departementnaiss.
      *
-     * @return \Pgde\EmploiBundle\Entity\Departement
+     * @return \Pgde\EmploiBundle\Entity\Departement|null
      */
     public function getDepartementnaiss()
     {
@@ -635,11 +643,11 @@ class Userdata
     /**
      * Set departementresidence.
      *
-     * @param \Pgde\EmploiBundle\Entity\Departement $departementresidence
+     * @param \Pgde\EmploiBundle\Entity\Departement|null $departementresidence
      *
      * @return Userdata
      */
-    public function setDepartementresidence(\Pgde\EmploiBundle\Entity\Departement $departementresidence)
+    public function setDepartementresidence(\Pgde\EmploiBundle\Entity\Departement $departementresidence = null)
     {
         $this->departementresidence = $departementresidence;
 
@@ -649,7 +657,7 @@ class Userdata
     /**
      * Get departementresidence.
      *
-     * @return \Pgde\EmploiBundle\Entity\Departement
+     * @return \Pgde\EmploiBundle\Entity\Departement|null
      */
     public function getDepartementresidence()
     {
@@ -659,11 +667,11 @@ class Userdata
     /**
      * Set emploi1.
      *
-     * @param \Pgde\EmploiBundle\Entity\Emploi $emploi1
+     * @param \Pgde\EmploiBundle\Entity\Emploi|null $emploi1
      *
      * @return Userdata
      */
-    public function setEmploi1(\Pgde\EmploiBundle\Entity\Emploi $emploi1)
+    public function setEmploi1(\Pgde\EmploiBundle\Entity\Emploi $emploi1 = null)
     {
         $this->emploi1 = $emploi1;
 
@@ -673,7 +681,7 @@ class Userdata
     /**
      * Get emploi1.
      *
-     * @return \Pgde\EmploiBundle\Entity\Emploi
+     * @return \Pgde\EmploiBundle\Entity\Emploi|null
      */
     public function getEmploi1()
     {
@@ -731,11 +739,11 @@ class Userdata
     /**
      * Set academic.
      *
-     * @param \Pgde\EmploiBundle\Entity\Academic $academic
+     * @param \Pgde\EmploiBundle\Entity\Academic|null $academic
      *
      * @return Userdata
      */
-    public function setAcademic(\Pgde\EmploiBundle\Entity\Academic $academic)
+    public function setAcademic(\Pgde\EmploiBundle\Entity\Academic $academic = null)
     {
         $this->academic = $academic;
 
@@ -745,7 +753,7 @@ class Userdata
     /**
      * Get academic.
      *
-     * @return \Pgde\EmploiBundle\Entity\Academic
+     * @return \Pgde\EmploiBundle\Entity\Academic|null
      */
     public function getAcademic()
     {
@@ -755,11 +763,11 @@ class Userdata
     /**
      * Set utilisateur.
      *
-     * @param \Pgde\EmploiBundle\Entity\Utilisateur|null $utilisateur
+     * @param \Pgde\EmploiBundle\Entity\Utilisateur $utilisateur
      *
      * @return Userdata
      */
-    public function setUtilisateur(\Pgde\EmploiBundle\Entity\Utilisateur $utilisateur = null)
+    public function setUtilisateur(\Pgde\EmploiBundle\Entity\Utilisateur $utilisateur)
     {
         $this->utilisateur = $utilisateur;
 
@@ -769,7 +777,7 @@ class Userdata
     /**
      * Get utilisateur.
      *
-     * @return \Pgde\EmploiBundle\Entity\Utilisateur|null
+     * @return \Pgde\EmploiBundle\Entity\Utilisateur
      */
     public function getUtilisateur()
     {

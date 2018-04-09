@@ -30,7 +30,7 @@ class UserdataType extends AbstractType
             ->add('academic', EntityType::class, [
                 'label' => 'Niveau de formation: ',
                 'class' => 'Pgde\EmploiBundle\Entity\Academic',
-                'choice_label' => 'libelle',
+//                'choice_label' => 'libelle',
                 'required' => false,
                 'placeholder' => 'Choisir le niveau de formation'
             ])
@@ -123,7 +123,7 @@ class UserdataType extends AbstractType
                 'class' => 'Pgde\EmploiBundle\Entity\Region',
                 'choice_label' => 'libelle',
                 'required' => false,
-                'placeholder' => 'Choisir région de residence'
+                'placeholder' => 'Selectionner votre région de residence'
             ])
             ->add('secteur1', EntityType::class, [
                 'mapped' => false,
@@ -159,19 +159,19 @@ class UserdataType extends AbstractType
             FormEvents::POST_SET_DATA,
             function (FormEvent $event) {
                 $data = $event->getData();
-                /* @var $department Departement */
-                $department = $data->getDepartementnaiss();
                 $form = $event->getForm();
-                if ($department) {
+                if ($data != null) {
+                    /* @var $department Departement */
                     // On récupère le département et la région
+                    $department = $data->getDepartementnaiss();
                     $region = $department->getRegion();
-                    // On crée les 2 champs supplémentaires
+                    // On crée le champs departement
                     $this->addDepartementField($form, $region, 'departementnaiss');
                     // On set les données
                     $form->get('regionNaiss')->setData($region);
                     $form->get('departementnaiss')->setData($department);
                 } else {
-                    // On crée les 2 champs en les laissant vide (champs utilisé pour le JavaScript)
+                    // On crée le champs departement en le laissant vide (champs utilisé pour le JavaScript)
                     $this->addDepartementField($form, null, 'departementnaiss');
                 }
             }
@@ -188,11 +188,10 @@ class UserdataType extends AbstractType
             FormEvents::POST_SET_DATA,
             function (FormEvent $event) {
                 $data = $event->getData();
-                /* @var $department Departement */
-                $department = $data->getDepartementresidence();
-
                 $form = $event->getForm();
-                if ($department) {
+                if ($data != null) {
+                    /* @var $department Departement */
+                    $department = $data->getDepartementresidence();
                     // On récupère le département et la région
                     $region = $department->getRegion();
                     // On crée les 2 champs supplémentaires
@@ -266,64 +265,46 @@ class UserdataType extends AbstractType
             }
         );
 
+
+
     }
 
     private function addDepartementField(FormInterface $form, ?Region $region, $name)
     {
         if ($name == 'departementnaiss') {
-            $placeholder = $region ? 'Sélectionnez votre département de naissance' : 'Sélectionnez votre région de naissance';
+            $placeholder = $region
+                ? 'Sélectionnez votre département de naissance'
+                : 'Sélectionnez votre région de naissance';
         } else {
-            $placeholder = $region ? 'Sélectionnez votre département de residence' : 'Sélectionnez votre région de residence';
+            $placeholder = $region
+                ? 'Sélectionnez votre département de residence'
+                : 'Sélectionnez votre région de residence';
         }
-        $builder = $form->getConfig()->getFormFactory()->createNamedBuilder(
-            $name,
-            EntityType::class,
-            null,
-            [
-                'class' => 'Pgde\EmploiBundle\Entity\Departement',
-                'placeholder' => $placeholder,
-                'required' => false,
-                'auto_initialize' => false,
-                'choices' => $region ? $region->getDepartements() : []
-            ]
-        );
-        $builder->addEventListener(
-            FormEvents::POST_SUBMIT,
-            function (FormEvent $event) {
-                $form = $event->getForm();
-//                $this->addVilleField($form->getParent(), $form->getData());
-            }
-        );
-        $form->add($builder->getForm());
+        $form->add($name, EntityType::class, [
+            'class' => 'Pgde\EmploiBundle\Entity\Departement',
+            'placeholder' => $placeholder,
+            'choices' => $region ? $region->getDepartements() : [],
+            'required' => false
+        ]);
     }
 
     private function addEmploymentField(FormInterface $form, ?Secteur $secteur, $name)
     {
         if ($name == 'emploi1') {
-            $placeholder = $secteur ? 'Sélectionnez l\'emploi - Choix 1' : 'Sélectionnez votre secteur d\'emploi - Choix 1';
+            $placeholder = $secteur
+                ? 'Sélectionnez l\'emploi - Choix 1'
+                : 'Sélectionnez votre secteur d\'emploi - Choix 1';
         } else {
-            $placeholder = $secteur ? 'Sélectionnez l\'emploi - Choix 2' : 'Sélectionnez votre secteur d\'emploi - Choix 2';
+            $placeholder = $secteur
+                ? 'Sélectionnez l\'emploi - Choix 2'
+                : 'Sélectionnez votre secteur d\'emploi - Choix 2';
         }
-        $builder = $form->getConfig()->getFormFactory()->createNamedBuilder(
-            $name,
-            EntityType::class,
-            null,
-            [
-                'class' => 'Pgde\EmploiBundle\Entity\Emploi',
-                'placeholder' => $placeholder,
-                'required' => false,
-                'auto_initialize' => false,
-                'choices' => $secteur ? $secteur->getEmplois() : []
-            ]
-        );
-        $builder->addEventListener(
-            FormEvents::POST_SUBMIT,
-            function (FormEvent $event) {
-                $form = $event->getForm();
-//                $this->addVilleField($form->getParent(), $form->getData());
-            }
-        );
-        $form->add($builder->getForm());
+        $form->add($name, EntityType::class, [
+            'class' => 'Pgde\EmploiBundle\Entity\Emploi',
+            'placeholder' => $placeholder,
+            'choices' => $secteur ? $secteur->getEmplois() : [],
+            'required' => false
+        ]);
     }
 
     /**

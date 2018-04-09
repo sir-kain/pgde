@@ -1,16 +1,13 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <h1>Userdatum creation</h1>
+    <h1>Soumission demande</h1>
 
     {{ form_start(form) }}
-        {{ form_widget(form) }}
-        <input type="submit" value="Create" />
+    {{ form_widget(form) }}
+    <input class="btn btn-primary" type="submit" value="Create"/>
+    {{ form_errors(form) }}
     {{ form_end(form) }}
 
-    <ul>
-        <li>
-            <a href="{{ path('userdata_index') }}">Back to the list</a>
-        </li>
-    </ul>
+
 {% endblock %}
