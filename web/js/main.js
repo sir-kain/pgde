@@ -141,3 +141,25 @@ $(document).on('change', '#pgde_emploibundle_userdata_boolhandicap, #pgde_emploi
 //         });
 //     }
 // );
+
+
+$('#gritter-image').load( function() {
+    $.gritter.add({
+        title: 'Jane Doe',
+        text: 'Online',
+        image: 'assets/img/user3.png',
+        time: 2000,
+        after_close: function() {
+            $.gritter.add({
+                title: 'Jordan Smith',
+                text: 'Offline',
+                image: 'assets/img/user5.png',
+                time: 2000
+            });
+
+            if( $('#gritter-sound-switch').is(':checked') ) {
+                offlineSound.play();
+            }
+        }
+    });
+});

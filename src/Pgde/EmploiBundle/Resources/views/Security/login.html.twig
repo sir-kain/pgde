@@ -1,5 +1,12 @@
 {% extends "@PgdeEmploi/Page/security.html.twig" %}
 
+{% block link_inscription %}
+    <a href="{{ path('fos_user_registration_register') }}" class="btn btn-auth-facebook" style="width: 100%;">
+        <span>Se créer un compte</span>
+    </a>
+    <div class="separator" style="width: 100%;"><span>Ou</span></div>
+{% endblock %}
+
 {% trans_default_domain 'FOSUserBundle' %}
     {% block fos_user_content %}
 
@@ -39,7 +46,8 @@
                 <div class="col-sm-12">
                     <div class="input-group">
                         <input autocomplete="username" value="{{ last_username }}" type="text"
-                               placeholder="username" id="username" class="form-control" name="_username" required="required">
+                               placeholder="username" id="username" class="form-control" name="_username"
+                               required="required">
                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
                     </div>
                 </div>

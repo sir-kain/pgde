@@ -37,3 +37,10 @@ services:
     # AppBundle\Service\ExampleService:
     #     arguments:
     #         $someArgument: 'some_value'
+
+
+    pgde_emploi.password_resetting:
+        class: Pgde\EmploiBundle\EventListener\PasswordResettingListener
+        arguments: [ '@router', '@session' ]
+        tags:
+            - { name: kernel.event_subscriber }

@@ -1,13 +1,13 @@
-{% extends "base.html.twig" %}
+{% extends "@PgdeEmploi/Page/security.html.twig" %}
 
 {% trans_default_domain 'FOSUserBundle' %}
 {% block fos_user_content %}
 
     {{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
+    <p class="title">Créer votre compte</p>
     {{ form_widget(form) }}
-    <div>
-        <input type="submit" value="{{ 'registration.submit'|trans }}"/>
-    </div>
+    <button class="btn btn-custom-primary btn-lg btn-block btn-auth">
+        <i class="fa fa-check-circle"></i> {{ 'registration.submit'|trans }}
+    </button>
     {{ form_end(form) }}
-
 {% endblock fos_user_content %}

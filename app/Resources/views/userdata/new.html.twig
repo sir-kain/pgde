@@ -5,6 +5,11 @@
 {% block body %}
     <h1>Soumission demande</h1>
 
+    {% for flash_message in app.session.flashBag.get('CHANGE_PASSWORD_SUCCESS') %}
+        <div id="alert alert-success">
+            {{ flash_message }}
+        </div>
+    {% endfor %}
     {{ form_start(form) }}
     {{ form_widget(form) }}
     <input class="btn btn-primary" type="submit" value="Create"/>
