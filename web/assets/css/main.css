@@ -12228,7 +12228,7 @@ div.DTTT_collection a.DTTT_button {
 /*------------------------------------------------*/
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   color: #555;
   background: #ececec; }
 
@@ -17021,7 +17021,7 @@ ul.nav-categories {
 /*	Page: Authentication (login, register)
 /*------------------------------------------------*/
 .btn-auth-facebook {
-  background-color: #3B5998;
+  background-color: #1e88f5;
   color: #fff;
   position: relative;
   width: 100%;
@@ -17029,11 +17029,11 @@ ul.nav-categories {
   padding-left: 40px; }
   .btn-auth-facebook:hover, .btn-auth-facebook:focus {
     color: #fff;
-    background-color: #37538d; }
+    background-color: #417abf; }
   .btn-auth-facebook:before {
     font-family: FontAwesome;
     font-size: 20px;
-    content: "\f09a";
+    content: "\f0a4";
     display: block;
     position: absolute;
     top: -1px;
@@ -17041,7 +17041,7 @@ ul.nav-categories {
     padding: 7px 0;
     width: 40px;
     height: 40px;
-    background-color: #2d4373; }
+    background-color: #417abf; }
   @media screen and (min-width: 768px) {
     .btn-auth-facebook {
       width: 50%; } }

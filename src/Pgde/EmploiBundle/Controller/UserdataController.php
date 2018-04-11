@@ -26,10 +26,11 @@ class UserdataController extends Controller
         $em = $this->getDoctrine()->getManager();
 
         $userdatas = $em->getRepository('PgdeEmploiBundle:Userdata')->findAll();
+        return $this->redirectToRoute('userdata_new');
 
-        return $this->render('userdata/index.html.twig', array(
-            'userdatas' => $userdatas,
-        ));
+//        return $this->render('userdata/index.html.twig', array(
+//            'userdatas' => $userdatas,
+//        ));
     }
 
     /**

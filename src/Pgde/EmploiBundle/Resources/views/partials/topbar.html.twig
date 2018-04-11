@@ -1,31 +1,32 @@
 <div class="top-bar navbar-default">
     <div class="container">
         <div class="clearfix">
-            <a href="{{ path('userdata_index') }}#" class="pull-left toggle-sidebar-collapse"><i class="fa fa-bars"></i></a>
+            <a href="#" class="pull-left toggle-sidebar-collapse"><i class="fa fa-bars"></i></a>
             <!-- logo -->
-            <div class="pull-left left logo">
-                <a href="{{ path('userdata_index') }}"><img src="{{ asset('assets/img/kingadmin-logo-white.png') }}"
-                                                            alt="KingAdmin - Admin Dashboard"/></a>
-                <h1 class="sr-only">KingAdmin Admin Dashboard</h1>
-            </div>
+            {#<div class="pull-left left logo">#}
+                {#<a href="{{ path('userdata_index') }}">#}
+                    {#<img src="{{ asset('assets/img/kingadmin-logo-white.png') }}"#}
+                                                            {#alt="KingAdmin - Admin Dashboard"/></a>#}
+                {#<h1 class="sr-only">KingAdmin Admin Dashboard</h1>#}
+            {#</div>#}
             <!-- end logo -->
             <div class="pull-right right">
                 <!-- search box -->
-                <div class="searchbox">
-                    <div id="tour-searchbox" class="input-group">
-                        <input type="search" class="form-control" placeholder="enter keyword here...">
-                        <span class="input-group-btn">
-									<button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
-								</span>
-                    </div>
-                </div>
+                {#<div class="searchbox">#}
+                    {#<div id="tour-searchbox" class="input-group">#}
+                        {#<input type="search" class="form-control" placeholder="enter keyword here...">#}
+                        {#<span class="input-group-btn">#}
+									{#<button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>#}
+								{#</span>#}
+                    {#</div>#}
+                {#</div>#}
                 <!-- end search box -->
                 <!-- top-bar-right -->
                 <div class="top-bar-right">
-                    <button type="button" id="start-tour" class="btn btn-link"><i class="fa fa-refresh"></i> Start Tour
-                    </button>
-                    <button type="button" id="global-volume" class="btn btn-link btn-global-volume"><i class="fa"></i>
-                    </button>
+                    {#<button type="button" id="start-tour" class="btn btn-link"><i class="fa fa-refresh"></i> Start Tour#}
+                    {#</button>#}
+                    {#<button type="button" id="global-volume" class="btn btn-link btn-global-volume"><i class="fa"></i>#}
+                    {#</button>#}
                     <div class="notifications">
                         <ul>
                             <!-- notification: inbox -->
@@ -214,7 +215,8 @@
                             <a href="{{ path('userdata_index') }}#" class="btn btn-link dropdown-toggle"
                                data-toggle="dropdown">
                                 <img src="{{ asset(urlavatar) }}" alt="User Avatar"/>
-                                <span class="name">{{ userdatum.utilisateur.username }}</span> <span class="caret"></span>
+                                <span class="name">{{ userdatum.utilisateur.username }}</span> <span
+                                        class="caret"></span>
                             </a>
                             <ul class="dropdown-menu" role="menu">
                                 <li>

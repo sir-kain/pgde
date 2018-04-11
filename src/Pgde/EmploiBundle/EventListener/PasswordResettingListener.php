@@ -47,13 +47,15 @@ class PasswordResettingListener implements EventSubscriberInterface
     {
         return [
             FOSUserEvents::CHANGE_PASSWORD_SUCCESS => 'onPasswordResettingSuccess',
+//            FOSUserEvents::RESETTING_RESET_SUCCESS => 'onPasswordResettingSuccess'
         ];
     }
 
     public function onPasswordResettingSuccess(FormEvent $event)
     {
         $url = $this->router->generate('userdata_new');
-        $this->session->getFlashBag()->add('CHANGE_PASSWORD_SUCCESS', 'Votre mot de passe a bien été changé');
         $event->setResponse(new RedirectResponse($url));
+        $this->session->getFlashBag()
+            ->add('CHANGE_PASSWORD', 'Votre mot de passe a bien été changé');
     }
 }
