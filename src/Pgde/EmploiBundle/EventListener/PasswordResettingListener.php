@@ -47,7 +47,7 @@ class PasswordResettingListener implements EventSubscriberInterface
     {
         return [
             FOSUserEvents::CHANGE_PASSWORD_SUCCESS => 'onPasswordResettingSuccess',
-//            FOSUserEvents::RESETTING_RESET_SUCCESS => 'onPasswordResettingSuccess'
+            FOSUserEvents::RESETTING_RESET_SUCCESS => 'onPasswordResettingSuccess'
         ];
     }
 
