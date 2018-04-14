@@ -84,4 +84,7 @@ fos_user:
             type: Pgde\EmploiBundle\Form\RegistrationType
         confirmation:
             enabled: true
-            template:   '@PgdeEmploi/Email/confirmcompte.txt.twig'
+            template:   '@PgdeEmploi/Email/confirmcompte.email.twig'
+    resetting:
+        email:
+            template:   '@PgdeEmploi/Email/password_resetting.email.twig'

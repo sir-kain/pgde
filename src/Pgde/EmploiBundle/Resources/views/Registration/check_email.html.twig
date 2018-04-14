@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+{% trans_default_domain 'FOSUserBundle' %}
+{% block security_content %}
+    <div class="wrapper full-page-wrapper page-auth page-login text-center">
+        {#<div>#}
+        {#{% include '@PgdeEmploi/partials/alert_message.html.twig' %}#}
+        {#</div>#}
+        <div class="inner-page" style="padding-top: 40px">
+            {% block link_inscription %} {% endblock %}
+            <div class="login-box center-block green-bg" style="width: 50%">
+                {% block fos_user_content %}
+
+                    <div class="contextual-summary-info text-center contextual-background">
+                        <i class="fa fa-envelope"></i>
+                        {#<p class="pull-right"><span>SUCCESS</span> 35</p>#}
+                        <p style="text-align: left; padding-top: 20px" class="lead">
+                            Un e-mail a été envoyé à l'adresse <u>{{ user.email }}</u>. <br>
+                            Il contient un lien d'activation sur lequel il vous faudra cliquer afin d'activer votre compte.
+
+                        </p>
+                    </div>
+
+                {% endblock %}
+                <div class="links">
+                    <p><a href="{{ path('fos_user_security_login') }}"> Se connecter </a></p>
+                    <p><a href="{{ path('fos_user_registration_register') }}">Créer un compte</a></p>
+                    <p><a href="{{ path('fos_user_resetting_request') }}">J'ai oublié mon mot de passe</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+

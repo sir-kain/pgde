@@ -1,0 +1,15 @@
+{# app/Resources/views/email/password_resetting.email.twig #}
+
+{% block subject %}Confirme your registration{% endblock %}
+
+{% block body_text %}
+    {% autoescape false %}
+        Hello {{ user.username }} !
+    {% endautoescape %}
+{% endblock %}
+
+{% block body_html %}
+{% include '@PgdeEmploi/Email/password_resetting.html.twig'
+    with {'username': user.username, 'url': confirmationUrl} %}
+{% endblock %}
+

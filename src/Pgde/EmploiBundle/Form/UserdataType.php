@@ -8,6 +8,7 @@ use Pgde\EmploiBundle\Entity\Emploi;
 use Pgde\EmploiBundle\Entity\Handicap;
 use Pgde\EmploiBundle\Entity\Region;
 use Pgde\EmploiBundle\Entity\Secteur;
+use Pgde\EmploiBundle\Form\RegistrationType;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
@@ -29,6 +30,7 @@ class UserdataType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
+            ->add('utilisateur', RegistrationType::class)
             ->add('academic', EntityType::class, [
                 'label' => 'Niveau de formation: ',
                 'class' => 'Pgde\EmploiBundle\Entity\Academic',
@@ -42,16 +44,16 @@ class UserdataType extends AbstractType
             ))
             ->add('lieunaiss', TextType::class, [
                 'label' => 'Lieu de naissance: ',
-                'required' => false
+                'required' => true
             ])
             ->add('lieuresidence', TextType::class, [
                 'label' => 'Lieu de residence: ',
                 'required' => false
             ])
             ->add('genre', ChoiceType::class, array(
-                'choices' => array('Masculin' => 'Masculin', 'Feminin' => 'Feminin'),
+                'choices' => array('Selectionner votre genre' => null, 'Masculin' => 'Masculin', 'Feminin' => 'Feminin'),
                 'label' => 'Genre: ',
-                'required' => false
+                'required' => true
             ))
             ->add('situationmatrimoniale', ChoiceType::class, array(
                 'label' => 'Situation matrimoniale: ',
@@ -155,39 +157,39 @@ class UserdataType extends AbstractType
 //            ->add('handicap')
         ;
 
-        $builder->get('boolhandicap')->addEventListener(
-            FormEvents::POST_SUBMIT,
-            function (FormEvent $event) {
-                $form = $event->getForm();
-                if ($form->getData()) {
-                    $this->addHandicapCategorieField($form->getParent(), true);
-                }
-            }
-        );
-        $builder->addEventListener(
-            FormEvents::POST_SET_DATA,
-            function (FormEvent $event) {
-                $data = $event->getData();
-                /* @var $handicap Handicap */
-                $handicap = $data->getHandicap();
-                $form = $event->getForm();
-                if ($handicap) {
-                    // On récupère le département et la région
-                    $categoriehandicap = $handicap->getCategorieHandicap();
-                    $boolhandicap = true;
-                    // On crée les 2 champs supplémentaires
-                    $this->addHandicapCategorieField($form, true);
-                    $this->addHandicapField($form, $categoriehandicap);
-                    // On set les données
-                    $form->get('boolhandicap')->setData($boolhandicap);
-                    $form->get('handicapcategorie')->setData($handicap);
-                } else {
-                    // On crée les 2 champs en les laissant vide (champs utilisé pour le JavaScript)
-                    $this->addHandicapCategorieField($form, null);
-                    $this->addHandicapField($form, null);
-                }
-            }
-        );
+//        $builder->get('boolhandicap')->addEventListener(
+//            FormEvents::POST_SUBMIT,
+//            function (FormEvent $event) {
+//                $form = $event->getForm();
+//                if ($form->getData()) {
+//                    $this->addHandicapCategorieField($form->getParent(), true);
+//                }
+//            }
+//        );
+//        $builder->addEventListener(
+//            FormEvents::POST_SET_DATA,
+//            function (FormEvent $event) {
+//                $data = $event->getData();
+//                /* @var $handicap Handicap */
+//                $handicap = $data->getHandicap();
+//                $form = $event->getForm();
+//                if ($handicap) {
+//                    // On récupère le département et la région
+//                    $categoriehandicap = $handicap->getCategorieHandicap();
+//                    $boolhandicap = true;
+//                    // On crée les 2 champs supplémentaires
+//                    $this->addHandicapCategorieField($form, true);
+//                    $this->addHandicapField($form, $categoriehandicap);
+//                    // On set les données
+////                    $form->get('boolhandicap')->setData($boolhandicap);
+//                    $form->get('handicapcategorie')->setData($handicap);
+//                } else {
+//                    // On crée les 2 champs en les laissant vide (champs utilisé pour le JavaScript)
+//                    $this->addHandicapCategorieField($form, null);
+//                    $this->addHandicapField($form, null);
+//                }
+//            }
+//        );
 
 
         $builder->get('regionNaiss')->addEventListener(
@@ -399,6 +401,5 @@ class UserdataType extends AbstractType
     {
         return 'pgde_emploibundle_userdata';
     }
-
 
 }

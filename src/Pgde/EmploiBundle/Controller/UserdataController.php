@@ -38,6 +38,8 @@ class UserdataController extends Controller
      *
      * @Route("/new", name="userdata_new")
      * @Method({"GET", "POST"})
+     * @param Request $request
+     * @return \Symfony\Component\HttpFoundation\RedirectResponse|\Symfony\Component\HttpFoundation\Response
      */
     public function newAction(Request $request)
     {

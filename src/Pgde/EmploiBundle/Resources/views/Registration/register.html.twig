@@ -5,7 +5,16 @@
 
     {{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
     <p class="title">Créer votre compte</p>
-    {{ form_widget(form) }}
+    <div class="col-sm-6">
+        {{ form_row(form.email) }}
+        {{ form_row(form.username) }}
+        {{ form_row(form.plainPassword) }}
+    </div>
+    <div class="col-sm-6">
+    {{ form_row(form.numberid) }}
+    {{ form_row(form.firstname) }}
+    {{ form_row(form.lastname) }}
+    </div>
     <button class="btn btn-custom-primary btn-lg btn-block btn-auth">
         <i class="fa fa-check-circle"></i> {{ 'registration.submit'|trans }}
     </button>

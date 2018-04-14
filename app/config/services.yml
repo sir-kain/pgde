@@ -41,6 +41,6 @@ services:
 
     pgde_emploi.password_resetting:
         class: Pgde\EmploiBundle\EventListener\PasswordResettingListener
-        arguments: [ '@router', '@session' ]
+        arguments: [ '@router', '@session', '@doctrine.orm.entity_manager', '@security.token_storage']
         tags:
             - { name: kernel.event_subscriber }
