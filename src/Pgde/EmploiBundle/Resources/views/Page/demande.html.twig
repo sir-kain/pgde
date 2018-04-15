@@ -4,7 +4,7 @@
     <!-- WRAPPER -->
     <div id="wrapper" class="wrapper">
         <!-- TOP BAR -->
-        {% block topbar %} {% endblock %}
+        {#{% block topbar %} {% endblock %}#}
         <!-- END TOP BAR -->
         <!-- LEFT SIDEBAR -->
         {% block sidebar %} {% endblock %}
@@ -12,6 +12,9 @@
         <!-- END LEFT SIDEBAR -->
         <!-- MAIN CONTENT WRAPPER -->
         <div id="main-content-wrapper" class="content-wrapper expanded-full">
+            {% block big_menu %}
+                {% include '@PgdeEmploi/partials/big_menu.html.twig' %}
+            {% endblock %}
             <!-- top general alert -->
             {% block alert_message %}
                 {% include '@PgdeEmploi/partials/alert_message.html.twig' %}

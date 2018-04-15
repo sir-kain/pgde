@@ -1,7 +1,4 @@
 {% extends '@PgdeEmploi/Page/demande.html.twig' %}
-{% block topbar %}
-    {% include '@PgdeEmploi/partials/topbar.html.twig' %}
-{% endblock %}
 {% block body %}
     <h1>Soumission demande</h1>
 
@@ -9,7 +6,6 @@
     {% block notifications_for_demande %}
         {% include '@PgdeEmploi/partials/notifications_for_demande.html.twig' %}
     {% endblock %}
-
     <div class="container">
         <div class="stepwizard">
             <div class="stepwizard-row setup-panel">
@@ -45,7 +41,7 @@
                 <i class="fas fa-exclamation-circle"></i> {{ error.message }}
             </div>
         {% endfor %}
-        <div class="panel panel-primary setup-content" id="step-1">
+        <div class="panel panel-default setup-content" id="step-1">
             <div class="panel-heading text-center">
                 <h3 class="panel-title">Etat Civil</h3>
             </div>
@@ -78,7 +74,7 @@
                     </div>
                 </div>
                 {#<div class="row">#}
-                    <button class="btn btn-success nextBtn pull-right" type="button">Suivant</button>
+                <button class="btn btn-success nextBtn pull-right" type="button">Suivant</button>
                 {#</div>#}
             </div>
         </div>
