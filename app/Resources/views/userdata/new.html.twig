@@ -30,7 +30,7 @@
                 <div class="stepwizard-step col-xs-3">
                     <a href="#step-4" type="button" class="btn btn-default btn-circle" disabled="disabled">4</a>
                     <p>
-                        <small>Emplois</small>
+                        <small>Emploi</small>
                     </p>
                 </div>
             </div>
@@ -84,12 +84,18 @@
                 <h3 class="panel-title">Coordonnées</h3>
             </div>
             <div class="panel-body">
-                {{ form_row(form.regionResidence) }}
-                {{ form_row(form.departementresidence) }}
-                {{ form_row(form.lieuresidence) }}
-                {{ form_row(form.telephone1) }}
-                {{ form_row(form.telephone2) }}
-                {{ form_row(form.utilisateur.email) }}
+                <div class="row">
+                    <div class="col-sm-6">
+                        {{ form_row(form.regionResidence) }}
+                        {{ form_row(form.departementresidence) }}
+                        {{ form_row(form.lieuresidence) }}
+                    </div>
+                    <div class="col-sm-6">
+                        {{ form_row(form.telephone1) }}
+                        {{ form_row(form.telephone2) }}
+                        {{ form_row(form.utilisateur.email) }}
+                    </div>
+                </div>
                 <button class="btn btn-primary nextBtn pull-right" type="button">Suivant</button>
             </div>
         </div>
@@ -99,12 +105,18 @@
                 <h3 class="panel-title">Formation</h3>
             </div>
             <div class="panel-body">
-                {{ form_row(form.academic) }}
-                {{ form_row(form.diplome) }}
-                {{ form_row(form.anneediplome) }}
-                {{ form_row(form.specialite) }}
-                {{ form_row(form.etablissementdiplome) }}
-                {{ form_row(form.autresdiplomes) }}
+                <div class="row">
+                    <div class="col-sm-6">
+                        {{ form_row(form.specialite) }}
+                        {{ form_row(form.etablissementdiplome) }}
+                        {{ form_row(form.autresdiplomes) }}
+                    </div>
+                    <div class="col-sm-6">
+                        {{ form_row(form.academic) }}
+                        {{ form_row(form.diplome) }}
+                        {{ form_row(form.anneediplome) }}
+                    </div>
+                </div>
                 <button class="btn btn-primary nextBtn pull-right" type="button">Suivant</button>
             </div>
         </div>
@@ -114,21 +126,27 @@
                 <h3 class="panel-title">Emplois</h3>
             </div>
             <div class="panel-body">
-                {{ form_row(form.secteur1) }}
-                {{ form_row(form.emploi1) }}
-                {{ form_row(form.anneeexperience1) }}
-                {{ form_row(form.secteur2) }}
-                {{ form_row(form.emploi2) }}
-                {{ form_row(form.anneeexperience2) }}
-                {{ form_row(form.motivation) }}
-                {{ form_row(form.experiences) }}
+                <div class="row">
+                    <div class="col-sm-3">
+                        {{ form_row(form.secteur1) }}
+                        {{ form_row(form.emploi1) }}
+                        {{ form_row(form.anneeexperience1) }}
+                    </div>
+                    <div class="col-sm-3">
+                        {{ form_row(form.secteur2) }}
+                        {{ form_row(form.emploi2) }}
+                        {{ form_row(form.anneeexperience2) }}
+                    </div>
+                    <div class="col-sm-6">
+                        {{ form_row(form.motivation) }}
+                        {{ form_row(form.experiences) }}
+                    </div>
+                </div>
                 <button class="btn btn-success pull-right" type="submit">Envoyé!</button>
             </div>
         </div>
+        {{ form_widget(form._token) }}
+        {{ form_end(form, {'render_rest': false}) }}
     </div>
     {#<input class="btn btn-primary" type="submit" value="Create"/>#}
-    {{ form_end(form, {'render_rest': false}) }}
-    {#{{ form_end(form) }}#}
-
-
 {% endblock %}

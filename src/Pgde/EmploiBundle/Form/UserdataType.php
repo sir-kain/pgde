@@ -145,14 +145,14 @@ class UserdataType extends AbstractType
                 'required' => false,
                 'placeholder' => 'Selectionner un secteur - choix 2'
             ])
-            ->add('boolhandicap', ChoiceType::class, [
-                'label' => 'Souffrez-vous d\'un handicap? ',
-                'mapped' => false,
-                'choices' => [
-                    'Non' => false,
-                    'Oui' => true,
-                ]
-            ])
+//            ->add('boolhandicap', ChoiceType::class, [
+//                'label' => 'Souffrez-vous d\'un handicap? ',
+//                'mapped' => false,
+//                'choices' => [
+//                    'Non' => false,
+//                    'Oui' => true,
+//                ]
+//            ])
 //            ->add('utilisateur')
 //            ->add('handicap')
         ;

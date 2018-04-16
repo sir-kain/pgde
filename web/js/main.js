@@ -14,7 +14,6 @@ $(document).on('change', '#pgde_emploibundle_userdata_regionNaiss',
             type: $form.attr('method'),
             data: data,
             success: function (html) {
-                console.log(html)
                 // Replace current position field ...
                 $(target).replaceWith(
                     // ... with the returned one from the AJAX response.
