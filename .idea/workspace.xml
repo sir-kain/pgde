@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4082b11d-0932-41f0-b7ad-a74075f757a9" name="Default" comment="" />
+    <list default="true" id="4082b11d-0932-41f0-b7ad-a74075f757a9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters_production.php" afterPath="$PROJECT_DIR$/app/config/parameters_production.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,8 +88,8 @@
       <file leaf-file-name="parameters_production.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/config/parameters_production.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="58" lean-forward="false" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+            <state relative-caret-position="32">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -313,12 +315,12 @@
       <workItem from="1523874750666" duration="11946000" />
       <workItem from="1523888781096" duration="2726000" />
       <workItem from="1523891634884" duration="6663000" />
-      <workItem from="1523924479400" duration="26248000" />
+      <workItem from="1523924479400" duration="26880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="268172000" />
+    <option name="totallyTimeSpent" value="268804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -822,8 +824,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/parameters_production.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="58" lean-forward="false" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+        <state relative-caret-position="32">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>

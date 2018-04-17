@@ -1,4 +1,5 @@
 <?php
+
 $container->setParameter('database_driver', 'pdo_mysql');
 $container->setParameter('database_host', 'johnny.heliohost.org');
 $container->setParameter('database_port', 3306);
