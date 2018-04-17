@@ -23,9 +23,10 @@ class UserdataController extends Controller
      */
     public function indexAction()
     {
-        $em = $this->getDoctrine()->getManager();
+//        $em = $this->getDoctrine()->getManager();
 
-        $userdatas = $em->getRepository('PgdeEmploiBundle:Userdata')->findAll();
+//        $userdatas = $em->getRepository('PgdeEmploiBundle:Userdata')->findAll();
+
         return $this->redirectToRoute('userdata_new');
 
 //        return $this->render('userdata/index.html.twig', array(
@@ -44,6 +45,9 @@ class UserdataController extends Controller
     public function newAction(Request $request)
     {
         $userconnecter = $this->getUser();
+        if($userconnecter == null) {
+            return $this->redirectToRoute('fos_user_security_login');
+        }
         $repository = $this->getDoctrine()->getRepository(Userdata::class);
         $userdatum = $repository->findOneBy(['utilisateur' => $userconnecter]);
         $avatar = $repository->get_gravatar($userconnecter->getEmail());
