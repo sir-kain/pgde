@@ -38,12 +38,27 @@
 </head>
 <body class="comp-wizard">
 <img src="{{ asset('assets/img/header/header.png') }}" alt="" class="img-responsive">
+
 {% block demande_content %} {% endblock %}
 
 {% block security_content %} {% endblock %}
 
-
 {% block javascripts %}{% endblock %}
+
+{% for logout in app.session.flashBag.get('logout') %}
+    {% for class in app.session.flashBag.get('class') %}
+        {% for message in app.session.flashBag.get('message') %}
+            {% for avatar in app.session.flashBag.get('urlavatar') %}
+                {% for username in app.session.flashBag.get('username') %}
+                    <div class="{{ class }}" data-urlpath="{{ path('fos_user_security_login') }}"
+                         data-message="{{ message }}" data-img="{{ avatar }}" data-username="{{ username }}"
+                         id="gritter-logout"></div>
+                {% endfor %}
+            {% endfor %}
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
+{% include '@PgdeEmploi/partials/notifications_for_demande.html.twig' %}
 
 {#<script src="{{ asset('assets/js/jquery/jquery-2.1.0.min.js') }}"></script>#}
 <script

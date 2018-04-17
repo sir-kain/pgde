@@ -61,7 +61,7 @@ class PasswordResettingListener implements EventSubscriberInterface
             FOSUserEvents::SECURITY_IMPLICIT_LOGIN => 'onUserLogged',
             FOSUserEvents::REGISTRATION_CONFIRMED => 'onRegisterConfirmed',
             FOSUserEvents::REGISTRATION_CONFIRM => 'onRegisterConfirmedWithEmail',
-            FOSUserEvents::REGISTRATION_SUCCESS => 'onRegisterSuccessed'
+            FOSUserEvents::REGISTRATION_SUCCESS => 'onRegisterSuccessed',
         ];
     }
 

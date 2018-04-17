@@ -2,14 +2,264 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4082b11d-0932-41f0-b7ad-a74075f757a9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/LoginListener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/LogoutListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/.gitkeep" afterPath="$PROJECT_DIR$/var/cache/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/logs/.gitkeep" afterPath="$PROJECT_DIR$/var/logs/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/sessions/.gitkeep" afterPath="$PROJECT_DIR$/var/sessions/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/apple-touch-icon.png" afterPath="$PROJECT_DIR$/web/apple-touch-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.eot?" afterPath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.eot?" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.eot?v=4.6.3" afterPath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.eot?v=4.6.3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.ttf?v=4.6.3" afterPath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.ttf?v=4.6.3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.woff2?v=4.6.3" afterPath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.woff2?v=4.6.3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.woff?v=4.6.3" afterPath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.woff?v=4.6.3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.eot?" afterPath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.eot?" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/lato-bol-webfont.eot" afterPath="$PROJECT_DIR$/web/assets/fonts/lato-bol-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/lato-bol-webfont.eot?" afterPath="$PROJECT_DIR$/web/assets/fonts/lato-bol-webfont.eot?" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/lato-bol-webfont.ttf" afterPath="$PROJECT_DIR$/web/assets/fonts/lato-bol-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/lato-bol-webfont.woff" afterPath="$PROJECT_DIR$/web/assets/fonts/lato-bol-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/lato-lig-webfont.eot" afterPath="$PROJECT_DIR$/web/assets/fonts/lato-lig-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/lato-lig-webfont.eot?" afterPath="$PROJECT_DIR$/web/assets/fonts/lato-lig-webfont.eot?" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/lato-lig-webfont.ttf" afterPath="$PROJECT_DIR$/web/assets/fonts/lato-lig-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/lato-lig-webfont.woff" afterPath="$PROJECT_DIR$/web/assets/fonts/lato-lig-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/lato-reg-webfont.eot" afterPath="$PROJECT_DIR$/web/assets/fonts/lato-reg-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/lato-reg-webfont.eot?" afterPath="$PROJECT_DIR$/web/assets/fonts/lato-reg-webfont.eot?" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/lato-reg-webfont.ttf" afterPath="$PROJECT_DIR$/web/assets/fonts/lato-reg-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/lato-reg-webfont.woff" afterPath="$PROJECT_DIR$/web/assets/fonts/lato-reg-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ico/favicon.png" afterPath="$PROJECT_DIR$/web/assets/ico/favicon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ico/kingadmin-favicon114x114.png" afterPath="$PROJECT_DIR$/web/assets/ico/kingadmin-favicon114x114.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ico/kingadmin-favicon144x144.png" afterPath="$PROJECT_DIR$/web/assets/ico/kingadmin-favicon144x144.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ico/kingadmin-favicon57x57.png" afterPath="$PROJECT_DIR$/web/assets/ico/kingadmin-favicon57x57.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ico/kingadmin-favicon72x72.png" afterPath="$PROJECT_DIR$/web/assets/ico/kingadmin-favicon72x72.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/black-linen.png" afterPath="$PROJECT_DIR$/web/assets/img/black-linen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/clear.png" afterPath="$PROJECT_DIR$/web/assets/img/clear.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/dashboard-collapsed-sidebar.png" afterPath="$PROJECT_DIR$/web/assets/img/dashboard-collapsed-sidebar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/dashboard-fixed-sidebar.png" afterPath="$PROJECT_DIR$/web/assets/img/dashboard-fixed-sidebar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/dashboard-minified-sidebar.png" afterPath="$PROJECT_DIR$/web/assets/img/dashboard-minified-sidebar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/dashboard-normal-sidebar.png" afterPath="$PROJECT_DIR$/web/assets/img/dashboard-normal-sidebar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/dashboard-ontop-nav.png" afterPath="$PROJECT_DIR$/web/assets/img/dashboard-ontop-nav.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gallery/bird.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gallery/bird.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gallery/cafe.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gallery/cafe.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gallery/chair.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gallery/chair.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gallery/cuba-cup.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gallery/cuba-cup.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gallery/desk.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gallery/desk.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gallery/desk2.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gallery/desk2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gallery/fence.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gallery/fence.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gallery/hand.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gallery/hand.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gallery/jet-sky.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gallery/jet-sky.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gallery/kitsune.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gallery/kitsune.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gallery/lighthouse.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gallery/lighthouse.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gallery/mac.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gallery/mac.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/header/header.png" afterPath="$PROJECT_DIR$/web/assets/img/header/header.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/kingadmin-logo-white.png" afterPath="$PROJECT_DIR$/web/assets/img/kingadmin-logo-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/kingadmin-logo.png" afterPath="$PROJECT_DIR$/web/assets/img/kingadmin-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/loading.gif" afterPath="$PROJECT_DIR$/web/assets/img/loading.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/market-news.jpg" afterPath="$PROJECT_DIR$/web/assets/img/market-news.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/market-news2.jpg" afterPath="$PROJECT_DIR$/web/assets/img/market-news2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/market-news3.jpg" afterPath="$PROJECT_DIR$/web/assets/img/market-news3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/profile-avatar.png" afterPath="$PROJECT_DIR$/web/assets/img/profile-avatar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/search-result-img.png" afterPath="$PROJECT_DIR$/web/assets/img/search-result-img.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/user-avatar.png" afterPath="$PROJECT_DIR$/web/assets/img/user-avatar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/user1.png" afterPath="$PROJECT_DIR$/web/assets/img/user1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/user2.png" afterPath="$PROJECT_DIR$/web/assets/img/user2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/user3.png" afterPath="$PROJECT_DIR$/web/assets/img/user3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/user4.png" afterPath="$PROJECT_DIR$/web/assets/img/user4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/user5.png" afterPath="$PROJECT_DIR$/web/assets/img/user5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/tree/themes/default/32px.png" afterPath="$PROJECT_DIR$/web/assets/js/plugins/tree/themes/default/32px.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/tree/themes/default/40px.png" afterPath="$PROJECT_DIR$/web/assets/js/plugins/tree/themes/default/40px.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/tree/themes/default/throbber.gif" afterPath="$PROJECT_DIR$/web/assets/js/plugins/tree/themes/default/throbber.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/favicon.ico" afterPath="$PROJECT_DIR$/web/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/aba105bb-a1ef-46db-a1a7-e70310f96ab5.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/aba105bb-a1ef-46db-a1a7-e70310f96ab5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/waly.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/waly.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pgde.iml" afterPath="$PROJECT_DIR$/.idea/pgde.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/symfony2.xml" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.htaccess" afterPath="$PROJECT_DIR$/app/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppCache.php" afterPath="$PROJECT_DIR$/app/AppCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/userdata/edit.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/userdata/edit.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/userdata/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/userdata/index.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/userdata/new.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/userdata/new.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/userdata/show.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/userdata/show.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_dev.yml" afterPath="$PROJECT_DIR$/app/config/config_dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_prod.yml" afterPath="$PROJECT_DIR$/app/config/config_prod.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_test.yml" afterPath="$PROJECT_DIR$/app/config/config_test.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters.yml.dist" afterPath="$PROJECT_DIR$/app/config/parameters.yml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing_dev.yml" afterPath="$PROJECT_DIR$/app/config/routing_dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/services.yml" afterPath="$PROJECT_DIR$/app/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpunit.xml.dist" afterPath="$PROJECT_DIR$/phpunit.xml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/.htaccess" afterPath="$PROJECT_DIR$/src/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/AppBundle.php" afterPath="$PROJECT_DIR$/src/AppBundle/AppBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/DependencyInjection/Configuration.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/DependencyInjection/Configuration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/DependencyInjection/PgdeEmploiExtension.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/DependencyInjection/PgdeEmploiExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Academic.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Academic.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/CategorieHandicap.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/CategorieHandicap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Departement.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Departement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Emploi.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Emploi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Handicap.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Handicap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Region.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Region.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Secteur.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Secteur.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Userdata.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Userdata.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Utilisateur.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Utilisateur.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/PasswordResettingListener.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/PasswordResettingListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/RegistrationType.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/RegistrationType.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UserdataType.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UserdataType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/PgdeEmploiBundle.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/PgdeEmploiBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/AcademicRepository.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/AcademicRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/CategorieHandicapRepository.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/CategorieHandicapRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/DepartementRepository.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/DepartementRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/EmploiRepository.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/EmploiRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/HandicapRepository.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/HandicapRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/RegionRepository.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/RegionRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/SecteurRepository.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/SecteurRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/UserdataRepository.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/UserdataRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/UtilisateurRepository.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/UtilisateurRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/config/routing/userdata.yml" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/config/routing/userdata.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/ChangePassword/change_password.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/ChangePassword/change_password.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/confirmcompte.email.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/confirmcompte.email.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/confirmcompte.txt.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/confirmcompte.txt.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/password_resetting.email.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/password_resetting.email.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/password_resetting.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/password_resetting.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/demande.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/demande.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/check_email.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/check_email.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/register.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/register.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Resetting/check_email.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Resetting/check_email.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Resetting/request.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Resetting/request.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Resetting/reset.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Resetting/reset.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/alert_message.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/alert_message.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/big_menu.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/big_menu.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/notifications_for_demande.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/notifications_for_demande.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/secondmenu.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/secondmenu.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/sidebar.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/sidebar.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/topbar.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/topbar.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Tests/Controller/DefaultControllerTest.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Tests/Controller/DefaultControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Tests/Controller/UserdataControllerTest.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Tests/Controller/UserdataControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php" afterPath="$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/SymfonyRequirements.php" afterPath="$PROJECT_DIR$/var/SymfonyRequirements.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/.htaccess" afterPath="$PROJECT_DIR$/web/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app.php" afterPath="$PROJECT_DIR$/web/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app_dev.php" afterPath="$PROJECT_DIR$/web/app_dev.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/web/assets/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/main.css" afterPath="$PROJECT_DIR$/web/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/my-custom-styles.css" afterPath="$PROJECT_DIR$/web/assets/css/my-custom-styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/skins/bleu.css" afterPath="$PROJECT_DIR$/web/assets/css/skins/bleu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/skins/transparent.css" afterPath="$PROJECT_DIR$/web/assets/css/skins/transparent.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.svg?v=4.6.3" afterPath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.svg?v=4.6.3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/lato-bol-webfont.svg" afterPath="$PROJECT_DIR$/web/assets/fonts/lato-bol-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/lato-lig-webfont.svg" afterPath="$PROJECT_DIR$/web/assets/fonts/lato-lig-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/lato-reg-webfont.svg" afterPath="$PROJECT_DIR$/web/assets/fonts/lato-reg-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/bootstrap/bootstrap.js" afterPath="$PROJECT_DIR$/web/assets/js/bootstrap/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/jquery-ui/jquery-ui-1.10.4.custom.min.js" afterPath="$PROJECT_DIR$/web/assets/js/jquery-ui/jquery-ui-1.10.4.custom.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/jquery/jquery-2.1.0.min.js" afterPath="$PROJECT_DIR$/web/assets/js/jquery/jquery-2.1.0.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/king-chart-stat-transparent.js" afterPath="$PROJECT_DIR$/web/assets/js/king-chart-stat-transparent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/king-chart-stat.js" afterPath="$PROJECT_DIR$/web/assets/js/king-chart-stat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/king-common.js" afterPath="$PROJECT_DIR$/web/assets/js/king-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/king-components-transparent.js" afterPath="$PROJECT_DIR$/web/assets/js/king-components-transparent.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/king-components.js" afterPath="$PROJECT_DIR$/web/assets/js/king-components.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/king-elements.js" afterPath="$PROJECT_DIR$/web/assets/js/king-elements.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/king-form-layouts.js" afterPath="$PROJECT_DIR$/web/assets/js/king-form-layouts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/king-page-transparent.js" afterPath="$PROJECT_DIR$/web/assets/js/king-page-transparent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/king-page.js" afterPath="$PROJECT_DIR$/web/assets/js/king-page.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/king-table.js" afterPath="$PROJECT_DIR$/web/assets/js/king-table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-colorpicker/bootstrap-colorpicker.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-colorpicker/bootstrap-colorpicker.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-contextmenu/bootstrap-contextmenu.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-contextmenu/bootstrap-contextmenu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-datepicker/bootstrap-datepicker.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-datepicker/bootstrap-datepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-editable/address.custom.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-editable/address.custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-editable/bootstrap-editable.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-editable/bootstrap-editable.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-editable/demo-mock.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-editable/demo-mock.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-editable/jquery.mockjax.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-editable/jquery.mockjax.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-multiselect/bootstrap-multiselect.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-multiselect/bootstrap-multiselect.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-progressbar/bootstrap-progressbar.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-progressbar/bootstrap-progressbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-progressbar/bootstrap-progressbar.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-progressbar/bootstrap-progressbar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-slider/bootstrap-slider.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-slider/bootstrap-slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-switch/bootstrap-switch.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-switch/bootstrap-switch.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-tour/bootstrap-tour.custom.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/bootstrap-tour/bootstrap-tour.custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/datatable/dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/datatable/dataTables.bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/datatable/exts/dataTables.colReorder.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/datatable/exts/dataTables.colReorder.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/datatable/exts/dataTables.colVis.bootstrap.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/datatable/exts/dataTables.colVis.bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/datatable/exts/dataTables.tableTools.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/datatable/exts/dataTables.tableTools.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/datatable/jquery.dataTables.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/datatable/jquery.dataTables.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/datatable/plugins/sorting/date-uk.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/datatable/plugins/sorting/date-uk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/datatable/plugins/sorting/file-size.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/datatable/plugins/sorting/file-size.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/datatable/plugins/type-detection/date-uk.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/datatable/plugins/type-detection/date-uk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/datatable/plugins/type-detection/file-size.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/datatable/plugins/type-detection/file-size.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/daterangepicker/daterangepicker.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/daterangepicker/daterangepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/dropzone/dropzone.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/dropzone/dropzone.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/fullcalendar/fullcalendar.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/fullcalendar/fullcalendar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/google-map/google-map.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/google-map/google-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/jqallrangesliders/jQAllRangeSliders-min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/jqallrangesliders/jQAllRangeSliders-min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/jqgrid/i18n/grid.locale-en.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/jqgrid/i18n/grid.locale-en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/jqgrid/jquery.jqGrid.fluid.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/jqgrid/jquery.jqGrid.fluid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/jqgrid/jquery.jqGrid.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/jqgrid/jquery.jqGrid.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/jquery-gritter/jquery.gritter.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/jquery-gritter/jquery.gritter.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/jquery-mapael/jquery.mapael.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/jquery-mapael/jquery.mapael.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/jquery-maskedinput/jquery.masked-input.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/jquery-maskedinput/jquery.masked-input.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/jquery-mousewheel/jquery.mousewheel.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/jquery-mousewheel/jquery.mousewheel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/jquery-simplecolorpicker/jquery.simplecolorpicker.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/jquery-simplecolorpicker/jquery.simplecolorpicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/jquery-slimscroll/jquery.slimscroll.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/jquery-slimscroll/jquery.slimscroll.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/jquery-sparkline/jquery.sparkline.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/jquery-sparkline/jquery.sparkline.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/markdown/bootstrap-markdown.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/markdown/bootstrap-markdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/markdown/markdown.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/markdown/markdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/markdown/to-markdown.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/markdown/to-markdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/modernizr/modernizr.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/modernizr/modernizr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/moment/moment.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/moment/moment.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/parsley-validation/parsley.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/parsley-validation/parsley.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/raphael/maps/france_departments.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/raphael/maps/france_departments.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/raphael/maps/usa_states.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/raphael/maps/usa_states.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/raphael/maps/world_countries.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/raphael/maps/world_countries.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/raphael/raphael-2.1.0.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/raphael/raphael-2.1.0.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/raphael/raphael-min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/raphael/raphael-min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/select2/select2.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/select2/select2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/stat/colorbrewer.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/stat/colorbrewer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/stat/d3.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/stat/d3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/stat/flot/jquery.flot.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/stat/flot/jquery.flot.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/stat/flot/jquery.flot.orderBars.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/stat/flot/jquery.flot.orderBars.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/stat/flot/jquery.flot.pie.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/stat/flot/jquery.flot.pie.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/stat/flot/jquery.flot.resize.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/stat/flot/jquery.flot.resize.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/stat/flot/jquery.flot.selection.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/stat/flot/jquery.flot.selection.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/stat/flot/jquery.flot.time.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/stat/flot/jquery.flot.time.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/stat/flot/jquery.flot.tooltip.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/stat/flot/jquery.flot.tooltip.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/stat/jquery.easypiechart.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/stat/jquery.easypiechart.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/summernote/summernote.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/summernote/summernote.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/tree/jstree.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/tree/jstree.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/typeahead/typeahead.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/typeahead/typeahead.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/typeahead/typeaheadjs.1.5.1.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/typeahead/typeaheadjs.1.5.1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/plugins/wizard/wizard.min.js" afterPath="$PROJECT_DIR$/web/assets/js/plugins/wizard/wizard.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/config.php" afterPath="$PROJECT_DIR$/web/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/main.css" afterPath="$PROJECT_DIR$/web/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/email/email.css" afterPath="$PROJECT_DIR$/web/email/email.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/main.js" afterPath="$PROJECT_DIR$/web/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/robots.txt" afterPath="$PROJECT_DIR$/web/robots.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,133 +292,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="new.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/userdata/new.html.twig">
+      <file leaf-file-name="LoginListener.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/LoginListener.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="147" column="27" lean-forward="true" selection-start-line="147" selection-start-column="27" selection-end-line="147" selection-end-column="27" />
+            <state relative-caret-position="111">
+              <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
               <folding>
-                <element signature="n#div#4;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#5;n#div#0;n#!!top" expanded="false" />
+                <element signature="e#130#161#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserdataType.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UserdataType.php">
+      <file leaf-file-name="services.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/services.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2214">
-              <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-              <folding>
-                <element signature="e#982#1014#0#PHP" expanded="false" />
-                <element signature="e#1106#3129#0#PHP" expanded="false" />
-                <element signature="e#1106#3280#0#PHP" expanded="false" />
-                <element signature="e#1106#3451#0#PHP" expanded="false" />
-                <element signature="e#3334#3450#0#PHP" expanded="false" />
-                <element signature="e#1106#3634#0#PHP" expanded="false" />
-                <element signature="e#3506#3633#0#PHP" expanded="false" />
-                <element signature="e#1106#3793#0#PHP" expanded="false" />
-                <element signature="e#3688#3792#0#PHP" expanded="false" />
-                <element signature="e#1106#3946#0#PHP" expanded="false" />
-                <element signature="e#3845#3945#0#PHP" expanded="false" />
-                <element signature="e#1106#4143#0#PHP" expanded="false" />
-                <element signature="e#4004#4142#0#PHP" expanded="false" />
-                <element signature="e#1106#4340#0#PHP" expanded="false" />
-                <element signature="e#4201#4339#0#PHP" expanded="false" />
-                <element signature="e#1106#4485#0#PHP" expanded="false" />
-                <element signature="e#4390#4484#0#PHP" expanded="false" />
-                <element signature="e#1106#4675#0#PHP" expanded="false" />
-                <element signature="e#4545#4674#0#PHP" expanded="false" />
-                <element signature="e#1106#5027#0#PHP" expanded="false" />
-                <element signature="e#4728#5026#0#PHP" expanded="false" />
-                <element signature="e#1106#5403#0#PHP" expanded="false" />
-                <element signature="e#5084#5402#0#PHP" expanded="false" />
-                <element signature="e#1106#5778#0#PHP" expanded="false" />
-                <element signature="e#5453#5777#0#PHP" expanded="false" />
-                <element signature="e#1106#6153#0#PHP" expanded="false" />
-                <element signature="e#5828#6152#0#PHP" expanded="false" />
-                <element signature="e#6154#6210#0#PHP" expanded="false" />
-                <element signature="e#6534#6592#0#PHP" expanded="false" />
-                <element signature="e#8147#8442#0#PHP" expanded="false" />
-                <element signature="e#8244#8432#1#PHP" expanded="false" />
-                <element signature="e#8452#9490#0#PHP" expanded="false" />
-                <element signature="e#8531#9480#1#PHP" expanded="false" />
-                <element signature="e#8833#9466#0#PHP" expanded="false" />
-                <element signature="e#9252#9466#0#PHP" expanded="false" />
-                <element signature="e#9501#9804#0#PHP" expanded="false" />
-                <element signature="e#9602#9794#1#PHP" expanded="false" />
-                <element signature="e#9814#10875#0#PHP" expanded="false" />
-                <element signature="e#9893#10865#1#PHP" expanded="false" />
-                <element signature="e#10140#10851#0#PHP" expanded="false" />
-                <element signature="e#10641#10851#0#PHP" expanded="false" />
-                <element signature="e#10886#11168#0#PHP" expanded="false" />
-                <element signature="e#10980#11158#1#PHP" expanded="false" />
-                <element signature="e#11178#12177#0#PHP" expanded="false" />
-                <element signature="e#11257#12167#1#PHP" expanded="false" />
-                <element signature="e#11486#12153#0#PHP" expanded="false" />
-                <element signature="e#11957#12153#0#PHP" expanded="false" />
-                <element signature="e#12188#12470#0#PHP" expanded="false" />
-                <element signature="e#12282#12460#1#PHP" expanded="false" />
-                <element signature="e#12480#13479#0#PHP" expanded="false" />
-                <element signature="e#12559#13469#1#PHP" expanded="false" />
-                <element signature="e#12788#13455#0#PHP" expanded="false" />
-                <element signature="e#13259#13455#0#PHP" expanded="false" />
-                <element signature="e#13493#14239#0#PHP" expanded="false" />
-                <element signature="e#13589#13968#0#PHP" expanded="false" />
-                <element signature="e#13793#13968#0#PHP" expanded="false" />
-                <element signature="e#13977#14232#0#PHP" expanded="false" />
-                <element signature="e#14014#14231#0#PHP" expanded="false" />
-                <element signature="e#14245#14971#0#PHP" expanded="false" />
-                <element signature="e#14342#14708#0#PHP" expanded="false" />
-                <element signature="e#14535#14708#0#PHP" expanded="false" />
-                <element signature="e#14717#14964#0#PHP" expanded="false" />
-                <element signature="e#14754#14963#0#PHP" expanded="false" />
-                <element signature="e#14977#15917#0#PHP" expanded="false" />
-                <element signature="e#15066#15911#0#PHP" expanded="false" />
-                <element signature="e#15106#15565#0#PHP" expanded="false" />
-                <element signature="e#15274#15551#0#PHP" expanded="false" />
-                <element signature="e#15579#15855#0#PHP" expanded="false" />
-                <element signature="e#15664#15841#1#PHP" expanded="false" />
-                <element signature="e#15923#16328#0#PHP" expanded="false" />
-                <element signature="e#16031#16321#0#PHP" expanded="false" />
-                <element signature="e#16073#16320#0#PHP" expanded="false" />
-                <element signature="e#16334#16366#0#PHP" expanded="false" />
-                <element signature="e#16371#16556#0#PHP" expanded="false" />
-                <element signature="e#16445#16549#0#PHP" expanded="false" />
-                <element signature="e#16468#16548#1#PHP" expanded="false" />
-                <element signature="e#16562#16594#0#PHP" expanded="false" />
-                <element signature="e#16599#16688#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="king-components.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/assets/js/king-components.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="17" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2080">
-              <caret line="65" column="14" lean-forward="false" selection-start-line="64" selection-start-column="10" selection-end-line="65" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demande.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/demande.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="40" />
+            <state relative-caret-position="1664">
+              <caret line="52" column="57" lean-forward="false" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -177,8 +317,83 @@
       <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="76" column="74" lean-forward="false" selection-start-line="76" selection-start-column="74" selection-end-line="76" selection-end-column="74" />
+            <state relative-caret-position="64">
+              <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/assets/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6982">
+              <caret line="1664" column="18" lean-forward="false" selection-start-line="1664" selection-start-column="18" selection-end-line="1664" selection-end-column="18" />
+              <folding>
+                <marker date="1523927691700" expanded="true" signature="30469:30501" ph="{...}" />
+                <marker date="1523927691700" expanded="true" signature="30525:30558" ph="{...}" />
+                <marker date="1523927691700" expanded="true" signature="30669:30701" ph="{...}" />
+                <marker date="1523927691700" expanded="true" signature="30725:30758" ph="{...}" />
+                <marker date="1523927691700" expanded="true" signature="34847:34879" ph="{...}" />
+                <marker date="1523927691700" expanded="true" signature="34903:34936" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="80" column="23" lean-forward="false" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demande.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/demande.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <folding>
+                <marker date="1523922209708" expanded="false" signature="687:731" ph="@PgdeEmploi/partials/alert_message" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+              <folding>
+                <element signature="e#2182#2881#0" expanded="false" />
+                <element signature="e#3006#3705#0" expanded="false" />
+                <element signature="e#3842#4622#0" expanded="false" />
+                <element signature="e#4625#4695#0" expanded="false" />
+                <element signature="e#5790#6279#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/userdata/new.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="16" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notifications_for_demande.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/notifications_for_demande.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -188,14 +403,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>handic</find>
-      <find>profil</find>
-      <find>center-block</find>
-      <find>gritter-image</find>
-      <find>body {</find>
-      <find>ont-size:</find>
-      <find>wid</find>
-      <find>has-err</find>
       <find>genre</find>
       <find>name</find>
       <find>lieu</find>
@@ -218,6 +425,14 @@
       <find>bool</find>
       <find>email</find>
       <find>utilisa</find>
+      <find>log</find>
+      <find>user</find>
+      <find>logout</find>
+      <find>noti</find>
+      <find>.gritter</find>
+      <find>.gritter-item-wrapper &gt; div</find>
+      <find>none</find>
+      <find>.gritter-item .gritter-close</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -226,8 +441,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Secteur.php" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Utilisateur.php" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/del-style-switcher.html.twig" />
@@ -241,15 +454,12 @@
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Userdata.php" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/CategorieHandicap.php" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/UserdataRepository.php" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/ChangePassword/change_password.html.twig" />
-        <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Resetting/request.html.twig" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Resetting/reset.html.twig" />
         <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/ChangePasswordController.php" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/ChangePasswordController.php" />
-        <option value="$PROJECT_DIR$/web/assets/css/main.css" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/topbar.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Resetting/check_email.html.twig" />
         <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/RegistrationFormType.php" />
@@ -260,23 +470,28 @@
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/confirmcompte.email.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/securityListener.php" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/SecurityListener.php" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/password_resetting.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/check_email.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/register.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/alert_message.html.twig" />
-        <option value="$PROJECT_DIR$/app/config/services.yml" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/PasswordResettingListener.php" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/notifications_for_demande.html.twig" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/demande.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/big_menu.html.twig" />
-        <option value="$PROJECT_DIR$/web/css/main.css" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/web/assets/js/king-components.js" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php" />
-        <option value="$PROJECT_DIR$/web/js/main.js" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UserdataType.php" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/PasswordResettingListener.php" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php" />
+        <option value="$PROJECT_DIR$/app/config/services.yml" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/LoginListener.php" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/demande.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/userdata/new.html.twig" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/LogoutListener.php" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/notifications_for_demande.html.twig" />
+        <option value="$PROJECT_DIR$/web/js/main.js" />
+        <option value="$PROJECT_DIR$/web/css/main.css" />
+        <option value="$PROJECT_DIR$/web/assets/css/main.css" />
       </list>
     </option>
   </component>
@@ -365,12 +580,31 @@
               <item name="EmploiBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EmploiBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EmploiBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Page" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -427,12 +661,15 @@
       <workItem from="1523659136882" duration="7083000" />
       <workItem from="1523702268666" duration="17443000" />
       <workItem from="1523871904791" duration="2495000" />
-      <workItem from="1523874750666" duration="10257000" />
+      <workItem from="1523874750666" duration="11946000" />
+      <workItem from="1523888781096" duration="2726000" />
+      <workItem from="1523891634884" duration="6663000" />
+      <workItem from="1523924479400" duration="6236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230846000" />
+    <option name="totallyTimeSpent" value="248160000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -447,7 +684,7 @@
     <frame x="197" y="64" width="1307" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20810167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19777602" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20492454" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -479,32 +716,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/assets/js/king-common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/img/kingadmin-logo-white.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-640">
-          <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="12" column="59" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Resetting/check_email.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -555,13 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/password_resetting.email.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -573,13 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="86" column="43" lean-forward="false" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/password_resetting.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="129" column="53" lean-forward="false" selection-start-line="129" selection-start-column="53" selection-end-line="129" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -633,20 +830,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/confirmed.html.twig" />
-    <entry file="das://table:/4a00d4ed/aba105bb-a1ef-46db-a1a7-e70310f96ab5/pgde.userdata">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/4a00d4ed/aba105bb-a1ef-46db-a1a7-e70310f96ab5/pgde.utilisateur">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/topbar.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="832">
@@ -682,46 +865,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="43" column="100" lean-forward="false" selection-start-line="43" selection-start-column="100" selection-end-line="43" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/js/plugins/jquery-gritter/jquery.gritter.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="0" column="2384" lean-forward="false" selection-start-line="0" selection-start-column="2383" selection-end-line="0" selection-end-column="2384" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/del-style-switcher.html.twig" />
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/notifications_for_demande.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/ChangePassword/change_password.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOSUserEvents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="160" column="5" lean-forward="false" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/PasswordResettingListener.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="58" column="36" lean-forward="true" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -732,21 +880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4883">
-          <caret line="13056" column="8" lean-forward="false" selection-start-line="13056" selection-start-column="8" selection-end-line="13057" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2080">
-          <caret line="65" column="14" lean-forward="false" selection-start-line="64" selection-start-column="10" selection-end-line="65" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/big_menu.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -754,43 +887,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/demande.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="76" column="74" lean-forward="false" selection-start-line="76" selection-start-column="74" selection-end-line="76" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/js/king-components.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="17" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/ControllerTrait.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="151" column="23" lean-forward="false" selection-start-line="151" selection-start-column="23" selection-end-line="151" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -798,16 +898,151 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UserdataType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2214">
+          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/king-components.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOSUserEvents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8422">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/4a00d4ed/aba105bb-a1ef-46db-a1a7-e70310f96ab5/pgde.userdata">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/password_resetting.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2688">
+          <caret line="84" column="83" lean-forward="false" selection-start-line="84" selection-start-column="79" selection-end-line="84" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="82" column="43" lean-forward="true" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1664">
+          <caret line="52" column="57" lean-forward="false" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/demande.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <marker date="1523922209708" expanded="false" signature="687:731" ph="@PgdeEmploi/partials/alert_message" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/LogoutListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="48" column="41" lean-forward="false" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/PasswordResettingListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1423">
+          <caret line="74" column="36" lean-forward="false" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/userdata/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/LoginListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <folding>
+            <element signature="e#130#161#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/notifications_for_demande.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/plugins/jquery-gritter/jquery.gritter.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-177">
+          <caret line="0" column="2384" lean-forward="false" selection-start-line="0" selection-start-column="2383" selection-end-line="0" selection-end-column="2384" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        <state relative-caret-position="186">
+          <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
           <folding>
-            <element signature="e#1098#2057#0" expanded="false" />
             <element signature="e#2182#2881#0" expanded="false" />
             <element signature="e#3006#3705#0" expanded="false" />
             <element signature="e#3842#4622#0" expanded="false" />
@@ -817,101 +1052,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UserdataType.php">
+    <entry file="das://table:/4a00d4ed/aba105bb-a1ef-46db-a1a7-e70310f96ab5/pgde.utilisateur">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2214">
-          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        <state relative-caret-position="-6982">
+          <caret line="1664" column="18" lean-forward="false" selection-start-line="1664" selection-start-column="18" selection-end-line="1664" selection-end-column="18" />
           <folding>
-            <element signature="e#982#1014#0#PHP" expanded="false" />
-            <element signature="e#1106#3129#0#PHP" expanded="false" />
-            <element signature="e#1106#3280#0#PHP" expanded="false" />
-            <element signature="e#1106#3451#0#PHP" expanded="false" />
-            <element signature="e#3334#3450#0#PHP" expanded="false" />
-            <element signature="e#1106#3634#0#PHP" expanded="false" />
-            <element signature="e#3506#3633#0#PHP" expanded="false" />
-            <element signature="e#1106#3793#0#PHP" expanded="false" />
-            <element signature="e#3688#3792#0#PHP" expanded="false" />
-            <element signature="e#1106#3946#0#PHP" expanded="false" />
-            <element signature="e#3845#3945#0#PHP" expanded="false" />
-            <element signature="e#1106#4143#0#PHP" expanded="false" />
-            <element signature="e#4004#4142#0#PHP" expanded="false" />
-            <element signature="e#1106#4340#0#PHP" expanded="false" />
-            <element signature="e#4201#4339#0#PHP" expanded="false" />
-            <element signature="e#1106#4485#0#PHP" expanded="false" />
-            <element signature="e#4390#4484#0#PHP" expanded="false" />
-            <element signature="e#1106#4675#0#PHP" expanded="false" />
-            <element signature="e#4545#4674#0#PHP" expanded="false" />
-            <element signature="e#1106#5027#0#PHP" expanded="false" />
-            <element signature="e#4728#5026#0#PHP" expanded="false" />
-            <element signature="e#1106#5403#0#PHP" expanded="false" />
-            <element signature="e#5084#5402#0#PHP" expanded="false" />
-            <element signature="e#1106#5778#0#PHP" expanded="false" />
-            <element signature="e#5453#5777#0#PHP" expanded="false" />
-            <element signature="e#1106#6153#0#PHP" expanded="false" />
-            <element signature="e#5828#6152#0#PHP" expanded="false" />
-            <element signature="e#6154#6210#0#PHP" expanded="false" />
-            <element signature="e#6534#6592#0#PHP" expanded="false" />
-            <element signature="e#8147#8442#0#PHP" expanded="false" />
-            <element signature="e#8244#8432#1#PHP" expanded="false" />
-            <element signature="e#8452#9490#0#PHP" expanded="false" />
-            <element signature="e#8531#9480#1#PHP" expanded="false" />
-            <element signature="e#8833#9466#0#PHP" expanded="false" />
-            <element signature="e#9252#9466#0#PHP" expanded="false" />
-            <element signature="e#9501#9804#0#PHP" expanded="false" />
-            <element signature="e#9602#9794#1#PHP" expanded="false" />
-            <element signature="e#9814#10875#0#PHP" expanded="false" />
-            <element signature="e#9893#10865#1#PHP" expanded="false" />
-            <element signature="e#10140#10851#0#PHP" expanded="false" />
-            <element signature="e#10641#10851#0#PHP" expanded="false" />
-            <element signature="e#10886#11168#0#PHP" expanded="false" />
-            <element signature="e#10980#11158#1#PHP" expanded="false" />
-            <element signature="e#11178#12177#0#PHP" expanded="false" />
-            <element signature="e#11257#12167#1#PHP" expanded="false" />
-            <element signature="e#11486#12153#0#PHP" expanded="false" />
-            <element signature="e#11957#12153#0#PHP" expanded="false" />
-            <element signature="e#12188#12470#0#PHP" expanded="false" />
-            <element signature="e#12282#12460#1#PHP" expanded="false" />
-            <element signature="e#12480#13479#0#PHP" expanded="false" />
-            <element signature="e#12559#13469#1#PHP" expanded="false" />
-            <element signature="e#12788#13455#0#PHP" expanded="false" />
-            <element signature="e#13259#13455#0#PHP" expanded="false" />
-            <element signature="e#13493#14239#0#PHP" expanded="false" />
-            <element signature="e#13589#13968#0#PHP" expanded="false" />
-            <element signature="e#13793#13968#0#PHP" expanded="false" />
-            <element signature="e#13977#14232#0#PHP" expanded="false" />
-            <element signature="e#14014#14231#0#PHP" expanded="false" />
-            <element signature="e#14245#14971#0#PHP" expanded="false" />
-            <element signature="e#14342#14708#0#PHP" expanded="false" />
-            <element signature="e#14535#14708#0#PHP" expanded="false" />
-            <element signature="e#14717#14964#0#PHP" expanded="false" />
-            <element signature="e#14754#14963#0#PHP" expanded="false" />
-            <element signature="e#14977#15917#0#PHP" expanded="false" />
-            <element signature="e#15066#15911#0#PHP" expanded="false" />
-            <element signature="e#15106#15565#0#PHP" expanded="false" />
-            <element signature="e#15274#15551#0#PHP" expanded="false" />
-            <element signature="e#15579#15855#0#PHP" expanded="false" />
-            <element signature="e#15664#15841#1#PHP" expanded="false" />
-            <element signature="e#15923#16328#0#PHP" expanded="false" />
-            <element signature="e#16031#16321#0#PHP" expanded="false" />
-            <element signature="e#16073#16320#0#PHP" expanded="false" />
-            <element signature="e#16334#16366#0#PHP" expanded="false" />
-            <element signature="e#16371#16556#0#PHP" expanded="false" />
-            <element signature="e#16445#16549#0#PHP" expanded="false" />
-            <element signature="e#16468#16548#1#PHP" expanded="false" />
-            <element signature="e#16562#16594#0#PHP" expanded="false" />
-            <element signature="e#16599#16688#0#PHP" expanded="false" />
+            <marker date="1523927691700" expanded="true" signature="30469:30501" ph="{...}" />
+            <marker date="1523927691700" expanded="true" signature="30525:30558" ph="{...}" />
+            <marker date="1523927691700" expanded="true" signature="30669:30701" ph="{...}" />
+            <marker date="1523927691700" expanded="true" signature="30725:30758" ph="{...}" />
+            <marker date="1523927691700" expanded="true" signature="34847:34879" ph="{...}" />
+            <marker date="1523927691700" expanded="true" signature="34903:34936" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/userdata/new.html.twig">
+    <entry file="file://$PROJECT_DIR$/web/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="147" column="27" lean-forward="true" selection-start-line="147" selection-start-column="27" selection-end-line="147" selection-end-column="27" />
-          <folding>
-            <element signature="n#div#4;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="239">
+          <caret line="80" column="23" lean-forward="false" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>

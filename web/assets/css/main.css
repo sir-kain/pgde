@@ -1622,18 +1622,18 @@ a.g-menu-item, a.soptclass, a.clearsearchclass {
 .gritter-item-wrapper {
   position: relative;
   margin: 0 0 10px 0;
-  background: url("http://demo.thedevelovers.com/dashboard/kingadmin-v1.6.2/assets/images/ie-spacer.gif");
+  /*background: url("http://demo.thedevelovers.com/dashboard/kingadmin-v1.6.2/assets/images/ie-spacer.gif");*/
   /* ie7/8 fix */ }
 
 .gritter-top {
-  background: url(http://demo.thedevelovers.com/dashboard/kingadmin-v1.6.2/assets/images/gritter.png) no-repeat left -30px;
+  /*background: url(http://demo.thedevelovers.com/dashboard/kingadmin-v1.6.2/assets/images/gritter.png) no-repeat left -30px;*/
   height: 10px; }
 
 .hover .gritter-top {
   background-position: right -30px; }
 
 .gritter-bottom {
-  background: url(http://demo.thedevelovers.com/dashboard/kingadmin-v1.6.2/assets/images/gritter.png) no-repeat left bottom;
+  /*background: url(http://demo.thedevelovers.com/dashboard/kingadmin-v1.6.2/assets/images/gritter.png) no-repeat left bottom;*/
   height: 8px;
   margin: 0; }
 
@@ -1642,7 +1642,7 @@ a.g-menu-item, a.soptclass, a.clearsearchclass {
 
 .gritter-item {
   display: block;
-  background: url(http://demo.thedevelovers.com/dashboard/kingadmin-v1.6.2/assets/images/gritter.png) no-repeat left -40px;
+  /*background: url(http://demo.thedevelovers.com/dashboard/kingadmin-v1.6.2/assets/images/gritter.png) no-repeat left -40px;*/
   color: #eee;
   padding: 2px 11px 8px 11px;
   font-size: 11px;
@@ -1661,7 +1661,7 @@ a.g-menu-item, a.soptclass, a.clearsearchclass {
   position: absolute;
   top: 5px;
   left: 3px;
-  background: url(http://demo.thedevelovers.com/dashboard/kingadmin-v1.6.2/assets/images/gritter.png) no-repeat left top;
+  /*background: url(http://demo.thedevelovers.com/dashboard/kingadmin-v1.6.2/assets/images/gritter.png) no-repeat left top;*/
   cursor: pointer;
   width: 30px;
   height: 30px;
@@ -14724,7 +14724,7 @@ input.ui-editRangeSlider-inputValue {
   .gritter-item .gritter-title {
     text-shadow: none; }
   .gritter-item .gritter-close {
-    background: image-url("gritter.png");
+    /*background: image-url("gritter.png");*/
     outline: none;
     left: auto;
     right: 3px;

@@ -219,11 +219,53 @@ $(document).ready(function () {
         url: urlpath,
         success: function () {
             if (elementSectionForGitterAfterRessetingPassword.hasClass('gritter')){
+                $.extend( $.gritter.options, {
+                    position: 'top-left'
+                });
                 $.gritter.add({
                     title: username,
                     text: messagetext,
                     image: urlavatar,
-                    time: 5000,
+                    sticky: true,
+                });
+            }
+        }
+    });
+
+
+    let elementSectionForGitterLogout = $('#gritter-logout');
+    let messageLogout = elementSectionForGitterLogout.attr('data-message');
+    let urlavatarLogout = elementSectionForGitterLogout.attr('data-img');
+    let usernameLogout = elementSectionForGitterLogout.attr('data-username');
+    let urlpathLogout = elementSectionForGitterLogout.attr('data-urlpath');
+    $.ajax({
+        url: urlpathLogout,
+        success: function () {
+            if (elementSectionForGitterLogout.hasClass('gritter')){
+                $.gritter.add({
+                    title: usernameLogout,
+                    text: messageLogout,
+                    image: urlavatarLogout,
+                    sticky: true,
+                });
+            }
+        }
+    });
+
+    let elementSectionForGitterLogin = $('#gritter-login');
+    let messageLogin = elementSectionForGitterLogin.attr('data-message');
+    let urlavatarLogin = elementSectionForGitterLogin.attr('data-img');
+    let usernameLogin = elementSectionForGitterLogin.attr('data-username');
+    let urlpathLogin = elementSectionForGitterLogin.attr('data-urlpath');
+    $.ajax({
+        url: urlpathLogin,
+        success: function () {
+            if (elementSectionForGitterLogin.hasClass('gritter')){
+                $.gritter.add({
+                    title: usernameLogin,
+                    text: messageLogin,
+                    image: urlavatarLogin,
+                    sticky: true,
                 });
             }
         }

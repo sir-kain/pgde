@@ -14,3 +14,30 @@
         {{ message }}
     </div>
 {% endfor %}
+
+{% for logout in app.session.flashBag.get('logout') %}
+    {% for class in app.session.flashBag.get('class') %}
+        {% for message in app.session.flashBag.get('message') %}
+            {% for avatar in app.session.flashBag.get('urlavatar') %}
+                {% for username in app.session.flashBag.get('username') %}
+                    <div class="{{ class }}" data-urlpath="{{ path('fos_user_security_login') }}" data-message="{{ message }}" data-img="{{ avatar }}" data-username="{{ username }}"
+                         id="gritter-logout"></div>
+                {% endfor %}
+            {% endfor %}
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
+
+    {% for login in app.session.flashBag.get('login') %}
+        {% for class in app.session.flashBag.get('class') %}
+            {% for message in app.session.flashBag.get('message') %}
+                {% for avatar in app.session.flashBag.get('urlavatar') %}
+                    {% for username in app.session.flashBag.get('username') %}
+                        <div class="{{ class }}" data-urlpath="{{ path('userdata_new') }}"
+                             data-message="{{ message }}" data-img="{{ avatar }}" data-username="{{ username }}"
+                             id="gritter-login"></div>
+                    {% endfor %}
+                {% endfor %}
+            {% endfor %}
+        {% endfor %}
+    {% endfor %}

@@ -74,3 +74,13 @@ body{
     background-color: #1e88f5; }
 .top-content ul.quick-access > li .quick-access-item.bg-color-orange {
     background-color: #ff9900; }
+
+
+/*GRITTER BGCOLOR*/
+.gritter-item-wrapper > div {
+    background: #1e90ff; }
+
+.gritter-item .gritter-close {
+    content: "\f00d";
+    font-family: FontAwesome;
+}

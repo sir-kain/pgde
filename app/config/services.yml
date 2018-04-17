@@ -44,3 +44,11 @@ services:
         arguments: [ '@router', '@session', '@doctrine.orm.entity_manager', '@security.token_storage']
         tags:
             - { name: kernel.event_subscriber }
+
+    pgde_emploi.logout_listener:
+        class: Pgde\EmploiBundle\EventListener\LogoutListener
+        arguments: [ '@session', '@doctrine.orm.entity_manager']
+
+    pgde_emploi.login_listener:
+        class: Pgde\EmploiBundle\EventListener\LoginListener
+        arguments: [ '@session', '@doctrine.orm.entity_manager', '@fos_user.user_manager']
