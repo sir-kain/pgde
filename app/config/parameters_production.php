@@ -3,9 +3,9 @@
 $container->setParameter('database_driver', 'pdo_mysql');
 $container->setParameter('database_host', 'johnny.heliohost.org');
 $container->setParameter('database_port', 3306);
-$container->setParameter('database_name', 'ahmadouw_pgdefp');
-$container->setParameter('database_user', 'ahmadouw_userfp');
-$container->setParameter('database_password', '6703903awn');
+$container->setParameter('database_name', 'ahmadouw_pgde');
+$container->setParameter('database_user', 'ahmadouw_fpuser');
+$container->setParameter('database_password', 'passer@1');
 $container->setParameter('secret', 'db1b548114372a7701e95e2282052750165a6241');
 $container->setParameter('locale', 'fr');
 $container->setParameter('mailer_transport', 'gmail');
