@@ -84,3 +84,19 @@ body{
     content: "\f00d";
     font-family: FontAwesome;
 }
+
+.parallax {
+    /* The image used */
+    /*background-image: url("../assets/img/header/header.PNG");*/
+
+    /*!* Set a specific height *!*/
+    /*height: 100px;*/
+    /*max-width: 100%;*/
+
+    /*background: no-repeat fixed url("../assets/img/header/header.PNG");*/
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    /*background-position: left top;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+}
