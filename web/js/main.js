@@ -165,6 +165,10 @@ $('#gritter-image').click( function() {
 
 $(document).ready(function () {
 
+    // setTimeout(function () {
+    //     document.querySelector('video').play();
+    // }, 3000)
+
     var navListItems = $('div.setup-panel div a'),
         allWells = $('.setup-content'),
         allNextBtn = $('.nextBtn');

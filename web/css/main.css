@@ -98,3 +98,12 @@ body{
      background-repeat: no-repeat;
      background-size: cover;
  }
+
+.page-auth .center-block {
+     background-color: #ffffff;
+    transition: background-color 1s ease;
+ }
+
+.page-auth .center-block:hover {
+    background-color: #f1f1f1;
+}
