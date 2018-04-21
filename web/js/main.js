@@ -166,23 +166,26 @@ $('#gritter-image').click(function () {
 $(document).ready(function () {
 
     let video_intro = document.querySelector('.video-intro');
-    let play = false
-    video_intro.addEventListener("playing", function () {
-        play = true
-    }, true);
-    video_intro.addEventListener("pause", function () {
-        play = false
-    }, true);
-    video_intro.addEventListener('click', function (event) {
-        if (play) {
-            video_intro.pause()
-        } else {
-            video_intro.play()
-        }
-    });
-    setTimeout(function () {
-        video_intro.play();
-    }, 3000)
+
+    if (video_intro !== null) {
+        let play = false
+        video_intro.addEventListener("playing", function () {
+            play = true
+        }, true);
+        video_intro.addEventListener("pause", function () {
+            play = false
+        }, true);
+        video_intro.addEventListener('click', function (event) {
+            if (play) {
+                video_intro.pause()
+            } else {
+                video_intro.play()
+            }
+        });
+        setTimeout(function () {
+            video_intro.play();
+        }, 3000)
+    }
 
     var navListItems = $('div.setup-panel div a'),
         allWells = $('.setup-content'),
