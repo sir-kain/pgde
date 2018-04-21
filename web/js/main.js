@@ -142,13 +142,13 @@ $(document).on('change', '#pgde_emploibundle_userdata_boolhandicap, #pgde_emploi
 // );
 
 
-$('#gritter-image').click( function() {
+$('#gritter-image').click(function () {
     $.gritter.add({
         title: 'Jane Doe',
         text: 'Online',
         image: 'assets/img/user3.png',
         time: 2000,
-        after_close: function() {
+        after_close: function () {
             $.gritter.add({
                 title: 'Jordan Smith',
                 text: 'Offline',
@@ -156,7 +156,7 @@ $('#gritter-image').click( function() {
                 time: 2000
             });
 
-            if( $('#gritter-sound-switch').is(':checked') ) {
+            if ($('#gritter-sound-switch').is(':checked')) {
                 offlineSound.play();
             }
         }
@@ -165,9 +165,24 @@ $('#gritter-image').click( function() {
 
 $(document).ready(function () {
 
-    // setTimeout(function () {
-    //     document.querySelector('video').play();
-    // }, 3000)
+    let video_intro = document.querySelector('.video-intro');
+    let play = false
+    video_intro.addEventListener("playing", function () {
+        play = true
+    }, true);
+    video_intro.addEventListener("pause", function () {
+        play = false
+    }, true);
+    video_intro.addEventListener('click', function (event) {
+        if (play) {
+            video_intro.pause()
+        } else {
+            video_intro.play()
+        }
+    });
+    setTimeout(function () {
+        video_intro.play();
+    }, 3000)
 
     var navListItems = $('div.setup-panel div a'),
         allWells = $('.setup-content'),
@@ -210,8 +225,6 @@ $(document).ready(function () {
     $('div.setup-panel div a.btn-success').trigger('click');
 
 
-
-
 //    Ajax pour les messages flash
 
     let elementSectionForGitterAfterRessetingPassword = $('#gritterimage');
@@ -222,8 +235,8 @@ $(document).ready(function () {
     $.ajax({
         url: urlpath,
         success: function () {
-            if (elementSectionForGitterAfterRessetingPassword.hasClass('gritter')){
-                $.extend( $.gritter.options, {
+            if (elementSectionForGitterAfterRessetingPassword.hasClass('gritter')) {
+                $.extend($.gritter.options, {
                     position: 'top-left'
                 });
                 $.gritter.add({
@@ -245,7 +258,7 @@ $(document).ready(function () {
     $.ajax({
         url: urlpathLogout,
         success: function () {
-            if (elementSectionForGitterLogout.hasClass('gritter')){
+            if (elementSectionForGitterLogout.hasClass('gritter')) {
                 $.gritter.add({
                     title: usernameLogout,
                     text: messageLogout,
@@ -264,7 +277,7 @@ $(document).ready(function () {
     $.ajax({
         url: urlpathLogin,
         success: function () {
-            if (elementSectionForGitterLogin.hasClass('gritter')){
+            if (elementSectionForGitterLogin.hasClass('gritter')) {
                 $.gritter.add({
                     title: usernameLogin,
                     text: messageLogin,
