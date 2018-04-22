@@ -292,5 +292,16 @@ $(document).ready(function () {
     });
 
 
+//    Mask de champs du formulaire
+    $('#pgde_emploibundle_userdata_utilisateur_numberid').mask('9-999-9999-99999', {placeholder: ""})
+    $('#fos_user_registration_form_numberid').mask('9-999-9999-99999', {placeholder: ""})
+    $('#pgde_emploibundle_userdata_telephone1').mask('99-999-99-99', {placeholder: ""})
+
+
+//    datepicker
+    let dtp = $('#pgde_emploibundle_userdata_datenaiss').datepicker()
+        .on('changeDate', function (e) {
+            dtp.datepicker('hide');
+        });
 });
 

@@ -38,9 +38,9 @@ class UserdataType extends AbstractType
                 'required' => false,
                 'placeholder' => 'Choisir le niveau de formation'
             ])
-            ->add('datenaiss', DateType::class, array(
+            ->add('datenaiss', TextType::class, array(
                 'label' => 'Date de naissance: ',
-                'required' => false
+                'required' => true
             ))
             ->add('lieunaiss', TextType::class, [
                 'label' => 'Lieu de naissance: ',
@@ -58,7 +58,7 @@ class UserdataType extends AbstractType
             ->add('situationmatrimoniale', ChoiceType::class, array(
                 'label' => 'Situation matrimoniale: ',
                 'choices' => array(
-                    'Choisissez le groupe sanguin' => null,
+                    'Situation matrimoniale: ' => null,
                     'Célibataire' => 'Celibataire',
                     'Marié(e)' => 'Marie',
                     'Divorcé(e)' => 'Divorce',
