@@ -36,7 +36,10 @@ class UserdataType extends AbstractType
                 'class' => 'Pgde\EmploiBundle\Entity\Academic',
 //                'choice_label' => 'libelle',
                 'required' => false,
-                'placeholder' => 'Choisir le niveau de formation'
+                'placeholder' => 'Choisir le niveau de formation',
+                'attr' =>   [
+                    'class' => 'select2'
+                ]
             ])
             ->add('datenaiss', TextType::class, array(
                 'label' => 'Date de naissance: ',
@@ -63,7 +66,10 @@ class UserdataType extends AbstractType
                     'Marié(e)' => 'Marie',
                     'Divorcé(e)' => 'Divorce',
                     'Veuf(ve)' => 'Veuf'),
-                'required' => false
+                'required' => false,
+                'attr' =>   [
+                    'class' => 'select2'
+                ]
             ))
             ->add('telephone1', TextType::class, [
                 'required' => true,
@@ -75,7 +81,8 @@ class UserdataType extends AbstractType
             ])
             ->add('nombreenfant', NumberType::class, [
                 'label' => 'Nombre d\'enfants: ',
-                'required' => false
+                'required' => false,
+                'data'  =>  0
             ])
             ->add('diplome', TextType::class, [
                 'required' => false,
@@ -93,17 +100,19 @@ class UserdataType extends AbstractType
                 'label' => 'Lettre de motivation: ',
                 'required' => false
             ])
-            ->add('anneediplome', DateType::class, [
+            ->add('anneediplome', TextType::class, [
                 'required' => false,
                 'label' => 'Année du diplôme: '
             ])
             ->add('anneeexperience1', NumberType::class, [
                 'label' => 'Nombre d\'années d\'expérience sur l\'emploi sollicité: ',
-                'required' => false
+                'required' => false,
+                'data'  =>  0
             ])
             ->add('anneeexperience2', NumberType::class, [
                 'label' => 'Nombre d\'années d\'expérience sur l\'emploi sollicité: ',
-                'required' => false
+                'required' => false,
+                'data'  =>  0
             ])
             ->add('specialite', TextType::class, [
                 'required' => false,
@@ -118,16 +127,22 @@ class UserdataType extends AbstractType
                 'label' => 'Région de naissance',
                 'class' => 'Pgde\EmploiBundle\Entity\Region',
                 'choice_label' => 'libelle',
-                'required' => false,
-                'placeholder' => 'Choisir une région'
+                'required' => true,
+                'placeholder' => 'Choisir une région',
+                'attr' =>   [
+                    'class' => 'select2'
+                ]
             ])
             ->add('regionResidence', EntityType::class, [
                 'mapped' => false,
                 'label' => 'Région de Residence',
                 'class' => 'Pgde\EmploiBundle\Entity\Region',
                 'choice_label' => 'libelle',
-                'required' => false,
-                'placeholder' => 'Selectionner votre région de residence'
+                'required' => true,
+                'placeholder' => 'Selectionner votre région de residence',
+                'attr' =>   [
+                    'class' => 'select2'
+                ]
             ])
             ->add('secteur1', EntityType::class, [
                 'mapped' => false,
@@ -135,7 +150,10 @@ class UserdataType extends AbstractType
                 'class' => 'Pgde\EmploiBundle\Entity\Secteur',
                 'choice_label' => 'libelle',
                 'required' => false,
-                'placeholder' => 'Selectionner un secteur - Choix 1'
+                'placeholder' => 'Selectionner un secteur - Choix 1',
+                'attr' =>   [
+                    'class' => 'select2'
+                ]
             ])
             ->add('secteur2', EntityType::class, [
                 'mapped' => false,
@@ -143,7 +161,10 @@ class UserdataType extends AbstractType
                 'class' => 'Pgde\EmploiBundle\Entity\Secteur',
                 'choice_label' => 'libelle',
                 'required' => false,
-                'placeholder' => 'Selectionner un secteur - choix 2'
+                'placeholder' => 'Selectionner un secteur - choix 2',
+                'attr' =>   [
+                    'class' => 'select2'
+                ]
             ])
 //            ->add('boolhandicap', ChoiceType::class, [
 //                'label' => 'Souffrez-vous d\'un handicap? ',
@@ -325,7 +346,7 @@ class UserdataType extends AbstractType
             'class' => 'Pgde\EmploiBundle\Entity\Departement',
             'placeholder' => $placeholder,
             'choices' => $region ? $region->getDepartements() : [],
-            'required' => false
+            'required' => false,
         ]);
     }
 

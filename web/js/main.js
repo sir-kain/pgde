@@ -296,6 +296,7 @@ $(document).ready(function () {
     $('#pgde_emploibundle_userdata_utilisateur_numberid').mask('9-999-9999-99999', {placeholder: ""})
     $('#fos_user_registration_form_numberid').mask('9-999-9999-99999', {placeholder: ""})
     $('#pgde_emploibundle_userdata_telephone1').mask('99-999-99-99', {placeholder: ""})
+    $('#pgde_emploibundle_userdata_telephone2').mask('99-999-99-99', {placeholder: ""})
 
 
 //    datepicker
@@ -303,5 +304,30 @@ $(document).ready(function () {
         .on('changeDate', function (e) {
             dtp.datepicker('hide');
         });
+
+//    touchspin pour les champs de type number
+    $("#pgde_emploibundle_userdata_nombreenfant").TouchSpin();
+    $("#pgde_emploibundle_userdata_anneeexperience1").TouchSpin();
+    $("#pgde_emploibundle_userdata_anneeexperience2").TouchSpin();
+
+//    delete .form-group for all <select>
+    if ($('#s2id_pgde_emploibundle_userdata_situationmatrimoniale').hasClass('form-control')) {
+        $('#s2id_pgde_emploibundle_userdata_situationmatrimoniale').removeClass('form-control')
+    }
+    if ($('#s2id_pgde_emploibundle_userdata_regionNaiss').hasClass('form-control')) {
+        $('#s2id_pgde_emploibundle_userdata_regionNaiss').removeClass('form-control')
+    }
+    if ($('#s2id_pgde_emploibundle_userdata_regionResidence').hasClass('form-control')) {
+        $('#s2id_pgde_emploibundle_userdata_regionResidence').removeClass('form-control')
+    }
+    if ($('#s2id_pgde_emploibundle_userdata_academic').hasClass('form-control')) {
+        $('#s2id_pgde_emploibundle_userdata_academic').removeClass('form-control')
+    }
+    if ($('#s2id_pgde_emploibundle_userdata_secteur1').hasClass('form-control')) {
+        $('#s2id_pgde_emploibundle_userdata_secteur1').removeClass('form-control')
+    }
+    if ($('#s2id_pgde_emploibundle_userdata_secteur2').hasClass('form-control')) {
+        $('#s2id_pgde_emploibundle_userdata_secteur2').removeClass('form-control')
+    }
 });
 

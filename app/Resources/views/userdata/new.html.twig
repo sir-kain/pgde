@@ -60,8 +60,16 @@
                         <div class="row">
                             <div class="col-md-6">
                                 {{ form_row(form.utilisateur.numberid) }}
-                                {{ form_row(form.utilisateur.firstname) }}
-                                {{ form_row(form.utilisateur.lastname) }}
+                                {{ form_label(form.utilisateur.firstname) }}
+                                <div class="input-group form-group">
+                                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                    {{ form_widget(form.utilisateur.firstname) }}
+                                </div>
+                                {{ form_label(form.utilisateur.lastname) }}
+                                <div class="input-group form-group">
+                                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                    {{ form_widget(form.utilisateur.lastname) }}
+                                </div>
                                 {{ form_row(form.genre) }}
                             </div>
                             <div class="col-md-6">
@@ -69,7 +77,6 @@
                                 <div class="input-group form-group">
                                     <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                                     {{ form_widget(form.datenaiss) }}
-                                    {#<input type="text" id="datepicker" class="form-control">#}
                                 </div>
                                 {{ form_row(form.situationmatrimoniale) }}
                                 {{ form_row(form.nombreenfant) }}
@@ -79,7 +86,11 @@
                     <div class="col-md-4">
                         {{ form_row(form.regionNaiss) }}
                         {{ form_row(form.departementnaiss) }}
-                        {{ form_row(form.lieunaiss) }}
+                        {{ form_label(form.lieunaiss) }}
+                        <div class="input-group form-group">
+                            <span class="input-group-addon"><i class="fa fa-globe"></i></span>
+                            {{ form_widget(form.lieunaiss) }}
+                        </div>
                     </div>
                     <div class="col-md-4">
                         {#{{ form_row(form.boolhandicap) }}#}
@@ -102,12 +113,29 @@
                     <div class="col-sm-6">
                         {{ form_row(form.regionResidence) }}
                         {{ form_row(form.departementresidence) }}
-                        {{ form_row(form.lieuresidence) }}
+                        {{ form_label(form.lieuresidence) }}
+                        <div class="input-group form-group">
+                            <span class="input-group-addon"><i class="fa fa-globe"></i></span>
+                            {{ form_widget(form.lieuresidence) }}
+                        </div>
                     </div>
                     <div class="col-sm-6">
-                        {{ form_row(form.telephone1) }}
-                        {{ form_row(form.telephone2) }}
-                        {{ form_row(form.utilisateur.email) }}
+                        {{ form_label(form.utilisateur.email) }}
+                        <div class="input-group form-group">
+                            <span class="input-group-addon"><i class="fa fa-at"></i></span>
+                            {{ form_widget(form.utilisateur.email) }}
+                        </div>
+                        {{ form_label(form.telephone1) }}
+                        <div class="input-group form-group">
+                            <span class="input-group-addon"><i class="fa fa-mobile"></i></span>
+                            {{ form_widget(form.telephone1) }}
+                            {#<input type="text" id="datepicker" class="form-control">#}
+                        </div>
+                        {{ form_label(form.telephone2) }}
+                        <div class="input-group form-group">
+                            <span class="input-group-addon"><i class="fa fa-mobile"></i></span>
+                            {{ form_widget(form.telephone2) }}
+                        </div>
                     </div>
                 </div>
                 <button class="btn btn-primary nextBtn pull-right" type="button">Suivant</button>
@@ -122,13 +150,25 @@
                 <div class="row">
                     <div class="col-sm-6">
                         {{ form_row(form.specialite) }}
-                        {{ form_row(form.etablissementdiplome) }}
+                        {{ form_label(form.etablissementdiplome) }}
+                        <div class="input-group form-group">
+                            <span class="input-group-addon"><i class="fa fa-home"></i></span>
+                            {{ form_widget(form.etablissementdiplome) }}
+                        </div>
                         {{ form_row(form.autresdiplomes) }}
                     </div>
                     <div class="col-sm-6">
                         {{ form_row(form.academic) }}
-                        {{ form_row(form.diplome) }}
-                        {{ form_row(form.anneediplome) }}
+                        {{ form_label(form.diplome) }}
+                        <div class="input-group form-group">
+                            <span class="input-group-addon"><i class="fa fa-graduation-cap"></i></span>
+                            {{ form_widget(form.diplome) }}
+                        </div>
+                        {{ form_label(form.anneediplome) }}
+                        <div class="input-group form-group">
+                            <span class="input-group-addon"><i class="fa fa-tint"></i></span>
+                            {{ form_widget(form.anneediplome) }}
+                        </div>
                     </div>
                 </div>
                 <button class="btn btn-primary nextBtn pull-right" type="button">Suivant</button>
