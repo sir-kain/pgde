@@ -300,10 +300,10 @@ $(document).ready(function () {
 
 
 //    datepicker
-    let dtp = $('#pgde_emploibundle_userdata_datenaiss').datepicker()
-        .on('changeDate', function (e) {
-            dtp.datepicker('hide');
-        });
+//     let dtp = $('#pgde_emploibundle_userdata_datenaiss').datepicker()
+//         .on('changeDate', function (e) {
+//             dtp.datepicker('hide');
+//         });
 
 //    touchspin pour les champs de type number
     $("#pgde_emploibundle_userdata_nombreenfant").TouchSpin();
