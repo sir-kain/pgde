@@ -41,7 +41,7 @@ class UserdataType extends AbstractType
                     'class' => 'select2'
                 ]
             ])
-            ->add('datenaiss', TextType::class, array(
+            ->add('datenaiss', DateType::class, array(
                 'label' => 'Date de naissance: ',
                 'required' => true
             ))

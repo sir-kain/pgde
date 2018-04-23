@@ -217,7 +217,7 @@ class Userdata
      */
     public function setDatenaiss($datenaiss = null)
     {
-        $this->datenaiss = new \DateTime($datenaiss);
+        $this->datenaiss = $datenaiss;
 
         return $this;
     }
