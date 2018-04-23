@@ -73,11 +73,11 @@
                                 {{ form_row(form.genre) }}
                             </div>
                             <div class="col-md-6">
-                                {{ form_label(form.datenaiss) }}
-                                <div class="input-group form-group">
-                                    <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-                                    {{ form_widget(form.datenaiss) }}
-                                </div>
+                                {{ form_row(form.datenaiss) }}
+                                {#<div class="input-group form-group">#}
+                                    {#<span class="input-group-addon"><i class="fa fa-calendar"></i></span>#}
+                                    {#{{ form_widget(form.datenaiss)| date('d/m/Y') }}#}
+                                {#</div>#}
                                 {{ form_row(form.situationmatrimoniale) }}
                                 {{ form_row(form.nombreenfant) }}
                             </div>
