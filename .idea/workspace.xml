@@ -2,6 +2,101 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4082b11d-0932-41f0-b7ad-a74075f757a9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/fonts/BLOKKNeue-Regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/fonts/BLOKKNeue-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/fonts/BLOKKNeue-Regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/alert_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/icon-highres.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/touch-icon-ipad-pro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/touch-icon-ipad-retina.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/touch-icon-iphone-6-plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/touch-icon-iphone-retina.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/logo-light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/pattern_math.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/pattern_math2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/pattern_wavegrid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/plugin-preview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/rb01close-color.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/rb01close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/video-preview-source.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/viewmore.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/grab.cur" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/grab.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/grabbing.cur" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/grabbing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-nav-dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-playpause.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-video-play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/pattern-dot-dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/pattern-dot-light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/PGDE.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/page2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/text.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/css/prettify.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/css/ruby00.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/css/ruby01.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/css/rubybox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/css/rubygrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/css/styles.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/fonts/BLOKKNeue-Regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/logo-light.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/scripts/jquery-last.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/scripts/jquery.mousewheel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/scripts/modernizr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/scripts/prettify.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/scripts/ruby01-old.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/scripts/ruby01.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/scripts/rubybox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-nav-dark.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-nav.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-playpause.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-video-play.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-apimore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-apiremote.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-caption.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-classadd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-deeplinking.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-display.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-fullscreen.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-fxcss.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-fxmath.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-iframe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-navigation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-nested.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-pagination.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-responsive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-slideshow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-swipe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-timer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-videoiframe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module.cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/rubytabs-core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/rubyanimate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/rubytabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/rubytabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/source - no minify/rubyanimate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/source - no minify/rubytabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/source - no minify/rubytabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/page2 (1).svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/userdata/new.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/userdata/new.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Utilisateur.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Utilisateur.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UserdataType.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UserdataType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/demande.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/demande.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/alert_message.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/alert_message.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/main.css" afterPath="$PROJECT_DIR$/web/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/main.css" afterPath="$PROJECT_DIR$/web/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/main.js" afterPath="$PROJECT_DIR$/web/js/main.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,47 +130,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserdataType.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UserdataType.php">
+      <file leaf-file-name="security.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+            <state relative-caret-position="128">
+              <caret line="4" column="63" lean-forward="false" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
               <folding>
-                <element signature="e#6780#6836#0#PHP" expanded="false" />
-                <element signature="e#7160#7218#0#PHP" expanded="false" />
+                <element signature="e#290#314#0#HTML" expanded="true" />
+                <element signature="e#350#371#0#HTML" expanded="true" />
+                <element signature="e#485#542#0#HTML" expanded="true" />
+                <element signature="e#976#1000#0#HTML" expanded="true" />
+                <element signature="e#3472#3493#0#HTML" expanded="true" />
+                <element signature="e#3594#3615#0#HTML" expanded="true" />
+                <element signature="e#3716#3737#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistrationType.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/RegistrationType.php">
+      <file leaf-file-name="alert_message.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/alert_message.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="0">
+              <caret line="0" column="59" lean-forward="false" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/userdata/new.html.twig">
+      <file leaf-file-name="demande.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/demande.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="76" column="32" lean-forward="false" selection-start-line="76" selection-start-column="34" selection-end-line="79" selection-end-column="40" />
+            <state relative-caret-position="-256">
+              <caret line="13" column="77" lean-forward="false" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
               <folding>
-                <element signature="e#105#824#0#Twig" expanded="false" />
+                <element signature="e#861#1039#0#HTML" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="login.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="96">
+              <caret line="3" column="77" lean-forward="false" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
+              <folding>
+                <element signature="e#12#47#0#Twig" expanded="true" />
+                <element signature="e#171#190#0#HTML" expanded="true" />
+                <element signature="e#206#229#0#HTML" expanded="true" />
+                <element signature="e#292#311#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,26 +188,16 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5216">
-              <caret line="17083" column="0" lean-forward="false" selection-start-line="17083" selection-start-column="0" selection-end-line="17083" selection-end-column="40" />
+            <state relative-caret-position="-11782">
+              <caret line="17043" column="29" lean-forward="false" selection-start-line="17043" selection-start-column="29" selection-end-line="17043" selection-end-column="29" />
               <folding>
-                <marker date="1524263775127" expanded="true" signature="30469:30501" ph="{...}" />
-                <marker date="1524263775127" expanded="true" signature="30525:30558" ph="{...}" />
-                <marker date="1524263775127" expanded="true" signature="30669:30701" ph="{...}" />
-                <marker date="1524263775127" expanded="true" signature="30725:30758" ph="{...}" />
-                <marker date="1524263775127" expanded="true" signature="34847:34879" ph="{...}" />
-                <marker date="1524263775127" expanded="true" signature="34903:34936" ph="{...}" />
+                <marker date="1524756933844" expanded="true" signature="30469:30501" ph="{...}" />
+                <marker date="1524756933844" expanded="true" signature="30525:30558" ph="{...}" />
+                <marker date="1524756933844" expanded="true" signature="30669:30701" ph="{...}" />
+                <marker date="1524756933844" expanded="true" signature="30725:30758" ph="{...}" />
+                <marker date="1524756933844" expanded="true" signature="34847:34879" ph="{...}" />
+                <marker date="1524756933844" expanded="true" signature="34903:34936" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="302" column="5" lean-forward="false" selection-start-line="302" selection-start-column="5" selection-end-line="305" selection-end-column="14" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -110,8 +205,8 @@
       <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="92" column="63" lean-forward="false" selection-start-line="92" selection-start-column="63" selection-end-line="92" selection-end-column="63" />
+            <state relative-caret-position="513">
+              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -121,15 +216,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>logi</find>
-      <find>slim</find>
-      <find>motiv</find>
-      <find>error</find>
-      <find>form1</find>
-      <find>parsl</find>
-      <find>.parsley</find>
-      <find>form_end</find>
-      <find>bool</find>
       <find>email</find>
       <find>utilisa</find>
       <find>log</find>
@@ -148,9 +234,18 @@
       <find>mask</find>
       <find>numberi</find>
       <find>nom</find>
-      <find>genre</find>
       <find>$datenaiss</find>
       <find>datenai</find>
+      <find>genre</find>
+      <find>genr</find>
+      <find>numb</find>
+      <find>ann</find>
+      <find>daten</find>
+      <find>revea</find>
+      <find>display: none;</find>
+      <find>vide</find>
+      <find>faceboo²</find>
+      <find>btn-auth-facebook</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,11 +254,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/assets/css/my-custom-styles.css" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Academic.php" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/CategorieHandicap.php" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/UserdataRepository.php" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/ChangePassword/change_password.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Resetting/request.html.twig" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Resetting/reset.html.twig" />
@@ -178,15 +268,12 @@
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/SecurityListener.php" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/check_email.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/register.html.twig" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/alert_message.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/big_menu.html.twig" />
         <option value="$PROJECT_DIR$/web/assets/js/king-components.js" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/PasswordResettingListener.php" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/app/config/services.yml" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/LoginListener.php" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/demande.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/LogoutListener.php" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/notifications_for_demande.html.twig" />
         <option value="$PROJECT_DIR$/Procfile" />
@@ -199,17 +286,25 @@
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/security_inbox_email.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/confirmcompte.email.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/password_resetting.email.twig" />
-        <option value="$PROJECT_DIR$/web/assets/css/main.css" />
         <option value="$PROJECT_DIR$/web/css/portrait.css" />
         <option value="$PROJECT_DIR$/web/css/paysage.css" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/RegistrationType.php" />
-        <option value="$PROJECT_DIR$/web/css/main.css" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Userdata.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/userdata/new.html.twig" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/demande.html.twig" />
+        <option value="$PROJECT_DIR$/web/assets/css/videojs-sublim-skin.css" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Utilisateur.php" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UserdataType.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/userdata/new.html.twig" />
+        <option value="$PROJECT_DIR$/web/assets/js/reveal.js" />
+        <option value="$PROJECT_DIR$/web/assets/css/reveal.css" />
         <option value="$PROJECT_DIR$/web/js/main.js" />
+        <option value="$PROJECT_DIR$/web/assets/css/reveal.custom.css" />
+        <option value="$PROJECT_DIR$/web/css/main.css" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig" />
+        <option value="$PROJECT_DIR$/web/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/alert_message.html.twig" />
       </list>
     </option>
   </component>
@@ -275,6 +370,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,19 +386,52 @@
             <path>
               <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
               <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
               <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EmploiBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EmploiBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EmploiBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EmploiBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,17 +440,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../cg" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/img" />
+      <recent name="$PROJECT_DIR$/web/assets/ruby" />
+      <recent name="$PROJECT_DIR$/web/assets/ruby/js" />
+      <recent name="$PROJECT_DIR$/web/assets/ruby/css" />
+      <recent name="$PROJECT_DIR$/web/video" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views" />
       <recent name="$PROJECT_DIR$/web/assets/img/header" />
       <recent name="$PROJECT_DIR$/web/assets/img" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web/img" />
-      <recent name="$PROJECT_DIR$/web/video" />
-      <recent name="$PROJECT_DIR$/web/assets/img/header" />
-      <recent name="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener" />
-      <recent name="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -368,12 +497,13 @@
       <workItem from="1524161594767" duration="16962000" />
       <workItem from="1524263473893" duration="6185000" />
       <workItem from="1524323825944" duration="3248000" />
-      <workItem from="1524401943811" duration="20743000" />
+      <workItem from="1524401943811" duration="41673000" />
+      <workItem from="1524675813286" duration="17526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="336066000" />
+    <option name="totallyTimeSpent" value="374522000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -388,7 +518,7 @@
     <frame x="197" y="64" width="1307" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21366164" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21366164" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7216174" sideWeight="0.50913423" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20492454" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -421,120 +551,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/LogoutListener.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="48" column="41" lean-forward="false" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/js/plugins/jquery-gritter/jquery.gritter.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177">
-          <caret line="0" column="2384" lean-forward="false" selection-start-line="0" selection-start-column="2383" selection-end-line="0" selection-end-column="2384" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="39" lean-forward="true" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="52" column="57" lean-forward="false" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/LoginListener.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/demande.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/notifications_for_demande.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/img/header/header.png" />
-    <entry file="file://$PROJECT_DIR$/web/assets/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="4" column="16051" lean-forward="true" selection-start-line="4" selection-start-column="16051" selection-end-line="4" selection-end-column="16051" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="48" column="66" lean-forward="false" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Collector/config.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/parameters_production.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -645,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/register.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/confirmcompte.txt.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -694,77 +703,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/4a00d4ed/aba105bb-a1ef-46db-a1a7-e70310f96ab5/pgde.utilisateur">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5216">
-          <caret line="17083" column="0" lean-forward="false" selection-start-line="17083" selection-start-column="0" selection-end-line="17083" selection-end-column="40" />
-          <folding>
-            <marker date="1524263775127" expanded="true" signature="30469:30501" ph="{...}" />
-            <marker date="1524263775127" expanded="true" signature="30525:30558" ph="{...}" />
-            <marker date="1524263775127" expanded="true" signature="30669:30701" ph="{...}" />
-            <marker date="1524263775127" expanded="true" signature="30725:30758" ph="{...}" />
-            <marker date="1524263775127" expanded="true" signature="34847:34879" ph="{...}" />
-            <marker date="1524263775127" expanded="true" signature="34903:34936" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="112" column="4" lean-forward="false" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="118" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <marker date="1524332032780" expanded="true" signature="1066:1502" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="92" column="63" lean-forward="false" selection-start-line="92" selection-start-column="63" selection-end-line="92" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Userdata.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
           <caret line="219" column="37" lean-forward="false" selection-start-line="219" selection-start-column="37" selection-end-line="219" selection-end-column="37" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/userdata/new.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="76" column="32" lean-forward="false" selection-start-line="76" selection-start-column="34" selection-end-line="79" selection-end-column="40" />
-          <folding>
-            <element signature="e#105#824#0#Twig" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -776,21 +719,248 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UserdataType.php">
+    <entry file="file://$PROJECT_DIR$/web/assets/css/videojs-sublim-skin.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
-          <folding>
-            <element signature="e#6780#6836#0#PHP" expanded="false" />
-            <element signature="e#7160#7218#0#PHP" expanded="false" />
-          </folding>
+        <state relative-caret-position="-4256">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/register.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Utilisateur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/reveal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="4450" column="30" lean-forward="false" selection-start-line="4450" selection-start-column="30" selection-end-line="4450" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/reveal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1088">
+          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="302" column="5" lean-forward="false" selection-start-line="302" selection-start-column="5" selection-end-line="305" selection-end-column="14" />
+        <state relative-caret-position="1167">
+          <caret line="331" column="0" lean-forward="false" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
+          <folding>
+            <element signature="e#6409#6937#0" expanded="false" />
+            <element signature="e#7125#7516#0" expanded="false" />
+            <element signature="e#7553#8284#0" expanded="false" />
+            <element signature="e#8822#9298#0" expanded="false" />
+            <element signature="e#9680#10053#0" expanded="false" />
+            <element signature="e#10424#10792#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/reveal.custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/ruby/js/rubyanimate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/ruby/js/ruby01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/ruby/css/rubytabs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/ruby/css/ruby00.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5568">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/ruby/libs/css/ruby00.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="8" column="381" lean-forward="false" selection-start-line="8" selection-start-column="371" selection-end-line="8" selection-end-column="381" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/ruby/libs/css/styles.custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-177">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/4a00d4ed/aba105bb-a1ef-46db-a1a7-e70310f96ab5/pgde.utilisateur">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/userdata/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="76" column="54" lean-forward="false" selection-start-line="76" selection-start-column="54" selection-end-line="76" selection-end-column="54" />
+          <folding>
+            <element signature="e#12#46#0#Twig" expanded="false" />
+            <element signature="e#109#828#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/4a00d4ed/aba105bb-a1ef-46db-a1a7-e70310f96ab5/pgde.userdata">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UserdataType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="44" column="39" lean-forward="false" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+          <folding>
+            <element signature="e#7106#7162#0#PHP" expanded="false" />
+            <element signature="e#7486#7544#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/page2 (1).svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="0" column="875" lean-forward="false" selection-start-line="0" selection-start-column="875" selection-end-line="0" selection-end-column="875" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="128" column="46" lean-forward="false" selection-start-line="128" selection-start-column="46" selection-end-line="128" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/my-custom-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3" column="77" lean-forward="false" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
+          <folding>
+            <element signature="e#12#47#0#Twig" expanded="true" />
+            <element signature="e#171#190#0#HTML" expanded="true" />
+            <element signature="e#206#229#0#HTML" expanded="true" />
+            <element signature="e#292#311#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11782">
+          <caret line="17043" column="29" lean-forward="false" selection-start-line="17043" selection-start-column="29" selection-end-line="17043" selection-end-column="29" />
+          <folding>
+            <marker date="1524756933844" expanded="true" signature="30469:30501" ph="{...}" />
+            <marker date="1524756933844" expanded="true" signature="30525:30558" ph="{...}" />
+            <marker date="1524756933844" expanded="true" signature="30669:30701" ph="{...}" />
+            <marker date="1524756933844" expanded="true" signature="30725:30758" ph="{...}" />
+            <marker date="1524756933844" expanded="true" signature="34847:34879" ph="{...}" />
+            <marker date="1524756933844" expanded="true" signature="34903:34936" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/demande.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="13" column="77" lean-forward="false" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+          <folding>
+            <element signature="e#861#1039#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" column="63" lean-forward="false" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          <folding>
+            <element signature="e#290#314#0#HTML" expanded="true" />
+            <element signature="e#350#371#0#HTML" expanded="true" />
+            <element signature="e#485#542#0#HTML" expanded="true" />
+            <element signature="e#976#1000#0#HTML" expanded="true" />
+            <element signature="e#3472#3493#0#HTML" expanded="true" />
+            <element signature="e#3594#3615#0#HTML" expanded="true" />
+            <element signature="e#3716#3737#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/alert_message.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="59" lean-forward="false" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="59" />
           <folding />
         </state>
       </provider>

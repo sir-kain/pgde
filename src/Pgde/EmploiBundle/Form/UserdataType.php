@@ -14,6 +14,7 @@ use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\Form\Extension\Core\Type\DateType;
 use Symfony\Component\Form\Extension\Core\Type\NumberType;
+use Symfony\Component\Form\Extension\Core\Type\RadioType;
 use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
@@ -53,10 +54,19 @@ class UserdataType extends AbstractType
                 'label' => 'Lieu de residence: ',
                 'required' => false
             ])
+
+//            ->add('sex', RadioType::class, [
+//                'label' => 'Genre: ',
+//                'mapped'    =>  false,
+//                'required' => true,
+//                'attr'  =>  [
+//                    'class' =>  'switch-radio-demo switch-small'
+//                ]
+//            ])
             ->add('genre', ChoiceType::class, array(
-                'choices' => array('Selectionner votre genre' => null, 'Masculin' => 'Masculin', 'Feminin' => 'Feminin'),
+                'choices' => array('Masculin' => 'Masculin', 'Feminin' => 'Feminin'),
                 'label' => 'Genre: ',
-                'required' => true
+                'required' => true,
             ))
             ->add('situationmatrimoniale', ChoiceType::class, array(
                 'label' => 'Situation matrimoniale: ',

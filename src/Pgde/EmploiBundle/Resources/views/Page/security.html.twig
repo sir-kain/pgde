@@ -6,28 +6,95 @@
         </div>
 
         <div class="inner-page" style="padding-top: 0px">
-            <div class="col-sm-4" style="padding: 1em;">
+            <div class="col-sm-4" style="padding: 3em;">
                 {% block link_inscription %} {% endblock %}
-                <div class="login-box center-block" style="margin: 0px; width: 100%">
+                <div class="login-box center-block" style="padding: 2; border: 0px; margin: 0px; width: 100%">
                     {% block fos_user_content %} {% endblock %}
                     <div class="links">
                         <p><a href="{{ path('fos_user_resetting_request') }}">J'ai oublié mon mot de passe</a></p>
-                        <p><a href="{{ path('fos_user_registration_register') }}">Créer un compte</a></p>
+                        {#<p><a href="{{ path('fos_user_registration_register') }}">Créer un compte</a></p>#}
                     </div>
                 </div>
             </div>
-            <div class="col-sm-8">
-                <video class="video-intro" poster="{{ asset('img/graduate.png') }}" muted loop height="473" width="600">
-                    <source src="{{ asset('video/pgde.mp4') }}" type="video/mp4">
-                    <p>
-                        Ton navigateur rencontre des problèmes pour lire la vidéo.
-                    </p>
-                    <script>
-                        var video = document.currentScript.parentElement;
-                        video.volume = 0.1;
-                    </script>
-                </video>
+            <div class="col-sm-8" style="margin-top: 30px">
+                <!-- TEMPLATE PREVIEW - begin
+  ======================================================================== -->
+                <div class="wrapper">
+                    <div class="container">
+
+                        <!-- TITLE HEADING - begin -->
+                        {#<div class="title-head">#}
+                        {#<div class="title-head-inner">#}
+                        {#<h1>CLASSIC 1 LAYOUT</h1>#}
+                        {#</div>#}
+                        {#</div>#}
+                        <!-- TITLE HEADING - end -->
+
+
+
+                        <!-- SLIDER PREVIEW - begin -->
+                        <style>
+                            .slider-preview .rt01pag {
+                                position: absolute;
+                                bottom: 0;
+                            }
+
+                            .slider-shadow img {
+                                display: block;
+                                width: 100%; height: auto;
+                            }
+                        </style>
+                        <style>
+                            .slider-preview .rt01control {
+                                left: 10px; top: 10px;
+                                right: auto;
+                            }
+                        </style>
+
+                        <div class="slider-preview rt01 rt01timer-arcTop"
+                             data-tabs='{
+                                {#"optionsPlus" : "slider",#}
+                                "fx"          : "line",
+                                "speed"       : 600,
+                                "width"       : 940,
+
+                                "isSlideshow" : true,
+                                "slideshow"   : { "delay": 3000, "timer": "arc" },
+                                "timerArc"    : { "stroke": "#cc0055" }
+                            }'>
+                        {#<div class="slider-preview rt01"#}
+                             {#data-tabs='{#}
+                                    {#"optionsPlus" : "slider",#}
+                                    {#"fx"          : "line",#}
+                                    {#"speed"       : 600,#}
+                                    {#"width"       : 940,#}
+                                    {#"pag"         : { "type": "bullet" },#}
+                                    {#"isNav"       : true#}
+                                {#}'>#}
+
+                            <a class="rt01imgback" style="height: 450px" href="{{ asset('img/PGDE.png') }}">vietnam 1</a>
+                            <a class="rt01imgback" style="height: 450px" href="{{ asset('img/text.png') }}">vietnam 2</a>
+                            <a class="rt01imgback" style="height: 450px" href="{{ asset('img/page2.png') }}">vietnam 3</a>
+                            {#<a class="rt01imgback" href="imgs/vietnam4.jpg">vietnam 4</a>#}
+                            {#<a class="rt01imgback" href="imgs/vietnam5.jpg">vietnam 5</a>#}
+                            {#<a class="rt01imgback" href="imgs/vietnam6.jpg">vietnam 6</a>#}
+
+                        </div>
+                        <!-- SLIDER PREVIEW - end -->
+
+
+
+                        <!-- SLIDER SHADOW -->
+                        <div class="slider-shadow">
+                            <img src="{{ asset('img/shadow.png') }}" alt="Slider Shadow">
+                        </div>
+
+                    </div>
+                </div>
+                <!-- TEMPLATE PREVIEW - end
+                ======================================================================== -->
             </div>
         </div>
     </div>
+
 {% endblock %}

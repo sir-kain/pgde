@@ -329,5 +329,6 @@ $(document).ready(function () {
     if ($('#s2id_pgde_emploibundle_userdata_secteur2').hasClass('form-control')) {
         $('#s2id_pgde_emploibundle_userdata_secteur2').removeClass('form-control')
     }
+
 });
 

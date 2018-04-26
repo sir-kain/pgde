@@ -87,15 +87,11 @@ body{
 
  .parallax {
      /* The image used */
-     background-image: url("../assets/img/header/header.PNG");
-
      /* Set a specific height */
      height: 500px;
 
      /* Create the parallax scrolling effect */
-     background-attachment: fixed;
-     background-position: center;
-     background-repeat: no-repeat;
+     background: url("../assets/img/header/header.PNG") no-repeat fixed center;
      background-size: cover;
  }
 
@@ -110,7 +106,7 @@ body{
 
 .page-auth .center-block:hover {
     background-color: #f1f1f1;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 .video-intro {
@@ -133,3 +129,16 @@ body{
     /*-webkit-filter: grayscale(100%); !* Safari 6.0 - 9.0 *!*/
     /*filter: grayscale(100%);*/
 /*}*/
+
+.panel-step{
+    padding: 40px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.panel-step:hover{
+    background-color: #f1f1f1;
+    opacity: 0.9;
+}

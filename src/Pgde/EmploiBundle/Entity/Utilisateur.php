@@ -48,7 +48,7 @@ class Utilisateur extends BaseUser
     protected $lastname;
 
     /**
-     * @ORM\Column(type="integer", unique=true)
+     * @ORM\Column(type="string", length=255, unique=true)
      *
      * @Assert\NotBlank(message="Merci de renseigner votre Numero de carte d'identité.", groups={"Registration", "Profile"})
      */

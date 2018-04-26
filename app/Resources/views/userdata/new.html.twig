@@ -1,6 +1,6 @@
 {% extends '@PgdeEmploi/Page/demande.html.twig' %}
 {% block body %}
-    <h1>Soumission demande</h1>
+    {#<h1>Soumission demande</h1>#}
 
     {% for login in app.session.flashBag.get('login') %}
         {% for class in app.session.flashBag.get('class') %}
@@ -51,39 +51,35 @@
             </div>
         {% endfor %}
         <div class="panel panel-default setup-content" id="step-1">
-            <div class="panel-heading text-center">
-                <h3 class="panel-title">Etat Civil</h3>
-            </div>
-            <div class="panel-body">
+            {#<div class="panel-heading text-center">#}
+            {#<h3 class="panel-title">Etat Civil</h3>#}
+            {#</div>#}
+            <div class="panel-body panel-step">
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="row">
-                            <div class="col-md-6">
-                                {{ form_row(form.utilisateur.numberid) }}
-                                {{ form_label(form.utilisateur.firstname) }}
-                                <div class="input-group form-group">
-                                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                    {{ form_widget(form.utilisateur.firstname) }}
-                                </div>
-                                {{ form_label(form.utilisateur.lastname) }}
-                                <div class="input-group form-group">
-                                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                    {{ form_widget(form.utilisateur.lastname) }}
-                                </div>
-                                {{ form_row(form.genre) }}
-                            </div>
-                            <div class="col-md-6">
-                                {{ form_row(form.datenaiss) }}
-                                {#<div class="input-group form-group">#}
-                                    {#<span class="input-group-addon"><i class="fa fa-calendar"></i></span>#}
-                                    {#{{ form_widget(form.datenaiss)| date('d/m/Y') }}#}
-                                {#</div>#}
-                                {{ form_row(form.situationmatrimoniale) }}
-                                {{ form_row(form.nombreenfant) }}
-                            </div>
+                    <div class="col-md-3">
+                        {{ form_row(form.utilisateur.numberid) }}
+                        {{ form_label(form.utilisateur.firstname) }}
+                        <div class="input-group form-group">
+                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                            {{ form_widget(form.utilisateur.firstname) }}
                         </div>
+                        {{ form_label(form.utilisateur.lastname) }}
+                        <div class="input-group form-group">
+                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                            {{ form_widget(form.utilisateur.lastname) }}
+                        </div>
+                        {{ form_row(form.genre) }}
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
+                        {#{{ form_row(form.datenaiss) }}#}
+                        <div class="input-group form-group">
+                        <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                        {{ form_widget(form.datenaiss)}}
+                        </div>
+                        {{ form_row(form.situationmatrimoniale) }}
+                        {{ form_row(form.nombreenfant) }}
+                    </div>
+                    <div class="col-md-3">
                         {{ form_row(form.regionNaiss) }}
                         {{ form_row(form.departementnaiss) }}
                         {{ form_label(form.lieunaiss) }}
@@ -92,23 +88,23 @@
                             {{ form_widget(form.lieunaiss) }}
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         {#{{ form_row(form.boolhandicap) }}#}
                         {#{{ form_row(form.handicapcategorie) }}#}
                         {#{{ form_row(form.handicap) }}#}
                     </div>
                 </div>
-                {#<div class="row">#}
-                <button class="btn btn-success nextBtn pull-right" type="button">Suivant</button>
-                {#</div>#}
+                <div class="row">
+                    <button class="btn btn-success nextBtn pull-right" type="button">Suivant</button>
+                </div>
             </div>
         </div>
 
         <div class="panel panel-primary setup-content" id="step-2">
-            <div class="panel-heading text-center">
-                <h3 class="panel-title">Coordonnées</h3>
-            </div>
-            <div class="panel-body">
+            {#<div class="panel-heading text-center">#}
+            {#<h3 class="panel-title">Coordonnées</h3>#}
+            {#</div>#}
+            <div class="panel-body panel-step">
                 <div class="row">
                     <div class="col-sm-6">
                         {{ form_row(form.regionResidence) }}
@@ -143,10 +139,10 @@
         </div>
 
         <div class="panel panel-primary setup-content" id="step-3">
-            <div class="panel-heading text-center">
-                <h3 class="panel-title">Formation</h3>
-            </div>
-            <div class="panel-body">
+            {#<div class="panel-heading text-center">#}
+            {#<h3 class="panel-title">Formation</h3>#}
+            {#</div>#}
+            <div class="panel-body panel-step">
                 <div class="row">
                     <div class="col-sm-6">
                         {{ form_row(form.specialite) }}
@@ -176,10 +172,10 @@
         </div>
 
         <div class="panel panel-primary setup-content" id="step-4">
-            <div class="panel-heading text-center">
-                <h3 class="panel-title">Emplois</h3>
-            </div>
-            <div class="panel-body">
+            {#<div class="panel-heading text-center">#}
+            {#<h3 class="panel-title">Emplois</h3>#}
+            {#</div>#}
+            <div class="panel-body panel-step">
                 <div class="row">
                     <div class="col-sm-3">
                         {{ form_row(form.secteur1) }}
