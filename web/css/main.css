@@ -1,42 +1,50 @@
 /*Form step*/
-body{
+body {
     background-color: #ffffff;
 }
+
 .stepwizard-step p {
     margin-top: 0px;
-    color:#666;
+    color: #666;
 }
+
 .stepwizard-row {
     display: table-row;
 }
+
 .stepwizard {
     display: table;
     width: 100%;
     position: relative;
 }
+
 .stepwizard-step button[disabled] {
     /*opacity: 1 !important;
     filter: alpha(opacity=100) !important;*/
 }
+
 .stepwizard .btn.disabled, .stepwizard .btn[disabled], .stepwizard fieldset[disabled] .btn {
-    opacity:1 !important;
-    color:#bbb;
+    opacity: 1 !important;
+    color: #bbb;
 }
+
 .stepwizard-row:before {
     top: 14px;
     bottom: 0;
     position: absolute;
-    content:" ";
+    content: " ";
     width: 100%;
     height: 1px;
     background-color: #ccc;
     z-index: 0;
 }
+
 .stepwizard-step {
     display: table-cell;
     text-align: center;
     position: relative;
 }
+
 .btn-circle {
     width: 30px;
     height: 30px;
@@ -47,11 +55,11 @@ body{
     border-radius: 15px;
 }
 
-
 .panel .panel-heading {
     background-color: #1e88f5;
     color: #ffffff;
 }
+
 .panel .panel-body {
     background-color: #ffffff;
 }
@@ -61,48 +69,55 @@ body{
     border-color: #ea8700;
     color: #ffffff;
 }
+
 .btn-default {
     /*background-color: #F2F2F2;*/
     /*border-color: #bfbfbf;*/
     color: #ffffff;
 }
+
 /*.btn .btn-body {*/
-    /*background-color: #ffffff;*/
+/*background-color: #ffffff;*/
 /*}*/
 
 .top-content ul.quick-access > li .quick-access-item.bg-color-blue {
-    background-color: #1e88f5; }
-.top-content ul.quick-access > li .quick-access-item.bg-color-orange {
-    background-color: #ff9900; }
+    background-color: #1e88f5;
+}
 
+.top-content ul.quick-access > li .quick-access-item.bg-color-orange {
+    background-color: #ff9900;
+}
 
 /*GRITTER BGCOLOR*/
 .gritter-item-wrapper > div {
-    background: #1e90ff; }
-
-.gritter-item .gritter-close {
-    content: "\f00d";
-    font-family: FontAwesome;
+    background: #1e90ff;
 }
 
- .parallax {
-     /* The image used */
-     /* Set a specific height */
-     height: 500px;
+.gritter-item .gritter-close {
+    /*content: "\f00d";*/
+    /*font-family: FontAwesome;*/
+    background: url("../assets/img/clear.png") no-repeat center;
+}
 
-     /* Create the parallax scrolling effect */
-     background: url("../assets/img/header/header.PNG") no-repeat fixed center;
-     background-size: cover;
- }
+.parallax {
+    position: relative;
+    /* The image used */
+    /* Set a specific height */
+    height:100px;
+    min-height: 100px;
+    /* Create the parallax scrolling effect */
+    background: url("../assets/img/header/header.PNG") no-repeat fixed center;
+    background-size: cover;
+}
 
 .page-auth .center-block {
-     background-color: #ffffff;
+    background-color: #ffffff;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -ms-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
- }
+}
 
 .page-auth .center-block:hover {
     background-color: #f1f1f1;
@@ -126,11 +141,11 @@ body{
 }
 
 /*.video-intro:hover {*/
-    /*-webkit-filter: grayscale(100%); !* Safari 6.0 - 9.0 *!*/
-    /*filter: grayscale(100%);*/
+/*-webkit-filter: grayscale(100%); !* Safari 6.0 - 9.0 *!*/
+/*filter: grayscale(100%);*/
 /*}*/
 
-.panel-step{
+.panel-step {
     padding: 40px;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
@@ -138,7 +153,8 @@ body{
     -o-transition: all 1s ease;
     transition: all 1s ease;
 }
-.panel-step:hover{
+
+.panel-step:hover {
     background-color: #f1f1f1;
     opacity: 0.9;
 }
