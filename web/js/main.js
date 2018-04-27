@@ -307,11 +307,17 @@ $(document).ready(function () {
 
 //    touchspin pour les champs de type number
     $("#pgde_emploibundle_userdata_nombreenfant").TouchSpin({
-        buttondown_class: 'btn btn-peimary-theme',
-        buttonup_class: 'btn btn-peimary-theme'
+        buttondown_class: 'btn btn-primary-theme',
+        buttonup_class: 'btn btn-primary-theme'
     });
-    $("#pgde_emploibundle_userdata_anneeexperience1").TouchSpin();
-    $("#pgde_emploibundle_userdata_anneeexperience2").TouchSpin();
+    $("#pgde_emploibundle_userdata_anneeexperience1").TouchSpin({
+        buttondown_class: 'btn btn-primary-theme',
+        buttonup_class: 'btn btn-primary-theme'
+    });
+    $("#pgde_emploibundle_userdata_anneeexperience2").TouchSpin({
+        buttondown_class: 'btn btn-primary-theme',
+        buttonup_class: 'btn btn-primary-theme'
+    });
 
 //    delete .form-group for all <select>
     if ($('#s2id_pgde_emploibundle_userdata_situationmatrimoniale').hasClass('form-control')) {

@@ -168,9 +168,8 @@ body {
     border:none;
 }
 
-.btn-peimary-theme {
-    background-color: #1e88f5;
+.btn-primary-theme {
+    /*background-color: #1e88f5;*/
     opacity: 0.7;
-    color: #ffffff;
-    font-size: 16px;
+    color: #666;
 }
