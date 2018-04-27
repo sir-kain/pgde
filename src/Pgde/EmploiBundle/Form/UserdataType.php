@@ -44,7 +44,9 @@ class UserdataType extends AbstractType
             ])
             ->add('datenaiss', DateType::class, array(
                 'label' => 'Date de naissance: ',
-                'required' => true
+                'required' => true,
+                'widget' => 'single_text',
+                'html5' => true,
             ))
             ->add('lieunaiss', TextType::class, [
                 'label' => 'Lieu de naissance: ',

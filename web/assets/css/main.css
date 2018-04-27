@@ -6404,48 +6404,48 @@ fieldset[disabled] .note-editor .btn {
   -webkit-box-shadow: none;
   box-shadow: none; }
 
-.note-editor .btn-default {
-  color: #333333;
-  background-color: #ffffff;
-  border-color: #cccccc; }
+/*.note-editor .btn-default {*/
+  /*color: #333333;*/
+  /*background-color: #ffffff;*/
+  /*border-color: #cccccc; }*/
 
-.note-editor .btn-default:hover, .note-editor .open .dropdown-toggle.btn-default, .open .note-editor .dropdown-toggle.btn-default,
-.note-editor .btn-default:focus,
-.note-editor .btn-default:active,
-.note-editor .btn-default.active,
-.open .dropdown-toggle.note-editor .btn-default {
-  color: #333333;
-  background-color: #ebebeb;
-  border-color: #adadad; }
+/*.note-editor .btn-default:hover, .note-editor .open .dropdown-toggle.btn-default, .open .note-editor .dropdown-toggle.btn-default,*/
+/*.note-editor .btn-default:focus,*/
+/*.note-editor .btn-default:active,*/
+/*.note-editor .btn-default.active,*/
+/*.open .dropdown-toggle.note-editor .btn-default {*/
+  /*color: #333333;*/
+  /*background-color: #ebebeb;*/
+  /*border-color: #adadad; }*/
 
-.note-editor .btn-default:active,
-.note-editor .btn-default.active,
-.open .dropdown-toggle.note-editor .btn-default {
-  background-image: none; }
+/*.note-editor .btn-default:active,*/
+/*.note-editor .btn-default.active,*/
+/*.open .dropdown-toggle.note-editor .btn-default {*/
+  /*background-image: none; }*/
 
-.note-editor .btn-default.disabled,
-.note-editor .btn-default[disabled],
-fieldset[disabled] .note-editor .btn-default,
-.note-editor .btn-default.disabled:hover,
-.note-editor .open .disabled.dropdown-toggle.btn-default,
-.open .note-editor .disabled.dropdown-toggle.btn-default,
-.note-editor .btn-default[disabled]:hover,
-.note-editor .open [disabled].dropdown-toggle.btn-default,
-.open .note-editor [disabled].dropdown-toggle.btn-default,
-fieldset[disabled] .note-editor .btn-default:hover,
-fieldset[disabled] .note-editor .open .dropdown-toggle.btn-default,
-.open fieldset[disabled] .note-editor .dropdown-toggle.btn-default,
-.note-editor .btn-default.disabled:focus,
-.note-editor .btn-default[disabled]:focus,
-fieldset[disabled] .note-editor .btn-default:focus,
-.note-editor .btn-default.disabled:active,
-.note-editor .btn-default[disabled]:active,
-fieldset[disabled] .note-editor .btn-default:active,
-.note-editor .btn-default.disabled.active,
-.note-editor .btn-default[disabled].active,
-fieldset[disabled] .note-editor .btn-default.active {
-  background-color: #ffffff;
-  border-color: #cccccc; }
+/*.note-editor .btn-default.disabled,*/
+/*.note-editor .btn-default[disabled],*/
+/*fieldset[disabled] .note-editor .btn-default,*/
+/*.note-editor .btn-default.disabled:hover,*/
+/*.note-editor .open .disabled.dropdown-toggle.btn-default,*/
+/*.open .note-editor .disabled.dropdown-toggle.btn-default,*/
+/*.note-editor .btn-default[disabled]:hover,*/
+/*.note-editor .open [disabled].dropdown-toggle.btn-default,*/
+/*.open .note-editor [disabled].dropdown-toggle.btn-default,*/
+/*fieldset[disabled] .note-editor .btn-default:hover,*/
+/*fieldset[disabled] .note-editor .open .dropdown-toggle.btn-default,*/
+/*.open fieldset[disabled] .note-editor .dropdown-toggle.btn-default,*/
+/*.note-editor .btn-default.disabled:focus,*/
+/*.note-editor .btn-default[disabled]:focus,*/
+/*fieldset[disabled] .note-editor .btn-default:focus,*/
+/*.note-editor .btn-default.disabled:active,*/
+/*.note-editor .btn-default[disabled]:active,*/
+/*fieldset[disabled] .note-editor .btn-default:active,*/
+/*.note-editor .btn-default.disabled.active,*/
+/*.note-editor .btn-default[disabled].active,*/
+/*fieldset[disabled] .note-editor .btn-default.active {*/
+  /*background-color: #ffffff;*/
+  /*border-color: #cccccc; }*/
 
 .note-editor .btn-primary {
   color: #ffffff;
@@ -13747,28 +13747,28 @@ fieldset {
   .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
     outline: none; }
 
-.btn-default {
-  color: #fff;
-  background-color: #626262;
-  border-color: #555555; }
-  .btn-default:hover, .open .dropdown-toggle.btn-default, .btn-default:focus, .btn-default:active, .btn-default.active {
-    color: #fff;
-    background-color: #494949;
-    border-color: #555555; }
-  .btn-default.disabled, .btn-default[disabled], .btn-default.disabled:hover, .open .disabled.dropdown-toggle.btn-default, .btn-default[disabled]:hover, .open [disabled].dropdown-toggle.btn-default, .btn-default.disabled:focus, .btn-default[disabled]:focus, .btn-default.disabled:active, .btn-default[disabled]:active, .btn-default.disabled.active, .btn-default[disabled].active {
-    background-color: #7c7c7c;
-    border-color: #555555; }
-  .btn-default .caret {
-    border-top-color: #fff; }
+/*.btn-default {*/
+  /*color: #fff;*/
+  /*background-color: #626262;*/
+  /*border-color: #555555; }*/
+  /*.btn-default:hover, .open .dropdown-toggle.btn-default, .btn-default:focus, .btn-default:active, .btn-default.active {*/
+    /*color: #fff;*/
+    /*background-color: #494949;*/
+    /*border-color: #555555; }*/
+  /*.btn-default.disabled, .btn-default[disabled], .btn-default.disabled:hover, .open .disabled.dropdown-toggle.btn-default, .btn-default[disabled]:hover, .open [disabled].dropdown-toggle.btn-default, .btn-default.disabled:focus, .btn-default[disabled]:focus, .btn-default.disabled:active, .btn-default[disabled]:active, .btn-default.disabled.active, .btn-default[disabled].active {*/
+    /*background-color: #7c7c7c;*/
+    /*border-color: #555555; }*/
+  /*.btn-default .caret {*/
+    /*border-top-color: #fff; }*/
 
-fieldset[disabled] .btn-default,
-fieldset[disabled] .btn-default:hover,
-fieldset[disabled] .open .dropdown-toggle.btn-default,
-.open fieldset[disabled] .dropdown-toggle.btn-default,
-fieldset[disabled] .btn-default:focus,
-fieldset[disabled] .btn-default:active,
-fieldset[disabled] .btn-default.active {
-  background-color: #7c7c7c; }
+/*fieldset[disabled] .btn-default,*/
+/*fieldset[disabled] .btn-default:hover,*/
+/*fieldset[disabled] .open .dropdown-toggle.btn-default,*/
+/*.open fieldset[disabled] .dropdown-toggle.btn-default,*/
+/*fieldset[disabled] .btn-default:focus,*/
+/*fieldset[disabled] .btn-default:active,*/
+/*fieldset[disabled] .btn-default.active {*/
+  /*background-color: #7c7c7c; }*/
 
 .btn-primary {
   background-color: #1D92AF;
@@ -15208,17 +15208,17 @@ input.ui-editRangeSlider-inputValue {
   border: none; }
 
 /* bootstrap markdown */
-.md-editor > textarea {
-  padding: 10px; }
-.md-editor .btn-default {
-  background-color: #fff;
-  color: #333;
-  border-color: #ccc; }
-  .md-editor .btn-default:hover, .md-editor .open .dropdown-toggle.btn-default, .open .md-editor .dropdown-toggle.btn-default, .md-editor .btn-default:focus {
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    background-color: #ebebeb; }
+/*.md-editor > textarea {*/
+  /*padding: 10px; }*/
+/*.md-editor .btn-default {*/
+  /*background-color: #fff;*/
+  /*color: #333;*/
+  /*border-color: #ccc; }*/
+  /*.md-editor .btn-default:hover, .md-editor .open .dropdown-toggle.btn-default, .open .md-editor .dropdown-toggle.btn-default, .md-editor .btn-default:focus {*/
+    /*-moz-box-shadow: none;*/
+    /*-webkit-box-shadow: none;*/
+    /*box-shadow: none;*/
+    /*background-color: #ebebeb; }*/
 
 /* google map */
 .google-map #map-canvas {
@@ -15612,16 +15612,16 @@ ul.ColVis_collection {
   border: 1px solid #E7A13D; }
 
 /* data export feature, datatable table tools extension */
-.DTTT.btn-group {
-  float: right;
-  margin-bottom: 1em; }
-  .DTTT.btn-group .btn {
-    position: relative; }
-    .DTTT.btn-group .btn.btn-default {
-      background-color: #fff;
-      border-color: #ccc; }
-      .DTTT.btn-group .btn.btn-default:hover, .DTTT.btn-group .open .btn.dropdown-toggle.btn-default, .open .DTTT.btn-group .btn.dropdown-toggle.btn-default, .DTTT.btn-group .btn.btn-default:focus {
-        background-color: #e6e6e6; }
+/*.DTTT.btn-group {*/
+  /*float: right;*/
+  /*margin-bottom: 1em; }*/
+  /*.DTTT.btn-group .btn {*/
+    /*position: relative; }*/
+    /*.DTTT.btn-group .btn.btn-default {*/
+      /*background-color: #fff;*/
+      /*border-color: #ccc; }*/
+      /*.DTTT.btn-group .btn.btn-default:hover, .DTTT.btn-group .open .btn.dropdown-toggle.btn-default, .open .DTTT.btn-group .btn.dropdown-toggle.btn-default, .DTTT.btn-group .btn.btn-default:focus {*/
+        /*background-color: #e6e6e6; }*/
 
 /* bootstrap table styles */
 .table-sorting thead th {

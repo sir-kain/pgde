@@ -306,7 +306,9 @@ $(document).ready(function () {
 //         });
 
 //    touchspin pour les champs de type number
-    $("#pgde_emploibundle_userdata_nombreenfant").TouchSpin();
+    $("#pgde_emploibundle_userdata_nombreenfant").TouchSpin({
+        buttondown_class: 'btn btn-default'
+    });
     $("#pgde_emploibundle_userdata_anneeexperience1").TouchSpin();
     $("#pgde_emploibundle_userdata_anneeexperience2").TouchSpin();
 

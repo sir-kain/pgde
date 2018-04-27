@@ -54,7 +54,7 @@
             {#<div class="panel-heading text-center">#}
             {#<h3 class="panel-title">Etat Civil</h3>#}
             {#</div>#}
-            <div class="panel-body panel-step">
+            <div class="panel-body panel-step" >
                 <div class="row">
                     <div class="col-md-3">
                         {{ form_row(form.utilisateur.numberid) }}
@@ -71,7 +71,7 @@
                         {{ form_row(form.genre) }}
                     </div>
                     <div class="col-md-3">
-                        {#{{ form_row(form.datenaiss) }}#}
+                        {{ form_label(form.datenaiss) }}
                         <div class="input-group form-group">
                         <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                         {{ form_widget(form.datenaiss)}}
@@ -145,13 +145,21 @@
             <div class="panel-body panel-step">
                 <div class="row">
                     <div class="col-sm-6">
-                        {{ form_row(form.specialite) }}
+                        {{ form_label(form.specialite) }}
+                        <div class="input-group form-group">
+                            <span class="input-group-addon"><i class="fa fa-check"></i></span>
+                            {{ form_widget(form.specialite) }}
+                        </div>
                         {{ form_label(form.etablissementdiplome) }}
                         <div class="input-group form-group">
                             <span class="input-group-addon"><i class="fa fa-home"></i></span>
                             {{ form_widget(form.etablissementdiplome) }}
                         </div>
-                        {{ form_row(form.autresdiplomes) }}
+                        {{ form_label(form.autresdiplomes) }}
+                        <div class="input-group form-group">
+                            <span class="input-group-addon"><i class="fa fa-plus"></i></span>
+                            {{ form_widget(form.autresdiplomes) }}
+                        </div>
                     </div>
                     <div class="col-sm-6">
                         {{ form_row(form.academic) }}
