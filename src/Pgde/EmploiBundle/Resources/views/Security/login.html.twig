@@ -48,7 +48,8 @@
                 <input type="checkbox" id="remember_me" name="_remember_me" value="on">
                 <span>{{ 'security.login.remember_me'|trans }}</span>
             </label>
-            <input class="btn btn-custom-primary btn-lg btn-block btn-auth" type="submit" id="_submit"
-                   name="_submit" value="{{ 'security.login.submit'|trans }}"/>
+            <button class="btn btn-custom-primary btn-lg btn-block btn-auth">
+                <i class="fa fa-check-circle"></i> {{ 'security.login.submit'|trans }}
+            </button>
         </form>
     {% endblock fos_user_content %}

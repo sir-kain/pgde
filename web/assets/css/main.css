@@ -17466,7 +17466,10 @@ ul.recent-file-list {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;
+  /*bottom: 0;*/
+  /*margin-left: 0px;*/
+  /*margin-right: 0px;*/
+  /*margin-bottom: 0px;*/
   padding: 10px;
   font-size: 0.9em;
   text-align: center; }
