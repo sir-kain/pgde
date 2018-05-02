@@ -364,7 +364,7 @@ $(document).ready(function () {
 //    style markdown
     let mklist = document.querySelectorAll('.md-header button');
     mklist.forEach(function (index) {
-        index.style.color = "gray";
+        if(index.title !== 'Preview') index.style.color = "gray";
     });
 });
 

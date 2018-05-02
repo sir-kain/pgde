@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4082b11d-0932-41f0-b7ad-a74075f757a9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/apple-touch-icon.png" afterPath="$PROJECT_DIR$/web/apple-touch-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/favicon.ico" afterPath="$PROJECT_DIR$/web/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/userdata/new.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/userdata/new.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/PasswordResettingListener.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/PasswordResettingListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UserdataType.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UserdataType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/demande.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/demande.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/notifications_for_demande.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/notifications_for_demande.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/main.js" afterPath="$PROJECT_DIR$/web/js/main.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="306" column="23" lean-forward="false" selection-start-line="306" selection-start-column="23" selection-end-line="306" selection-end-column="23" />
+            <state relative-caret-position="431">
+              <caret line="366" column="32" lean-forward="false" selection-start-line="366" selection-start-column="32" selection-end-line="366" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -65,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginListener.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginListener.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/LoginListener.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="143">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -78,7 +68,7 @@
       <file leaf-file-name="PasswordResettingListener.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/PasswordResettingListener.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
+            <state relative-caret-position="143">
               <caret line="109" column="10" lean-forward="false" selection-start-line="109" selection-start-column="10" selection-end-line="112" selection-end-column="40" />
               <folding />
             </state>
@@ -88,7 +78,7 @@
       <file leaf-file-name="notifications_for_demande.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/notifications_for_demande.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
+            <state relative-caret-position="431">
               <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
@@ -98,7 +88,7 @@
       <file leaf-file-name="new.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/userdata/new.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7552">
+            <state relative-caret-position="6816">
               <caret line="213" column="4" lean-forward="false" selection-start-line="213" selection-start-column="4" selection-end-line="213" selection-end-column="4" />
               <folding />
             </state>
@@ -118,8 +108,8 @@
       <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="71" column="56" lean-forward="true" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
+            <state relative-caret-position="143">
+              <caret line="71" column="56" lean-forward="false" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -211,13 +201,13 @@
         <option value="$PROJECT_DIR$/web/css/main.css" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/demande.html.twig" />
         <option value="$PROJECT_DIR$/web/assets/css/skins/bleu.css" />
-        <option value="$PROJECT_DIR$/web/js/main.js" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/userdata/new.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UserdataType.php" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/notifications_for_demande.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/PasswordResettingListener.php" />
+        <option value="$PROJECT_DIR$/web/js/main.js" />
       </list>
     </option>
   </component>
@@ -398,12 +388,12 @@
       <workItem from="1525103489773" duration="11084000" />
       <workItem from="1525257866584" duration="6038000" />
       <workItem from="1525265434730" duration="1025000" />
-      <workItem from="1525266640224" duration="5443000" />
+      <workItem from="1525266640224" duration="6587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="428065000" />
+    <option name="totallyTimeSpent" value="429209000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,7 +405,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="484" y="24" width="971" height="780" extended-state="6" />
+    <frame x="484" y="24" width="1313" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21581028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -677,14 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="306" column="23" lean-forward="false" selection-start-line="306" selection-start-column="23" selection-end-line="306" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="463">
@@ -727,7 +709,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/userdata/new.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7552">
+        <state relative-caret-position="6816">
           <caret line="213" column="4" lean-forward="false" selection-start-line="213" selection-start-column="4" selection-end-line="213" selection-end-column="4" />
           <folding />
         </state>
@@ -735,7 +717,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/notifications_for_demande.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
+        <state relative-caret-position="431">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
@@ -743,15 +725,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="71" column="56" lean-forward="true" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
+        <state relative-caret-position="143">
+          <caret line="71" column="56" lean-forward="false" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/PasswordResettingListener.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
+        <state relative-caret-position="143">
           <caret line="109" column="10" lean-forward="false" selection-start-line="109" selection-start-column="10" selection-end-line="112" selection-end-column="40" />
           <folding />
         </state>
@@ -760,7 +742,15 @@
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/LoginListener.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="366" column="32" lean-forward="false" selection-start-line="366" selection-start-column="32" selection-end-line="366" selection-end-column="32" />
           <folding />
         </state>
       </provider>
