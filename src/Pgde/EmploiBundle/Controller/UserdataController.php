@@ -67,6 +67,15 @@ class UserdataController extends Controller
             }
             $em->flush();
 
+            $urlavatar = $this->getDoctrine()
+                ->getRepository(Userdata::class)
+                ->get_gravatar($userdatum->getUtilisateur()->getEmail());
+            $this->get('session')->getFlashBag()->add('modifdemande', true);
+            $this->get('session')->getFlashBag()->add('message', 'Votre modification est bien prise en compte');
+            $this->get('session')->getFlashBag()->add('class', 'gritter');
+            $this->get('session')->getFlashBag()->add('urlavatar', $urlavatar);
+            $this->get('session')->getFlashBag()->add('username', $userdatum->getUtilisateur()->getUsername());
+
             return $this->redirectToRoute('userdata_new');
         }
 

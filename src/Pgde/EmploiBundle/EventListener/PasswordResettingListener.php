@@ -86,18 +86,18 @@ class PasswordResettingListener implements EventSubscriberInterface
 
     public function onRegisterConfirmedWithEmail(GetResponseUserEvent $event)
     {
-        $url = $this->router->generate('userdata_new');
-        $event->setResponse(new RedirectResponse($url));
-        $this->session->getFlashBag()
-            ->add('ACCOUNT_STATE', 'Bienvenue: Votre compte est maintenant actif!');
+//        $url = $this->router->generate('userdata_new');
+//        $event->setResponse(new RedirectResponse($url));
+//        $this->session->getFlashBag()
+//            ->add('ACCOUNT_STATE', 'Bienvenue: Votre compte est maintenant actif!');
     }
 
     public function onRegisterConfirmed(FilterUserResponseEvent $event)
     {
-        $url = $this->router->generate('userdata_new');
-        $event->setResponse(new RedirectResponse($url));
-        $this->session->getFlashBag()
-            ->add('ACCOUNT_STATE', 'Bienvenue: Votre compte est maintenant actif!!');
+//        $url = $this->router->generate('userdata_new');
+//        $event->setResponse(new RedirectResponse($url));
+//        $this->session->getFlashBag()
+//            ->add('ACCOUNT_STATE', 'Bienvenue: Votre compte est maintenant actif!!');
     }
 
 
@@ -107,9 +107,9 @@ class PasswordResettingListener implements EventSubscriberInterface
 
     public function onUserLogged(UserEvent $event)
     {
-        $this->session->getFlashBag()
-            ->add('ACCOUNT_STATE', 'Connexion reussie!');
-        $this->session->getFlashBag()
-            ->add('CLASS', 'gritter');
+//        $this->session->getFlashBag()
+//            ->add('ACCOUNT_STATE', 'Connexion reussie!');
+//        $this->session->getFlashBag()
+//            ->add('CLASS', 'gritter');
     }
 }

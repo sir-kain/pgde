@@ -185,12 +185,12 @@
             {#</div>#}
             <div class="panel-body panel-step">
                 <div class="row">
-                    <div class="col-sm-4 col-sm-offset-2">
+                    <div class="col-sm-5 col-sm-offset-1">
                         {{ form_row(form.secteur1) }}
                         {{ form_row(form.emploi1) }}
                         {{ form_row(form.anneeexperience1) }}
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-5">
                         {{ form_row(form.secteur2) }}
                         {{ form_row(form.emploi2) }}
                         {{ form_row(form.anneeexperience2) }}
@@ -211,4 +211,5 @@
         {{ form_end(form, {'render_rest': false}) }}
     </div>
     {#<input class="btn btn-primary" type="submit" value="Create"/>#}
+    
 {% endblock %}

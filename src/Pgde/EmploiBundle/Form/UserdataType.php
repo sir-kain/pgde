@@ -94,7 +94,6 @@ class UserdataType extends AbstractType
             ->add('nombreenfant', NumberType::class, [
                 'label' => 'Nombre d\'enfants: ',
                 'required' => false,
-                'data'  =>  0
             ])
             ->add('diplome', TextType::class, [
                 'required' => false,
@@ -129,12 +128,10 @@ class UserdataType extends AbstractType
             ->add('anneeexperience1', NumberType::class, [
                 'label' => 'Nombre d\'années d\'expérience sur l\'emploi sollicité: ',
                 'required' => false,
-                'data'  =>  0
             ])
             ->add('anneeexperience2', NumberType::class, [
                 'label' => 'Nombre d\'années d\'expérience sur l\'emploi sollicité: ',
                 'required' => false,
-                'data'  =>  0
             ])
             ->add('specialite', TextType::class, [
                 'required' => false,

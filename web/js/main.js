@@ -292,6 +292,27 @@ $(document).ready(function () {
     });
 
 
+//    modif demande
+    let elementSectionForGitterModifDemande = $('#gritter-modifdemande');
+    let messagemodifdemand = elementSectionForGitterModifDemande.attr('data-message');
+    let urlavatarmodifdemand = elementSectionForGitterModifDemande.attr('data-img');
+    let usernamemodifdemand = elementSectionForGitterModifDemande.attr('data-username');
+    let urlpathmodifdemand = elementSectionForGitterModifDemande.attr('data-urlpath');
+    $.ajax({
+        url: urlpathmodifdemand,
+        success: function () {
+            if (elementSectionForGitterModifDemande.hasClass('gritter')) {
+                $.gritter.add({
+                    title: usernamemodifdemand,
+                    text: messagemodifdemand,
+                    image: urlavatarmodifdemand,
+                    sticky: true,
+                });
+            }
+        }
+    });
+
+
 //    Mask de champs du formulaire
     $('#pgde_emploibundle_userdata_utilisateur_numberid').mask('9-999-9999-99999', {placeholder: ""})
     $('#fos_user_registration_form_numberid').mask('9-999-9999-99999', {placeholder: ""})
