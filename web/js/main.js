@@ -339,5 +339,11 @@ $(document).ready(function () {
         $('#s2id_pgde_emploibundle_userdata_secteur2').removeClass('form-control')
     }
 
+
+//    style markdown
+    let mklist = document.querySelectorAll('.md-header button');
+    mklist.forEach(function (index) {
+        index.style.color = "gray";
+    });
 });
 

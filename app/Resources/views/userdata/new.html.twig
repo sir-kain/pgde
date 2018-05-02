@@ -54,7 +54,7 @@
             {#<div class="panel-heading text-center">#}
             {#<h3 class="panel-title">Etat Civil</h3>#}
             {#</div>#}
-            <div class="panel-body panel-step" >
+            <div class="panel-body panel-step">
                 <div class="row">
                     <div class="col-md-3">
                         {{ form_row(form.utilisateur.numberid) }}
@@ -73,8 +73,8 @@
                     <div class="col-md-3">
                         {{ form_label(form.datenaiss) }}
                         <div class="input-group form-group">
-                        <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-                        {{ form_widget(form.datenaiss)}}
+                            <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                            {{ form_widget(form.datenaiss) }}
                         </div>
                         {{ form_row(form.situationmatrimoniale) }}
                         {{ form_row(form.nombreenfant) }}
@@ -185,18 +185,22 @@
             {#</div>#}
             <div class="panel-body panel-step">
                 <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-sm-4 col-sm-offset-2">
                         {{ form_row(form.secteur1) }}
                         {{ form_row(form.emploi1) }}
                         {{ form_row(form.anneeexperience1) }}
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-4">
                         {{ form_row(form.secteur2) }}
                         {{ form_row(form.emploi2) }}
                         {{ form_row(form.anneeexperience2) }}
                     </div>
-                    <div class="col-sm-6">
+                </div>
+                <div class="row">
+                    <div class="col-sm-5 col-sm-offset-1">
                         {{ form_row(form.motivation) }}
+                    </div>
+                    <div class="col-sm-5">
                         {{ form_row(form.experiences) }}
                     </div>
                 </div>

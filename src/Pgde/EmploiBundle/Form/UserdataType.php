@@ -106,11 +106,21 @@ class UserdataType extends AbstractType
             ])
             ->add('experiences', TextareaType::class, [
                 'label' => 'Expériences professionnelles / Commentaires: ',
-                'required' => false
+                'required' => false,
+                'attr' => [
+                    'data-provide'  =>  'markdown',
+                    'data-iconlibrary'  =>  'fa',
+                    'row'   =>  '5'
+                ]
             ])
             ->add('motivation', TextareaType::class, [
                 'label' => 'Lettre de motivation: ',
-                'required' => false
+                'required' => false,
+                'attr' => [
+                    'data-provide'  =>  'markdown',
+                    'data-iconlibrary'  =>  'fa',
+                    'row'   =>  '5'
+                ]
             ])
             ->add('anneediplome', TextType::class, [
                 'required' => false,
