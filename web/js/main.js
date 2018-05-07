@@ -360,6 +360,10 @@ $(document).ready(function () {
         $('#s2id_pgde_emploibundle_userdata_secteur2').removeClass('form-control')
     }
 
+    if ($('#s2id_pgde_emploibundle_userdata_handicap').hasClass('form-control')) {
+        $('#s2id_pgde_emploibundle_userdata_handicap').removeClass('form-control')
+    }
+
 
 //    style markdown
     let mklist = document.querySelectorAll('.md-header button');

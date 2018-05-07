@@ -2,7 +2,6 @@
 
 namespace Pgde\EmploiBundle\Form;
 
-use Pgde\EmploiBundle\Entity\CategorieHandicap;
 use Pgde\EmploiBundle\Entity\Departement;
 use Pgde\EmploiBundle\Entity\Emploi;
 use Pgde\EmploiBundle\Entity\Handicap;
@@ -35,10 +34,9 @@ class UserdataType extends AbstractType
             ->add('academic', EntityType::class, [
                 'label' => 'Niveau de formation: ',
                 'class' => 'Pgde\EmploiBundle\Entity\Academic',
-//                'choice_label' => 'libelle',
                 'required' => false,
                 'placeholder' => 'Choisir le niveau de formation',
-                'attr' =>   [
+                'attr' => [
                     'class' => 'select2'
                 ]
             ])
@@ -56,15 +54,6 @@ class UserdataType extends AbstractType
                 'label' => 'Lieu de residence: ',
                 'required' => false
             ])
-
-//            ->add('sex', RadioType::class, [
-//                'label' => 'Genre: ',
-//                'mapped'    =>  false,
-//                'required' => true,
-//                'attr'  =>  [
-//                    'class' =>  'switch-radio-demo switch-small'
-//                ]
-//            ])
             ->add('genre', ChoiceType::class, array(
                 'choices' => array('Masculin' => 'Masculin', 'Feminin' => 'Feminin'),
                 'label' => 'Genre: ',
@@ -79,7 +68,7 @@ class UserdataType extends AbstractType
                     'Divorcé(e)' => 'Divorce',
                     'Veuf(ve)' => 'Veuf'),
                 'required' => false,
-                'attr' =>   [
+                'attr' => [
                     'class' => 'select2'
                 ]
             ))
@@ -107,23 +96,20 @@ class UserdataType extends AbstractType
                 'label' => 'Expériences professionnelles / Commentaires: ',
                 'required' => false,
                 'attr' => [
-                    'data-provide'  =>  'markdown',
-                    'data-iconlibrary'  =>  'fa',
-                    'row'   =>  '5'
+                    'rows' => '7'
                 ]
             ])
             ->add('motivation', TextareaType::class, [
                 'label' => 'Lettre de motivation: ',
                 'required' => false,
+
                 'attr' => [
-                    'data-provide'  =>  'markdown',
-                    'data-iconlibrary'  =>  'fa',
-                    'row'   =>  '5'
+                    'rows' => '7'
                 ]
             ])
             ->add('anneediplome', TextType::class, [
                 'required' => false,
-                'label' => 'Année du diplôme: '
+                'label' => 'Année d\'obtention du diplôme: '
             ])
             ->add('anneeexperience1', NumberType::class, [
                 'label' => 'Nombre d\'années d\'expérience sur l\'emploi sollicité: ',
@@ -148,7 +134,7 @@ class UserdataType extends AbstractType
                 'choice_label' => 'libelle',
                 'required' => true,
                 'placeholder' => 'Choisir une région',
-                'attr' =>   [
+                'attr' => [
                     'class' => 'select2'
                 ]
             ])
@@ -159,7 +145,7 @@ class UserdataType extends AbstractType
                 'choice_label' => 'libelle',
                 'required' => true,
                 'placeholder' => 'Selectionner votre région de residence',
-                'attr' =>   [
+                'attr' => [
                     'class' => 'select2'
                 ]
             ])
@@ -170,7 +156,7 @@ class UserdataType extends AbstractType
                 'choice_label' => 'libelle',
                 'required' => false,
                 'placeholder' => 'Selectionner un secteur - Choix 1',
-                'attr' =>   [
+                'attr' => [
                     'class' => 'select2'
                 ]
             ])
@@ -181,21 +167,20 @@ class UserdataType extends AbstractType
                 'choice_label' => 'libelle',
                 'required' => false,
                 'placeholder' => 'Selectionner un secteur - choix 2',
-                'attr' =>   [
+                'attr' => [
                     'class' => 'select2'
                 ]
             ])
-//            ->add('boolhandicap', ChoiceType::class, [
-//                'label' => 'Souffrez-vous d\'un handicap? ',
-//                'mapped' => false,
-//                'choices' => [
-//                    'Non' => false,
-//                    'Oui' => true,
-//                ]
-//            ])
-//            ->add('utilisateur')
-//            ->add('handicap')
-        ;
+            ->add('handicap', EntityType::class, [
+                'class' => 'Pgde\EmploiBundle\Entity\Handicap',
+                'placeholder' => 'Selectionner votre handicap',
+                'label' => 'Handicap: ',
+                'choice_label' => 'libelle',
+                'required' => false,
+                'attr' => [
+                    'class' => 'select2'
+                ]
+            ]);;
 
 //        $builder->get('boolhandicap')->addEventListener(
 //            FormEvents::POST_SUBMIT,
@@ -230,7 +215,6 @@ class UserdataType extends AbstractType
 //                }
 //            }
 //        );
-
 
         $builder->get('regionNaiss')->addEventListener(
             FormEvents::POST_SUBMIT,
@@ -363,6 +347,7 @@ class UserdataType extends AbstractType
         }
         $form->add($name, EntityType::class, [
             'class' => 'Pgde\EmploiBundle\Entity\Departement',
+            'label' =>  'Departement de Residence',
             'placeholder' => $placeholder,
             'choices' => $region ? $region->getDepartements() : [],
             'required' => false,
@@ -388,41 +373,20 @@ class UserdataType extends AbstractType
         ]);
     }
 
-    private function addHandicapCategorieField(FormInterface $form, $addfield)
-    {
-        if ($addfield) {
-            $builder = $form->getConfig()->getFormFactory()->createNamedBuilder(
-                'handicapcategorie',
-                EntityType::class,
-                null,
-                [
-                    'class' => CategorieHandicap::class,
-                    'placeholder' => 'Sélectionnez le type de handicap',
-                    'mapped' => false,
-                    'required' => false,
-                    'auto_initialize' => false,
-                ]
-            );
-            $builder->addEventListener(
-                FormEvents::POST_SUBMIT,
-                function (FormEvent $event) {
-                    $form = $event->getForm();
-                    $this->addHandicapField($form->getParent(), $form->getData());
-                }
-            );
-            $form->add($builder->getForm());
-        }
-    }
-
-    private function addHandicapField(FormInterface $form, ?CategorieHandicap $categorieHandicap)
+    private function addHandicapField(FormInterface $form)
     {
         $form->add('handicap', EntityType::class, [
             'class' => 'Pgde\EmploiBundle\Entity\Handicap',
-            'placeholder' => 'Sélectionnez le Handicap',
+            'placeholder' => 'Selectionner votre handicap',
+            'label' => 'Handicap: ',
+            'choice_label' => 'libelle',
             'required' => false,
-            'choices' => $categorieHandicap ? $categorieHandicap->getHandicaps() : []
+            'attr' => [
+                'class' => 'select2'
+            ]
         ]);
     }
+
 
     /**
      * {@inheritdoc}

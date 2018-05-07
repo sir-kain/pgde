@@ -116,12 +116,14 @@ body {
     line-height: 100px;
 }
 
-.grid h2 {
+.grid h3 {
     /*   // position: absolute; <- remove !!!
       // float: right; <- remove !!! */
     display: inline-block;
     vertical-align: center;
     margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .grid img {

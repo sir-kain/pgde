@@ -53,7 +53,7 @@
         <div class="panel panel-default setup-content" id="step-1">
             <div class="panel-body panel-step">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         {{ form_row(form.utilisateur.numberid) }}
                         {{ form_label(form.utilisateur.firstname) }}
                         <div class="input-group form-group">
@@ -66,7 +66,7 @@
                             {{ form_widget(form.utilisateur.lastname) }}
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         {{ form_label(form.datenaiss) }}
                         <div class="input-group form-group">
                             <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
@@ -80,15 +80,11 @@
                             {{ form_widget(form.lieunaiss) }}
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         {{ form_row(form.genre) }}
                         {{ form_row(form.situationmatrimoniale) }}
                         {{ form_row(form.nombreenfant) }}
-                    </div>
-                    <div class="col-md-3">
-                        {#{{ form_row(form.boolhandicap) }}#}
-                        {#{{ form_row(form.handicapcategorie) }}#}
-                        {#{{ form_row(form.handicap) }}#}
+                        {{ form_row(form.handicap) }}
                     </div>
                 </div>
                 <div class="row">
@@ -133,12 +129,22 @@
         </div>
 
         <div class="panel panel-primary setup-content" id="step-3">
-            {#<div class="panel-heading text-center">#}
-            {#<h3 class="panel-title">Formation</h3>#}
-            {#</div>#}
             <div class="panel-body panel-step">
                 <div class="row">
                     <div class="col-sm-4 col-sm-offset-2">
+                        {{ form_row(form.academic) }}
+                        {{ form_label(form.diplome) }}
+                        <div class="input-group form-group">
+                            <span class="input-group-addon"><i class="fa fa-graduation-cap"></i></span>
+                            {{ form_widget(form.diplome) }}
+                        </div>
+                        {{ form_label(form.anneediplome) }}
+                        <div class="input-group form-group">
+                            <span class="input-group-addon"><i class="fa fa-tint"></i></span>
+                            {{ form_widget(form.anneediplome) }}
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
                         {{ form_label(form.specialite) }}
                         <div class="input-group form-group">
                             <span class="input-group-addon"><i class="fa fa-check"></i></span>
@@ -153,19 +159,6 @@
                         <div class="input-group form-group">
                             <span class="input-group-addon"><i class="fa fa-plus"></i></span>
                             {{ form_widget(form.autresdiplomes) }}
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        {{ form_row(form.academic) }}
-                        {{ form_label(form.diplome) }}
-                        <div class="input-group form-group">
-                            <span class="input-group-addon"><i class="fa fa-graduation-cap"></i></span>
-                            {{ form_widget(form.diplome) }}
-                        </div>
-                        {{ form_label(form.anneediplome) }}
-                        <div class="input-group form-group">
-                            <span class="input-group-addon"><i class="fa fa-tint"></i></span>
-                            {{ form_widget(form.anneediplome) }}
                         </div>
                     </div>
                 </div>
@@ -205,5 +198,5 @@
         {{ form_end(form, {'render_rest': false}) }}
     </div>
     {#<input class="btn btn-primary" type="submit" value="Create"/>#}
-    
+
 {% endblock %}
