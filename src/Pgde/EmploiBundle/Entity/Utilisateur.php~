@@ -48,7 +48,7 @@ class Utilisateur extends BaseUser
     protected $lastname;
 
     /**
-     * @ORM\Column(type="integer", unique=true)
+     * @ORM\Column(type="string", length=255, unique=true)
      *
      * @Assert\NotBlank(message="Merci de renseigner votre Numero de carte d'identité.", groups={"Registration", "Profile"})
      */
@@ -145,5 +145,29 @@ class Utilisateur extends BaseUser
     {
         parent::__construct();
         // your own logic
+    }
+
+    /**
+     * Set userdata.
+     *
+     * @param \Pgde\EmploiBundle\Entity\Userdata|null $userdata
+     *
+     * @return Utilisateur
+     */
+    public function setUserdata(\Pgde\EmploiBundle\Entity\Userdata $userdata = null)
+    {
+        $this->userdata = $userdata;
+
+        return $this;
+    }
+
+    /**
+     * Get userdata.
+     *
+     * @return \Pgde\EmploiBundle\Entity\Userdata|null
+     */
+    public function getUserdata()
+    {
+        return $this->userdata;
     }
 }

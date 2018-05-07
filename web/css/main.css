@@ -184,3 +184,16 @@ body {
     opacity: 0.7;
     color: #666;
 }
+
+/*big menu color*/
+
+.top-content ul.quick-access > li .quick-access-item.bg-color-green {
+    background-color: #008536; }
+.top-content ul.quick-access > li .quick-access-item.bg-color-yellow {
+    background-color: #e4d83c; }
+.top-content ul.quick-access > li .quick-access-item.bg-color-red {
+    background-color: #ff121f; }
+
+.requis {
+    color: #ff121f;
+}

@@ -76,7 +76,7 @@ class Userdata
     /**
      * @var int
      *
-     * @ORM\Column(name="nombreenfant", type="integer", nullable=true)
+     * @ORM\Column(name="nombreenfant", type="integer", nullable=true, options={"default" : 0})
      */
     private $nombreenfant;
 
@@ -118,14 +118,14 @@ class Userdata
     /**
      * @var int
      *
-     * @ORM\Column(name="anneeexperience1", type="integer", nullable=true)
+     * @ORM\Column(name="anneeexperience1", type="integer", nullable=true, options={"default" : 0})
      */
     private $anneeexperience1;
 
     /**
      * @var int
      *
-     * @ORM\Column(name="anneeexperience2", type="integer", nullable=true)
+     * @ORM\Column(name="anneeexperience2", type="integer", nullable=true, options={"default" : 0})
      */
     private $anneeexperience2;
 

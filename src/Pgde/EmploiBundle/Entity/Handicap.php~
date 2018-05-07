@@ -28,13 +28,6 @@ class Handicap
      */
     private $libelle;
 
-    /**
-     *
-     * @ORM\ManyToOne(targetEntity="Pgde\EmploiBundle\Entity\CategorieHandicap", inversedBy="handicaps")
-     * @ORM\JoinColumn(name="categorie_handicap_id", referencedColumnName="id")
-     */
-    private $categorie_handicap;
-
     public function __toString()
     {
         return $this->libelle;
@@ -48,5 +41,29 @@ class Handicap
     public function getId()
     {
         return $this->id;
+    }
+
+    /**
+     * Set libelle.
+     *
+     * @param string $libelle
+     *
+     * @return Handicap
+     */
+    public function setLibelle($libelle)
+    {
+        $this->libelle = $libelle;
+
+        return $this;
+    }
+
+    /**
+     * Get libelle.
+     *
+     * @return string
+     */
+    public function getLibelle()
+    {
+        return $this->libelle;
     }
 }

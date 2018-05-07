@@ -50,4 +50,52 @@ class Departement
     {
         return $this->id;
     }
+
+    /**
+     * Set libelle.
+     *
+     * @param string $libelle
+     *
+     * @return Departement
+     */
+    public function setLibelle($libelle)
+    {
+        $this->libelle = $libelle;
+
+        return $this;
+    }
+
+    /**
+     * Get libelle.
+     *
+     * @return string
+     */
+    public function getLibelle()
+    {
+        return $this->libelle;
+    }
+
+    /**
+     * Set region.
+     *
+     * @param \Pgde\EmploiBundle\Entity\Region|null $region
+     *
+     * @return Departement
+     */
+    public function setRegion(\Pgde\EmploiBundle\Entity\Region $region = null)
+    {
+        $this->region = $region;
+
+        return $this;
+    }
+
+    /**
+     * Get region.
+     *
+     * @return \Pgde\EmploiBundle\Entity\Region|null
+     */
+    public function getRegion()
+    {
+        return $this->region;
+    }
 }

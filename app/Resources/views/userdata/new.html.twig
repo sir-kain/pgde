@@ -54,35 +54,52 @@
             <div class="panel-body panel-step">
                 <div class="row">
                     <div class="col-md-4">
-                        {{ form_row(form.utilisateur.numberid) }}
-                        {{ form_label(form.utilisateur.firstname) }}
+                        {{ form_row(form.utilisateur.numberid, {'attr': {'readonly': 'true'}}) }}
+                        {{ form_label(form.utilisateur.firstname) }} <span class="requis">*</span>
                         <div class="input-group form-group">
                             <span class="input-group-addon"><i class="fa fa-user"></i></span>
                             {{ form_widget(form.utilisateur.firstname) }}
                         </div>
-                        {{ form_label(form.utilisateur.lastname) }}
+                        {{ form_label(form.utilisateur.lastname) }} <span class="requis">*</span>
                         <div class="input-group form-group">
                             <span class="input-group-addon"><i class="fa fa-user"></i></span>
                             {{ form_widget(form.utilisateur.lastname) }}
                         </div>
+                        {{ form_label(form.utilisateur.username) }}
+                        <div class="input-group form-group">
+                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                            {{ form_widget(form.utilisateur.username, {'attr': {'readonly': 'true'}}) }}
+                        </div>
                     </div>
                     <div class="col-md-4">
-                        {{ form_label(form.datenaiss) }}
+                        {{ form_label(form.datenaiss) }} <span class="requis">*</span>
                         <div class="input-group form-group">
                             <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                             {{ form_widget(form.datenaiss) }}
                         </div>
-                        {{ form_row(form.regionNaiss) }}
-                        {{ form_row(form.departementnaiss) }}
-                        {{ form_label(form.lieunaiss) }}
+                        <div class="form-group">
+                            {{ form_label(form.regionNaiss) }} <span class="requis">*</span>
+                            {{ form_widget(form.regionNaiss) }}
+                        </div>
+                        <div class="form-group">
+                            {{ form_label(form.departementnaiss) }} <span class="requis">*</span>
+                            {{ form_widget(form.departementnaiss) }}
+                        </div>
+                        {{ form_label(form.lieunaiss) }} <span class="requis">*</span>
                         <div class="input-group form-group">
                             <span class="input-group-addon"><i class="fa fa-globe"></i></span>
                             {{ form_widget(form.lieunaiss) }}
                         </div>
                     </div>
                     <div class="col-md-4">
-                        {{ form_row(form.genre) }}
-                        {{ form_row(form.situationmatrimoniale) }}
+                        <div class="form-group">
+                            {{ form_label(form.genre) }} <span class="requis">*</span>
+                            {{ form_widget(form.genre) }}
+                        </div>
+                        <div class="form-group">
+                            {{ form_label(form.situationmatrimoniale) }} <span class="requis">*</span>
+                            {{ form_widget(form.situationmatrimoniale) }}
+                        </div>
                         {{ form_row(form.nombreenfant) }}
                         {{ form_row(form.handicap) }}
                     </div>
@@ -97,21 +114,27 @@
             <div class="panel-body panel-step">
                 <div class="row">
                     <div class="col-sm-4 col-sm-offset-2">
-                        {{ form_row(form.regionResidence) }}
-                        {{ form_row(form.departementresidence) }}
-                        {{ form_label(form.lieuresidence) }}
+                        <div class="form-group">
+                            {{ form_label(form.regionResidence) }} <span class="requis">*</span>
+                            {{ form_widget(form.regionResidence) }}
+                        </div>
+                        <div class="form-group">
+                            {{ form_label(form.departementresidence) }} <span class="requis">*</span>
+                            {{ form_widget(form.departementresidence) }}
+                        </div>
+                        {{ form_label(form.lieuresidence) }} <span class="requis">*</span>
                         <div class="input-group form-group">
                             <span class="input-group-addon"><i class="fa fa-globe"></i></span>
                             {{ form_widget(form.lieuresidence) }}
                         </div>
                     </div>
                     <div class="col-sm-4">
-                        {{ form_label(form.utilisateur.email) }}
+                        {{ form_label(form.utilisateur.email) }} <span class="requis">*</span>
                         <div class="input-group form-group">
                             <span class="input-group-addon"><i class="fa fa-at"></i></span>
                             {{ form_widget(form.utilisateur.email) }}
                         </div>
-                        {{ form_label(form.telephone1) }}
+                        {{ form_label(form.telephone1) }} <span class="requis">*</span>
                         <div class="input-group form-group">
                             <span class="input-group-addon"><i class="fa fa-mobile"></i></span>
                             {{ form_widget(form.telephone1) }}
@@ -132,7 +155,10 @@
             <div class="panel-body panel-step">
                 <div class="row">
                     <div class="col-sm-4 col-sm-offset-2">
-                        {{ form_row(form.academic) }}
+                        <div class="form-group">
+                            {{ form_label(form.academic) }} <span class="requis">*</span>
+                            {{ form_widget(form.academic) }}
+                        </div>
                         {{ form_label(form.diplome) }}
                         <div class="input-group form-group">
                             <span class="input-group-addon"><i class="fa fa-graduation-cap"></i></span>
@@ -140,7 +166,7 @@
                         </div>
                         {{ form_label(form.anneediplome) }}
                         <div class="input-group form-group">
-                            <span class="input-group-addon"><i class="fa fa-tint"></i></span>
+                            <span class="input-group-addon "><i class="fa fa-calendar-o"></i></span>
                             {{ form_widget(form.anneediplome) }}
                         </div>
                     </div>
@@ -173,9 +199,18 @@
             <div class="panel-body panel-step">
                 <div class="row">
                     <div class="col-sm-5 col-sm-offset-1">
-                        {{ form_row(form.secteur1) }}
-                        {{ form_row(form.emploi1) }}
-                        {{ form_row(form.anneeexperience1) }}
+                        <div class="form-group">
+                            {{ form_label(form.secteur1) }} <span class="requis">*</span>
+                            {{ form_widget(form.secteur1) }}
+                        </div>
+                        <div class="form-group">
+                            {{ form_label(form.emploi1) }} <span class="requis">*</span>
+                            {{ form_widget(form.emploi1) }}
+                        </div>
+                        <div class="form-group">
+                            {{ form_label(form.anneeexperience1) }} <span class="requis">*</span>
+                            {{ form_widget(form.anneeexperience1) }}
+                        </div>
                     </div>
                     <div class="col-sm-5">
                         {{ form_row(form.secteur2) }}

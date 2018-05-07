@@ -49,4 +49,52 @@ class Emploi
     {
         return $this->id;
     }
+
+    /**
+     * Set libelle.
+     *
+     * @param string $libelle
+     *
+     * @return Emploi
+     */
+    public function setLibelle($libelle)
+    {
+        $this->libelle = $libelle;
+
+        return $this;
+    }
+
+    /**
+     * Get libelle.
+     *
+     * @return string
+     */
+    public function getLibelle()
+    {
+        return $this->libelle;
+    }
+
+    /**
+     * Set secteur.
+     *
+     * @param \Pgde\EmploiBundle\Entity\Secteur|null $secteur
+     *
+     * @return Emploi
+     */
+    public function setSecteur(\Pgde\EmploiBundle\Entity\Secteur $secteur = null)
+    {
+        $this->secteur = $secteur;
+
+        return $this;
+    }
+
+    /**
+     * Get secteur.
+     *
+     * @return \Pgde\EmploiBundle\Entity\Secteur|null
+     */
+    public function getSecteur()
+    {
+        return $this->secteur;
+    }
 }
