@@ -197,3 +197,8 @@ body {
 .requis {
     color: #ff121f;
 }
+
+.btn-success[disabled]:hover{
+    color:#fff;
+    background-color: #1e88f5;
+    border-color: #1e88f5}

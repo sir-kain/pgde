@@ -165,31 +165,10 @@ $('#gritter-image').click(function () {
 
 $(document).ready(function () {
 
-    let video_intro = document.querySelector('.video-intro');
-
-    if (video_intro !== null) {
-        let play = false
-        video_intro.addEventListener("playing", function () {
-            play = true
-        }, true);
-        video_intro.addEventListener("pause", function () {
-            play = false
-        }, true);
-        video_intro.addEventListener('click', function (event) {
-            if (play) {
-                video_intro.pause()
-            } else {
-                video_intro.play()
-            }
-        });
-        setTimeout(function () {
-            video_intro.play();
-        }, 3000)
-    }
-
     var navListItems = $('div.setup-panel div a'),
         allWells = $('.setup-content'),
         allNextBtn = $('.nextBtn');
+        allPrevBtn = $('.prevBtn');
 
     allWells.hide();
 
@@ -211,6 +190,24 @@ $(document).ready(function () {
         var curStep = $(this).closest(".setup-content"),
             curStepBtn = curStep.attr("id"),
             nextStepWizard = $('div.setup-panel div a[href="#' + curStepBtn + '"]').parent().next().children("a"),
+            curInputs = curStep.find("input[type='text'],input[type='url'], #pgde_emploibundle_userdata_genre"),
+            isValid = true;
+
+        $(".form-group").removeClass("has-error");
+        for (var i = 0; i < curInputs.length; i++) {
+            if (!curInputs[i].validity.valid) {
+                isValid = false;
+                $(curInputs[i]).closest(".form-group").addClass("has-error");
+            }
+        }
+
+        if (isValid) nextStepWizard.removeAttr('disabled').trigger('click');
+    });
+
+    allPrevBtn.click(function () {
+        var curStep = $(this).closest(".setup-content"),
+            curStepBtn = curStep.attr("id"),
+            nextStepWizard = $('div.setup-panel div a[href="#' + curStepBtn + '"]').parent().prev().children("a"),
             curInputs = curStep.find("input[type='text'],input[type='url'], #pgde_emploibundle_userdata_genre"),
             isValid = true;
 
