@@ -99,15 +99,38 @@ body {
     background: url("../assets/img/clear.png") no-repeat center;
 }
 
-.parallax {
-    position: relative;
-    /* The image used */
-    /* Set a specific height */
-    height:100px;
-    min-height: 100px;
-    /* Create the parallax scrolling effect */
-    background: url("../assets/img/header/header.PNG") no-repeat fixed center;
+.grid {
+    /* // position: relative; <- remove !!! */
+    display: block;
+
+    background: url("http://res.cloudinary.com/dpdwdstqt/image/upload/v1525458838/hearder.png")
+    no-repeat fixed center;
     background-size: cover;
+}
+
+.content {
+    display: block;
+    vertical-align: top;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 100px;
+}
+
+.grid h2 {
+    /*   // position: absolute; <- remove !!!
+      // float: right; <- remove !!! */
+    display: inline-block;
+    vertical-align: center;
+    margin: 0 auto;
+}
+
+.grid img {
+    /* // position: absolute; <- remove !!! */
+    /* float: left; */
+    display: inline-block;
+    vertical-align: bottom;
+    /* margin: 0 auto; */
+    padding: 20px;
 }
 
 .page-auth .center-block {
@@ -124,21 +147,7 @@ body {
     opacity: 0.9;
 }
 
-.video-intro {
-    /*border: 1px solid #ddd;*/
-    margin-top: 17px;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
-}
 
-@media screen and (max-width: 750px) {
-    .video-intro {
-        display: none;
-    }
-}
 
 /*.video-intro:hover {*/
 /*-webkit-filter: grayscale(100%); !* Safari 6.0 - 9.0 *!*/

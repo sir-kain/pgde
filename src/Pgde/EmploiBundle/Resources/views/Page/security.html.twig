@@ -6,93 +6,104 @@
         </div>
 
         <div class="inner-page" style="padding-top: 0px">
-            <div class="col-sm-4" style="padding: 3em;">
-                {% block link_inscription %} {% endblock %}
-                <div class="login-box center-block" style="padding: 2; border: 0px; margin: 0px; width: 100%">
-                    {% block fos_user_content %} {% endblock %}
-                    <div class="links">
-                        <p><a href="{{ path('fos_user_resetting_request') }}">J'ai oublié mon mot de passe</a></p>
-                        {#<p><a href="{{ path('fos_user_registration_register') }}">Créer un compte</a></p>#}
+
+            <div class="row">
+                <div class="col-sm-4" style="padding: 2em;">
+                    {% block link_inscription %} {% endblock %}
+                    <div class="login-box center-block" style="border: 0px; margin: 0px; width: 100%">
+                        {% block fos_user_content %} {% endblock %}
+                        <div class="links">
+                            <p><a href="{{ path('fos_user_resetting_request') }}">J'ai oublié mon mot de passe</a></p>
+                            {#<p><a href="{{ path('fos_user_registration_register') }}">Créer un compte</a></p>#}
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-8" style="margin-top: 30px">
-                <!-- TEMPLATE PREVIEW - begin
-                ======================================================================== -->
-                <div class="wrapper">
-                    <div class="container">
+                <div class="col-sm-8" style="margin-top: 30px">
+                    <!-- TEMPLATE PREVIEW - begin
+                    ======================================================================== -->
+                    <div class="wrapper">
+                        <div class="container">
 
-                        <!-- TITLE HEADING - begin -->
-                        {#<div class="title-head">#}
-                        {#<div class="title-head-inner">#}
-                        {#<h1>CLASSIC 1 LAYOUT</h1>#}
-                        {#</div>#}
-                        {#</div>#}
-                        <!-- TITLE HEADING - end -->
+                            <!-- TITLE HEADING - begin -->
+                            {#<div class="title-head">#}
+                            {#<div class="title-head-inner">#}
+                            {#<h1>CLASSIC 1 LAYOUT</h1>#}
+                            {#</div>#}
+                            {#</div>#}
+                            <!-- TITLE HEADING - end -->
 
 
-                        <!-- SLIDER PREVIEW - begin -->
-                        <style>
-                            .slider-preview .rt01pag {
-                                position: absolute;
-                                bottom: 0;
-                            }
+                            <!-- SLIDER PREVIEW - begin -->
+                            <style>
+                                .slider-preview .rt01pag {
+                                    position: absolute;
+                                    bottom: 0;
+                                }
 
-                            .slider-shadow img {
-                                display: block;
-                                width: 100%;
-                                height: auto;
-                            }
-                        </style>
-                        <style>
-                            .slider-preview .rt01control {
-                                left: 10px;
-                                top: 10px;
-                                right: auto;
-                            }
-                        </style>
+                                .slider-shadow img {
+                                    display: block;
+                                    width: 100%;
+                                    height: auto;
+                                }
+                            </style>
+                            <style>
+                                .slider-preview .rt01control {
+                                    left: 10px;
+                                    top: 10px;
+                                    right: auto;
+                                }
+                            </style>
 
-                        <div class="slider-preview rt01 rt01timer-arcTop"
-                             data-tabs='{
+                            <div class="slider-preview rt01 rt01timer-arcTop"
+                                 data-tabs='{
                                 {#"optionsPlus" : "slider",#}
                                 "fx"          : "line",
                                 "speed"       : 600,
                                 "width"       : 940,
 
-                                "isSlideshow" : true,
+                                "isSlideshow" : false,
                                 "slideshow"   : { "delay": 3000, "timer": "arc" },
                                 "timerArc"    : { "stroke": "#cc0055" }
                             }'>
-                            {#<div class="slider-preview rt01"#}
-                            {#data-tabs='{#}
-                            {#"optionsPlus" : "slider",#}
-                            {#"fx"          : "line",#}
-                            {#"speed"       : 600,#}
-                            {#"width"       : 940,#}
-                            {#"pag"         : { "type": "bullet" },#}
-                            {#"isNav"       : true#}
-                            {#}'>#}
+                                {#<div class="slider-preview rt01"#}
+                                {#data-tabs='{#}
+                                {#"optionsPlus" : "slider",#}
+                                {#"fx"          : "line",#}
+                                {#"speed"       : 600,#}
+                                {#"width"       : 940,#}
+                                {#"pag"         : { "type": "bullet" },#}
+                                {#"isNav"       : true#}
+                                {#}'>#}
 
-                            <a class="rt01imgback" href="{{ asset('img/bienvenue.svg') }}"></a>
-                            <a class="rt01imgback" href="{{ asset('img/messieurs.svg') }}"></a>
-                            <a class="rt01imgback" href="{{ asset('img/conditions.svg') }}"></a>
-                            {#<a class="rt01imgback" href="imgs/vietnam4.jpg">vietnam 4</a>#}
-                            {#<a class="rt01imgback" href="imgs/vietnam5.jpg">vietnam 5</a>#}
-                            {#<a class="rt01imgback" href="imgs/vietnam6.jpg">vietnam 6</a>#}
+                                <a class="rt01imgback" href="{{ asset('img/page2.svg') }}"></a>
+                                {#<a class="rt01imgback" href="{{ asset('img/messieurs.svg') }}"></a>#}
+                                {#<a class="rt01imgback" href="{{ asset('img/conditions.svg') }}"></a>#}
+                                {#<a class="rt01imgback" href="imgs/vietnam4.jpg">vietnam 4</a>#}
+                                {#<a class="rt01imgback" href="imgs/vietnam5.jpg">vietnam 5</a>#}
+                                {#<a class="rt01imgback" href="imgs/vietnam6.jpg">vietnam 6</a>#}
+
+                            </div>
+                            <!-- SLIDER PREVIEW - end -->
+
+
+                            <!-- SLIDER SHADOW -->
+                            <div class="slider-shadow">
+                                <img src="{{ asset('img/shadow.png') }}" alt="Slider Shadow">
+                            </div>
 
                         </div>
-                        <!-- SLIDER PREVIEW - end -->
-
-
-                        <!-- SLIDER SHADOW -->
-                        <div class="slider-shadow">
-                            <img src="{{ asset('img/shadow.png') }}" alt="Slider Shadow">
-                        </div>
-
                     </div>
+                    <!-- TEMPLATE PREVIEW - end
+                    ======================================================================== -->
                 </div>
-                <!-- TEMPLATE PREVIEW - end
-                ======================================================================== -->
+            </div>
+            <div class="row">
+                <!-- FOOTER -->
+                <footer class="footer">
+                    Copyright © 2017 Ministére de la Fonction Publique, de la Rationnalisation des Effectifs et du
+                    Renouveau du Service Public - Tous droits réservé
+                </footer>
+                <!-- END FOOTER -->
             </div>
         </div>
     </div>
