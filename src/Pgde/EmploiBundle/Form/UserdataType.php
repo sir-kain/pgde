@@ -58,6 +58,7 @@ class UserdataType extends AbstractType
                 'choices' => array('Masculin' => 'Masculin', 'Feminin' => 'Feminin'),
                 'label' => 'Genre: ',
                 'required' => true,
+//                'expanded' => true,
             ))
             ->add('situationmatrimoniale', ChoiceType::class, array(
                 'label' => 'Situation matrimoniale: ',

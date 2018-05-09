@@ -1,16 +1,26 @@
 {% extends "@PgdeEmploi/Page/security.html.twig" %}
 {% trans_default_domain 'FOSUserBundle' %}
     {% block fos_user_content %}
-        <form action="{{ path('fos_user_resetting_send_email') }}" method="POST" class="fos_user_resetting_request">
-            <div>
-                <label for="username">{{ 'resetting.request.username'|trans }}</label>
-                <input type="text" id="username" name="username" required="required" class="form-control"
-                placeholder="Email"/>
+        <div class="container">
+            <div class="row">
+                <img src="{{ asset('img/etape.svg') }}" alt="">
             </div>
-            <div>
-                <input class="btn btn-custom-primary btn-lg btn-block btn-auth" type="submit" value="{{ 'resetting.request.submit'|trans }}" />
+            <div class="row" style="padding: 20px;"></div>
+            <div class="row">
+                <form action="{{ path('fos_user_resetting_send_email') }}" method="POST"
+                      class="fos_user_resetting_request">
+                    <div>
+                        <label for="username">{{ 'resetting.request.username'|trans }}</label>
+                        <input type="text" id="username" name="username" required="required" class="form-control"
+                               placeholder="Email"/>
+                    </div>
+                    <div>
+                        <input class="btn btn-custom-primary btn-lg btn-block btn-auth" type="submit"
+                               value="{{ 'resetting.request.submit'|trans }}"/>
+                    </div>
+                </form>
             </div>
-        </form>
+        </div>
 
 
     {% endblock fos_user_content %}

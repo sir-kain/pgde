@@ -381,5 +381,58 @@ $(document).ready(function () {
             }
         });
     });
+
+
+    $('#repeatemail').on("cut copy paste",function(e) {
+        e.preventDefault();
+    });
+
+    $('#fos_user_registration_form_plainPassword_second').on("cut copy paste",function(e) {
+        e.preventDefault();
+    });
+
+//    controle repetition email
+    let registable = false;
+    $('#register_button').attr('disabled', true)
+    $('#repeatemail').focusout(function () {
+        let register_email = $('#fos_user_registration_form_email').val()
+        let register_emailrepeat = $('#repeatemail').val()
+        $('#matchemail').hide()
+        if(register_email.localeCompare(register_emailrepeat) === 0){
+            registable = true
+            console.log(registable)
+            $('#matchemail').empty()
+            $('#matchemail').fadeOut()
+            console.log('okk')
+            $('#register_button').attr('disabled', false)
+        }else {
+            registable = false
+            $('#matchemail').empty()
+            $('#matchemail').append('les deux emails doivent etre identiques')
+            $('#matchemail').fadeIn()
+            $('#register_button').attr('disabled', true)
+        }
+    })
+
+    $('#fos_user_registration_form_email').focusout(function () {
+        let register_email = $('#fos_user_registration_form_email').val()
+        let register_emailrepeat = $('#repeatemail').val()
+        $('#matchemail').hide()
+        if(register_email.localeCompare(register_emailrepeat) === 0){
+            registable = true
+            $('#matchemail').empty()
+            $('#matchemail').fadeOut()
+            console.log('okk')
+            $('#register_button').attr('disabled', false)
+        }else {
+            registable = false
+            $('#matchemail').empty()
+            $('#matchemail').append('les deux emails doivent être identiques')
+            $('#matchemail').fadeIn()
+            console.log('error')
+            $('#register_button').attr('disabled', true)
+        }
+    })
+
 });
 

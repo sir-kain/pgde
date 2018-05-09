@@ -4,18 +4,23 @@
 {% block fos_user_content %}
 
     {{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
-    <p class="title">Créer votre compte</p>
+    <p class="title">Créer votre compte <em style="font-size: 10px; color: red;">(Tous les champs sont obligatoires)</em></p>
+    <div class="col-sm-6">
+        {{ form_row(form.numberid) }}
+        {{ form_row(form.firstname) }}
+        {{ form_row(form.lastname) }}
+        {{ form_row(form.username) }}
+    </div>
     <div class="col-sm-6">
         {{ form_row(form.email) }}
-        {{ form_row(form.username) }}
+        <div class="form-group">
+            <label for="repeatemail"> Répéter votre email </label>
+            <input type="email" class="form-control" name="repeatemail" id="repeatemail">
+        </div>
+        <span id="matchemail" style="color: darkred;"></span>
         {{ form_row(form.plainPassword) }}
     </div>
-    <div class="col-sm-6">
-    {{ form_row(form.numberid) }}
-    {{ form_row(form.firstname) }}
-    {{ form_row(form.lastname) }}
-    </div>
-    <button class="btn btn-custom-primary btn-lg btn-block btn-auth">
+    <button class="btn btn-custom-primary btn-lg btn-block btn-auth" id="register_button">
         <i class="fa fa-check-circle"></i> {{ 'registration.submit'|trans }}
     </button>
     {{ form_end(form) }}

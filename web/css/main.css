@@ -50,7 +50,7 @@ body {
     height: 30px;
     text-align: center;
     padding: 6px 0;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.428571429;
     border-radius: 15px;
 }
@@ -104,8 +104,11 @@ body {
     display: block;
 
     background: url("http://res.cloudinary.com/dpdwdstqt/image/upload/v1525458838/hearder.png")
+    /*background: url("../img/description.svg")*/
     no-repeat fixed center;
     background-size: cover;
+    /*-webkit-filter: blur(5px);*/
+    /*filter: blur(5px);*/
 }
 
 .contentt {

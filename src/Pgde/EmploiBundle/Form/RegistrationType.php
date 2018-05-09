@@ -3,6 +3,8 @@
 namespace Pgde\EmploiBundle\Form;
 
 use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\Extension\Core\Type\EmailType;
+use Symfony\Component\Form\Extension\Core\Type\RepeatedType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
 
@@ -10,15 +12,17 @@ class RegistrationType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        $builder->add('numberid', TextType::class, [
-            'label' =>  'Numéro CIN:'
-        ]);
-        $builder->add('firstname', TextType::class, [
-            'label' =>  'Prénom: '
-        ]);
-        $builder->add('lastname', TextType::class, [
-            'label' =>  'Nom: '
-        ]);
+        $builder
+            ->add('numberid', TextType::class, [
+                'label' => 'Numéro CIN:'
+            ])
+            ->add('firstname', TextType::class, [
+                'label' => 'Prénom: '
+            ])
+            ->add('lastname', TextType::class, [
+                'label' => 'Nom: '
+            ])
+            ;
     }
 
     public function getParent()
