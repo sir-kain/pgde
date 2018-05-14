@@ -168,7 +168,7 @@ $(document).ready(function () {
     var navListItems = $('div.setup-panel div a'),
         allWells = $('.setup-content'),
         allNextBtn = $('.nextBtn');
-        allPrevBtn = $('.prevBtn');
+    allPrevBtn = $('.prevBtn');
 
     allWells.hide();
 
@@ -311,8 +311,8 @@ $(document).ready(function () {
 
 
 //    Mask de champs du formulaire
-    $('#pgde_emploibundle_userdata_utilisateur_numberid').mask('9-999-9999-99999', {placeholder: ""})
-    $('#fos_user_registration_form_numberid').mask('9-999-9999-99999', {placeholder: ""})
+//     $('#pgde_emploibundle_userdata_utilisateur_numberid').mask('9-999-9999-99999', {placeholder: ""})
+//     $('#fos_user_registration_form_numberid').mask('9-999-9999-99999', {placeholder: ""})
     $('#pgde_emploibundle_userdata_telephone1').mask('99-999-99-99', {placeholder: ""})
     $('#pgde_emploibundle_userdata_telephone2').mask('99-999-99-99', {placeholder: ""})
 
@@ -365,13 +365,13 @@ $(document).ready(function () {
 //    style markdown
     let mklist = document.querySelectorAll('.md-header button');
     mklist.forEach(function (index) {
-        if(index.title !== 'Preview') index.style.color = "gray";
+        if (index.title !== 'Preview') index.style.color = "gray";
     });
 
 
 //    compteur js
     $('.count').each(function () {
-        $(this).prop('Counter',0).animate({
+        $(this).prop('Counter', 0).animate({
             Counter: $(this).text()
         }, {
             duration: 3000,
@@ -383,11 +383,11 @@ $(document).ready(function () {
     });
 
 
-    $('#repeatemail').on("cut copy paste",function(e) {
+    $('#repeatemail').on("cut copy paste", function (e) {
         e.preventDefault();
     });
 
-    $('#fos_user_registration_form_plainPassword_second').on("cut copy paste",function(e) {
+    $('#fos_user_registration_form_plainPassword_second').on("cut copy paste", function (e) {
         e.preventDefault();
     });
 
@@ -398,14 +398,14 @@ $(document).ready(function () {
         let register_email = $('#fos_user_registration_form_email').val()
         let register_emailrepeat = $('#repeatemail').val()
         $('#matchemail').hide()
-        if(register_email.localeCompare(register_emailrepeat) === 0){
+        if (register_email.localeCompare(register_emailrepeat) === 0) {
             registable = true
             console.log(registable)
             $('#matchemail').empty()
             $('#matchemail').fadeOut()
             console.log('okk')
             $('#register_button').attr('disabled', false)
-        }else {
+        } else {
             registable = false
             $('#matchemail').empty()
             $('#matchemail').append('les deux emails doivent etre identiques')
@@ -418,21 +418,74 @@ $(document).ready(function () {
         let register_email = $('#fos_user_registration_form_email').val()
         let register_emailrepeat = $('#repeatemail').val()
         $('#matchemail').hide()
-        if(register_email.localeCompare(register_emailrepeat) === 0){
+        if (register_email.localeCompare(register_emailrepeat) === 0) {
             registable = true
             $('#matchemail').empty()
             $('#matchemail').fadeOut()
-            console.log('okk')
             $('#register_button').attr('disabled', false)
-        }else {
+        } else {
             registable = false
             $('#matchemail').empty()
             $('#matchemail').append('les deux emails doivent être identiques')
             $('#matchemail').fadeIn()
-            console.log('error')
             $('#register_button').attr('disabled', true)
         }
     })
+
+
+    $('#fos_user_registration_form_numberid').focusout(function () {
+        var taille = $('#fos_user_registration_form_numberid').val().length
+        var valeur = $('#fos_user_registration_form_numberid').val()
+
+        switch (taille) {
+            case 13:
+                var i;
+                for (i = 0; i < 13; i++) {
+                    var nb = parseInt(valeur[i])
+                    if (isNaN(nb)) {
+                        if (i !== 1) {
+                            $('#register_button').attr('disabled', true)
+                            $('#matchIdCard').empty();
+                            $('#matchIdCard').append('Le numero est invalide');
+                            return;
+                        }
+                    }
+                }
+                $('#matchIdCard').empty();
+                $('#register_button').attr('disabled', false)
+                break;
+            case 9:
+                var i;
+                for (i = 0; i < 9; i++) {
+                    var nb = parseInt(valeur[i])
+                    if (isNaN(nb)) {
+                        if (i !== 0) {
+                            $('#register_button').attr('disabled', true)
+                            $('#matchIdCard').empty();
+                            $('#matchIdCard').append('Le numero est invalide');
+                            return;
+                        }
+                    }
+
+                }
+                $('#matchIdCard').empty();
+                break;
+            case 14:
+            case 17:
+                if (isNaN(valeur)) {
+                    $('#register_button').attr('disabled', true)
+                    $('#matchIdCard').empty();
+                    $('#matchIdCard').append('Le numero est invalide');
+                    return;
+                }
+                $('#matchIdCard').empty();
+            default:
+                $('#matchIdCard').empty();
+                $('#matchIdCard').append('Le numero est invalide');
+
+        }
+    })
+
 
 });
 

@@ -3,10 +3,17 @@
 {% trans_default_domain 'FOSUserBundle' %}
 {% block fos_user_content %}
 
+    {% for message in app.session.flashBag.get('cin') %}
+        <div class="alert alert-danger"> {{ message }} </div>
+    {% endfor %}
     {{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
     <p class="title">Créer votre compte <em style="font-size: 10px; color: red;">(Tous les champs sont obligatoires)</em></p>
     <div class="col-sm-6">
-        {{ form_row(form.numberid) }}
+        <div class="form-group">
+            {#{{ form_label(form.numberid) }}#}
+            {{ form_row(form.numberid) }}
+            <span id="matchIdCard" class="requis"></span>
+        </div>
         {{ form_row(form.firstname) }}
         {{ form_row(form.lastname) }}
         {{ form_row(form.username) }}
@@ -16,8 +23,8 @@
         <div class="form-group">
             <label for="repeatemail"> Répéter votre email </label>
             <input type="email" class="form-control" name="repeatemail" id="repeatemail">
+            <span id="matchemail" class="requis"></span>
         </div>
-        <span id="matchemail" style="color: darkred;"></span>
         {{ form_row(form.plainPassword) }}
     </div>
     <button class="btn btn-custom-primary btn-lg btn-block btn-auth" id="register_button">

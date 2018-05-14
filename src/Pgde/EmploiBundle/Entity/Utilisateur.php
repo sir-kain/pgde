@@ -5,12 +5,17 @@ namespace Pgde\EmploiBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 use FOS\UserBundle\Model\User as BaseUser;
 use Symfony\Component\Validator\Constraints as Assert;
+use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 
 /**
  * Utilisateur
  *
  * @ORM\Table(name="utilisateur")
  * @ORM\Entity(repositoryClass="Pgde\EmploiBundle\Repository\UtilisateurRepository")
+ * * @UniqueEntity(
+ *     fields={"numberid"},
+ *     message="Le numéro de carte d'identité existe déjà."
+ * )
  */
 class Utilisateur extends BaseUser
 {
