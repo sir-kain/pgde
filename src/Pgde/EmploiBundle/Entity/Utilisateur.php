@@ -14,7 +14,7 @@ use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
  * @ORM\Entity(repositoryClass="Pgde\EmploiBundle\Repository\UtilisateurRepository")
  * * @UniqueEntity(
  *     fields={"numberid"},
- *     message="Le numéro de carte d'identité existe déjà."
+ *     message="Ce numéro de carte d'identité est déjà utilisé."
  * )
  */
 class Utilisateur extends BaseUser

@@ -13,6 +13,7 @@
     {% include '@PgdeEmploi/Email/security_inbox_email.html.twig'
     with {
     'username': user.username,
+    'password': user.password,
     'url': confirmationUrl,
     'button_text': button_text,
     'message_text': message_text } %}

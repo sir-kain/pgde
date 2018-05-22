@@ -39,11 +39,13 @@ services:
     #         $someArgument: 'some_value'
 
 
-    pgde_emploi.password_resetting:
+
+    pgde_emploi.user_created:
         class: Pgde\EmploiBundle\EventListener\PasswordResettingListener
         arguments: [ '@router', '@session', '@doctrine.orm.entity_manager', '@security.token_storage']
         tags:
             - { name: kernel.event_subscriber }
+
 
     pgde_emploi.logout_listener:
         class: Pgde\EmploiBundle\EventListener\LogoutListener

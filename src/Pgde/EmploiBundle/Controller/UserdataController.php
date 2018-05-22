@@ -45,7 +45,7 @@ class UserdataController extends Controller
     public function newAction(Request $request)
     {
         $userconnecter = $this->getUser();
-        if($userconnecter == null) {
+        if ($userconnecter == null) {
             return $this->redirectToRoute('fos_user_security_login');
         }
         $repository = $this->getDoctrine()->getRepository(Userdata::class);
@@ -62,6 +62,26 @@ class UserdataController extends Controller
 
         if ($form->isSubmitted() && $form->isValid()) {
             $em = $this->getDoctrine()->getManager();
+            $dataemail = $this->getDoctrine()->getRepository(Userdata::class)
+                ->checkEmail($form->getData()->getUtilisateur()->getEmail());
+            $majeur = $this->getDoctrine()->getRepository(Userdata::class)
+                ->checkDateNaiss($form->getData()->getDatenaiss());
+            if (!$majeur) {
+                $this
+                    ->get('session')->getFlashBag()
+                    ->add('age', "Vous n'avez pas l'age requis pour postuler une demande");
+                return
+                    $this->redirectToRoute('userdata_new');
+            }
+
+            if ($dataemail != null && $dataemail != $userconnecter->getId()) {
+                $this
+                    ->get('session')->getFlashBag()
+                    ->add('emailunique', "L'adresse email est déjà utilisée");
+                return
+                    $this->redirectToRoute('userdata_new');
+            }
+
             if ($ajout) {
                 $em->persist($userdatum);
             }
@@ -71,12 +91,12 @@ class UserdataController extends Controller
                 ->getRepository(Userdata::class)
                 ->get_gravatar($userdatum->getUtilisateur()->getEmail());
             $this->get('session')->getFlashBag()->add('modifdemande', true);
-            $this->get('session')->getFlashBag()->add('message', 'Votre modification est bien prise en compte');
+            $this->get('session')->getFlashBag()->add('messagemodif', 'Votre modification est bien prise en compte');
             $this->get('session')->getFlashBag()->add('class', 'gritter');
             $this->get('session')->getFlashBag()->add('urlavatar', $urlavatar);
             $this->get('session')->getFlashBag()->add('username', $userdatum->getUtilisateur()->getUsername());
 
-            return $this->redirectToRoute('userdata_new');
+            return $this->redirectToRoute('userdata_reussi');
         }
 
 
@@ -161,5 +181,17 @@ class UserdataController extends Controller
             ->setAction($this->generateUrl('userdata_delete', array('id' => $userdatum->getId())))
             ->setMethod('DELETE')
             ->getForm();
+    }
+
+    /**
+     * Deletes a userdatum entity.
+     *
+     * @Route("/success", name="userdata_reussi")
+     * @Method("GET")
+     * @return \Symfony\Component\HttpFoundation\RedirectResponse
+     */
+    public function reussiAction()
+    {
+        return $this->render('userdata/reussi.html.twig');
     }
 }

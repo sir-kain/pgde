@@ -41,7 +41,6 @@ $(document).on('change', '#pgde_emploibundle_userdata_regionResidence',
             type: $form.attr('method'),
             data: data,
             success: function (html) {
-                console.log(html)
                 // Replace current position field ...
                 $(target).replaceWith(
                     // ... with the returned one from the AJAX response.
@@ -167,8 +166,8 @@ $(document).ready(function () {
 
     var navListItems = $('div.setup-panel div a'),
         allWells = $('.setup-content'),
-        allNextBtn = $('.nextBtn');
-    allPrevBtn = $('.prevBtn');
+        allNextBtn = $('.nextBtn'),
+        allPrevBtn = $('.prevBtn');
 
     allWells.hide();
 
@@ -198,6 +197,7 @@ $(document).ready(function () {
             if (!curInputs[i].validity.valid) {
                 isValid = false;
                 $(curInputs[i]).closest(".form-group").addClass("has-error");
+
             }
         }
 
@@ -313,8 +313,20 @@ $(document).ready(function () {
 //    Mask de champs du formulaire
 //     $('#pgde_emploibundle_userdata_utilisateur_numberid').mask('9-999-9999-99999', {placeholder: ""})
 //     $('#fos_user_registration_form_numberid').mask('9-999-9999-99999', {placeholder: ""})
-    $('#pgde_emploibundle_userdata_telephone1').mask('99-999-99-99', {placeholder: ""})
-    $('#pgde_emploibundle_userdata_telephone2').mask('99-999-99-99', {placeholder: ""})
+//     $('#pgde_emploibundle_userdata_telephone1').mask('99-999-99-99', {placeholder: ""})
+//     $('#pgde_emploibundle_userdata_telephone2').mask('99-999-99-99', {placeholder: ""})
+
+    $(document).on('change', '#pgde_emploibundle_userdata_departementresidence',
+        function () {
+            if($('#pgde_emploibundle_userdata_departementresidence option:selected').text() === "Hors Sénégal"){
+                $('#pgde_emploibundle_userdata_telephone1').unmask()
+                $('#pgde_emploibundle_userdata_telephone2').unmask()
+            }else {
+                $('#pgde_emploibundle_userdata_telephone1').mask('99-999-99-99', {placeholder: ""})
+                $('#pgde_emploibundle_userdata_telephone2').mask('99-999-99-99', {placeholder: ""})
+            }
+        }
+    );
 
 
 //    datepicker

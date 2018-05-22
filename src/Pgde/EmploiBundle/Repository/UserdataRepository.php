@@ -34,4 +34,30 @@ class UserdataRepository extends \Doctrine\ORM\EntityRepository
         }
         return $url;
     }
+
+    public function checkEmail($email) {
+        $cnx = $this->_em->getConnection();
+        $statement = $cnx->prepare('
+                SELECT u.id
+                FROM utilisateur u
+                WHERE u.email = :email
+            ');
+
+        $statement->bindValue('email', $email);
+        $statement->execute();
+         $res = $statement->fetchColumn();
+        return $res;
+    }
+
+    /**
+     * @param \DateTime $date
+     * @return bool
+     */
+    public function checkDateNaiss(\DateTime $date) {
+        $age = date_diff($date, new \DateTime())->y;
+        if ($age < 18) {
+            return false;
+        }
+        return true;
+    }
 }

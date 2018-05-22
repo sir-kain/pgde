@@ -1,8 +1,28 @@
-<footer class="footer" style="padding: 20px">
-    {#<div class="col-sm-6">#}
-        {#<a style="padding: 1em" href="http://www.fonctionpublique.gouv.sn/" class="btn btn-success"> <i class="fa fa-chevron-circle-left"></i> Retour au site du Ministère </a>#}
-    {#</div>#}
-    <div class="col-sm-6 col-sm-offset-3">
-        Ministère de la Fonction publique, de la Rationalisation des Effectifs et du Renouveau du Service public - © {{  '' | date('Y') }}
-    </div>
-</footer>
+<div>
+    <img class="img-footer" src="{{ asset('img/footer-flag.png') }}" alt="">
+    <footer class="footer" style="padding: 20px">
+        <div class="row">
+            <ul class="footer-row-1">
+                <li class="border-r"><a target="_blank" href="http://www.fonctionpublique.gouv.sn/mentions_legales">Mentions légales</a></li>
+                <li class="border-r"><a target="_blank" href="http://www.fonctionpublique.gouv.sn/cookies">Confidentialités et Cookies</a></li>
+                <li><a target="_blank" href="http://www.fonctionpublique.gouv.sn/autres-contacts/autres-adresses">Contact</a></li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="footer-row-2">
+                <ul>
+                    <li><a target="_blank" href="http://www.fonctionpublique.gouv.sn/">fonctionpublique.gouv.sn</a></li>
+                    <li><a target="_blank" href="http://www.gouv.sn/">gouv.sn</a></li>
+                    <li><a target="_blank" href="http://www.presidence.sn/">presidence.sn</a></li>
+                    <li><a target="_blank" href="http://www.servicepublic.gouv.sn/">servicepublic.gouv.sn</a></li>
+                    <li><a target="_blank" href="http://www.fonctionpublique-actes.gouv.sn/">fonctionpublique-actes.gouv.sn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row footer-row-3">
+            <div class="col-sm-8 col-sm-offset-2">
+                Ministère de la Fonction publique, de la Rationalisation des Effectifs et du Renouveau du Service public - © {{  '' | date('Y') }}
+            </div>
+        </div>
+    </footer>
+</div>

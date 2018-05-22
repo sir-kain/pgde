@@ -62,6 +62,7 @@ class PasswordResettingListener implements EventSubscriberInterface
             FOSUserEvents::REGISTRATION_CONFIRMED => 'onRegisterConfirmed',
             FOSUserEvents::REGISTRATION_CONFIRM => 'onRegisterConfirmedWithEmail',
             FOSUserEvents::REGISTRATION_SUCCESS => 'onRegisterSuccessed',
+            FOSUserEvents::REGISTRATION_COMPLETED => 'onRegisterCompleted',
         ];
     }
 
@@ -84,12 +85,16 @@ class PasswordResettingListener implements EventSubscriberInterface
             ->add('username', $username);
     }
 
+    public function onRegisterCompleted(FilterUserResponseEvent $event)
+    {
+    }
+
     public function onRegisterConfirmedWithEmail(GetResponseUserEvent $event)
     {
-//        $url = $this->router->generate('userdata_new');
-//        $event->setResponse(new RedirectResponse($url));
-//        $this->session->getFlashBag()
-//            ->add('ACCOUNT_STATE', 'Bienvenue: Votre compte est maintenant actif!');
+        $url = $this->router->generate('userdata_new');
+        $event->setResponse(new RedirectResponse($url));
+        $this->session->getFlashBag()
+            ->add('ACCOUNT_STATE', 'Bienvenue: Votre compte est maintenant actif. Merci de finaliser votre inscription');
     }
 
     public function onRegisterConfirmed(FilterUserResponseEvent $event)

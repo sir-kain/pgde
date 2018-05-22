@@ -49,6 +49,7 @@ class Userdata
      * @var string
      *
      * @ORM\Column(name="genre", type="string", length=10)
+     * @Assert\NotBlank(message="Merci de renseigner votre genre")
      */
     private $genre;
 

@@ -55,6 +55,7 @@ class UserdataType extends AbstractType
                 'required' => false
             ])
             ->add('genre', ChoiceType::class, array(
+                'placeholder' => 'Selectionner votre genre',
                 'choices' => array('Masculin' => 'Masculin', 'Feminin' => 'Feminin'),
                 'label' => 'Genre: ',
                 'required' => true,
@@ -97,7 +98,7 @@ class UserdataType extends AbstractType
                 'label' => 'Expériences professionnelles / Commentaires: ',
                 'required' => false,
                 'attr' => [
-                    'rows' => '7'
+                    'rows' => '5'
                 ]
             ])
             ->add('motivation', TextareaType::class, [
@@ -105,7 +106,7 @@ class UserdataType extends AbstractType
                 'required' => false,
 
                 'attr' => [
-                    'rows' => '7'
+                    'rows' => '5'
                 ]
             ])
             ->add('anneediplome', TextType::class, [

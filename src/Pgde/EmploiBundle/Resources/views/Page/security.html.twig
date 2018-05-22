@@ -20,8 +20,14 @@
                         <div class="login-box center-block" style="border: 0px; margin: 0px; width: 100%">
                             {% block fos_user_content %} {% endblock %}
                             <div class="links">
-                                <p><a href="{{ path('fos_user_resetting_request') }}">J'ai oublié mon mot de passe</a></p>
-                                {#<p><a href="{{ path('fos_user_registration_register') }}">Créer un compte</a></p>#}
+                                {% if routename == '/register/' or routename == '/resetting/request' %}
+                                    <p><a href="{{ path('fos_user_security_login') }}">
+                                            Retour à la page de connexion</a></p>
+                                {% endif %}
+                                {% if routename == '/login' %}
+                                    <p><a href="{{ path('fos_user_resetting_request') }}">
+                                            J'ai oublié mon mot de passe</a></p>
+                                {% endif %}
                             </div>
                         </div>
                     </div>
