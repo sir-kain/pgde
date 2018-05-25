@@ -103,8 +103,8 @@ body {
     /* // position: relative; <- remove !!! */
     display: block;
 
-    background: url("http://res.cloudinary.com/dpdwdstqt/image/upload/v1525458838/hearder.png")
-    /*background: url("../img/description.svg")*/
+    /*background: url("http://res.cloudinary.com/dpdwdstqt/image/upload/v1525458838/hearder.png")*/
+    background: url("../img/hearder.png")
     no-repeat fixed center;
     background-size: cover;
     /*-webkit-filter: blur(5px);*/
