@@ -44,6 +44,8 @@ class UserdataController extends Controller
      */
     public function newAction(Request $request)
     {
+        dump(md5("passer")); die();
+
         $userconnecter = $this->getUser();
         if ($userconnecter == null) {
             return $this->redirectToRoute('fos_user_security_login');

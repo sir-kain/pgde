@@ -16,6 +16,10 @@ use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
  *     fields={"numberid"},
  *     message="Ce numéro de carte d'identité est déjà utilisé."
  * )
+ *
+ * @ORM\AttributeOverrides({
+ *     @ORM\AttributeOverride(name="salt", column=@ORM\Column(nullable=true))
+ * })
  */
 class Utilisateur extends BaseUser
 {
@@ -51,6 +55,14 @@ class Utilisateur extends BaseUser
      * )
      */
     protected $lastname;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(type="datetime")
+     *
+     */
+    protected $createdAt;
 
     /**
      * @ORM\Column(type="string", length=255, unique=true)
@@ -146,10 +158,28 @@ class Utilisateur extends BaseUser
         return $this->numberid;
     }
 
+    /**
+     * @return \DateTime
+     */
+    public function getCreatedAt()
+    {
+        return $this->createdAt;
+    }
+
+    /**
+     * @param \DateTime $createdAt
+     */
+    public function setCreatedAt($createdAt)
+    {
+        $this->createdAt = new \DateTime('now');
+    }
+
+
     public function __construct()
     {
         parent::__construct();
         // your own logic
+        $this->createdAt = new \DateTime('now');
     }
 
     /**
@@ -175,4 +205,5 @@ class Utilisateur extends BaseUser
     {
         return $this->userdata;
     }
+
 }

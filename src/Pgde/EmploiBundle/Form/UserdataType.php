@@ -184,40 +184,6 @@ class UserdataType extends AbstractType
                 ]
             ]);;
 
-//        $builder->get('boolhandicap')->addEventListener(
-//            FormEvents::POST_SUBMIT,
-//            function (FormEvent $event) {
-//                $form = $event->getForm();
-//                if ($form->getData()) {
-//                    $this->addHandicapCategorieField($form->getParent(), true);
-//                }
-//            }
-//        );
-//        $builder->addEventListener(
-//            FormEvents::POST_SET_DATA,
-//            function (FormEvent $event) {
-//                $data = $event->getData();
-//                /* @var $handicap Handicap */
-//                $handicap = $data->getHandicap();
-//                $form = $event->getForm();
-//                if ($handicap) {
-//                    // On récupère le département et la région
-//                    $categoriehandicap = $handicap->getCategorieHandicap();
-//                    $boolhandicap = true;
-//                    // On crée les 2 champs supplémentaires
-//                    $this->addHandicapCategorieField($form, true);
-//                    $this->addHandicapField($form, $categoriehandicap);
-//                    // On set les données
-////                    $form->get('boolhandicap')->setData($boolhandicap);
-//                    $form->get('handicapcategorie')->setData($handicap);
-//                } else {
-//                    // On crée les 2 champs en les laissant vide (champs utilisé pour le JavaScript)
-//                    $this->addHandicapCategorieField($form, null);
-//                    $this->addHandicapField($form, null);
-//                }
-//            }
-//        );
-
         $builder->get('regionNaiss')->addEventListener(
             FormEvents::POST_SUBMIT,
             function (FormEvent $event) {
