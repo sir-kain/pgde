@@ -68,7 +68,7 @@ class PasswordResettingListener implements EventSubscriberInterface
 
     public function onPasswordResettingSuccess(FormEvent $event)
     {
-        $user = $this->token_storage->getToken()->getUser();
+        $user = $event->getForm()->getData();
         $useremail = $user->getEmail();
         $username = $user->getUsername();
         $urlavatar = $this->entityManager->getRepository(Userdata::class)

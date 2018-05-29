@@ -57,6 +57,7 @@ class Userdata
      * @var string
      *
      * @ORM\Column(name="situationmatrimoniale", type="string", length=255)
+     * @Assert\NotBlank(message="Merci de renseigner votre situation matrimoniale")
      */
     private $situationmatrimoniale;
 
@@ -64,6 +65,7 @@ class Userdata
      * @var string
      *
      * @ORM\Column(name="telephone1", type="string", length=45)
+     * @Assert\NotBlank(message="Merci de renseigner votre numero téléphone")
      */
     private $telephone1;
 

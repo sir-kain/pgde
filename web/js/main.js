@@ -458,6 +458,35 @@ $(document).ready(function () {
         }
     })
 
+    $('#fos_user_registration_form_firstname').focusout(function () {
+        if (!isNaN($('#fos_user_registration_form_firstname').val())) {
+            $('#register_button').attr('disabled', true)
+            $('#firstnamecheck').empty();
+            $('#firstnamecheck').append('Le prenom doit comporter au moins une lettre');
+        }else {
+            $('#firstnamecheck').empty();
+        }
+    })
+    $('#fos_user_registration_form_lastname').focusout(function () {
+        if (!isNaN($('#fos_user_registration_form_lastname').val())) {
+            $('#register_button').attr('disabled', true)
+            $('#firstnamecheck').empty();
+            $('#firstnamecheck').append('Le nom doit comporter au moins une lettre');
+        }else {
+            $('#firstnamecheck').empty();
+        }
+    })
+
+    $('#fos_user_registration_form_username').focusout(function () {
+        if (!isNaN($('#fos_user_registration_form_username').val())) {
+            $('#register_button').attr('disabled', true)
+            $('#usernamecheck').empty();
+            $('#usernamecheck').append('Le nom d\'utilisateur doit comporter au moins une lettre');
+        }else {
+            $('#usernamecheck').empty();
+        }
+    })
+
 
     $('#naissloader').hide();
     $('#residloader').hide();
