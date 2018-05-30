@@ -5,12 +5,18 @@ namespace Pgde\EmploiBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 use FOS\UserBundle\Model\User as BaseUser;
 use Symfony\Component\Validator\Constraints as Assert;
+use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 
 /**
  * Utilisateur
  *
  * @ORM\Table(name="utilisateur")
  * @ORM\Entity(repositoryClass="Pgde\EmploiBundle\Repository\UtilisateurRepository")
+ * * @UniqueEntity(
+ *     fields={"numberid"},
+ *     message="Ce numéro de carte d'identité est déjà utilisé."
+ * )
+ *
  */
 class Utilisateur extends BaseUser
 {
@@ -48,6 +54,14 @@ class Utilisateur extends BaseUser
     protected $lastname;
 
     /**
+     * @var \DateTime
+     *
+     * @ORM\Column(type="datetime")
+     *
+     */
+    protected $dateInscription;
+
+    /**
      * @ORM\Column(type="string", length=255, unique=true)
      *
      * @Assert\NotBlank(message="Merci de renseigner votre Numero de carte d'identité.", groups={"Registration", "Profile"})
@@ -67,6 +81,22 @@ class Utilisateur extends BaseUser
     public function getId()
     {
         return $this->id;
+    }
+
+    /**
+     * @return \DateTime
+     */
+    public function getDateInscription()
+    {
+        return $this->dateInscription;
+    }
+
+    /**
+     * @param \DateTime $dateInscription
+     */
+    public function setDateInscription($dateInscription)
+    {
+        $this->dateInscription = $dateInscription;
     }
 
     /**
@@ -141,6 +171,7 @@ class Utilisateur extends BaseUser
         return $this->numberid;
     }
 
+
     public function __construct()
     {
         parent::__construct();
@@ -170,4 +201,5 @@ class Utilisateur extends BaseUser
     {
         return $this->userdata;
     }
+
 }

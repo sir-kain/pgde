@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4082b11d-0932-41f0-b7ad-a74075f757a9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/demandesuccess.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/sendinfo.email.twig" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/confirmcompte.txt.twig" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/confirmcompte.email.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/confirmcompte.email.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Utilisateur.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Utilisateur.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserdataController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserdataController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="98" column="150" lean-forward="true" selection-start-line="98" selection-start-column="150" selection-end-line="98" selection-end-column="150" />
+            <state relative-caret-position="207">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
               <folding>
                 <element signature="e#313#370#0#PHP" expanded="false" />
                 <element signature="e#421#540#0#PHP" expanded="false" />
@@ -63,49 +59,19 @@
                 <element signature="e#2985#3054#0#PHP" expanded="false" />
                 <element signature="e#3107#3176#0#PHP" expanded="false" />
                 <element signature="e#3107#3249#0#PHP" expanded="false" />
-                <element signature="e#4592#4767#0#PHP" expanded="false" />
-                <element signature="e#4632#4766#0#PHP" expanded="false" />
-                <element signature="e#4780#4911#0#PHP" expanded="false" />
-                <element signature="e#4916#5205#0#PHP" expanded="false" />
-                <element signature="e#5045#5198#0#PHP" expanded="false" />
-                <element signature="e#5086#5197#0#PHP" expanded="false" />
-                <element signature="e#5211#5372#0#PHP" expanded="false" />
-                <element signature="e#5377#6099#0#PHP" expanded="false" />
-                <element signature="e#5651#5870#0#PHP" expanded="false" />
-                <element signature="e#5887#6092#0#PHP" expanded="false" />
-                <element signature="e#5928#6091#0#PHP" expanded="false" />
-                <element signature="e#6105#6230#0#PHP" expanded="false" />
-                <element signature="e#6235#6649#0#PHP" expanded="false" />
-                <element signature="e#6411#6585#0#PHP" expanded="false" />
-                <element signature="e#6655#6840#0#PHP" expanded="false" />
-                <element signature="e#6845#7111#0#PHP" expanded="false" />
-                <element signature="e#6921#7046#0#PHP" expanded="false" />
-                <element signature="e#6921#7080#0#PHP" expanded="false" />
-                <element signature="e#7117#7308#0#PHP" expanded="false" />
-                <element signature="e#7313#7414#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sendinfo.email.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/sendinfo.email.twig">
+      <file leaf-file-name="Utilisateur.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Utilisateur.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            <state relative-caret-position="-81">
+              <caret line="102" column="5" lean-forward="false" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
               <folding>
-                <element signature="e#326#368#0#Twig" expanded="true" />
+                <element signature="e#44#76#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="confirmcompte.email.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/confirmcompte.email.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -114,8 +80,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>utilisa</find>
-      <find>geb</find>
       <find>genre</find>
       <find>.has-error</find>
       <find>next</find>
@@ -144,6 +108,8 @@
       <find>local</find>
       <find>Ahmad</find>
       <find>wal</find>
+      <find>creat</find>
+      <find>getsalt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -152,7 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/config/parameters_production.php" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/password_resetting.email.twig" />
         <option value="$PROJECT_DIR$/web/css/portrait.css" />
         <option value="$PROJECT_DIR$/web/css/paysage.css" />
@@ -191,7 +156,6 @@
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UserdataType.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/userdata/new.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Utilisateur.php" />
         <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/User.php" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Userdata.php" />
@@ -202,7 +166,9 @@
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/demandesuccess.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/sendinfo.email.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/confirmcompte.email.twig" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Utilisateur.php" />
       </list>
     </option>
   </component>
@@ -252,51 +218,6 @@
             <path>
               <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
               <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EmploiBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EmploiBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EmploiBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EmploiBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Email" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -396,7 +317,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="562018000" />
+    <option name="totallyTimeSpent" value="564863000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -411,24 +332,34 @@
     <frame x="608" y="151" width="1307" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22239873" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18427323" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7216174" sideWeight="0.51231134" order="14" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20492454" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19221604" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7216174" sideWeight="0.48768863" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.83670294" sideWeight="0.48768863" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7216174" sideWeight="0.51231134" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7216174" sideWeight="0.48768863" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22239873" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20492454" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -668,21 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="219" column="26" lean-forward="false" selection-start-line="219" selection-start-column="22" selection-end-line="219" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Utilisateur.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5585">
-          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Userdata.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4120">
@@ -725,21 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="64" column="5" lean-forward="false" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/4a00d4ed/aba105bb-a1ef-46db-a1a7-e70310f96ab5/pgde.utilisateur">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/4a00d4ed/aba105bb-a1ef-46db-a1a7-e70310f96ab5/pgde.userdata">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -751,51 +652,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-465">
           <caret line="265" column="130" lean-forward="false" selection-start-line="265" selection-start-column="130" selection-end-line="265" selection-end-column="130" />
-          <folding>
-            <element signature="n#style#0;n#i#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#5;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/confirmcompte.txt.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/confirmcompte.txt.twig" />
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/demandesuccess.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-358">
           <caret line="145" column="22" lean-forward="false" selection-start-line="145" selection-start-column="22" selection-end-line="145" selection-end-column="22" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#2;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#3;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#4;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#4;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#td#0;n#tr#4;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#td#0;n#tr#4;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#5;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#td#0;n#tr#5;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#5;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#5;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#5;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1527681334278" expanded="true" signature="1562:1723" ph="..." />
             <marker date="1527681334278" expanded="true" signature="1597:1712" ph="..." />
             <marker date="1527681334278" expanded="true" signature="1622:1685" ph="..." />
@@ -814,14 +679,6 @@
             <marker date="1527681334278" expanded="true" signature="5504:5527" ph="..." />
             <marker date="1527681334278" expanded="true" signature="5529:5535" ph=" " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,16 +721,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding>
-            <element signature="e#326#368#0#Twig" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="217" column="27" lean-forward="false" selection-start-line="217" selection-start-column="20" selection-end-line="217" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/4a00d4ed/aba105bb-a1ef-46db-a1a7-e70310f96ab5/pgde.utilisateur">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="98" column="150" lean-forward="true" selection-start-line="98" selection-start-column="150" selection-end-line="98" selection-end-column="150" />
+        <state relative-caret-position="207">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding>
             <element signature="e#313#370#0#PHP" expanded="false" />
             <element signature="e#421#540#0#PHP" expanded="false" />
@@ -893,26 +777,16 @@
             <element signature="e#2985#3054#0#PHP" expanded="false" />
             <element signature="e#3107#3176#0#PHP" expanded="false" />
             <element signature="e#3107#3249#0#PHP" expanded="false" />
-            <element signature="e#4592#4767#0#PHP" expanded="false" />
-            <element signature="e#4632#4766#0#PHP" expanded="false" />
-            <element signature="e#4780#4911#0#PHP" expanded="false" />
-            <element signature="e#4916#5205#0#PHP" expanded="false" />
-            <element signature="e#5045#5198#0#PHP" expanded="false" />
-            <element signature="e#5086#5197#0#PHP" expanded="false" />
-            <element signature="e#5211#5372#0#PHP" expanded="false" />
-            <element signature="e#5377#6099#0#PHP" expanded="false" />
-            <element signature="e#5651#5870#0#PHP" expanded="false" />
-            <element signature="e#5887#6092#0#PHP" expanded="false" />
-            <element signature="e#5928#6091#0#PHP" expanded="false" />
-            <element signature="e#6105#6230#0#PHP" expanded="false" />
-            <element signature="e#6235#6649#0#PHP" expanded="false" />
-            <element signature="e#6411#6585#0#PHP" expanded="false" />
-            <element signature="e#6655#6840#0#PHP" expanded="false" />
-            <element signature="e#6845#7111#0#PHP" expanded="false" />
-            <element signature="e#6921#7046#0#PHP" expanded="false" />
-            <element signature="e#6921#7080#0#PHP" expanded="false" />
-            <element signature="e#7117#7308#0#PHP" expanded="false" />
-            <element signature="e#7313#7414#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Utilisateur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="102" column="5" lean-forward="false" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+          <folding>
+            <element signature="e#44#76#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
