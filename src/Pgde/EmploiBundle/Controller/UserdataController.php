@@ -96,6 +96,25 @@ class UserdataController extends Controller
             $this->get('session')->getFlashBag()->add('urlavatar', $urlavatar);
             $this->get('session')->getFlashBag()->add('username', $userdatum->getUtilisateur()->getUsername());
 
+
+//            ENVOI DE MAIL
+            $message = (new \Swift_Message('Votre demande d\'emploi a été soumise avec succès - Plateforme de Gestion des Demandes d\'Emploi (PGDE)'))
+                ->setFrom('fpublique2018@gmail.com')
+                ->setTo($userdatum->getUtilisateur()->getEmail())
+                ->setBody(
+                    $this->renderView(
+                    // app/Resources/views/Emails/registration.html.twig
+                        '@PgdeEmploi/Email/sendinfo.email.twig',
+                        array('user' => $userdatum->getUtilisateur())
+                    ),
+                    'text/html'
+                )
+            ;
+
+//            $mailer->send($message);
+
+            // or, you can also fetch the mailer service this way
+             $this->get('mailer')->send($message);
             return $this->redirectToRoute('userdata_reussi');
         }
 

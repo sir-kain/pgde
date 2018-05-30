@@ -1,0 +1,19 @@
+{# app/Resources/views/email/password_resetting.email.twig #}
+
+{% block subject %}Votre demande d'emploi a été soumise avec succès - Plateforme de Gestion des Demandes d'Emploi (PGDE){% endblock %}
+
+{% block body_text %}
+    {% autoescape false %}
+    {% endautoescape %}
+{% endblock %}
+
+{% block body_html %}
+    {% include '@PgdeEmploi/Email/demandesuccess.html.twig'
+    with {
+    'username': user.username,
+    'firstname': user.firstname,
+    'lastname': user.lastname,
+    'id': user.id }%}
+
+{% endblock %}
+
