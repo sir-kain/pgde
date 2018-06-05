@@ -131,6 +131,8 @@ class UserdataController extends Controller
      *
      * @Route("/{id}", name="userdata_show")
      * @Method("GET")
+     * @param Userdata $userdatum
+     * @return \Symfony\Component\HttpFoundation\Response
      */
     public function showAction(Userdata $userdatum)
     {
