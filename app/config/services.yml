@@ -54,3 +54,13 @@ services:
     pgde_emploi.login_listener:
         class: Pgde\EmploiBundle\EventListener\LoginListener
         arguments: [ '@session', '@doctrine.orm.entity_manager', '@fos_user.user_manager']
+
+    admin.userdata:
+        class: Pgde\EmploiBundle\Admin\UserdataAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: "Demandeurs" }
+        arguments:
+            - ~
+            - Pgde\EmploiBundle\Entity\Userdata
+            - ~
+        public: true
