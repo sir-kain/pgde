@@ -64,3 +64,7 @@ services:
             - Pgde\EmploiBundle\Entity\Userdata
             - ~
         public: true
+
+    sonata.user.admin.group:
+        abstract: true
+        public: false

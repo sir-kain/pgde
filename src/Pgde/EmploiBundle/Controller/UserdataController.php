@@ -97,6 +97,7 @@ class UserdataController extends Controller
             $this->get('session')->getFlashBag()->add('username', $userdatum->getUtilisateur()->getUsername());
 
 
+//            if ($ajout) {}
 //            ENVOI DE MAIL
             $message = (new \Swift_Message('Votre demande d\'emploi a été soumise avec succès - Plateforme de Gestion des Demandes d\'Emploi (PGDE)'))
                 ->setFrom('fpublique2018@gmail.com')

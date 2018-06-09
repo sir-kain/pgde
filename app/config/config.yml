@@ -50,6 +50,8 @@ doctrine:
         user: '%database_user%'
         password: '%database_password%'
         charset: UTF8
+        types:
+            json: Sonata\Doctrine\Types\JsonType
         # if using pdo_sqlite as your database driver:
         #   1. add the path in parameters.yml
         #     e.g. database_path: '%kernel.project_dir%/var/data/data.sqlite'
@@ -76,7 +78,7 @@ fos_user:
     firewall_name: main
     user_class:    Pgde\EmploiBundle\Entity\Utilisateur
     group:
-        group_class:   Sonata\UserBundle\Entity\BaseGroup
+        group_class:   Sonata\UserBundle\Entity\Group
         group_manager: sonata.user.orm.group_manager # If you're using doctrine orm (use sonata.user.mongodb.group_manager for mongodb)
 
     service:
