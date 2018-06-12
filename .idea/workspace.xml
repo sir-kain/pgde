@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4082b11d-0932-41f0-b7ad-a74075f757a9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php" />
-    </list>
+    <list default="true" id="4082b11d-0932-41f0-b7ad-a74075f757a9" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,13 +36,13 @@
       <file leaf-file-name="UserdataController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="90" column="16" lean-forward="false" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
+            <state relative-caret-position="832">
+              <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
               <folding>
                 <element signature="e#2363#2641#0#PHP" expanded="false" />
                 <element signature="e#2655#2971#0#PHP" expanded="false" />
                 <element signature="e#2985#3054#0#PHP" expanded="false" />
-                <element signature="e#8411#8438#1#PHP" expanded="true" />
+                <element signature="e#7732#7759#1#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,22 +94,24 @@
                 <element signature="e#1421#1438#0" expanded="false" />
                 <element signature="e#1457#1478#0" expanded="false" />
                 <element signature="e#1496#1500#0" expanded="false" />
-                <element signature="e#2612#2663#0" expanded="false" />
-                <element signature="e#2637#2663#0" expanded="false" />
-                <element signature="e#2767#2969#0" expanded="false" />
-                <element signature="e#2789#2852#0" expanded="false" />
-                <element signature="e#2813#2852#0" expanded="false" />
-                <element signature="e#2861#2969#0" expanded="false" />
-                <element signature="e#2896#2900#0" expanded="false" />
-                <element signature="e#2925#2969#0" expanded="false" />
-                <element signature="e#2974#3073#0" expanded="false" />
-                <element signature="e#2993#3073#1" expanded="false" />
-                <element signature="e#3024#3073#0" expanded="false" />
-                <element signature="e#3076#3215#0" expanded="false" />
-                <element signature="e#3094#3215#1" expanded="false" />
-                <element signature="e#3155#3215#1" expanded="false" />
-                <element signature="e#3198#3215#1" expanded="false" />
-                <element signature="e#3209#3214#1" expanded="false" />
+                <marker date="1528814471304" expanded="true" signature="2060:2165" ph="swiftmailer: &lt;7 keys&gt;" />
+                <marker date="1528814471304" expanded="true" signature="2852:2853" ph="%mailer_user%" />
+                <marker date="1528814471304" expanded="true" signature="2852:3164" ph="fos_user: &lt;8 keys&gt;" />
+                <marker date="1528814471304" expanded="false" signature="2858:3060" ph="registration: &lt;2 keys&gt;" />
+                <marker date="1528814471304" expanded="false" signature="2880:2943" ph="form: &lt;1 key&gt;" />
+                <marker date="1528814471304" expanded="false" signature="2904:2943" ph="Pgde\Empl…rationType" />
+                <marker date="1528814471304" expanded="false" signature="2952:3060" ph="confirmation: &lt;2 keys&gt;" />
+                <marker date="1528814471304" expanded="false" signature="2987:2991" ph="true" />
+                <marker date="1528814471304" expanded="false" signature="3016:3060" ph="@PgdeEmpl…email.twig" />
+                <marker date="1528814471304" expanded="false" signature="3065:3164" ph="resetting: &lt;1 key&gt;" />
+                <marker date="1528814471304" expanded="false" signature="3084:3164" ph="email: &lt;1 key&gt;" />
+                <marker date="1528814471304" expanded="false" signature="3115:3164" ph="@PgdeEmpl…email.twig" />
+                <marker date="1528814471304" expanded="false" signature="3167:3306" ph="sonata_block: &lt;1 key&gt;" />
+                <marker date="1528814471304" expanded="false" signature="3185:3306" ph="blocks: &lt;1 key&gt;" />
+                <marker date="1528814471304" expanded="false" signature="3246:3306" ph="sonata.ad…admin_list: &lt;1 key&gt;" />
+                <marker date="1528814471304" expanded="false" signature="3289:3306" ph="contexts: [1 item]" />
+                <marker date="1528814471304" expanded="false" signature="3300:3305" ph="admin" />
+                <marker date="1528814471304" expanded="true" signature="3346:3387" ph="Applicati…ntity\User" />
               </folding>
             </state>
           </provider>
@@ -367,12 +365,12 @@
       <workItem from="1528445986913" duration="33198000" />
       <workItem from="1528645142334" duration="15824000" />
       <workItem from="1528714294853" duration="15934000" />
-      <workItem from="1528798466082" duration="12578000" />
+      <workItem from="1528798466082" duration="13041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="691713000" />
+    <option name="totallyTimeSpent" value="692176000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,7 +383,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="608" y="151" width="1313" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2339921" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -394,7 +391,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.67651635" sideWeight="0.48768863" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.67651635" sideWeight="0.48768863" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -420,34 +417,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/security_inbox_email.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="165" column="58" lean-forward="false" selection-start-line="165" selection-start-column="55" selection-end-line="165" selection-end-column="58" />
-          <folding>
-            <marker date="1526997554937" expanded="true" signature="1466:1624" ph="..." />
-            <marker date="1526997554937" expanded="true" signature="1501:1613" ph="..." />
-            <marker date="1526997554937" expanded="true" signature="1689:1777" ph="..." />
-            <marker date="1526997554937" expanded="true" signature="1718:1765" ph="{...}" />
-            <marker date="1526997554937" expanded="true" signature="2391:2602" ph="..." />
-            <marker date="1526997554937" expanded="false" signature="2469:2481" ph="..." />
-            <marker date="1526997554937" expanded="true" signature="2512:2602" ph="..." />
-            <marker date="1526997554937" expanded="false" signature="2537:2596" ph="..." />
-            <marker date="1526997554937" expanded="true" signature="2597:2602" ph="..." />
-            <marker date="1526997554937" expanded="true" signature="3056:3246" ph="..." />
-            <marker date="1526997554937" expanded="true" signature="3086:3246" ph="..." />
-            <marker date="1526997554937" expanded="true" signature="3120:3246" ph="..." />
-            <marker date="1526997554937" expanded="false" signature="3164:3195" ph="..." />
-            <marker date="1526997554937" expanded="true" signature="5144:5805" ph="..." />
-            <marker date="1526997554937" expanded="false" signature="5298:5367" ph="..." />
-            <marker date="1526997554937" expanded="true" signature="5528:5760" ph="..." />
-            <marker date="1526997554937" expanded="false" signature="5585:5608" ph="..." />
-            <marker date="1526997554937" expanded="true" signature="5609:5714" ph="..." />
-            <marker date="1526997554937" expanded="false" signature="5659:5665" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -721,22 +690,24 @@
             <element signature="e#1421#1438#0" expanded="false" />
             <element signature="e#1457#1478#0" expanded="false" />
             <element signature="e#1496#1500#0" expanded="false" />
-            <element signature="e#2612#2663#0" expanded="false" />
-            <element signature="e#2637#2663#0" expanded="false" />
-            <element signature="e#2767#2969#0" expanded="false" />
-            <element signature="e#2789#2852#0" expanded="false" />
-            <element signature="e#2813#2852#0" expanded="false" />
-            <element signature="e#2861#2969#0" expanded="false" />
-            <element signature="e#2896#2900#0" expanded="false" />
-            <element signature="e#2925#2969#0" expanded="false" />
-            <element signature="e#2974#3073#0" expanded="false" />
-            <element signature="e#2993#3073#1" expanded="false" />
-            <element signature="e#3024#3073#0" expanded="false" />
-            <element signature="e#3076#3215#0" expanded="false" />
-            <element signature="e#3094#3215#1" expanded="false" />
-            <element signature="e#3155#3215#1" expanded="false" />
-            <element signature="e#3198#3215#1" expanded="false" />
-            <element signature="e#3209#3214#1" expanded="false" />
+            <marker date="1528814471304" expanded="true" signature="2060:2165" ph="swiftmailer: &lt;7 keys&gt;" />
+            <marker date="1528814471304" expanded="true" signature="2852:2853" ph="%mailer_user%" />
+            <marker date="1528814471304" expanded="true" signature="2852:3164" ph="fos_user: &lt;8 keys&gt;" />
+            <marker date="1528814471304" expanded="false" signature="2858:3060" ph="registration: &lt;2 keys&gt;" />
+            <marker date="1528814471304" expanded="false" signature="2880:2943" ph="form: &lt;1 key&gt;" />
+            <marker date="1528814471304" expanded="false" signature="2904:2943" ph="Pgde\Empl…rationType" />
+            <marker date="1528814471304" expanded="false" signature="2952:3060" ph="confirmation: &lt;2 keys&gt;" />
+            <marker date="1528814471304" expanded="false" signature="2987:2991" ph="true" />
+            <marker date="1528814471304" expanded="false" signature="3016:3060" ph="@PgdeEmpl…email.twig" />
+            <marker date="1528814471304" expanded="false" signature="3065:3164" ph="resetting: &lt;1 key&gt;" />
+            <marker date="1528814471304" expanded="false" signature="3084:3164" ph="email: &lt;1 key&gt;" />
+            <marker date="1528814471304" expanded="false" signature="3115:3164" ph="@PgdeEmpl…email.twig" />
+            <marker date="1528814471304" expanded="false" signature="3167:3306" ph="sonata_block: &lt;1 key&gt;" />
+            <marker date="1528814471304" expanded="false" signature="3185:3306" ph="blocks: &lt;1 key&gt;" />
+            <marker date="1528814471304" expanded="false" signature="3246:3306" ph="sonata.ad…admin_list: &lt;1 key&gt;" />
+            <marker date="1528814471304" expanded="false" signature="3289:3306" ph="contexts: [1 item]" />
+            <marker date="1528814471304" expanded="false" signature="3300:3305" ph="admin" />
+            <marker date="1528814471304" expanded="true" signature="3346:3387" ph="Applicati…ntity\User" />
           </folding>
         </state>
       </provider>
@@ -773,15 +744,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://table:/4a00d4ed/aba105bb-a1ef-46db-a1a7-e70310f96ab5/pgde.utilisateur">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="90" column="16" lean-forward="false" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
+        <state relative-caret-position="832">
+          <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
           <folding>
             <element signature="e#2363#2641#0#PHP" expanded="false" />
             <element signature="e#2655#2971#0#PHP" expanded="false" />
             <element signature="e#2985#3054#0#PHP" expanded="false" />
-            <element signature="e#8411#8438#1#PHP" expanded="true" />
+            <element signature="e#7732#7759#1#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
