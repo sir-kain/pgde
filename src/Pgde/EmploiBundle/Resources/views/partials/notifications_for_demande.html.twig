@@ -1,8 +1,8 @@
 {% for class in app.session.flashBag.get('class') %}
     {% for message in app.session.flashBag.get('change_password') %}
         {% for avatar in app.session.flashBag.get('urlavatar') %}
-            {% for username in app.session.flashBag.get('username') %}
-                <div class="{{ class }}" data-urlpath="{{ path('userdata_new') }}" data-message="{{ message }}" data-img="{{ avatar }}" data-username="{{ username }}"
+            {% for user in app.session.flashBag.get('user') %}
+                <div class="{{ class }}" data-urlpath="{{ path('userdata_new') }}" data-message="{{ message }}" data-img="{{ avatar }}" data-username="{{ user.utilisateur.username }}"
                      id="gritterimage"></div>
             {% endfor %}
         {% endfor %}

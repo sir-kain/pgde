@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4082b11d-0932-41f0-b7ad-a74075f757a9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UserAdmin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Service/PgdeService.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/services.yml" afterPath="$PROJECT_DIR$/app/config/services.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UserdataAdmin.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UserdataAdmin.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/PasswordResettingListener.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/PasswordResettingListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/notifications_for_demande.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/notifications_for_demande.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Tests/Controller/DefaultControllerTest.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Tests/Controller/DefaultControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Tests/Controller/UserdataControllerTest.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Tests/Controller/UserdataControllerTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,63 +43,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="services.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+      <file leaf-file-name="UserdataController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="69" column="15" lean-forward="false" selection-start-line="67" selection-start-column="13" selection-end-line="69" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="security.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="47">
+              <caret line="115" column="27" lean-forward="false" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="45" />
               <folding>
-                <element signature="e#604#1070#0" expanded="false" />
+                <element signature="e#8103#8130#1#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserdataAdmin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UserdataAdmin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="32" column="47" lean-forward="false" selection-start-line="32" selection-start-column="47" selection-end-line="37" selection-end-column="13" />
-              <folding>
-                <element signature="e#819#3264#0#PHP" expanded="false" />
-                <element signature="e#819#3435#0#PHP" expanded="false" />
-                <element signature="e#819#3699#0#PHP" expanded="false" />
-                <element signature="e#3490#3698#0#PHP" expanded="false" />
-                <element signature="e#819#3940#0#PHP" expanded="false" />
-                <element signature="e#3753#3939#0#PHP" expanded="false" />
-                <element signature="e#819#4106#0#PHP" expanded="false" />
-                <element signature="e#3992#4105#0#PHP" expanded="false" />
-                <element signature="e#819#4304#0#PHP" expanded="false" />
-                <element signature="e#4164#4303#0#PHP" expanded="false" />
-                <element signature="e#819#4502#0#PHP" expanded="false" />
-                <element signature="e#4362#4501#0#PHP" expanded="false" />
-                <element signature="e#819#4647#0#PHP" expanded="false" />
-                <element signature="e#4552#4646#0#PHP" expanded="false" />
-                <element signature="e#4707#4836#0#PHP" expanded="false" />
-                <element signature="e#819#5241#0#PHP" expanded="false" />
-                <element signature="e#4887#5240#0#PHP" expanded="false" />
-                <element signature="e#5166#5226#1#PHP" expanded="false" />
-                <element signature="e#5433#5723#0#PHP" expanded="false" />
-                <element signature="e#5523#5569#0#PHP" expanded="false" />
-                <element signature="e#5523#5601#0#PHP" expanded="false" />
-                <element signature="e#5523#5628#0#PHP" expanded="false" />
-                <element signature="e#5523#5671#0#PHP" expanded="false" />
-                <element signature="e#6291#6555#0#PHP" expanded="false" />
-                <element signature="e#6368#6410#0#PHP" expanded="false" />
-                <element signature="e#6368#6445#0#PHP" expanded="false" />
-                <element signature="e#6368#6477#0#PHP" expanded="false" />
-                <element signature="e#6368#6504#0#PHP" expanded="false" />
-              </folding>
+      <file leaf-file-name="utilisateur" pinned="false" current-in-tab="true">
+        <entry file="das://table:/4a00d4ed/aba105bb-a1ef-46db-a1a7-e70310f96ab5/pgde.utilisateur">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -107,22 +67,9 @@
       <file leaf-file-name="parameters.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="12" column="67" lean-forward="false" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+            <state relative-caret-position="288">
+              <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserAdmin.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UserAdmin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="43" />
-              <folding>
-                <element signature="e#43#104#0#PHP" expanded="true" />
-                <element signature="e#1725#1950#0#PHP" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -130,15 +77,14 @@
       <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="78" column="19" lean-forward="false" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="55" />
+            <state relative-caret-position="378">
+              <caret line="90" column="60" lean-forward="false" selection-start-line="90" selection-start-column="60" selection-end-line="90" selection-end-column="60" />
               <folding>
                 <element signature="e#0#74#0" expanded="false" />
                 <element signature="e#27#39#0" expanded="false" />
                 <element signature="e#60#72#0" expanded="false" />
                 <element signature="e#268#294#0" expanded="false" />
                 <element signature="e#292#294#0" expanded="false" />
-                <element signature="e#296#995#0" expanded="false" />
                 <element signature="e#323#362#0" expanded="false" />
                 <element signature="e#337#360#0" expanded="false" />
                 <element signature="e#349#359#1" expanded="false" />
@@ -147,67 +93,40 @@
                 <element signature="e#416#461#0" expanded="false" />
                 <element signature="e#532#572#0" expanded="false" />
                 <element signature="e#566#570#0" expanded="false" />
-                <element signature="e#639#649#0" expanded="false" />
-                <element signature="e#675#899#0" expanded="false" />
-                <element signature="e#796#823#0" expanded="false" />
-                <element signature="e#843#899#0" expanded="false" />
-                <element signature="e#943#947#0" expanded="false" />
-                <element signature="e#966#995#0" expanded="false" />
-                <element signature="e#991#995#0" expanded="false" />
-                <element signature="e#1018#1237#0" expanded="false" />
-                <element signature="e#1035#1051#0" expanded="false" />
-                <element signature="e#1074#1090#0" expanded="false" />
-                <element signature="e#1095#1146#0" expanded="false" />
-                <element signature="e#1118#1146#0" expanded="false" />
-                <element signature="e#1202#1237#0" expanded="false" />
-                <element signature="e#1229#1237#0" expanded="false" />
-                <element signature="e#1300#1309#0" expanded="false" />
-                <element signature="e#1324#1341#0" expanded="false" />
-                <element signature="e#1356#1373#0" expanded="false" />
-                <element signature="e#1390#1407#0" expanded="false" />
-                <element signature="e#1422#1439#0" expanded="false" />
-                <element signature="e#1458#1479#0" expanded="false" />
-                <element signature="e#1497#1501#0" expanded="false" />
-                <element signature="e#2549#2600#0" expanded="false" />
-                <element signature="e#2574#2600#0" expanded="false" />
-                <element signature="e#2618#2699#0" expanded="false" />
-                <element signature="e#2647#2662#0" expanded="false" />
-                <element signature="e#2684#2699#0" expanded="false" />
-                <element signature="e#2704#2906#0" expanded="false" />
-                <element signature="e#2726#2789#0" expanded="false" />
-                <element signature="e#2750#2789#0" expanded="false" />
-                <element signature="e#2798#2906#0" expanded="false" />
-                <element signature="e#2833#2837#0" expanded="false" />
-                <element signature="e#2862#2906#0" expanded="false" />
-                <element signature="e#2911#3010#0" expanded="false" />
-                <element signature="e#2930#3010#1" expanded="false" />
-                <element signature="e#2961#3010#0" expanded="false" />
-                <element signature="e#3013#3152#0" expanded="false" />
-                <element signature="e#3031#3152#1" expanded="false" />
-                <element signature="e#3092#3152#1" expanded="false" />
-                <element signature="e#3135#3152#1" expanded="false" />
-                <element signature="e#3146#3151#1" expanded="false" />
+                <element signature="e#795#822#0" expanded="false" />
+                <element signature="e#842#898#0" expanded="false" />
+                <element signature="e#942#946#0" expanded="false" />
+                <element signature="e#1017#1236#0" expanded="false" />
+                <element signature="e#1034#1050#0" expanded="false" />
+                <element signature="e#1073#1089#0" expanded="false" />
+                <element signature="e#1094#1145#0" expanded="false" />
+                <element signature="e#1117#1145#0" expanded="false" />
+                <element signature="e#1201#1236#0" expanded="false" />
+                <element signature="e#1228#1236#0" expanded="false" />
+                <element signature="e#1299#1308#0" expanded="false" />
+                <element signature="e#1323#1340#0" expanded="false" />
+                <element signature="e#1355#1372#0" expanded="false" />
+                <element signature="e#1389#1406#0" expanded="false" />
+                <element signature="e#1421#1438#0" expanded="false" />
+                <element signature="e#1457#1478#0" expanded="false" />
+                <element signature="e#1496#1500#0" expanded="false" />
+                <element signature="e#2653#2704#0" expanded="false" />
+                <element signature="e#2678#2704#0" expanded="false" />
+                <element signature="e#2858#3060#0" expanded="false" />
+                <element signature="e#2880#2943#0" expanded="false" />
+                <element signature="e#2904#2943#0" expanded="false" />
+                <element signature="e#2952#3060#0" expanded="false" />
+                <element signature="e#2987#2991#0" expanded="false" />
+                <element signature="e#3016#3060#0" expanded="false" />
+                <element signature="e#3065#3164#0" expanded="false" />
+                <element signature="e#3084#3164#1" expanded="false" />
+                <element signature="e#3115#3164#0" expanded="false" />
+                <element signature="e#3167#3306#0" expanded="false" />
+                <element signature="e#3185#3306#1" expanded="false" />
+                <element signature="e#3246#3306#1" expanded="false" />
+                <element signature="e#3289#3306#1" expanded="false" />
+                <element signature="e#3300#3305#1" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Group.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/Group.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserdataController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="100" column="27" lean-forward="false" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -216,9 +135,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>daten</find>
-      <find>datena</find>
-      <find>5</find>
       <find>row</find>
       <find>teleph</find>
       <find>use</find>
@@ -243,9 +159,12 @@
       <find>sonata.user.orm.group_manager</find>
       <find>ROLE_SUPER_ADMIN</find>
       <find>role</find>
-      <find>date</find>
       <find>lock</find>
       <find>expir</find>
+      <find>date</find>
+      <find>change_p</find>
+      <find>serial</find>
+      <find>encry²</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -254,10 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php" />
-        <option value="$PROJECT_DIR$/phpunit.xml.dist" />
-        <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/demande.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Handicap.php" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/check_email.html.twig" />
         <option value="$PROJECT_DIR$/web/img/bienvenue.svg" />
@@ -268,7 +183,6 @@
         <option value="$PROJECT_DIR$/web/assets/css/skins/bleu.css" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/footer.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/UserdataRepository.php" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/notifications_for_demande.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/big_menu.html.twig" />
         <option value="$PROJECT_DIR$/web/assets/css/main.css" />
         <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/RegistrationController.php" />
@@ -297,14 +211,19 @@
         <option value="$PROJECT_DIR$/vendor/sonata-project/block-bundle/src/DependencyInjection/Configuration.php" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/PasswordResettingListener.php" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UserdataAdmin.php" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php" />
-        <option value="$PROJECT_DIR$/app/config/services.yml" />
-        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UserAdmin.php" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UtilisateurType.php" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UserdataAdmin.php" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Service/PgdeService.php" />
+        <option value="$PROJECT_DIR$/app/config/services.yml" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/PasswordResettingListener.php" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/notifications_for_demande.html.twig" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Tests/Controller/DefaultControllerTest.php" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Tests/Controller/UserdataControllerTest.php" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
       </list>
     </option>
   </component>
@@ -344,6 +263,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -356,33 +276,11 @@
               <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EmploiBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EmploiBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -478,12 +376,15 @@
       <workItem from="1528298703082" duration="1782000" />
       <workItem from="1528319518205" duration="11428000" />
       <workItem from="1528395578674" duration="9216000" />
-      <workItem from="1528445986913" duration="19520000" />
+      <workItem from="1528445986913" duration="33198000" />
+      <workItem from="1528645142334" duration="15824000" />
+      <workItem from="1528714294853" duration="15934000" />
+      <workItem from="1528798466082" duration="3149000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="633699000" />
+    <option name="totallyTimeSpent" value="682284000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -495,13 +396,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="608" y="151" width="1307" height="780" extended-state="6" />
+    <frame x="608" y="151" width="1313" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23034154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2339921" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7216174" sideWeight="0.51231134" order="14" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20492454" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20474309" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -526,141 +427,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/RegistrationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="86" column="90" lean-forward="false" selection-start-line="86" selection-start-column="68" selection-end-line="86" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/password_resetting.email.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="109" column="29" lean-forward="false" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Resetting/check_email.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/date/date_c.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="298" column="6" lean-forward="false" selection-start-line="298" selection-start-column="6" selection-end-line="298" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="84" column="74" lean-forward="false" selection-start-line="84" selection-start-column="74" selection-end-line="84" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Userdata.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4120">
-          <caret line="67" column="75" lean-forward="false" selection-start-line="67" selection-start-column="75" selection-end-line="67" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/userdata/reussi.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/register.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="486" column="9" lean-forward="false" selection-start-line="486" selection-start-column="9" selection-end-line="486" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/4a00d4ed/aba105bb-a1ef-46db-a1a7-e70310f96ab5/pgde.userdata">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/userdata/new.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-465">
-          <caret line="265" column="130" lean-forward="false" selection-start-line="265" selection-start-column="130" selection-end-line="265" selection-end-column="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/confirmcompte.txt.twig" />
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/demandesuccess.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-358">
-          <caret line="145" column="22" lean-forward="false" selection-start-line="145" selection-start-column="22" selection-end-line="145" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/security_inbox_email.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4800">
-          <caret line="140" column="48" lean-forward="false" selection-start-line="140" selection-start-column="48" selection-end-line="140" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/confirmcompte.email.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/sendinfo.email.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Utilisateur.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5232">
-          <caret line="157" column="5" lean-forward="false" selection-start-line="157" selection-start-column="5" selection-end-line="157" selection-end-column="5" />
-          <folding>
-            <element signature="e#44#76#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Resetting/reset.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-49">
@@ -699,23 +470,6 @@
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/DependencyInjection/AppExtension.php" />
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/config/admin.yml" />
     <entry file="file://$PROJECT_DIR$/app/config/sonata_admin.yml" />
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/RegistrationFormType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/RegistrationType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="28" column="53" lean-forward="true" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
-          <folding>
-            <element signature="e#44#84#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/sonata-project/block-bundle/src/DependencyInjection/Configuration.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -737,28 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/PasswordResettingListener.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="104" column="87" lean-forward="false" selection-start-line="104" selection-start-column="87" selection-end-line="104" selection-end-column="87" />
-          <folding>
-            <element signature="e#1224#1925#0#PHP" expanded="false" />
-            <element signature="e#2567#3353#0#PHP" expanded="false" />
-            <element signature="e#2783#2878#0#PHP" expanded="false" />
-            <element signature="e#3001#3107#0#PHP" expanded="false" />
-            <element signature="e#3117#3184#0#PHP" expanded="false" />
-            <element signature="e#3194#3266#0#PHP" expanded="false" />
-            <element signature="e#3276#3346#0#PHP" expanded="false" />
-            <element signature="e#3359#3438#0#PHP" expanded="false" />
-            <element signature="e#3444#3802#0#PHP" expanded="false" />
-            <element signature="e#3645#3795#0#PHP" expanded="false" />
-            <element signature="e#4210#4449#0#PHP" expanded="false" />
-            <element signature="e#4263#4302#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -767,7 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="7" column="60" lean-forward="false" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -775,7 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
           <caret line="28" column="74" lean-forward="false" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -783,7 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,7 +520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -799,49 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="41" column="67" lean-forward="false" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="100" column="27" lean-forward="false" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UserdataType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="185" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="e#604#1070#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/Group.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="69" column="15" lean-forward="false" selection-start-line="67" selection-start-column="13" selection-end-line="69" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,31 +534,216 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2013">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1228#1685#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="12" column="67" lean-forward="false" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+        <state relative-caret-position="352">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/Group.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Userdata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2976">
+          <caret line="67" column="75" lean-forward="false" selection-start-line="67" selection-start-column="75" selection-end-line="67" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Utilisateur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UserAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1039">
+          <caret line="54" column="66" lean-forward="false" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sonata-project/admin-bundle/src/Datagrid/ListMapper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="70" column="20" lean-forward="false" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UserdataAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="52" column="15" lean-forward="false" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UtilisateurType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/RegistrationType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="28" column="45" lean-forward="false" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/RegistrationFormType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/ProfileFormType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UserdataType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/LoginListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-593">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Service/PgdeService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Serializer/Serializer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/userdata/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="265" column="130" lean-forward="false" selection-start-line="265" selection-start-column="130" selection-end-line="265" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Serializer/SerializerInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/EventSubscriberInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-305">
+          <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOSUserEvents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="43" column="58" lean-forward="false" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/result.html" />
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/notifications_for_demande.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="4" column="175" lean-forward="false" selection-start-line="4" selection-start-column="175" selection-end-line="4" selection-end-column="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/PasswordResettingListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="58" column="12" lean-forward="false" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="44" column="74" lean-forward="false" selection-start-line="44" selection-start-column="74" selection-end-line="44" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Tests/Controller/DefaultControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/4a00d4ed/aba105bb-a1ef-46db-a1a7-e70310f96ab5/pgde.userdata">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Tests/Controller/UserdataControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Session/Flash/FlashBagInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/ControllerTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="151" column="23" lean-forward="false" selection-start-line="151" selection-start-column="23" selection-end-line="151" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="78" column="19" lean-forward="false" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="55" />
+        <state relative-caret-position="378">
+          <caret line="90" column="60" lean-forward="false" selection-start-line="90" selection-start-column="60" selection-end-line="90" selection-end-column="60" />
           <folding>
             <element signature="e#0#74#0" expanded="false" />
             <element signature="e#27#39#0" expanded="false" />
             <element signature="e#60#72#0" expanded="false" />
             <element signature="e#268#294#0" expanded="false" />
             <element signature="e#292#294#0" expanded="false" />
-            <element signature="e#296#995#0" expanded="false" />
             <element signature="e#323#362#0" expanded="false" />
             <element signature="e#337#360#0" expanded="false" />
             <element signature="e#349#359#1" expanded="false" />
@@ -882,84 +752,58 @@
             <element signature="e#416#461#0" expanded="false" />
             <element signature="e#532#572#0" expanded="false" />
             <element signature="e#566#570#0" expanded="false" />
-            <element signature="e#639#649#0" expanded="false" />
-            <element signature="e#675#899#0" expanded="false" />
-            <element signature="e#796#823#0" expanded="false" />
-            <element signature="e#843#899#0" expanded="false" />
-            <element signature="e#943#947#0" expanded="false" />
-            <element signature="e#966#995#0" expanded="false" />
-            <element signature="e#991#995#0" expanded="false" />
-            <element signature="e#1018#1237#0" expanded="false" />
-            <element signature="e#1035#1051#0" expanded="false" />
-            <element signature="e#1074#1090#0" expanded="false" />
-            <element signature="e#1095#1146#0" expanded="false" />
-            <element signature="e#1118#1146#0" expanded="false" />
-            <element signature="e#1202#1237#0" expanded="false" />
-            <element signature="e#1229#1237#0" expanded="false" />
-            <element signature="e#1300#1309#0" expanded="false" />
-            <element signature="e#1324#1341#0" expanded="false" />
-            <element signature="e#1356#1373#0" expanded="false" />
-            <element signature="e#1390#1407#0" expanded="false" />
-            <element signature="e#1422#1439#0" expanded="false" />
-            <element signature="e#1458#1479#0" expanded="false" />
-            <element signature="e#1497#1501#0" expanded="false" />
-            <element signature="e#2549#2600#0" expanded="false" />
-            <element signature="e#2574#2600#0" expanded="false" />
-            <element signature="e#2618#2699#0" expanded="false" />
-            <element signature="e#2647#2662#0" expanded="false" />
-            <element signature="e#2684#2699#0" expanded="false" />
-            <element signature="e#2704#2906#0" expanded="false" />
-            <element signature="e#2726#2789#0" expanded="false" />
-            <element signature="e#2750#2789#0" expanded="false" />
-            <element signature="e#2798#2906#0" expanded="false" />
-            <element signature="e#2833#2837#0" expanded="false" />
-            <element signature="e#2862#2906#0" expanded="false" />
-            <element signature="e#2911#3010#0" expanded="false" />
-            <element signature="e#2930#3010#1" expanded="false" />
-            <element signature="e#2961#3010#0" expanded="false" />
-            <element signature="e#3013#3152#0" expanded="false" />
-            <element signature="e#3031#3152#1" expanded="false" />
-            <element signature="e#3092#3152#1" expanded="false" />
-            <element signature="e#3135#3152#1" expanded="false" />
-            <element signature="e#3146#3151#1" expanded="false" />
+            <element signature="e#795#822#0" expanded="false" />
+            <element signature="e#842#898#0" expanded="false" />
+            <element signature="e#942#946#0" expanded="false" />
+            <element signature="e#1017#1236#0" expanded="false" />
+            <element signature="e#1034#1050#0" expanded="false" />
+            <element signature="e#1073#1089#0" expanded="false" />
+            <element signature="e#1094#1145#0" expanded="false" />
+            <element signature="e#1117#1145#0" expanded="false" />
+            <element signature="e#1201#1236#0" expanded="false" />
+            <element signature="e#1228#1236#0" expanded="false" />
+            <element signature="e#1299#1308#0" expanded="false" />
+            <element signature="e#1323#1340#0" expanded="false" />
+            <element signature="e#1355#1372#0" expanded="false" />
+            <element signature="e#1389#1406#0" expanded="false" />
+            <element signature="e#1421#1438#0" expanded="false" />
+            <element signature="e#1457#1478#0" expanded="false" />
+            <element signature="e#1496#1500#0" expanded="false" />
+            <element signature="e#2653#2704#0" expanded="false" />
+            <element signature="e#2678#2704#0" expanded="false" />
+            <element signature="e#2858#3060#0" expanded="false" />
+            <element signature="e#2880#2943#0" expanded="false" />
+            <element signature="e#2904#2943#0" expanded="false" />
+            <element signature="e#2952#3060#0" expanded="false" />
+            <element signature="e#2987#2991#0" expanded="false" />
+            <element signature="e#3016#3060#0" expanded="false" />
+            <element signature="e#3065#3164#0" expanded="false" />
+            <element signature="e#3084#3164#1" expanded="false" />
+            <element signature="e#3115#3164#0" expanded="false" />
+            <element signature="e#3167#3306#0" expanded="false" />
+            <element signature="e#3185#3306#1" expanded="false" />
+            <element signature="e#3246#3306#1" expanded="false" />
+            <element signature="e#3289#3306#1" expanded="false" />
+            <element signature="e#3300#3305#1" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UserdataAdmin.php">
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="32" column="47" lean-forward="false" selection-start-line="32" selection-start-column="47" selection-end-line="37" selection-end-column="13" />
+        <state relative-caret-position="47">
+          <caret line="115" column="27" lean-forward="false" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="45" />
           <folding>
-            <element signature="e#819#3264#0#PHP" expanded="false" />
-            <element signature="e#819#3435#0#PHP" expanded="false" />
-            <element signature="e#819#3699#0#PHP" expanded="false" />
-            <element signature="e#3490#3698#0#PHP" expanded="false" />
-            <element signature="e#819#3940#0#PHP" expanded="false" />
-            <element signature="e#3753#3939#0#PHP" expanded="false" />
-            <element signature="e#819#4106#0#PHP" expanded="false" />
-            <element signature="e#3992#4105#0#PHP" expanded="false" />
-            <element signature="e#819#4304#0#PHP" expanded="false" />
-            <element signature="e#4164#4303#0#PHP" expanded="false" />
-            <element signature="e#819#4502#0#PHP" expanded="false" />
-            <element signature="e#4362#4501#0#PHP" expanded="false" />
-            <element signature="e#819#4647#0#PHP" expanded="false" />
-            <element signature="e#4552#4646#0#PHP" expanded="false" />
-            <element signature="e#4707#4836#0#PHP" expanded="false" />
-            <element signature="e#819#5241#0#PHP" expanded="false" />
-            <element signature="e#4887#5240#0#PHP" expanded="false" />
-            <element signature="e#5166#5226#1#PHP" expanded="false" />
-            <element signature="e#5433#5723#0#PHP" expanded="false" />
-            <element signature="e#5523#5569#0#PHP" expanded="false" />
-            <element signature="e#5523#5601#0#PHP" expanded="false" />
-            <element signature="e#5523#5628#0#PHP" expanded="false" />
-            <element signature="e#5523#5671#0#PHP" expanded="false" />
-            <element signature="e#6291#6555#0#PHP" expanded="false" />
-            <element signature="e#6368#6410#0#PHP" expanded="false" />
-            <element signature="e#6368#6445#0#PHP" expanded="false" />
-            <element signature="e#6368#6477#0#PHP" expanded="false" />
-            <element signature="e#6368#6504#0#PHP" expanded="false" />
+            <element signature="e#8103#8130#1#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -967,17 +811,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UserAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="43" />
-          <folding>
-            <element signature="e#43#104#0#PHP" expanded="true" />
-            <element signature="e#1725#1950#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>

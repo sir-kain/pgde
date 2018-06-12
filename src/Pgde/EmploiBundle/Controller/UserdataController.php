@@ -100,7 +100,7 @@ class UserdataController extends Controller
 //            if ($ajout) {}
 //            ENVOI DE MAIL
             $message = (new \Swift_Message('Votre demande d\'emploi a été soumise avec succès - Plateforme de Gestion des Demandes d\'Emploi (PGDE)'))
-                ->setFrom('fpublique2018@gmail.com')
+                ->setFrom('ahmandiaye@outlook.fr')
                 ->setTo($userdatum->getUtilisateur()->getEmail())
                 ->setBody(
                     $this->renderView(
@@ -111,6 +111,21 @@ class UserdataController extends Controller
                     'text/html'
                 )
             ;
+
+            $transport = \Swift_SmtpTransport::newInstance()
+                ->setHost('smtp-appli.gouv.sn');
+
+            $mailer = \Swift_Mailer::newInstance($transport);
+
+            $message = \Swift_Message::newInstance()
+                ->setSubject('title')
+                ->setFrom(array('nepasrepondre@fonctionpublique.gouv.sn' => 'I am someone'))
+                ->setTo(array('ahmandiaye@outlook.fr' => "ahmandiaye@outlook.fr"))
+                ->addPart("<h1>Welcome depuis ne pas repondre</h1>",'text/html')
+            ;
+
+            $mailer->send($message);
+
 
 //            $mailer->send($message);
 

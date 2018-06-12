@@ -58,17 +58,17 @@ class PasswordResettingListener implements EventSubscriberInterface
         return [
             FOSUserEvents::CHANGE_PASSWORD_SUCCESS => 'onPasswordResettingSuccess',
             FOSUserEvents::RESETTING_RESET_SUCCESS => 'onPasswordResettingSuccess',
-            FOSUserEvents::SECURITY_IMPLICIT_LOGIN => 'onUserLogged',
-            FOSUserEvents::REGISTRATION_CONFIRMED => 'onRegisterConfirmed',
             FOSUserEvents::REGISTRATION_CONFIRM => 'onRegisterConfirmedWithEmail',
-            FOSUserEvents::REGISTRATION_SUCCESS => 'onRegisterSuccessed',
-            FOSUserEvents::REGISTRATION_COMPLETED => 'onRegisterCompleted',
         ];
     }
 
     public function onPasswordResettingSuccess(FormEvent $event)
     {
         $user = $event->getForm()->getData();
+        $userdata = $this->entityManager->getRepository(Userdata::class)
+            ->findOneBy(['utilisateur' => $user]);
+        dump($userdata);
+
         $useremail = $user->getEmail();
         $username = $user->getUsername();
         $urlavatar = $this->entityManager->getRepository(Userdata::class)
@@ -82,12 +82,9 @@ class PasswordResettingListener implements EventSubscriberInterface
         $this->session->getFlashBag()
             ->add('urlavatar', $urlavatar);
         $this->session->getFlashBag()
-            ->add('username', $username);
+            ->add('user', $userdata);
     }
 
-    public function onRegisterCompleted(FilterUserResponseEvent $event)
-    {
-    }
 
     public function onRegisterConfirmedWithEmail(GetResponseUserEvent $event)
     {
@@ -97,24 +94,4 @@ class PasswordResettingListener implements EventSubscriberInterface
             ->add('ACCOUNT_STATE', 'Bienvenue: Votre compte est maintenant actif. Merci de finaliser votre inscription');
     }
 
-    public function onRegisterConfirmed(FilterUserResponseEvent $event)
-    {
-//        $url = $this->router->generate('userdata_new');
-//        $event->setResponse(new RedirectResponse($url));
-//        $this->session->getFlashBag()
-//            ->add('ACCOUNT_STATE', 'Bienvenue: Votre compte est maintenant actif!!');
-    }
-
-
-    public function onRegisterSuccessed(FormEvent $event)
-    {
-    }
-
-    public function onUserLogged(UserEvent $event)
-    {
-//        $this->session->getFlashBag()
-//            ->add('ACCOUNT_STATE', 'Connexion reussie!');
-//        $this->session->getFlashBag()
-//            ->add('CLASS', 'gritter');
-    }
 }

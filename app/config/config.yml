@@ -17,7 +17,7 @@ framework:
     form: ~
     csrf_protection: ~
     validation: { enable_annotations: true }
-    #serializer: { enable_annotations: true }
+    serializer: { enable_annotations: true }
     default_locale: '%locale%'
     trusted_hosts: ~
     session:
@@ -69,8 +69,11 @@ swiftmailer:
     transport: '%mailer_transport%'
     host: '%mailer_host%'
     username: '%mailer_user%'
+#    port: '%mailer_port%'
     password: '%mailer_password%'
     spool: { type: memory }
+#    encryption: '%mailer_encryption%'
+    sender_address: '%sender_address%'
 
 
 fos_user:
@@ -84,8 +87,8 @@ fos_user:
     service:
         mailer: fos_user.mailer.twig_swift # this lines
     from_email:
-        address: "%mailer_user%"
-        sender_name: "%mailer_user%"
+        address: "nepasrepondre@fonctionpublique.gouv.sn"
+        sender_name: "nepasrepondre@fonctionpublique.gouv.sn"
     registration:
         form:
             type: Pgde\EmploiBundle\Form\RegistrationType
