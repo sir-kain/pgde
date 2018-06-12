@@ -97,40 +97,30 @@ class UserdataController extends Controller
             $this->get('session')->getFlashBag()->add('username', $userdatum->getUtilisateur()->getUsername());
 
 
-//            if ($ajout) {}
 //            ENVOI DE MAIL
-            $message = (new \Swift_Message('Votre demande d\'emploi a été soumise avec succès - Plateforme de Gestion des Demandes d\'Emploi (PGDE)'))
-                ->setFrom('ahmandiaye@outlook.fr')
-                ->setTo($userdatum->getUtilisateur()->getEmail())
-                ->setBody(
-                    $this->renderView(
-                    // app/Resources/views/Emails/registration.html.twig
-                        '@PgdeEmploi/Email/sendinfo.email.twig',
-                        array('user' => $userdatum->getUtilisateur())
-                    ),
-                    'text/html'
-                )
-            ;
+            if ($ajout) {
+                $transport = \Swift_SmtpTransport::newInstance()
+                    ->setHost('smtp-appli.gouv.sn');
 
-            $transport = \Swift_SmtpTransport::newInstance()
-                ->setHost('smtp-appli.gouv.sn');
+                $mailer = \Swift_Mailer::newInstance($transport);
 
-            $mailer = \Swift_Mailer::newInstance($transport);
+                $message = \Swift_Message::newInstance()
+                    ->setSubject('Votre demande d\'emploi a été soumise avec succès - 
+                Plateforme de Gestion des Demandes d\'Emploi (PGDE)')
+                    ->setFrom('nepasrepondre@fonctionpublique.gouv.sn')
+                    ->setTo($userdatum->getUtilisateur()->getEmail())
+                    ->setBody(
+                        $this->renderView(
+                        // app/Resources/views/Emails/registration.html.twig
+                            '@PgdeEmploi/Email/sendinfo.email.twig',
+                            array('user' => $userdatum->getUtilisateur())
+                        ),
+                        'text/html'
+                    )
+                ;
+                $mailer->send($message);
+            }
 
-            $message = \Swift_Message::newInstance()
-                ->setSubject('title')
-                ->setFrom(array('nepasrepondre@fonctionpublique.gouv.sn' => 'I am someone'))
-                ->setTo(array('ahmandiaye@outlook.fr' => "ahmandiaye@outlook.fr"))
-                ->addPart("<h1>Welcome depuis ne pas repondre</h1>",'text/html')
-            ;
-
-            $mailer->send($message);
-
-
-//            $mailer->send($message);
-
-            // or, you can also fetch the mailer service this way
-             $this->get('mailer')->send($message);
             return $this->redirectToRoute('userdata_reussi');
         }
 
