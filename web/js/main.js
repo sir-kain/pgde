@@ -174,7 +174,7 @@ $(document).ready(function () {
         $(".form-group").removeClass("has-error");
         for (var i = 0; i < curInputs.length; i++) {
             if (!curInputs[i].validity.valid) {
-                isValid = false;
+                isValid = true;
                 $(curInputs[i]).closest(".form-group").addClass("has-error");
             }
         }
@@ -404,7 +404,7 @@ $(document).ready(function () {
         }
     })
 
-
+    //Verification numero d'identification pour inscription
     $('#fos_user_registration_form_numberid').focusout(function () {
         var taille = $('#fos_user_registration_form_numberid').val().length
         var valeur = $('#fos_user_registration_form_numberid').val()
@@ -418,7 +418,7 @@ $(document).ready(function () {
                         if (i !== 1) {
                             $('#register_button').attr('disabled', true)
                             $('#matchIdCard').empty();
-                            $('#matchIdCard').append('Le numero est invalide');
+                            $('#matchIdCard').append('Le numéro est invalide');
                             return;
                         }
                     }
@@ -434,7 +434,7 @@ $(document).ready(function () {
                         if (i !== 0) {
                             $('#register_button').attr('disabled', true)
                             $('#matchIdCard').empty();
-                            $('#matchIdCard').append('Le numero est invalide');
+                            $('#matchIdCard').append('Le numéro est invalide');
                             return;
                         }
                     }
@@ -447,13 +447,64 @@ $(document).ready(function () {
                 if (isNaN(valeur)) {
                     $('#register_button').attr('disabled', true)
                     $('#matchIdCard').empty();
-                    $('#matchIdCard').append('Le numero est invalide');
+                    $('#matchIdCard').append('Le numéro est invalide');
                     return;
                 }
                 $('#matchIdCard').empty();
             default:
                 $('#matchIdCard').empty();
-                $('#matchIdCard').append('Le numero est invalide');
+                $('#matchIdCard').append('Le numéro est invalide');
+
+        }
+    })
+
+    //Verification numero d'identification pour formulaire demande
+    $('#pgde_emploibundle_userdata_utilisateur_numberid').focusout(function () {
+        var taille = $('#pgde_emploibundle_userdata_utilisateur_numberid').val().length
+        var valeur = $('#pgde_emploibundle_userdata_utilisateur_numberid').val()
+
+        switch (taille) {
+            case 13:
+                var i;
+                for (i = 0; i < 13; i++) {
+                    var nb = parseInt(valeur[i])
+                    if (isNaN(nb)) {
+                        if (i !== 1) {
+                            $('#matchIdCardDemande').empty();
+                            $('#matchIdCardDemande').append('Le numéro est invalide');
+                            return;
+                        }
+                    }
+                }
+                $('#matchIdCardDemande').empty();
+                $('#register_button').attr('disabled', false)
+                break;
+            case 9:
+                var i;
+                for (i = 0; i < 9; i++) {
+                    var nb = parseInt(valeur[i])
+                    if (isNaN(nb)) {
+                        if (i !== 0) {
+                            $('#matchIdCardDemande').empty();
+                            $('#matchIdCardDemande').append('Le numéro est invalide');
+                            return;
+                        }
+                    }
+
+                }
+                $('#matchIdCardDemande').empty();
+                break;
+            case 14:
+            case 17:
+                if (isNaN(valeur)) {
+                    $('#matchIdCardDemande').empty();
+                    $('#matchIdCardDemande').append('Le numéro est invalide');
+                    return;
+                }
+                $('#matchIdCardDemande').empty();
+            default:
+                $('#matchIdCardDemande').empty();
+                $('#matchIdCardDemande').append('Le numéro est invalide');
 
         }
     })
@@ -463,7 +514,7 @@ $(document).ready(function () {
             $('#register_button').attr('disabled', true)
             $('#firstnamecheck').empty();
             $('#firstnamecheck').append('Le prenom doit comporter au moins une lettre');
-        }else {
+        } else {
             $('#firstnamecheck').empty();
         }
     })
@@ -472,7 +523,7 @@ $(document).ready(function () {
             $('#register_button').attr('disabled', true)
             $('#firstnamecheck').empty();
             $('#firstnamecheck').append('Le nom doit comporter au moins une lettre');
-        }else {
+        } else {
             $('#firstnamecheck').empty();
         }
     })
@@ -482,7 +533,7 @@ $(document).ready(function () {
             $('#register_button').attr('disabled', true)
             $('#usernamecheck').empty();
             $('#usernamecheck').append('Le nom d\'utilisateur doit comporter au moins une lettre');
-        }else {
+        } else {
             $('#usernamecheck').empty();
         }
     })
@@ -492,5 +543,51 @@ $(document).ready(function () {
     $('#residloader').hide();
     $('#emploi1loader').hide();
     $('#emploi2loader').hide();
+
+    // Control du champs diplome
+    $('#intitule').fadeIn('slow')
+    $('#annee').fadeIn('slow')
+    $('#etablissement').fadeIn('slow')
+    $('#autredip').fadeIn('slow')
+    $('#specialite').fadeIn('slow')
+    $('#aucundip').fadeOut('slow')
+
+    $('#pgde_emploibundle_userdata_academic').change(function (e) {
+        let selecteditem = $(this).val();
+        if (selecteditem == 14) {
+            $('#intitule').fadeOut('slow')
+            $('#annee').fadeOut('slow')
+            $('#etablissement').fadeOut('slow')
+            $('#autredip').fadeOut('slow')
+            $('#specialite').fadeOut('slow')
+            $('#aucundip').fadeIn('slow')
+            $('#pgde_emploibundle_userdata_diplome').val('')
+            $('#pgde_emploibundle_userdata_anneediplome').val('')
+            $('#pgde_emploibundle_userdata_specialite').val('')
+            $('#pgde_emploibundle_userdata_etablissementdiplome').val('')
+            $('#pgde_emploibundle_userdata_autresdiplomes').val('')
+        } else {
+            $('#intitule').fadeIn('slow')
+            $('#annee').fadeIn('slow')
+            $('#etablissement').fadeIn('slow')
+            $('#autredip').fadeIn('slow')
+            $('#specialite').fadeIn('slow')
+            $('#aucundip').fadeOut('slow')
+        }
+    })
+
+    if ($('#pgde_emploibundle_userdata_academic').val() == 14) {
+        $('#intitule').fadeOut('slow')
+        $('#annee').fadeOut('slow')
+        $('#etablissement').fadeOut('slow')
+        $('#autredip').fadeOut('slow')
+        $('#specialite').fadeOut('slow')
+        $('#aucundip').fadeIn('slow')
+        $('#pgde_emploibundle_userdata_diplome').val('')
+        $('#pgde_emploibundle_userdata_anneediplome').val('')
+        $('#pgde_emploibundle_userdata_specialite').val('')
+        $('#pgde_emploibundle_userdata_etablissementdiplome').val('')
+        $('#pgde_emploibundle_userdata_autresdiplomes').val('')
+    }
 });
 

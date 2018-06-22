@@ -16,7 +16,7 @@
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
     {#<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">#}
     {#<link href="{{ asset('assets/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">#}
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet"
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"
           type="text/css">
     <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('assets/css/my-custom-styles.css') }}" rel="stylesheet" type="text/css">
@@ -49,8 +49,10 @@
 <body>
 <div class="grid">
     <div class="contentt">
-        <img src="{{ asset('img/logosn.png') }}" alt="">
-        <h3 style="font-family: 'Lato', sans-serif;">Plateforme de Gestion des Demandes d'Emploi</h3>
+        <a href="{{ path('fos_user_security_login') }}">
+            <img src="{{ asset('img/devisesenegal.png') }}" alt="">
+            <h3 style="font-family: 'Lato', sans-serif;">PLATEFORME DE GESTION DES DEMANDES D'EMPLOI</h3>
+        </a>
     </div>
 </div>
 

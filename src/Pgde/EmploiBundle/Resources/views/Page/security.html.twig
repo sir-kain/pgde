@@ -1,7 +1,7 @@
 {% extends 'base.html.twig' %}
 {% block security_content %}
     <div class="wrapper full-page-wrapper page-auth page-login text-center">
-        <div class="container">
+        <div class="container" style="margin-bottom: 50px;">
             {% include '@PgdeEmploi/partials/alert_message.html.twig' %}
         </div>
         {% set firstcol = 'col-sm-4' %}
@@ -95,9 +95,9 @@
 
 
                                 <!-- SLIDER SHADOW -->
-                                <div class="slider-shadow">
-                                    <img src="{{ asset('img/shadow.png') }}" alt="Slider Shadow">
-                                </div>
+                                {#<div class="slider-shadow">#}
+                                    {#<img src="{{ asset('img/shadow.png') }}" alt="Slider Shadow">#}
+                                {#</div>#}
 
                             </div>
                         </div>

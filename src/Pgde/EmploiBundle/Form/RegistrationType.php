@@ -5,6 +5,7 @@ namespace Pgde\EmploiBundle\Form;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
+use Symfony\Component\Validator\Constraints\Length;
 
 class RegistrationType extends AbstractType
 {
@@ -12,7 +13,7 @@ class RegistrationType extends AbstractType
     {
         $builder
             ->add('numberid', TextType::class, [
-                'label' => 'Numéro CIN:'
+                'label' => 'Numéro CIN / Passport:'
             ])
             ->add('firstname', TextType::class, [
                 'label' => 'Prénom: '

@@ -104,8 +104,7 @@ body {
     display: block;
 
     /*background: url("http://res.cloudinary.com/dpdwdstqt/image/upload/v1525458838/hearder.png")*/
-    background: url("../img/hearder.png")
-    no-repeat fixed center;
+    background: url("../img/hearder.png") no-repeat fixed center;
     background-size: cover;
     /*-webkit-filter: blur(5px);*/
     /*filter: blur(5px);*/
@@ -117,6 +116,10 @@ body {
     margin: 0 auto;
     text-align: center;
     line-height: 100px;
+}
+.contentt a {
+    text-decoration: none !important;
+    color: #626262;
 }
 
 .grid h3 {
@@ -152,8 +155,6 @@ body {
     opacity: 0.9;
 }
 
-
-
 /*.video-intro:hover {*/
 /*-webkit-filter: grayscale(100%); !* Safari 6.0 - 9.0 *!*/
 /*filter: grayscale(100%);*/
@@ -179,7 +180,7 @@ body {
 }
 
 .setup-content {
-    border:none;
+    border: none;
 }
 
 .btn-primary-theme {
@@ -189,43 +190,73 @@ body {
 }
 
 /*big menu color*/
+.top-content ul.quick-acces {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+/*.top-content ul.quick-access > li {*/
+/*width: auto;*/
+/*}*/
+.top-content ul.quick-acces .second {
+    display: grid;
+    justify-items: end;
+}
+.top-content ul.quick-acces .first {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: start;
+}
 
 .top-content ul.quick-access > li .quick-access-item {
-    padding:5px;
+    padding: 5px;
     /*width: 190px;*/
     /*margin-right: 3px;*/
 }
-.top-content ul.quick-access > li .quick-access-item.bg-color-green {
-    background-color: #008536; }
-.top-content ul.quick-access > li .quick-access-item.bg-color-yellow {
-    background-color: #e4d83c; }
-.top-content ul.quick-access > li .quick-access-item.bg-color-red {
-    background-color: #ff121f; }
+
+.quick-access-item.bg-color-green {
+    background-color: #008536 !important;
+}
+.quick-access-item.bg-color-yellow {
+    background-color: #e4d83c !important;
+}
+
+ .quick-access-item.bg-color-red {
+    background-color: #ff121f !important;
+}
+.quick-access-item.bg-color-gray {
+    background-color: #F2F2F2 !important;
+}
+
+/*End big menu*/
 
 .requis {
     color: #ff121f;
 }
 
-.btn-success[disabled]:hover{
-    color:#fff;
+.btn-success[disabled]:hover {
+    color: #fff;
     background-color: #1e88f5;
-    border-color: #1e88f5}
+    border-color: #1e88f5
+}
 
 .img-footer {
     display: block;
     margin: 0 auto;
 }
 
-
 .footer-row-1 .footer-row-2 {
     padding: .5em 0 1em 0;
 }
-.footer-row-1 li{
+
+.footer-row-1 li {
     display: inline-block;
     list-style: none;
     padding: 0 2em;
 }
-.footer-row-1 a{
+
+.footer-row-1 a {
     font-size: 15px;
     font-family: 'Helvetica';
     /*font-style: italic;*/
@@ -234,12 +265,13 @@ body {
     color: #434343;
 }
 
-.footer-row-2 li{
+.footer-row-2 li {
     display: inline-block;
     list-style: none;
     padding: 1em 1em;
 }
-.footer-row-2 a{
+
+.footer-row-2 a {
     text-decoration: none;
     font-weight: 100;
     color: #000;
@@ -250,6 +282,7 @@ body {
     margin: 2em -1.5em -1.3em -1.5em;
     padding: 1em 0;
 }
+
 .border-r {
     border-right: 1.5px solid #434343;
 }
@@ -258,16 +291,27 @@ body {
     background-color: #fff;
 }
 
-.has-error select{
-    /*border-color: red;*/
-    border: 2px solid red;
-}
-.has-error input{
+.has-error select {
     /*border-color: red;*/
     border: 2px solid red;
 }
 
-.btn-circle2 a{
+.has-error input {
+    /*border-color: red;*/
+    border: 2px solid red;
+}
+
+.btn-circle2 a {
     font-size: 15px;
     border-radius: 100%;
+}
+
+/* logo pgde */
+.top-bar {
+    padding: .8rem;
+}
+.logo-pgde a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
 }

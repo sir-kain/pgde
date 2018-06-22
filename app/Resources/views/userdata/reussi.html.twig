@@ -6,22 +6,29 @@
         {#</div>#}
         <div class="inner-page" style="padding-top: 40px">
             {% block link_inscription %} {% endblock %}
-            <div class="login-box center-block green-bg" style="width: 50%">
+            <div class="login-box center-block gray-bg" style="width: 50%">
                 {% block fos_user_content %}
 
                     <div class="contextual-summary-info text-center contextual-background">
-                        <i class="fa fa-save"></i>
+                        <i class="fa fa-save" style="color: #ff9900;"></i>
                         {#<p class="pull-right"><span>SUCCESS</span> 35</p>#}
-                        <p style="text-align: left; padding-top: 20px" class="lead">
-                            Vos informations sont bien mises à jour dans notre base.<br>
+                        <p style="text-align: left; padding-top: 20px; padding-bottom: 20px;" class="lead black-font">
+                            {% if ajout %}
+
+                                Votre demande nous a été soumise avec succès et vos informations sont enregistrées dans notre base de données.
+                            {% else %}
+                                Vos modifications nous ont été soumises et vos informations sont mises à jour dans notre base de données.
+                            {% endif %}
+                            <br>
                         </p>
+                        <a href="{{ path('userdata_new') }}" class="btn btn-primary btn-lg"> Espace candidat</a>
                     </div>
 
                 {% endblock %}
-                <div class="links">
-                    <p><a href="{{ path('userdata_new') }}">Retour au site</a></p>
-                    <p><a href="{{ path('fos_user_security_logout') }}">Se déconnecter</a></p>
-                </div>
+                {#<div class="links">#}
+                {#<p><a href="{{ path('userdata_new') }}">Retour au site</a></p>#}
+                {#<p><a href="{{ path('fos_user_security_logout') }}">Se déconnecter</a></p>#}
+                {#</div>#}
             </div>
         </div>
     </div>

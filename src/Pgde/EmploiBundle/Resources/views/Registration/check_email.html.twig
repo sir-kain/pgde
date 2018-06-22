@@ -7,25 +7,22 @@
         {#</div>#}
         <div class="inner-page" style="padding-top: 40px">
             {% block link_inscription %} {% endblock %}
-            <div class="login-box center-block green-bg" style="width: 50%">
+            <div class="login-box center-block gray-bg" style="width: 50%">
                 {% block fos_user_content %}
 
                     <div class="contextual-summary-info text-center contextual-background">
-                        <i class="fa fa-envelope"></i>
+                        <i class="fa fa-envelope" style="color: #ff9900"></i>
                         {#<p class="pull-right"><span>SUCCESS</span> 35</p>#}
-                        <p style="text-align: left; padding-top: 20px" class="lead">
-                            Un e-mail a été envoyé à l'adresse <u>{{ user.email }}</u>. <br>
-                            Il contient un lien d'activation sur lequel il vous faudra cliquer afin d'activer votre compte.
+                        <p style="text-align: left; padding-top: 20px" class="lead black-font">
+                            Un e-mail contenant le lien d'activation de votre compte a été envoyé à l'adresse <u>{{ user.email }}</u>. <br>
+                            Veuillez cliquer dessus pour activer votre compte.
 
                         </p>
+                        <a href="{{ path('fos_user_security_login') }}" class="btn btn-primary btn-lg">
+                            Retour à la page d'accueil </a>
                     </div>
 
                 {% endblock %}
-                <div class="links">
-                    {#<p><a href="{{ path('fos_user_security_login') }}"> Se connecter </a></p>#}
-                    {#<p><a href="{{ path('fos_user_registration_register') }}">Créer un compte</a></p>#}
-                    {#<p><a href="{{ path('fos_user_resetting_request') }}">J'ai oublié mon mot de passe</a></p>#}
-                </div>
             </div>
         </div>
     </div>

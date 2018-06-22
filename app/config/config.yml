@@ -73,7 +73,7 @@ swiftmailer:
     password: '%mailer_password%'
     spool: { type: memory }
 #    encryption: '%mailer_encryption%'
-    sender_address: '%sender_address%'
+#    sender_address: '%sender_address%'
 
 
 fos_user:
@@ -88,7 +88,7 @@ fos_user:
         mailer: fos_user.mailer.twig_swift # this lines
     from_email:
         address: "nepasrepondre@fonctionpublique.gouv.sn"
-        sender_name: "nepasrepondre@fonctionpublique.gouv.sn"
+        sender_name: "Fonction publique"
     registration:
         form:
             type: Pgde\EmploiBundle\Form\RegistrationType

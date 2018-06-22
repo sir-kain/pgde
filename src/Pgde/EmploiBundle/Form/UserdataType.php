@@ -37,7 +37,7 @@ class UserdataType extends AbstractType
                 'required' => false,
                 'placeholder' => 'Choisir le niveau de formation',
                 'attr' => [
-                    'class' => 'select2'
+//                    'class' => 'select2'
                 ]
             ])
             ->add('datenaiss', DateType::class, array(
@@ -175,8 +175,8 @@ class UserdataType extends AbstractType
             ])
             ->add('handicap', EntityType::class, [
                 'class' => 'Pgde\EmploiBundle\Entity\Handicap',
-                'placeholder' => 'Selectionner votre handicap',
-                'label' => 'Handicap: ',
+                'placeholder' => 'Aucun handicap',
+                'label' => 'Souffrez-vous d\'un handicap?',
                 'choice_label' => 'libelle',
                 'required' => false,
                 'attr' => [
@@ -308,18 +308,25 @@ class UserdataType extends AbstractType
             $placeholder = $region
                 ? 'Sélectionnez votre département de naissance'
                 : 'Sélectionnez votre région de naissance';
+            $form->add($name, EntityType::class, [
+                'class' => 'Pgde\EmploiBundle\Entity\Departement',
+                'label' =>  'Departement de naissance',
+                'placeholder' => $placeholder,
+                'choices' => $region ? $region->getDepartements() : [],
+                'required' => false,
+            ]);
         } else {
             $placeholder = $region
                 ? 'Sélectionnez votre département de residence'
                 : 'Sélectionnez votre région de residence';
+            $form->add($name, EntityType::class, [
+                'class' => 'Pgde\EmploiBundle\Entity\Departement',
+                'label' =>  'Departement de residence',
+                'placeholder' => $placeholder,
+                'choices' => $region ? $region->getDepartements() : [],
+                'required' => false,
+            ]);
         }
-        $form->add($name, EntityType::class, [
-            'class' => 'Pgde\EmploiBundle\Entity\Departement',
-            'label' =>  'Departement de Residence',
-            'placeholder' => $placeholder,
-            'choices' => $region ? $region->getDepartements() : [],
-            'required' => false,
-        ]);
     }
 
     private function addEmploymentField(FormInterface $form, ?Secteur $secteur, $name)

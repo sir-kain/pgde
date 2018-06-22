@@ -7,18 +7,19 @@
         {#</div>#}
         <div class="inner-page" style="padding-top: 40px">
             {% block link_inscription %} {% endblock %}
-            <div class="login-box center-block green-bg" style="width: 50%">
+            <div class="login-box center-block gray-bg" style="width: 50%">
                 {% block fos_user_content %}
 
                     <div class="contextual-summary-info text-center contextual-background">
-                        <i class="fa fa-envelope"></i>
+                        <i class="fa fa-envelope" style="color: #ff9900"></i>
                         {#<p class="pull-right"><span>SUCCESS</span> 35</p>#}
-                        <p style="text-align: left; padding-top: 20px" class="lead">
-                            Un e-mail a été envoyé. Il contient un lien sur lequel il vous faudra cliquer pour réinitialiser votre mot de passe.<br>
+                        <p style="text-align: left; padding-top: 20px;" class="lead black-font">
+                            Un e-mail contenant un lien de réinitialisation de votre mot de passe vous a été envoyé.<br>
+                            Merci de verifier dans les spams si vous n'avez pas reçu l'e-mail. <br>
+                        </p><p style="text-align: left; padding-top: 20px" class="lead black-font">
                             <u>Remarque:</u> Vous ne pouvez demander un nouveau mot de passe que toutes les 2 heures.
-
-                            Si vous ne recevez pas un email, vérifiez votre dossier spam ou essayez à nouveau.
                         </p>
+                        <a href="{{ path('fos_user_security_login') }}" class="btn btn-primary btn-lg"> Retour à l'accueil</a>
                     </div>
 
                 {% endblock %}

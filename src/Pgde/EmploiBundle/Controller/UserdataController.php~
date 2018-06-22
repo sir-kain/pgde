@@ -57,7 +57,7 @@ class UserdataController extends Controller
             $userdatum = new Userdata();
             $userdatum->setUtilisateur($userconnecter);
         }
-        $form = $this->createForm('Pgde\EmploiBundle\Form\UserdataType', $userdatum, ['validation_groups' => ['Demande']]);
+        $form = $this->createForm('Pgde\EmploiBundle\Form\UserdataType', $userdatum);
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
@@ -120,12 +120,8 @@ class UserdataController extends Controller
                 ;
                 $mailer->send($message);
             }
-            $response = $this->forward('PgdeEmploiBundle:Userdata:reussi', array(
-                'ajout'  => $ajout
-            ));
 
-//            return $this->redirectToRoute('userdata_reussi');
-            return $response;
+            return $this->redirectToRoute('userdata_reussi');
         }
 
 
@@ -215,15 +211,14 @@ class UserdataController extends Controller
     }
 
     /**
+     * Deletes a userdatum entity.
      *
-     * @Route("/success/", name="userdata_reussi")
+     * @Route("/success", name="userdata_reussi")
      * @Method("GET")
      * @return \Symfony\Component\HttpFoundation\RedirectResponse
      */
-    public function reussiAction($ajout)
+    public function reussiAction()
     {
-        return $this->render('userdata/reussi.html.twig', [
-            'ajout' =>  $ajout
-        ]);
+        return $this->render('userdata/reussi.html.twig');
     }
 }

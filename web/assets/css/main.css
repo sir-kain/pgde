@@ -12303,6 +12303,9 @@ body.topnav-fixed #wrapper {
 .red-font {
   color: #E60404 !important; }
 
+.black-font {
+  color: #606060 !important; }
+
 .yellow-font {
   color: #FFB800 !important; }
 
@@ -12317,6 +12320,9 @@ body.topnav-fixed #wrapper {
 
 .green-bg {
   background-color: #3E9C1A !important; }
+
+.gray-bg {
+  background-color: #f2f2f2 !important; }
 
 .link-disabled {
   opacity: 0.5;

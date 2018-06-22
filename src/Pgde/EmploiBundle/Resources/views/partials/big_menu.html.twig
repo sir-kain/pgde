@@ -1,31 +1,44 @@
 <div class="top-content">
-    <ul class="list-inline quick-access">
-        <li>
+    <ul class="list-inline quick-acces">
+        <li class="first">
             <a href="#">
-                <div class="quick-access-item bg-color-green">
-                    <i class="fa fa-sort-numeric-asc"></i>
+                <div class="quick-access-item bg-color-gray">
+                    {#<i class="fa fa-sort-numeric-asc"></i>#}
                     <h5> NUMERO INSCRIPTION</h5>
                     <em style="font-size: 16px"><span class="count">{{ userdatum.utilisateur.id }}</span> </em>
                 </div>
             </a>
         </li>
-        <li>
-            <a href="{{ path('fos_user_change_password') }}">
-                <div class="quick-access-item bg-color-yellow">
-                    <i class="fa fa-exchange"></i>
-                    <h5 style="font-weight: bold;">COMPTE</h5>
-                    <em>Changer mon mot de passe</em>
-                </div>
-            </a>
-        </li>
-        <li>
-            <a href="{{ path('fos_user_security_logout') }}">
-                <div class="quick-access-item bg-color-red">
-                    <i class="fa fa-sign-out"></i>
-                    <h5>  {{ userdatum.utilisateur.firstname | upper }}  {{ userdatum.utilisateur.lastname | upper }} </h5>
-                    <em>Se deconnecter</em>
-                </div>
-            </a>
+        <li class="second">
+            <ul class="list-inline quick-access">
+                <li>
+                    <a href="{{ path('fos_user_security_login') }}">
+                        <div class="quick-access-item bg-color-yellow">
+                            <i class="fa fa-exchange"></i>
+                            <h5 style="font-weight: bold;">COMPTE</h5>
+                            <em>Accueil</em>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ path('fos_user_change_password') }}">
+                        <div class="quick-access-item bg-color-yellow">
+                            <i class="fa fa-exchange"></i>
+                            <h5 style="font-weight: bold;">COMPTE</h5>
+                            <em>Changer mon mot de passe</em>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ path('fos_user_security_logout') }}">
+                        <div class="quick-access-item bg-color-red">
+                            <i class="fa fa-sign-out"></i>
+                            <h5>  {{ userdatum.utilisateur.firstname | upper }}  {{ userdatum.utilisateur.lastname | upper }} </h5>
+                            <em>Se deconnecter</em>
+                        </div>
+                    </a>
+                </li>
+            </ul>
         </li>
     </ul>
 </div>

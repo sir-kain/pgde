@@ -12,7 +12,7 @@ use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
  *
  * @ORM\Table(name="utilisateur")
  * @ORM\Entity(repositoryClass="Pgde\EmploiBundle\Repository\UtilisateurRepository")
- * * @UniqueEntity(
+ * @UniqueEntity(
  *     fields={"numberid"},
  *     message="Ce numéro de carte d'identité est déjà utilisé."
  * )
@@ -64,7 +64,20 @@ class Utilisateur extends BaseUser
     /**
      * @ORM\Column(type="string", length=255, unique=true)
      *
-     * @Assert\NotBlank(message="Merci de renseigner votre Numero de carte d'identité.", groups={"Registration", "Profile"})
+     * @Assert\NotBlank(
+     *     message="Merci de renseigner votre Numero de carte d'identité.",
+     *     groups={"Registration", "Profile"}
+     *     )
+     * @Assert\Length(
+     *     min=2,
+     *     groups={"Registration", "Profile", "Demande"}
+     * )
+     * @Assert\Regex(
+     *     pattern="/^(^(^(\d{1}([a-z]|\d{1})\d{3})$|\d{4}$)|[a-z]\d{8})$/i",
+     *     match=true,
+     *     message="Le numéro que vous avez saisi n'est pas valide",
+     *     groups={"Registration", "Profile"}
+     * )
      */
     protected $numberid;
 
