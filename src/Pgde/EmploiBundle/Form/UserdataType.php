@@ -348,21 +348,6 @@ class UserdataType extends AbstractType
         ]);
     }
 
-    private function addHandicapField(FormInterface $form)
-    {
-        $form->add('handicap', EntityType::class, [
-            'class' => 'Pgde\EmploiBundle\Entity\Handicap',
-            'placeholder' => 'Selectionner votre handicap',
-            'label' => 'Handicap: ',
-            'choice_label' => 'libelle',
-            'required' => false,
-            'attr' => [
-                'class' => 'select2'
-            ]
-        ]);
-    }
-
-
     /**
      * {@inheritdoc}
      */

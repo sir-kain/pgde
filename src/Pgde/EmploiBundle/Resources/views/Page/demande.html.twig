@@ -14,38 +14,10 @@
         <!-- END LEFT SIDEBAR -->
         <!-- MAIN CONTENT WRAPPER -->
         <div id="main-content-wrapper" class="content-wrapper expanded-full">
-            {#{% block big_menu %}#}
-                {#{% include '@PgdeEmploi/partials/big_menu.html.twig' %}#}
-            {#{% endblock %}#}
-            <!-- top general alert -->
-            {#{% block alert_message %}#}
-            {#{% include '@PgdeEmploi/partials/alert_message.html.twig' %}#}
-            {#{% endblock %}#}
 
-            <div class="row">
-                <div class="col-md-4">
-                    <ul class="breadcrumb">
-                        <li><i class="fa fa-home"></i><a href="index.html#">Accueil</a></li>
-                        <li class="active">Espace candidat</li>
-                    </ul>
-                </div>
-                <div class="col-md-8">
-                    <div class="top-content pull-right">
-                        <ul class="list-inline mini-stat">
-                            <li>
-                                <h5>
-                                    <span style="border-bottom: 2px solid #ff9900; font-weight: bold;">
-                                        NUMERO INSCRIPTION</span>
-                                    <span class="stat-value stat-color-blue count text-center">
-                                        <i class="fa fa-plus-circle"></i> {{ userdatum.utilisateur.id }}</span>
-                                </h5>
-                                {#<span id="mini-bar-chart2" class="mini-bar-chart"></span>#}
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            {% block second_menu %} {% endblock %}
+            {% block second_menu %}
+                {% include '@PgdeEmploi/partials/secondmenu.html.twig' %}
+            {% endblock %}
 
             <!-- main -->
             <div class="content">

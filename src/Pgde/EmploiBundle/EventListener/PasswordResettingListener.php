@@ -27,12 +27,14 @@ class PasswordResettingListener implements EventSubscriberInterface
     private $session;
     private $entityManager;
     private $token_storage;
-    public function __construct(UrlGeneratorInterface $router, Session $session, EntityManager $entityManager, TokenStorageInterface $tokenStorage)
+    private $twig;
+    public function __construct(UrlGeneratorInterface $router, Session $session, EntityManager $entityManager, TokenStorageInterface $tokenStorage, \Twig_Environment $twig)
     {
         $this->router = $router;
         $this->session = $session;
         $this->entityManager = $entityManager;
         $this->token_storage = $tokenStorage;
+        $this->twig = $twig;
     }
 
     /**
@@ -59,7 +61,18 @@ class PasswordResettingListener implements EventSubscriberInterface
             FOSUserEvents::CHANGE_PASSWORD_SUCCESS => 'onPasswordResettingSuccess',
             FOSUserEvents::RESETTING_RESET_SUCCESS => 'onPasswordResettingSuccess',
             FOSUserEvents::REGISTRATION_CONFIRM => 'onRegisterConfirmedWithEmail',
+            FOSUserEvents::CHANGE_PASSWORD_INITIALIZE => 'onChangePasswordLoad',
         ];
+    }
+
+    public function onChangePasswordLoad(GetResponseUserEvent $event)
+    {
+        $userdata = $this->entityManager->getRepository(Userdata::class)
+            ->findOneBy(['utilisateur' => $event->getUser()]);
+        $urlavatar = $this->entityManager->getRepository(Userdata::class)
+            ->get_gravatar($event->getUser()->getEmail());
+        $this->twig->addGlobal('urlavatar', $urlavatar);
+        $this->twig->addGlobal('userdatum', $userdata);
     }
 
     public function onPasswordResettingSuccess(FormEvent $event)
@@ -67,8 +80,6 @@ class PasswordResettingListener implements EventSubscriberInterface
         $user = $event->getForm()->getData();
         $userdata = $this->entityManager->getRepository(Userdata::class)
             ->findOneBy(['utilisateur' => $user]);
-        dump($userdata);
-
         $useremail = $user->getEmail();
         $username = $user->getUsername();
         $urlavatar = $this->entityManager->getRepository(Userdata::class)

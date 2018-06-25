@@ -57,7 +57,7 @@ class UserdataController extends Controller
             $userdatum = new Userdata();
             $userdatum->setUtilisateur($userconnecter);
         }
-        $form = $this->createForm('Pgde\EmploiBundle\Form\UserdataType', $userdatum, ['validation_groups' => ['Demande']]);
+        $form = $this->createForm('Pgde\EmploiBundle\Form\UserdataType', $userdatum);
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {

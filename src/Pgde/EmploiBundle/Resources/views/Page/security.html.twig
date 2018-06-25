@@ -1,13 +1,30 @@
 {% extends 'base.html.twig' %}
 {% block security_content %}
-    <div class="wrapper full-page-wrapper page-auth page-login text-center">
-        <div class="container" style="margin-bottom: 50px;">
-            {% include '@PgdeEmploi/partials/alert_message.html.twig' %}
-        </div>
-        {% set firstcol = 'col-sm-4' %}
-        {% set secondcol = 'col-sm-8' %}
-        {% set routename = path(app.request.attributes.get('_route'),
-        app.request.attributes.get('_route_params')) %}
+    {% set firstcol = 'col-sm-4' %}
+    {% set secondcol = 'col-sm-8' %}
+    {% set center = '' %}
+    {% set routename = path(app.request.attributes.get('_route'),
+    app.request.attributes.get('_route_params')) %}
+    {% if routename != '/profile/change-password' %}
+        {% set center = 'text-center' %}
+    {% endif %}
+    <div id="wrapper" class="wrapper page-auth page-login {{ center }}">
+        {% if routename == '/profile/change-password' %}
+            {% block topbar %}
+                {% include '@PgdeEmploi/partials/topbar.html.twig' %}
+            {% endblock %}
+
+            {% block second_menu %}
+                <div id="main-content-wrapper" class="content-wrapper expanded-full">
+                    {% include '@PgdeEmploi/partials/secondmenu.html.twig' %}
+                </div>
+            {% endblock %}
+        {% endif %}
+        {% if routename != '/profile/change-password' %}
+            <div class="container" style="margin-bottom: 20px;">
+                {% include '@PgdeEmploi/partials/alert_message.html.twig' %}
+            </div>
+        {% endif %}
         {% if routename == '/register/' %}
             {% set firstcol = 'col-sm-5' %}
             {% set secondcol = 'col-sm-7' %}
@@ -96,7 +113,7 @@
 
                                 <!-- SLIDER SHADOW -->
                                 {#<div class="slider-shadow">#}
-                                    {#<img src="{{ asset('img/shadow.png') }}" alt="Slider Shadow">#}
+                                {#<img src="{{ asset('img/shadow.png') }}" alt="Slider Shadow">#}
                                 {#</div>#}
 
                             </div>

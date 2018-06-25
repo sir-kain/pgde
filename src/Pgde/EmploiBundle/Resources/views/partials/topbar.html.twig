@@ -216,26 +216,27 @@
                             <a href="{{ path('userdata_index') }}#" class="btn btn-link dropdown-toggle"
                                data-toggle="dropdown">
                                 <img src="{{ asset(urlavatar) }}" alt="User Avatar"/>
-                                <span class="name" style="font-size: 1.3em">{{ userdatum.utilisateur.username }}</span>
+                                <span class="name" style="font-size: 1.3em">
+                                    {{ userdatum.utilisateur.username }}</span>
                                 <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu" role="menu">
                                 <li>
-                                    <a href="{{ path('userdata_index') }}#">
+                                    <a href="{{ path('userdata_new') }}#">
                                         <i class="fa fa-user"></i>
-                                        <span class="text">Profile</span>
+                                        <span class="text">Espace candidat</span>
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="{{ path('userdata_index') }}#">
-                                        <i class="fa fa-cog"></i>
-                                        <span class="text">Settings</span>
-                                    </a>
-                                </li>
+                                {#<li>#}
+                                    {#<a href="{{ path('userdata_index') }}#">#}
+                                        {#<i class="fa fa-cog"></i>#}
+                                        {#<span class="text">Settings</span>#}
+                                    {#</a>#}
+                                {#</li>#}
                                 <li>
                                     <a href="{{ path('fos_user_change_password') }}#">
                                         <i class="fa fa-cog"></i>
-                                        <span class="text">Changer mon mot de passe</span>
+                                        <span class="text">Changer mot de passe</span>
                                     </a>
                                 </li>
                                 <li>

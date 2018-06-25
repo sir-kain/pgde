@@ -1,8 +1,30 @@
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-6">
         <ul class="breadcrumb">
-            <li><i class="fa fa-home"></i><a href="index.html#">Home</a></li>
-            <li class="active">Dashboard</li>
+            <li><i class="fa fa-home"></i><a href="{{ path('fos_user_security_login') }}#">Accueil</a></li>
+            {% set routname = path(app.request.attributes.get('_route'),
+            app.request.attributes.get('_route_params')) %}
+            {% if routname == '/profile/change-password' %}
+                <li><i class="fa fa-graduation-cap"></i><a href="{{ path('userdata_new') }}#">Espace candidat</a></li>
+                <li class="active">Changement mot de passe</li>
+            {% else %}
+                <li class="active">Espace candidat</li>
+            {% endif %}
         </ul>
+    </div>
+    <div class="col-md-6">
+        <div class="top-content pull-right">
+            <ul class="list-inline mini-stat">
+                <li>
+                    <h5>
+                                    <span style="border-bottom: 2px solid #ff9900; font-weight: bold;">
+                                        NUMERO INSCRIPTION</span>
+                        <span class="stat-value stat-color-blue count text-center">
+                                        <i class="fa fa-plus-circle"></i> {{ userdatum.utilisateur.id }}</span>
+                    </h5>
+                    {#<span id="mini-bar-chart2" class="mini-bar-chart"></span>#}
+                </li>
+            </ul>
+        </div>
     </div>
 </div>

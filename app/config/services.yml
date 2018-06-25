@@ -42,7 +42,7 @@ services:
 
     pgde_emploi.user_created:
         class: Pgde\EmploiBundle\EventListener\PasswordResettingListener
-        arguments: [ '@router', '@session', '@doctrine.orm.entity_manager', '@security.token_storage']
+        arguments: [ '@router', '@session', '@doctrine.orm.entity_manager', '@security.token_storage', '@twig']
         tags:
             - { name: kernel.event_subscriber }
 
@@ -54,6 +54,7 @@ services:
     pgde_emploi.login_listener:
         class: Pgde\EmploiBundle\EventListener\LoginListener
         arguments: [ '@session', '@doctrine.orm.entity_manager', '@fos_user.user_manager']
+
 
     admin.userdata:
         class: Pgde\EmploiBundle\Admin\UserdataAdmin
