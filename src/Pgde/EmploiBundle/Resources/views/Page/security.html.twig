@@ -1,10 +1,10 @@
 {% extends 'base.html.twig' %}
 {% block security_content %}
+    {% set routename = path(app.request.attributes.get('_route'),
+    app.request.attributes.get('_route_params')) %}
     {% set firstcol = 'col-sm-4' %}
     {% set secondcol = 'col-sm-8' %}
     {% set center = '' %}
-    {% set routename = path(app.request.attributes.get('_route'),
-    app.request.attributes.get('_route_params')) %}
     {% if routename != '/profile/change-password' %}
         {% set center = 'text-center' %}
     {% endif %}
@@ -54,15 +54,6 @@
                         <div class="wrapper">
                             <div class="container">
 
-                                <!-- TITLE HEADING - begin -->
-                                {#<div class="title-head">#}
-                                {#<div class="title-head-inner">#}
-                                {#<h1>CLASSIC 1 LAYOUT</h1>#}
-                                {#</div>#}
-                                {#</div>#}
-                                <!-- TITLE HEADING - end -->
-
-
                                 <!-- SLIDER PREVIEW - begin -->
                                 <style>
                                     .slider-preview .rt01pag {
@@ -95,16 +86,6 @@
                                 "slideshow"   : { "delay": 3000, "timer": "arc" },
                                 "timerArc"    : { "stroke": "#cc0055" }
                             }'>
-                                    {#<div class="slider-preview rt01"#}
-                                    {#data-tabs='{#}
-                                    {#"optionsPlus" : "slider",#}
-                                    {#"fx"          : "line",#}
-                                    {#"speed"       : 600,#}
-                                    {#"width"       : 940,#}
-                                    {#"pag"         : { "type": "bullet" },#}
-                                    {#"isNav"       : true#}
-                                    {#}'>#}
-
                                     <a class="rt01imgback" href="{{ asset('img/page2.svg') }}"></a>
 
                                 </div>

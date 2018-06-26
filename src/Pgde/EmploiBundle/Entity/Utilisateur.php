@@ -73,7 +73,7 @@ class Utilisateur extends BaseUser
      *     groups={"Registration", "Profile", "Demande"}
      * )
      * @Assert\Regex(
-     *     pattern="/^(^(^(\d{1}([a-z]|\d{1})\d{3})$|\d{4}$)|[a-z]\d{8})$/i",
+     *     pattern="/^(^(^(\d{1}([a-z]|\d{1})\d{11})$|\d{14}$)|[a-z]\d{8})$/i",
      *     match=true,
      *     message="Le numéro que vous avez saisi n'est pas valide",
      *     groups={"Registration", "Profile"}

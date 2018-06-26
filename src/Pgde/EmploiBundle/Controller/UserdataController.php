@@ -44,6 +44,8 @@ class UserdataController extends Controller
      */
     public function newAction(Request $request)
     {
+//        dump(preg_match("/(^(^(\d{1}([a-z]|\d{1})\d{3})$|\d{4}$)|[a-z]\d{8})/", 1254785252525));
+//        die();
         $userconnecter = $this->getUser();
         if ($userconnecter == null) {
             return $this->redirectToRoute('fos_user_security_login');
