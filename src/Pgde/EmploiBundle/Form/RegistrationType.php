@@ -17,7 +17,7 @@ class RegistrationType extends AbstractType
                 'label' => 'Numéro CIN / Passport:',
                 'constraints'   =>  new Regex([
                     'pattern' => "/^(^(^(\d{1}([a-z]|\d{1})\d{11})$|\d{14}$)|[a-z]\d{8})$/i",
-                    'message'   =>  "Le numéro n\'est pas valide"
+                    'message'   =>  "Le numéro saisi n'est pas valide"
                 ])
             ])
             ->add('firstname', TextType::class, [
