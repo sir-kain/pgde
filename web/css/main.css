@@ -327,3 +327,21 @@ body {
 .form-error-message {
     color: #dc4735;
 }
+
+.btn-custom-orange {
+    background-color: #ff851b;
+    border-color: #ff9900;
+    color: #fff; }
+.btn-custom-orange:hover, .btn-custom-orange:focus, .btn-custom-orange:active, .btn-custom-orange.active,
+.btn-custom-orange .open .dropdown-toggle.btn-warning {
+    background-color: #ff9900;
+    color: #fff; }
+
+.btn-custom-bleu {
+    background-color: rgb(30, 136, 245);
+    border-color: #1e90ff;
+    color: #fff; }
+.btn-custom-bleu:hover, .btn-custom-bleu:focus, .btn-custom-bleu:active, .btn-custom-bleu.active,
+.btn-custom-bleu .open .dropdown-toggle.btn-warning {
+    background-color: #1e90ff;
+    color: #fff; }

@@ -1,7 +1,7 @@
 {% extends "@PgdeEmploi/Page/security.html.twig" %}
 {% block link_inscription %}
-    <a href="{{ path('fos_user_registration_register') }}" class="btn btn-auth-facebook" style="width: 87%;">
-        <span style="font-size: 18px">Créer un compte</span>
+    <a href="{{ path('fos_user_registration_register') }}" class="btn btn-custom-orange btn-lg btn-auth" style="width: 87%;">
+         <i class="fa fa-hand-o-right"></i> Créer un compte
     </a>
     <span class="fa fa-info-circle" style="font-size: 1.3rem"> <a target="_blank" href="http://www.fonctionpublique.gouv.sn/emploi/comment_inscrire.pdf">Comment s'inscrire? </a></span>
     <div class="separator" style="width: 87%;"><span>Ou</span></div>
@@ -20,7 +20,7 @@
                     <input type="hidden" name="_csrf_token" value="{{ csrf_token }}"/>
                 </p>
             {% endif %}
-            <p class="title">Se connecter</p>
+            <p class="title"> <span>Se connecter</span></p>
             <div class="form-group">
                 <label for="username" class="control-label sr-only">
                     {{ 'security.login.username'|trans }}
@@ -48,7 +48,7 @@
                 <input type="checkbox" id="remember_me" name="_remember_me" value="on">
                 <span>{{ 'security.login.remember_me'|trans }}</span>
             </label>
-            <button class="btn btn-custom-primary btn-lg btn-block btn-auth">
+            <button class="btn btn-custom-bleu btn-lg btn-block btn-auth">
                 <i class="fa fa-check-circle"></i> {{ 'security.login.submit'|trans }}
             </button>
         </form>

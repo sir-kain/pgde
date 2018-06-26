@@ -17070,7 +17070,7 @@ ul.nav-categories {
     content: "";
     vertical-align: middle;
     height: 0;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #ff9900;
     position: absolute;
     top: 9px;
     left: 10px;
@@ -17083,6 +17083,7 @@ ul.nav-categories {
     *display: inline;
     position: relative;
     background-color: #ececec;
+    border: 1px solid #ff9900;
     padding: 0 8px; }
   @media screen and (min-width: 768px) {
     .page-auth .separator {

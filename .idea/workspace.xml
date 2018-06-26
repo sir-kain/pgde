@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4082b11d-0932-41f0-b7ad-a74075f757a9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/accueil.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/accueilbleu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/accueilbleue.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/accueilimg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/login.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/register.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/register.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/main.css" afterPath="$PROJECT_DIR$/web/assets/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/main.css" afterPath="$PROJECT_DIR$/web/css/main.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +45,100 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+              <folding>
+                <element signature="e#12#47#0#Twig" expanded="true" />
+                <element signature="e#186#205#0#HTML" expanded="true" />
+                <element signature="e#312#337#0#HTML" expanded="true" />
+                <element signature="e#488#507#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="security.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="90" column="42" lean-forward="false" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
+              <folding>
+                <element signature="e#1037#1081#0#Twig" expanded="true" />
+                <element signature="e#1309#1339#0#HTML" expanded="true" />
+                <element signature="e#1459#1501#0#HTML" expanded="true" />
+                <element signature="e#2537#2559#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="topbar.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/topbar.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7616">
+              <caret line="238" column="66" lean-forward="false" selection-start-line="238" selection-start-column="66" selection-end-line="238" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="secondmenu.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/secondmenu.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-96">
+              <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="6" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/register.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="896">
+              <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+              <folding>
+                <element signature="e#12#47#0#Twig" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accueil.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/img/accueil.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/assets/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-19872">
+              <caret line="17085" column="30" lean-forward="false" selection-start-line="17085" selection-start-column="30" selection-end-line="17085" selection-end-column="30" />
+              <folding>
+                <marker date="1530023870506" expanded="true" signature="30469:30501" ph="{...}" />
+                <marker date="1530023870506" expanded="true" signature="30525:30558" ph="{...}" />
+                <marker date="1530023870506" expanded="true" signature="30669:30701" ph="{...}" />
+                <marker date="1530023870506" expanded="true" signature="30725:30758" ph="{...}" />
+                <marker date="1530023870506" expanded="true" signature="34847:34879" ph="{...}" />
+                <marker date="1530023870506" expanded="true" signature="34903:34936" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="327" column="19" lean-forward="false" selection-start-line="327" selection-start-column="19" selection-end-line="327" selection-end-column="19" />
+            <state relative-caret-position="177">
+              <caret line="343" column="92" lean-forward="false" selection-start-line="343" selection-start-column="92" selection-end-line="343" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -49,8 +148,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>import</find>
-      <find>EasyExtendsBundle</find>
       <find>sonata.user.orm.group_manager</find>
       <find>ROLE_SUPER_ADMIN</find>
       <find>role</find>
@@ -79,6 +176,8 @@
       <find>.btn-success[disabled]:hover</find>
       <find>initi</find>
       <find>urlav</find>
+      <find>separator</find>
+      <find>.separator</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -87,7 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/sendinfo.email.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Resetting/request.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/DependencyInjection/AppExtension.php" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/config/admin.yml" />
@@ -111,7 +209,6 @@
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/security_inbox_email.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Resetting/reset.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/demandesuccess.html.twig" />
-        <option value="$PROJECT_DIR$/web/assets/css/main.css" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Resetting/check_email.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/confirmcompte.email.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/check_email.html.twig" />
@@ -128,8 +225,6 @@
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/demande.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/secondmenu.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/topbar.html.twig" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UserdataType.php" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/UserdataRepository.php" />
@@ -138,6 +233,10 @@
         <option value="$PROJECT_DIR$/app/Resources/translations/FOSUserBundle.fr.yml" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/RegistrationType.php" />
         <option value="$PROJECT_DIR$/web/css/main.css" />
+        <option value="$PROJECT_DIR$/web/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/register.html.twig" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig" />
       </list>
     </option>
   </component>
@@ -183,24 +282,6 @@
             <path>
               <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
               <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="translations" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
@@ -252,25 +333,6 @@
               <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -286,18 +348,18 @@
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views" />
+      <recent name="$PROJECT_DIR$/web/assets/img/header" />
+      <recent name="$PROJECT_DIR$/web/assets/img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/img" />
       <recent name="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources" />
       <recent name="$PROJECT_DIR$/web" />
       <recent name="$PROJECT_DIR$/web/assets/img/header" />
       <recent name="$PROJECT_DIR$/web/assets/ruby" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web" />
-      <recent name="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views" />
-      <recent name="$PROJECT_DIR$/web/assets/img/header" />
-      <recent name="$PROJECT_DIR$/web/assets/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -390,12 +452,12 @@
       <workItem from="1529666572562" duration="15527000" />
       <workItem from="1529867733903" duration="4467000" />
       <workItem from="1529933894869" duration="8416000" />
-      <workItem from="1529999878509" duration="7778000" />
+      <workItem from="1529999878509" duration="19631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="779799000" />
+    <option name="totallyTimeSpent" value="791652000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -407,17 +469,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="608" y="151" width="1307" height="780" extended-state="6" />
+    <frame x="608" y="151" width="1227" height="732" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25019857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26717559" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7216174" sideWeight="0.51231134" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20413026" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.67651635" sideWeight="0.48768863" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6756303" sideWeight="0.48768863" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -444,55 +506,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/security_inbox_email.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="140" column="75" lean-forward="false" selection-start-line="140" selection-start-column="75" selection-end-line="140" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/confirmcompte.email.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/ControllerTrait.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="280" column="23" lean-forward="false" selection-start-line="280" selection-start-column="23" selection-end-line="280" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/userdata/reussi.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/config/routing/userdata.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Constraint.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Group/show_content.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Group/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -607,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="12381" column="12" lean-forward="false" selection-start-line="12381" selection-start-column="12" selection-end-line="12381" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/4a00d4ed/aba105bb-a1ef-46db-a1a7-e70310f96ab5/pgde.utilisateur">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -680,27 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/secondmenu.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/topbar.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="238" column="66" lean-forward="false" selection-start-line="238" selection-start-column="66" selection-end-line="238" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/demande.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/userdata/new.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -708,22 +693,6 @@
           <folding>
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#5;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="5" column="153" lean-forward="false" selection-start-line="5" selection-start-column="153" selection-end-line="5" selection-end-column="153" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="45" column="80" lean-forward="false" selection-start-line="45" selection-start-column="80" selection-end-line="45" selection-end-column="80" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -895,9 +864,136 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="327" column="19" lean-forward="false" selection-start-line="327" selection-start-column="19" selection-end-line="327" selection-end-column="19" />
+        <state relative-caret-position="177">
+          <caret line="343" column="92" lean-forward="false" selection-start-line="343" selection-start-column="92" selection-end-line="343" selection-end-column="92" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/accueilbleu.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="0" column="548" lean-forward="false" selection-start-line="0" selection-start-column="548" selection-end-line="0" selection-end-column="548" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/accueilimg.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="0" column="462" lean-forward="false" selection-start-line="0" selection-start-column="462" selection-end-line="0" selection-end-column="462" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19872">
+          <caret line="17085" column="30" lean-forward="false" selection-start-line="17085" selection-start-column="30" selection-end-line="17085" selection-end-column="30" />
+          <folding>
+            <marker date="1530023870506" expanded="true" signature="30469:30501" ph="{...}" />
+            <marker date="1530023870506" expanded="true" signature="30525:30558" ph="{...}" />
+            <marker date="1530023870506" expanded="true" signature="30669:30701" ph="{...}" />
+            <marker date="1530023870506" expanded="true" signature="30725:30758" ph="{...}" />
+            <marker date="1530023870506" expanded="true" signature="34847:34879" ph="{...}" />
+            <marker date="1530023870506" expanded="true" signature="34903:34936" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/accueilbleue.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <element signature="e#12#47#0#Twig" expanded="true" />
+            <element signature="e#186#205#0#HTML" expanded="true" />
+            <element signature="e#312#337#0#HTML" expanded="true" />
+            <element signature="e#488#507#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/accueil.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/login.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="0" column="578" lean-forward="false" selection-start-line="0" selection-start-column="578" selection-end-line="0" selection-end-column="578" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/register.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding>
+            <element signature="e#12#47#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Resetting/reset.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#12#47#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/demande.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-193">
+          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <folding>
+            <element signature="e#575#616#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/topbar.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7616">
+          <caret line="238" column="66" lean-forward="false" selection-start-line="238" selection-start-column="66" selection-end-line="238" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/secondmenu.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="6" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="90" column="42" lean-forward="false" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
+          <folding>
+            <element signature="e#1037#1081#0#Twig" expanded="true" />
+            <element signature="e#1309#1339#0#HTML" expanded="true" />
+            <element signature="e#1459#1501#0#HTML" expanded="true" />
+            <element signature="e#2537#2559#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

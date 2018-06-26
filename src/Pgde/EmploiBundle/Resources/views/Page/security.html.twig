@@ -21,7 +21,7 @@
             {% endblock %}
         {% endif %}
         {% if routename != '/profile/change-password' %}
-            <div class="container" style="margin-bottom: 20px;">
+            <div class="container">
                 {% include '@PgdeEmploi/partials/alert_message.html.twig' %}
             </div>
         {% endif %}
@@ -29,10 +29,10 @@
             {% set firstcol = 'col-sm-5' %}
             {% set secondcol = 'col-sm-7' %}
         {% endif %}
-        <div class="inner-page" style="padding-top: 0px">
+        <div class="inner-page" style="padding: 0; margin: 0;">
             <div class="container">
                 <div class="row">
-                    <div class="{{ firstcol }}" style="padding: 2em;">
+                    <div class="{{ firstcol }}" style="padding: 2em; margin-right: -25px;">
                         {% block link_inscription %} {% endblock %}
                         <div class="login-box center-block" style="border: 0px; margin: 0px; width: 100%">
                             {% block fos_user_content %} {% endblock %}
@@ -48,11 +48,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="{{ secondcol }}" style="margin-top: 30px">
+                    <div class="{{ secondcol }}" style="padding: 30px;">
                         <!-- TEMPLATE PREVIEW - begin
                         ======================================================================== -->
                         <div class="wrapper">
-                            <div class="container">
+                            <div class="container" style="">
 
                                 <!-- SLIDER PREVIEW - begin -->
                                 <style>
@@ -80,14 +80,18 @@
                                 {#"optionsPlus" : "slider",#}
                                 "fx"          : "line",
                                 "speed"       : 600,
-                                "width"       : 940,
 
                                 "isSlideshow" : false,
                                 "slideshow"   : { "delay": 3000, "timer": "arc" },
                                 "timerArc"    : { "stroke": "#cc0055" }
                             }'>
-                                    <a class="rt01imgback" href="{{ asset('img/page2.svg') }}"></a>
-
+                                    {% set pagename = path(app.request.attributes.get('_route'),
+                                    app.request.attributes.get('_route_params')) %}
+                                    {% if pagename == '/login' %}
+                                        <a class="rt01imgback" href="{{ asset('img/login.svg') }}"></a>
+                                    {% else %}
+                                        <a class="rt01imgback" href="{{ asset('img/page2.svg') }}"></a>
+                                    {% endif %}
                                 </div>
                                 <!-- SLIDER PREVIEW - end -->
 
