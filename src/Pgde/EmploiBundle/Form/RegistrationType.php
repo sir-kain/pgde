@@ -14,7 +14,7 @@ class RegistrationType extends AbstractType
     {
         $builder
             ->add('numberid', TextType::class, [
-                'label' => 'Numéro CIN / Passport:',
+                'label' => 'Numéro CIN ou Passport:',
                 'constraints'   =>  new Regex([
                     'pattern' => "/^(^(^(\d{1}([a-z]|\d{1})\d{11})$|\d{14}$)|[a-z]\d{8})$/i",
                     'message'   =>  "Le numéro saisi n'est pas valide"
