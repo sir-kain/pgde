@@ -589,5 +589,12 @@ $(document).ready(function () {
         $('#pgde_emploibundle_userdata_etablissementdiplome').val('')
         $('#pgde_emploibundle_userdata_autresdiplomes').val('')
     }
+
+
+//    Lightbox
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
 });
 
