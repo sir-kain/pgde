@@ -119,6 +119,7 @@ body {
     margin: 0 auto;
     text-align: center;
     line-height: 100px;
+    font-family: "MyriadPro-Regular","Helvetica Neue'",Roboto,Arial,sans-serif;
 }
 .contentt a {
     text-decoration: none !important;
@@ -261,7 +262,8 @@ body {
 
 .footer-row-1 a {
     font-size: 15px;
-    font-family: 'Helvetica';
+    /*font-family: 'Helvetica';*/
+    font-family: "MyriadPro-Regular","Helvetica Neue'",Roboto,Arial,sans-serif;
     /*font-style: italic;*/
     font-weight: 800;
     text-decoration: none;
@@ -345,3 +347,16 @@ body {
 .btn-custom-bleu .open .dropdown-toggle.btn-warning {
     background-color: #1e90ff;
     color: #fff; }
+
+body {
+    font-family: "MyriadPro-Regular","Helvetica Neue'",Roboto,Arial,sans-serif;
+    /*font-size: 14px;*/
+    font-weight: normal;
+    line-height: 1.5;
+}
+.btn {
+    font-family: "MyriadPro-Regular","Helvetica Neue'",Roboto,Arial,sans-serif;
+    /*font-size: 1em;*/
+    font-weight: normal;
+    line-height: 1.5;
+}

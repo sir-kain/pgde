@@ -9,17 +9,19 @@
         {% set center = 'text-center' %}
     {% endif %}
     <div id="wrapper" class="wrapper page-auth page-login {{ center }}">
-        {% if routename == '/profile/change-password' %}
-            {% block topbar %}
+        {% block topbar %}
+            {% if routename == '/profile/change-password' %}
                 {% include '@PgdeEmploi/partials/topbar.html.twig' %}
-            {% endblock %}
+            {% endif %}
+        {% endblock %}
 
-            {% block second_menu %}
+        {% block second_menu %}
+            {% if routename == '/profile/change-password' %}
                 <div id="main-content-wrapper" class="content-wrapper expanded-full">
                     {% include '@PgdeEmploi/partials/secondmenu.html.twig' %}
                 </div>
-            {% endblock %}
-        {% endif %}
+            {% endif %}
+        {% endblock %}
         {% if routename != '/profile/change-password' %}
             <div class="container">
                 {% include '@PgdeEmploi/partials/alert_message.html.twig' %}
@@ -89,9 +91,9 @@
                                     {% set pagename = path(app.request.attributes.get('_route'),
                                     app.request.attributes.get('_route_params')) %}
                                     {% if pagename == '/login' %}
-                                        <a class="rt01imgback" href="{{ asset('img/login.svg') }}"></a>
+                                        <a class="rt01imgback" href="{{ asset('img/loginpage.svg') }}"></a>
                                     {% else %}
-                                        <a class="rt01imgback" href="{{ asset('img/page2.svg') }}"></a>
+                                        <a class="rt01imgback" href="{{ asset('img/registerpage.svg') }}"></a>
                                     {% endif %}
                                 </div>
                                 <!-- SLIDER PREVIEW - end -->

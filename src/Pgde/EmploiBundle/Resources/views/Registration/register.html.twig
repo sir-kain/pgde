@@ -7,7 +7,8 @@
         <div class="alert alert-danger"> {{ message }} </div>
     {% endfor %}
     {{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
-    <p class="title">Créer votre compte <em style="font-size: 10px; color: red;">(Tous les champs sont obligatoires)</em></p>
+    <p class="title">Créer votre compte <em style="font-size: 10px; color: red;">(Tous les champs sont
+            obligatoires)</em></p>
     <div class="col-sm-6">
         <div class="form-group">
             {#{{ form_label(form.numberid) }}#}
