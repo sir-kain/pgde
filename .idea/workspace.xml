@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4082b11d-0932-41f0-b7ad-a74075f757a9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/accueil.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/accueilbleu.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/accueilbleue.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/accueilimg.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/login.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/register.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/register.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/main.css" afterPath="$PROJECT_DIR$/web/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/main.css" afterPath="$PROJECT_DIR$/web/css/main.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,14 +39,9 @@
       <file leaf-file-name="login.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
+            <state relative-caret-position="704">
               <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-              <folding>
-                <element signature="e#12#47#0#Twig" expanded="true" />
-                <element signature="e#186#205#0#HTML" expanded="true" />
-                <element signature="e#312#337#0#HTML" expanded="true" />
-                <element signature="e#488#507#0#HTML" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,13 +49,15 @@
       <file leaf-file-name="security.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="90" column="42" lean-forward="false" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
+            <state relative-caret-position="239">
+              <caret line="82" column="57" lean-forward="false" selection-start-line="82" selection-start-column="57" selection-end-line="82" selection-end-column="57" />
               <folding>
+                <element signature="e#12#26#0#Twig" expanded="true" />
+                <element signature="e#576#613#0#Twig" expanded="true" />
+                <element signature="e#800#841#0#Twig" expanded="true" />
                 <element signature="e#1037#1081#0#Twig" expanded="true" />
-                <element signature="e#1309#1339#0#HTML" expanded="true" />
-                <element signature="e#1459#1501#0#HTML" expanded="true" />
-                <element signature="e#2537#2559#0#HTML" expanded="true" />
+                <element signature="e#1400#2422#0#HTML" expanded="false" />
+                <element signature="e#5653#5690#0#Twig" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,7 +76,7 @@
       <file leaf-file-name="secondmenu.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/secondmenu.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-96">
+            <state relative-caret-position="128">
               <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="6" selection-end-column="59" />
               <folding />
             </state>
@@ -98,11 +86,9 @@
       <file leaf-file-name="register.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/register.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="896">
+            <state relative-caret-position="992">
               <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-              <folding>
-                <element signature="e#12#47#0#Twig" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,33 +98,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/assets/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19872">
-              <caret line="17085" column="30" lean-forward="false" selection-start-line="17085" selection-start-column="30" selection-end-line="17085" selection-end-column="30" />
-              <folding>
-                <marker date="1530023870506" expanded="true" signature="30469:30501" ph="{...}" />
-                <marker date="1530023870506" expanded="true" signature="30525:30558" ph="{...}" />
-                <marker date="1530023870506" expanded="true" signature="30669:30701" ph="{...}" />
-                <marker date="1530023870506" expanded="true" signature="30725:30758" ph="{...}" />
-                <marker date="1530023870506" expanded="true" signature="34847:34879" ph="{...}" />
-                <marker date="1530023870506" expanded="true" signature="34903:34936" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="343" column="92" lean-forward="false" selection-start-line="343" selection-start-column="92" selection-end-line="343" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -286,52 +245,12 @@
             <path>
               <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
               <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
               <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EmploiBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EmploiBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EmploiBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EmploiBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -452,12 +371,16 @@
       <workItem from="1529666572562" duration="15527000" />
       <workItem from="1529867733903" duration="4467000" />
       <workItem from="1529933894869" duration="8416000" />
-      <workItem from="1529999878509" duration="19631000" />
+      <workItem from="1529999878509" duration="20059000" />
+      <workItem from="1530039739819" duration="595000" />
+      <workItem from="1530048442506" duration="597000" />
+      <workItem from="1530095287127" duration="435000" />
+      <workItem from="1530095747572" duration="1822000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="791652000" />
+    <option name="totallyTimeSpent" value="795529000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -469,17 +392,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="608" y="151" width="1227" height="732" extended-state="6" />
+    <frame x="608" y="151" width="1307" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26717559" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2668785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7216174" sideWeight="0.51231134" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20413026" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6756303" sideWeight="0.48768863" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6718507" sideWeight="0.48768863" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -506,42 +429,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Group/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Validator/Initializer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/Group.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Userdata.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="67" column="77" lean-forward="false" selection-start-line="67" selection-start-column="77" selection-end-line="67" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/GroupableInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/AppBundle.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -561,7 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -569,7 +455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="640">
           <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -645,9 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="61" column="63" lean-forward="false" selection-start-line="61" selection-start-column="63" selection-end-line="61" selection-end-column="63" />
-          <folding>
-            <element signature="e#919#1840#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,9 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="47" column="122" lean-forward="false" selection-start-line="47" selection-start-column="122" selection-end-line="47" selection-end-column="122" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#5;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -700,79 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-          <folding>
-            <element signature="e#992#1024#0#PHP" expanded="false" />
-            <element signature="e#1116#3558#0#PHP" expanded="false" />
-            <element signature="e#1116#3729#0#PHP" expanded="false" />
-            <element signature="e#1116#3993#0#PHP" expanded="false" />
-            <element signature="e#3784#3992#0#PHP" expanded="false" />
-            <element signature="e#1116#4234#0#PHP" expanded="false" />
-            <element signature="e#4047#4233#0#PHP" expanded="false" />
-            <element signature="e#1116#4400#0#PHP" expanded="false" />
-            <element signature="e#4286#4399#0#PHP" expanded="false" />
-            <element signature="e#1116#4598#0#PHP" expanded="false" />
-            <element signature="e#4458#4597#0#PHP" expanded="false" />
-            <element signature="e#1116#4796#0#PHP" expanded="false" />
-            <element signature="e#4656#4795#0#PHP" expanded="false" />
-            <element signature="e#1116#4941#0#PHP" expanded="false" />
-            <element signature="e#4846#4940#0#PHP" expanded="false" />
-            <element signature="e#1116#5131#0#PHP" expanded="false" />
-            <element signature="e#5001#5130#0#PHP" expanded="false" />
-            <element signature="e#1116#5570#0#PHP" expanded="false" />
-            <element signature="e#5184#5569#0#PHP" expanded="false" />
-            <element signature="e#5495#5555#1#PHP" expanded="false" />
-            <element signature="e#1116#6033#0#PHP" expanded="false" />
-            <element signature="e#5627#6032#0#PHP" expanded="false" />
-            <element signature="e#5958#6018#1#PHP" expanded="false" />
-            <element signature="e#1116#6496#0#PHP" expanded="false" />
-            <element signature="e#6083#6495#0#PHP" expanded="false" />
-            <element signature="e#6421#6481#1#PHP" expanded="false" />
-            <element signature="e#1116#6959#0#PHP" expanded="false" />
-            <element signature="e#6546#6958#0#PHP" expanded="false" />
-            <element signature="e#6884#6944#1#PHP" expanded="false" />
-            <element signature="e#1116#7369#0#PHP" expanded="false" />
-            <element signature="e#7009#7368#0#PHP" expanded="false" />
-            <element signature="e#7294#7354#1#PHP" expanded="false" />
-            <element signature="e#7381#7676#0#PHP" expanded="false" />
-            <element signature="e#7478#7666#1#PHP" expanded="false" />
-            <element signature="e#7686#8724#0#PHP" expanded="false" />
-            <element signature="e#7765#8714#1#PHP" expanded="false" />
-            <element signature="e#8067#8700#0#PHP" expanded="false" />
-            <element signature="e#8486#8700#0#PHP" expanded="false" />
-            <element signature="e#8735#9038#0#PHP" expanded="false" />
-            <element signature="e#8836#9028#1#PHP" expanded="false" />
-            <element signature="e#9048#10109#0#PHP" expanded="false" />
-            <element signature="e#9127#10099#1#PHP" expanded="false" />
-            <element signature="e#9374#10085#0#PHP" expanded="false" />
-            <element signature="e#9875#10085#0#PHP" expanded="false" />
-            <element signature="e#10120#10402#0#PHP" expanded="false" />
-            <element signature="e#10214#10392#1#PHP" expanded="false" />
-            <element signature="e#10412#11411#0#PHP" expanded="false" />
-            <element signature="e#10491#11401#1#PHP" expanded="false" />
-            <element signature="e#10720#11387#0#PHP" expanded="false" />
-            <element signature="e#11191#11387#0#PHP" expanded="false" />
-            <element signature="e#11422#11704#0#PHP" expanded="false" />
-            <element signature="e#11516#11694#1#PHP" expanded="false" />
-            <element signature="e#11714#12713#0#PHP" expanded="false" />
-            <element signature="e#11793#12703#1#PHP" expanded="false" />
-            <element signature="e#12022#12689#0#PHP" expanded="false" />
-            <element signature="e#12493#12689#0#PHP" expanded="false" />
-            <element signature="e#12727#13900#0#PHP" expanded="false" />
-            <element signature="e#12823#13894#0#PHP" expanded="false" />
-            <element signature="e#13029#13361#0#PHP" expanded="false" />
-            <element signature="e#13066#13360#0#PHP" expanded="false" />
-            <element signature="e#13373#13894#0#PHP" expanded="false" />
-            <element signature="e#13551#13883#0#PHP" expanded="false" />
-            <element signature="e#13588#13882#0#PHP" expanded="false" />
-            <element signature="e#13906#14632#0#PHP" expanded="false" />
-            <element signature="e#14003#14369#0#PHP" expanded="false" />
-            <element signature="e#14196#14369#0#PHP" expanded="false" />
-            <element signature="e#14378#14625#0#PHP" expanded="false" />
-            <element signature="e#14415#14624#0#PHP" expanded="false" />
-            <element signature="e#14638#14670#0#PHP" expanded="false" />
-            <element signature="e#14927#14959#0#PHP" expanded="false" />
-            <element signature="e#14964#15053#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -780,9 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
           <caret line="61" column="5" lean-forward="false" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-          <folding>
-            <marker date="1530010440841" expanded="true" signature="1570:1655" ph="SELECT u.id utilisateur" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -790,9 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="465" column="8" lean-forward="false" selection-start-line="465" selection-start-column="8" selection-end-line="508" selection-end-column="9" />
-          <folding>
-            <element signature="e#17895#19510#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -800,9 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="46" column="10" lean-forward="false" selection-start-line="46" selection-start-column="10" selection-end-line="47" selection-end-column="16" />
-          <folding>
-            <element signature="e#3871#4878#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -810,7 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -818,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -826,15 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="38" column="50" lean-forward="false" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -842,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="79" column="31" lean-forward="false" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -850,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="75" column="58" lean-forward="false" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -858,15 +642,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
+        <state relative-caret-position="10976">
           <caret line="343" column="92" lean-forward="false" selection-start-line="343" selection-start-column="92" selection-end-line="343" selection-end-column="92" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -874,7 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="0" column="548" lean-forward="false" selection-start-line="0" selection-start-column="548" selection-end-line="0" selection-end-column="548" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,22 +663,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="0" column="462" lean-forward="false" selection-start-line="0" selection-start-column="462" selection-end-line="0" selection-end-column="462" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19872">
+        <state relative-caret-position="546720">
           <caret line="17085" column="30" lean-forward="false" selection-start-line="17085" selection-start-column="30" selection-end-line="17085" selection-end-column="30" />
-          <folding>
-            <marker date="1530023870506" expanded="true" signature="30469:30501" ph="{...}" />
-            <marker date="1530023870506" expanded="true" signature="30525:30558" ph="{...}" />
-            <marker date="1530023870506" expanded="true" signature="30669:30701" ph="{...}" />
-            <marker date="1530023870506" expanded="true" signature="30725:30758" ph="{...}" />
-            <marker date="1530023870506" expanded="true" signature="34847:34879" ph="{...}" />
-            <marker date="1530023870506" expanded="true" signature="34903:34936" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -905,20 +677,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
+        <state relative-caret-position="704">
           <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding>
-            <element signature="e#12#47#0#Twig" expanded="true" />
-            <element signature="e#186#205#0#HTML" expanded="true" />
-            <element signature="e#312#337#0#HTML" expanded="true" />
-            <element signature="e#488#507#0#HTML" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -934,17 +700,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="0" column="578" lean-forward="false" selection-start-line="0" selection-start-column="578" selection-end-line="0" selection-end-column="578" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/register.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
+        <state relative-caret-position="992">
           <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-          <folding>
-            <element signature="e#12#47#0#Twig" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -952,9 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#12#47#0#Twig" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,9 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-193">
           <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-          <folding>
-            <element signature="e#575#616#0#Twig" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -976,24 +733,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/secondmenu.html.twig">
+    <entry file="file://$PROJECT_DIR$/var/cache/dev/doctrine/orm/Proxies/__CG__PgdeEmploiBundleEntityDepartement.php" />
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Departement.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="6" selection-end-column="59" />
-          <folding />
+        <state relative-caret-position="431">
+          <caret line="84" column="57" lean-forward="false" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/DependencyInjection/Configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="36" column="42" lean-forward="false" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/Acl/doctrine.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Region.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="90" column="42" lean-forward="false" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
+        <state relative-caret-position="239">
+          <caret line="82" column="57" lean-forward="false" selection-start-line="82" selection-start-column="57" selection-end-line="82" selection-end-column="57" />
           <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+            <element signature="e#576#613#0#Twig" expanded="true" />
+            <element signature="e#800#841#0#Twig" expanded="true" />
             <element signature="e#1037#1081#0#Twig" expanded="true" />
-            <element signature="e#1309#1339#0#HTML" expanded="true" />
-            <element signature="e#1459#1501#0#HTML" expanded="true" />
-            <element signature="e#2537#2559#0#HTML" expanded="true" />
+            <element signature="e#1400#2422#0#HTML" expanded="false" />
+            <element signature="e#5653#5690#0#Twig" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/secondmenu.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="6" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>

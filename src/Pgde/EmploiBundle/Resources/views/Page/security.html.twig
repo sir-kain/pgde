@@ -29,10 +29,10 @@
             {% set firstcol = 'col-sm-5' %}
             {% set secondcol = 'col-sm-7' %}
         {% endif %}
-        <div class="inner-page" style="padding: 0; margin: 0;">
+        <div class="inner-page">
             <div class="container">
                 <div class="row">
-                    <div class="{{ firstcol }}" style="padding: 2em; margin-right: -25px;">
+                    <div class="{{ firstcol }}" style="">
                         {% block link_inscription %} {% endblock %}
                         <div class="login-box center-block" style="border: 0px; margin: 0px; width: 100%">
                             {% block fos_user_content %} {% endblock %}
@@ -48,7 +48,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="{{ secondcol }}" style="padding: 30px;">
+                    <div class="{{ secondcol }}" style="">
                         <!-- TEMPLATE PREVIEW - begin
                         ======================================================================== -->
                         <div class="wrapper">
@@ -77,14 +77,15 @@
 
                                 <div class="slider-preview rt01 rt01timer-arcTop"
                                      data-tabs='{
-                                {#"optionsPlus" : "slider",#}
-                                "fx"          : "line",
-                                "speed"       : 600,
+                                        {#"optionsPlus" : "slider",#}
+                                        "fx"          : "line",
+                                        "speed"       : 600,
+                                        "width"       : 824,
 
-                                "isSlideshow" : false,
-                                "slideshow"   : { "delay": 3000, "timer": "arc" },
-                                "timerArc"    : { "stroke": "#cc0055" }
-                            }'>
+                                        "isSlideshow" : false,
+                                        "slideshow"   : { "delay": 3000, "timer": "arc" },
+                                        "timerArc"    : { "stroke": "#cc0055" }
+                                    }'>
                                     {% set pagename = path(app.request.attributes.get('_route'),
                                     app.request.attributes.get('_route_params')) %}
                                     {% if pagename == '/login' %}
