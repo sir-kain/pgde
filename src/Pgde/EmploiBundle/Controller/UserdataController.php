@@ -125,7 +125,6 @@ class UserdataController extends Controller
             $response = $this->forward('PgdeEmploiBundle:Userdata:reussi', array(
                 'ajout'  => $ajout
             ));
-
 //            return $this->redirectToRoute('userdata_reussi');
             return $response;
         }
