@@ -49,8 +49,11 @@
                                 {% endif %}
                             </div>
                         </div>
-                        <span class="fa fa-chevron-left" style="font-size: 1.3rem">
-                            <a href="#"> Retour au site du ministère </a></span>
+                        {% if routename == '/login' %}
+                            <span class="fa fa-chevron-left" style="font-size: 1.3rem">
+                            <a href="http://www.fonctionpublique.gouv.sn/"> Retour au site du ministère </a>
+                        </span>
+                        {% endif %}
                     </div>
                     <div class="{{ secondcol }}" style="">
                         <!-- TEMPLATE PREVIEW - begin

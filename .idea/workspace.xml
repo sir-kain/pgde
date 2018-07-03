@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4082b11d-0932-41f0-b7ad-a74075f757a9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,11 +51,11 @@
       <file leaf-file-name="security.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="51" column="50" lean-forward="false" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
+            <state relative-caret-position="527">
+              <caret line="55" column="33" lean-forward="false" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
               <folding>
-                <element signature="e#2530#2555#0#HTML" expanded="true" />
-                <element signature="e#2685#5779#0#HTML" expanded="false" />
+                <element signature="e#2589#2614#0#HTML" expanded="true" />
+                <element signature="e#2840#5934#0#HTML" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -341,12 +339,12 @@
       <workItem from="1530206414198" duration="51000" />
       <workItem from="1530268108227" duration="16424000" />
       <workItem from="1530523985131" duration="16831000" />
-      <workItem from="1530579083796" duration="3666000" />
+      <workItem from="1530579083796" duration="4024000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="847506000" />
+    <option name="totallyTimeSpent" value="847864000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -767,11 +765,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="51" column="50" lean-forward="false" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
+        <state relative-caret-position="527">
+          <caret line="55" column="33" lean-forward="false" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
           <folding>
-            <element signature="e#2530#2555#0#HTML" expanded="true" />
-            <element signature="e#2685#5779#0#HTML" expanded="false" />
+            <element signature="e#2589#2614#0#HTML" expanded="true" />
+            <element signature="e#2840#5934#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
