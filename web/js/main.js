@@ -333,14 +333,6 @@ $(document).ready(function () {
         $('#s2id_pgde_emploibundle_userdata_handicap').removeClass('form-control')
     }
 
-
-//    style markdown
-    let mklist = document.querySelectorAll('.md-header button');
-    mklist.forEach(function (index) {
-        if (index.title !== 'Preview') index.style.color = "gray";
-    });
-
-
 //    compteur js
     $('.count').each(function () {
         $(this).prop('Counter', 0).animate({
@@ -355,81 +347,6 @@ $(document).ready(function () {
     });
 
 
-    $('#repeatemail').on("cut copy paste", function (e) {
-        e.preventDefault();
-    });
-
-    $('#fos_user_registration_form_plainPassword_second').on("cut copy paste", function (e) {
-        e.preventDefault();
-    });
-//      controle form registration
-    if (
-        $('#fos_user_registration_form_numberid').val() === "" ||
-        $('#fos_user_registration_form_firstname').val() === "" ||
-        $('#fos_user_registration_form_lastname').val() === "" ||
-        $('#fos_user_registration_form_username').val() === "" ||
-        $('#fos_user_registration_form_email').val() === "" ||
-        $('#repeatemail').val() === "" ||
-        $('#fos_user_registration_form_plainPassword_first').val() === "" ||
-        $('#fos_user_registration_form_plainPassword_second').val() === ""
-    ) {
-        $('#register_button').attr('disabled', true)
-    }
-//    controle repetition email
-    var registable = false;
-    $('#register_button').attr('disabled', true)
-    $('#repeatemail').focusout(function () {
-        let register_email = $('#fos_user_registration_form_email').val()
-        let register_emailrepeat = $('#repeatemail').val()
-        $('#matchemail').hide()
-        if (register_email.localeCompare(register_emailrepeat) === 0) {
-            $('#matchemail')
-                .empty()
-                .fadeOut()
-            $('#register_button').attr('disabled', registable)
-        } else {
-            $('#matchemail')
-                .empty()
-                .append('les deux emails doivent etre identiques')
-                .fadeIn()
-            $('#register_button').attr('disabled', !registable)
-        }
-    })
-
-    $('#fos_user_registration_form_email').focusout(function () {
-        let register_email = $('#fos_user_registration_form_email').val()
-        let register_emailrepeat = $('#repeatemail').val()
-        $('#matchemail').hide()
-        if (register_email.localeCompare(register_emailrepeat) === 0) {
-            $('#matchemail')
-                .empty()
-                .fadeOut()
-            $('#register_button').attr('disabled', registable)
-        } else {
-            $('#matchemail')
-                .empty()
-                .append('les deux emails doivent être identiques')
-                .fadeIn()
-            $('#register_button').attr('disabled', !registable)
-        }
-    })
-
-    //Verification numero d'identification pour inscription
-    $('#fos_user_registration_form_numberid').focusout(function () {
-        var taille = $('#fos_user_registration_form_numberid').val().length
-        var val = $('#fos_user_registration_form_numberid').val()
-
-        var reg = new RegExp('^(^(^(\\d{1}([a-z]|\\d{1})\\d{11})$|\\d{14}$)|[a-z]\\d{8})$', 'gi')
-        if(!reg.test(val)) {
-            $('#matchIdCard')
-                .empty()
-                .append('Le numéro est invalide');
-            $('#register_button').attr('disabled', !registable)
-        } else {
-            $('#matchIdCard').empty();
-            $('#register_button').attr('disabled', registable)
-        }
-    })
 
     //Verification numero d'identification pour formulaire demande
     $('#pgde_emploibundle_userdata_utilisateur_numberid').focusout(function () {
@@ -440,49 +357,10 @@ $(document).ready(function () {
             $('#matchIdCardDemande')
                 .empty()
                 .append('Le numéro est invalide');
-            $('#register_button').attr('disabled', !registable)
         } else {
             $('#matchIdCardDemande').empty();
-            $('#register_button').attr('disabled', registable)
         }
     })
-
-    $('#fos_user_registration_form_firstname').focusout(function () {
-        if (!isNaN($('#fos_user_registration_form_firstname').val())) {
-            $('#register_button').attr('disabled', true)
-            $('#firstnamecheck')
-                .empty()
-                .append('Le prenom doit comporter au moins une lettre');
-            $('#register_button').attr('disabled', !registable)
-        } else {
-            $('#firstnamecheck').empty();
-            $('#register_button').attr('disabled', registable)
-        }
-    })
-    $('#fos_user_registration_form_lastname').focusout(function () {
-        if (!isNaN($('#fos_user_registration_form_lastname').val())) {
-            $('#register_button').attr('disabled', !registable)
-            $('#firstnamecheck')
-                .empty()
-                .append('Le nom doit comporter au moins une lettre');
-        } else {
-            $('#firstnamecheck').empty();
-            $('#register_button').attr('disabled', registable)
-        }
-    })
-
-    $('#fos_user_registration_form_username').focusout(function () {
-        if (!isNaN($('#fos_user_registration_form_username').val())) {
-            $('#register_button').attr('disabled', !registable)
-            $('#usernamecheck')
-                .empty()
-                .append('Le nom d\'utilisateur doit comporter au moins une lettre');
-        } else {
-            $('#usernamecheck').empty();
-            $('#register_button').attr('disabled', registable)
-        }
-    })
-
 
     $('#naissloader').hide();
     $('#residloader').hide();

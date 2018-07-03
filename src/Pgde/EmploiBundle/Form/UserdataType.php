@@ -51,7 +51,7 @@ class UserdataType extends AbstractType
                 'required' => true
             ])
             ->add('lieuresidence', TextType::class, [
-                'label' => 'Lieu de residence: ',
+                'label' => 'Adresse de residence: ',
                 'required' => false
             ])
             ->add('genre', ChoiceType::class, array(

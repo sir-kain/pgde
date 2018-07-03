@@ -61,7 +61,6 @@
 
 {% block security_content %} {% endblock %}
 
-{% block javascripts %}{% endblock %}
 
 {% for logout in app.session.flashBag.get('logout') %}
     {% for class in app.session.flashBag.get('class') %}
@@ -122,5 +121,7 @@
 
 <script src="{{ asset('assets/js/king-components.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>
+
+{% block javascripts %}{% endblock %}
 </body>
 </html>

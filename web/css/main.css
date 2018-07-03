@@ -64,7 +64,8 @@ body {
 }
 
 .panel .panel-body {
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
+
 }
 
 .btn-success {
@@ -146,7 +147,8 @@ body {
 }
 
 .page-auth .center-block {
-    background-color: #ffffff;
+    background-color: #f1f1f1;
+    opacity: 0.9;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -ms-transition: all 1s ease;
@@ -154,10 +156,10 @@ body {
     transition: all 1s ease;
 }
 
-.page-auth .center-block:hover {
-    background-color: #f1f1f1;
-    opacity: 0.9;
-}
+/*.page-auth .center-block:hover {*/
+    /*background-color: #f1f1f1;*/
+    /*opacity: 0.9;*/
+/*}*/
 
 /*.video-intro:hover {*/
 /*-webkit-filter: grayscale(100%); !* Safari 6.0 - 9.0 *!*/
@@ -171,12 +173,14 @@ body {
     -ms-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
-}
-
-.panel-step:hover {
     background-color: #f1f1f1;
     opacity: 0.9;
 }
+
+/*.panel-step:hover {*/
+    /*background-color: #f1f1f1;*/
+    /*opacity: 0.9;*/
+/*}*/
 
 /*icon sur les input*/
 .input-group-addon i {
