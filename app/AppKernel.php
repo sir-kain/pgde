@@ -18,16 +18,16 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new AppBundle\AppBundle(),
             new FOS\UserBundle\FOSUserBundle(),
-            new Sonata\UserBundle\SonataUserBundle(),
-
-            // These are the other bundles the SonataAdminBundle relies on
-            new Sonata\CoreBundle\SonataCoreBundle(),
-            new Sonata\BlockBundle\SonataBlockBundle(),
-            new Knp\Bundle\MenuBundle\KnpMenuBundle(),
-            new Sonata\EasyExtendsBundle\SonataEasyExtendsBundle(),
-
-            new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
-            new Sonata\AdminBundle\SonataAdminBundle(),
+//            new Sonata\UserBundle\SonataUserBundle(),
+//
+//            // These are the other bundles the SonataAdminBundle relies on
+//            new Sonata\CoreBundle\SonataCoreBundle(),
+//            new Sonata\BlockBundle\SonataBlockBundle(),
+//            new Knp\Bundle\MenuBundle\KnpMenuBundle(),
+//            new Sonata\EasyExtendsBundle\SonataEasyExtendsBundle(),
+//
+//            new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
+//            new Sonata\AdminBundle\SonataAdminBundle(),
             new Pgde\EmploiBundle\PgdeEmploiBundle(),
 //            new Application\Sonata\UserBundle\ApplicationSonataUserBundle(),
         ];
