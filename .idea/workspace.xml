@@ -1,164 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4082b11d-0932-41f0-b7ad-a74075f757a9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bundles/sonataadmin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bundles/sonatacore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bundles/sonatauser" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/8bde807c-c8c8-4670-9e59-e671b110d87d/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/8bde807c-c8c8-4670-9e59-e671b110d87d/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/8bde807c-c8c8-4670-9e59-e671b110d87d/_metadata_/metadata.keystream" afterPath="$PROJECT_DIR$/.idea/dataSources/8bde807c-c8c8-4670-9e59-e671b110d87d/_metadata_/metadata.keystream" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/8bde807c-c8c8-4670-9e59-e671b110d87d/_metadata_/metadata.keystream.len" afterPath="$PROJECT_DIR$/.idea/dataSources/8bde807c-c8c8-4670-9e59-e671b110d87d/_metadata_/metadata.keystream.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/8bde807c-c8c8-4670-9e59-e671b110d87d/_metadata_/metadata.len" afterPath="$PROJECT_DIR$/.idea/dataSources/8bde807c-c8c8-4670-9e59-e671b110d87d/_metadata_/metadata.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/8bde807c-c8c8-4670-9e59-e671b110d87d/_metadata_/metadata.values.at" afterPath="$PROJECT_DIR$/.idea/dataSources/8bde807c-c8c8-4670-9e59-e671b110d87d/_metadata_/metadata.values.at" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/8bde807c-c8c8-4670-9e59-e671b110d87d/_metadata_/metadata_i" afterPath="$PROJECT_DIR$/.idea/dataSources/8bde807c-c8c8-4670-9e59-e671b110d87d/_metadata_/metadata_i" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/8bde807c-c8c8-4670-9e59-e671b110d87d/_metadata_/metadata_i.len" afterPath="$PROJECT_DIR$/.idea/dataSources/8bde807c-c8c8-4670-9e59-e671b110d87d/_metadata_/metadata_i.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/ae8e0599-e6c3-492b-9dd5-b50c1b1c5e6b/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/ae8e0599-e6c3-492b-9dd5-b50c1b1c5e6b/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/ae8e0599-e6c3-492b-9dd5-b50c1b1c5e6b/_metadata_/metadata.keystream" afterPath="$PROJECT_DIR$/.idea/dataSources/ae8e0599-e6c3-492b-9dd5-b50c1b1c5e6b/_metadata_/metadata.keystream" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/ae8e0599-e6c3-492b-9dd5-b50c1b1c5e6b/_metadata_/metadata.keystream.len" afterPath="$PROJECT_DIR$/.idea/dataSources/ae8e0599-e6c3-492b-9dd5-b50c1b1c5e6b/_metadata_/metadata.keystream.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/ae8e0599-e6c3-492b-9dd5-b50c1b1c5e6b/_metadata_/metadata.len" afterPath="$PROJECT_DIR$/.idea/dataSources/ae8e0599-e6c3-492b-9dd5-b50c1b1c5e6b/_metadata_/metadata.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/ae8e0599-e6c3-492b-9dd5-b50c1b1c5e6b/_metadata_/metadata.values.at" afterPath="$PROJECT_DIR$/.idea/dataSources/ae8e0599-e6c3-492b-9dd5-b50c1b1c5e6b/_metadata_/metadata.values.at" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/ae8e0599-e6c3-492b-9dd5-b50c1b1c5e6b/_metadata_/metadata_i" afterPath="$PROJECT_DIR$/.idea/dataSources/ae8e0599-e6c3-492b-9dd5-b50c1b1c5e6b/_metadata_/metadata_i" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/ae8e0599-e6c3-492b-9dd5-b50c1b1c5e6b/_metadata_/metadata_i.len" afterPath="$PROJECT_DIR$/.idea/dataSources/ae8e0599-e6c3-492b-9dd5-b50c1b1c5e6b/_metadata_/metadata_i.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/apple-touch-icon.png" afterPath="$PROJECT_DIR$/web/apple-touch-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/MyriadPro-Regular.otf" afterPath="$PROJECT_DIR$/web/assets/fonts/MyriadPro-Regular.otf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/header/header.PNG" afterPath="$PROJECT_DIR$/web/assets/img/header/header.PNG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/fonts/BLOKKNeue-Regular.eot" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/fonts/BLOKKNeue-Regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/fonts/BLOKKNeue-Regular.ttf" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/fonts/BLOKKNeue-Regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/fonts/BLOKKNeue-Regular.woff" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/fonts/BLOKKNeue-Regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/alert_icons.png" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/alert_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/favicon.ico" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/favicon.png" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/favicon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/icon-highres.png" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/icon-highres.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/touch-icon-ipad-pro.png" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/touch-icon-ipad-pro.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/touch-icon-ipad-retina.png" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/touch-icon-ipad-retina.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/touch-icon-iphone-6-plus.png" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/touch-icon-iphone-6-plus.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/touch-icon-iphone-retina.png" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/icons/touch-icon-iphone-retina.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/logo-light.png" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/logo-light.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/logo.png" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/pattern_math.png" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/pattern_math.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/pattern_math2.png" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/pattern_math2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/pattern_wavegrid.png" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/pattern_wavegrid.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/plugin-preview.png" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/plugin-preview.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/rb01close-color.png" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/rb01close-color.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/rb01close.png" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/rb01close.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/video-preview-source.jpg" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/video-preview-source.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/viewmore.png" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/viewmore.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/blank.gif" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/blank.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/grab.cur" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/grab.cur" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/grab.png" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/grab.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/grabbing.cur" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/grabbing.cur" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/grabbing.png" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/grabbing.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-nav-dark.png" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-nav-dark.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-nav.png" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-nav.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-playpause.png" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-playpause.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-video-play.png" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-video-play.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/pattern-dot-dark.png" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/pattern-dot-dark.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/pattern-dot-light.png" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/pattern-dot-light.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/favicon.ico" afterPath="$PROJECT_DIR$/web/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/PGDe.png" afterPath="$PROJECT_DIR$/web/img/PGDe.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/devisesenegal.png" afterPath="$PROJECT_DIR$/web/img/devisesenegal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/flag-sn.png" afterPath="$PROJECT_DIR$/web/img/flag-sn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/footer-flag.png" afterPath="$PROJECT_DIR$/web/img/footer-flag.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/hearder.png" afterPath="$PROJECT_DIR$/web/img/hearder.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/logogris.png" afterPath="$PROJECT_DIR$/web/img/logogris.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/logosn.png" afterPath="$PROJECT_DIR$/web/img/logosn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/shadow.png" afterPath="$PROJECT_DIR$/web/img/shadow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+    <list default="true" id="b1ebb74a-ac28-408f-8f32-da61b7191281" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/pgde.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/translations/FOSUserBundle.fr.yml" afterPath="$PROJECT_DIR$/app/Resources/translations/FOSUserBundle.fr.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/userdata/reussi.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/userdata/reussi.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters_production.php" afterPath="$PROJECT_DIR$/app/config/parameters_production.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/ApplicationSonataUserBundle.php" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/ApplicationSonataUserBundle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Document/Group.php" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Document/Group.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Document/User.php" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Document/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Entity/Group.php" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Entity/Group.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Entity/User.php" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Entity/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/doctrine/Group.mongodb.xml" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/doctrine/Group.mongodb.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/doctrine/Group.orm.xml" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/doctrine/Group.orm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/doctrine/User.mongodb.xml" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/doctrine/User.mongodb.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/doctrine/User.orm.xml" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/doctrine/User.orm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/serializer/Document.Group.xml" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/serializer/Document.Group.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/serializer/Document.User.xml" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/serializer/Document.User.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/serializer/Entity.Group.xml" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/serializer/Entity.Group.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/serializer/Entity.User.xml" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/serializer/Entity.User.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UserAdmin.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UserAdmin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UserdataAdmin.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UserdataAdmin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Academic.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Academic.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Departement.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Departement.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Emploi.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Emploi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Handicap.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Handicap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Region.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Region.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Secteur.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Secteur.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Userdata.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Userdata.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Utilisateur.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Utilisateur.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UtilisateurType.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UtilisateurType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/demandesuccess.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/demandesuccess.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/sendinfo.email.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Email/sendinfo.email.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/footer.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/footer.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Service/PgdeService.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Service/PgdeService.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/ekko-lightbox.css" afterPath="$PROJECT_DIR$/web/assets/css/ekko-lightbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/ekko-lightbox.min.js" afterPath="$PROJECT_DIR$/web/assets/js/ekko-lightbox.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/css/prettify.light.css" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/css/prettify.light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/css/ruby00.css" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/css/ruby00.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/css/ruby01.css" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/css/ruby01.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/css/rubybox.css" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/css/rubybox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/css/rubygrid.css" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/css/rubygrid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/css/styles.custom.css" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/css/styles.custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/fonts/BLOKKNeue-Regular.svg" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/fonts/BLOKKNeue-Regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/logo-light.svg" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/logo-light.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/logo.svg" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/imgs/logo.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/scripts/jquery-last.min.js" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/scripts/jquery-last.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/scripts/jquery.mousewheel.min.js" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/scripts/jquery.mousewheel.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/scripts/modernizr.js" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/scripts/modernizr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/scripts/prettify.min.js" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/scripts/prettify.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/scripts/ruby01-old.js" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/scripts/ruby01-old.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/scripts/ruby01.js" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/scripts/ruby01.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/libs/scripts/rubybox.js" afterPath="$PROJECT_DIR$/web/assets/ruby/libs/scripts/rubybox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-nav-dark.svg" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-nav-dark.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-nav.svg" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-nav.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-playpause.svg" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-playpause.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-video-play.svg" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/imgs/icon-video-play.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-apimore.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-apimore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-apiremote.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-apiremote.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-caption.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-caption.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-classadd.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-classadd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-deeplinking.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-deeplinking.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-display.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-display.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-fullscreen.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-fullscreen.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-fxcss.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-fxcss.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-fxmath.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-fxmath.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-iframe.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-iframe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-image.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-navigation.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-navigation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-nested.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-nested.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-pagination.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-pagination.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-responsive.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-responsive.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-slideshow.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-slideshow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-swipe.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-swipe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-timer.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-timer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-videoiframe.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module-videoiframe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module.cookie.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/module.cookie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/rubytabs-core.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/modules/rubytabs-core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/rubyanimate.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/rubyanimate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/rubytabs.css" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/rubytabs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/rubytabs.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/rubytabs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/source - no minify/rubyanimate.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/source - no minify/rubyanimate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/source - no minify/rubytabs.css" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/source - no minify/rubytabs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/ruby/ruby/source - no minify/rubytabs.js" afterPath="$PROJECT_DIR$/web/assets/ruby/ruby/source - no minify/rubytabs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/config.php" afterPath="$PROJECT_DIR$/web/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/paysage.css" afterPath="$PROJECT_DIR$/web/css/paysage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/portrait.css" afterPath="$PROJECT_DIR$/web/css/portrait.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/etape.svg" afterPath="$PROJECT_DIR$/web/img/etape.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/etaperesetpassword.svg" afterPath="$PROJECT_DIR$/web/img/etaperesetpassword.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/loginpage.svg" afterPath="$PROJECT_DIR$/web/img/loginpage.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/page2.svg" afterPath="$PROJECT_DIR$/web/img/page2.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/registerpage.svg" afterPath="$PROJECT_DIR$/web/img/registerpage.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/register.js" afterPath="$PROJECT_DIR$/web/js/register.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -170,53 +21,17 @@
   <component name="ComposerSettings" doNotAsk="true" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="29" column="33" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="29" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="108" column="12" lean-forward="false" selection-start-line="108" selection-start-column="12" selection-end-line="110" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/app.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="46" selection-end-column="15" />
+            <state relative-caret-position="-625">
+              <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>default_c</find>
-      <find>pla</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -271,10 +86,10 @@
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Resetting/request.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
-        <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/web/app.php" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
       </list>
     </option>
   </component>
@@ -323,26 +138,19 @@
               <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
               <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
   </component>
   <component name="RunDashboard">
@@ -362,7 +170,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4082b11d-0932-41f0-b7ad-a74075f757a9" name="Default" comment="" />
+      <changelist id="b1ebb74a-ac28-408f-8f32-da61b7191281" name="Default" comment="" />
       <created>1522757605483</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -446,26 +254,28 @@
       <workItem from="1530523985131" duration="16831000" />
       <workItem from="1530579083796" duration="14272000" />
       <workItem from="1530696937337" duration="24189000" />
-      <workItem from="1530784943103" duration="18151000" />
+      <workItem from="1530784943103" duration="20693000" />
+      <workItem from="1530870525799" duration="10487000" />
+      <workItem from="1530882338027" duration="151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="900452000" />
+    <option name="totallyTimeSpent" value="913632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-4" width="1307" height="780" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25258142" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2605242" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7216174" sideWeight="0.51231134" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20413026" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.63919127" sideWeight="0.48768863" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15863141" sideWeight="0.48768863" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -485,17 +295,17 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7216174" sideWeight="0.51231134" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7231726" sideWeight="0.48768863" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24861" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16018662" sideWeight="0.48768863" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25655282" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20413026" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,20 +347,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/UserdataRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="61" column="5" lean-forward="false" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/translations/FOSUserBundle.fr.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -673,7 +469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="75" column="21" lean-forward="false" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -789,13 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UserdataType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -826,40 +614,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="256">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+    <entry file="file://$PROJECT_DIR$/app/config/parameters_production.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="29" column="33" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="29" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="108" column="12" lean-forward="false" selection-start-line="108" selection-start-column="12" selection-end-line="110" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="37" />
+        <state relative-caret-position="335">
+          <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="46" selection-end-column="15" />
+        <state relative-caret-position="992">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="46" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="108" column="38" lean-forward="true" selection-start-line="108" selection-start-column="38" selection-end-line="108" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="1" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-625">
+          <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
           <folding />
         </state>
       </provider>

@@ -106,9 +106,9 @@ doctrine:
 
                 server_version: 5.5.60
 
-#        types:
-#
-#            json: Sonata\Doctrine\Types\JsonType
+        types:
+
+            json: Sonata\Doctrine\Types\JsonType
 
         # if using pdo_sqlite as your database driver:
 
@@ -166,11 +166,11 @@ fos_user:
 
     user_class:    Pgde\EmploiBundle\Entity\Utilisateur
 
-#    group:
-#
-#        group_class:   Sonata\UserBundle\Entity\Group
-#
-#        group_manager: sonata.user.orm.group_manager # If you're using doctrine orm (use sonata.user.mongodb.group_manager for mongodb)
+    group:
+
+        group_class:   Sonata\UserBundle\Entity\Group
+
+        group_manager: sonata.user.orm.group_manager # If you're using doctrine orm (use sonata.user.mongodb.group_manager for mongodb)
 
 
 
@@ -206,21 +206,21 @@ fos_user:
 
 
 
-#sonata_block:
-#
-#    blocks:
-#
-#        # enable the SonataAdminBundle block
-#
-#        sonata.admin.block.admin_list:
-#
-#            contexts: [admin]
-#
-#
-#sonata_user:
-#
-#    class:
-#
-#        user: Application\Sonata\UserBundle\Entity\User
-#
-#        group: Application\Sonata\UserBundle\Entity\Group
+sonata_block:
+
+    blocks:
+
+#         enable the SonataAdminBundle block
+
+        sonata.admin.block.admin_list:
+
+            contexts: [admin]
+
+
+sonata_user:
+
+    class:
+
+        user: Application\Sonata\UserBundle\Entity\User
+
+        group: Application\Sonata\UserBundle\Entity\Group
