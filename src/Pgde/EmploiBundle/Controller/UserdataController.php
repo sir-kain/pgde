@@ -98,7 +98,6 @@ class UserdataController extends Controller
             $this->get('session')->getFlashBag()->add('urlavatar', $urlavatar);
             $this->get('session')->getFlashBag()->add('username', $userdatum->getUtilisateur()->getUsername());
 
-
 //            ENVOI DE MAIL
             if ($ajout) {
                 $transport = \Swift_SmtpTransport::newInstance()
@@ -109,7 +108,9 @@ class UserdataController extends Controller
                 $message = \Swift_Message::newInstance()
                     ->setSubject('Votre demande d\'emploi a été soumise avec succès - 
                 Plateforme de Gestion des Demandes d\'Emploi (PGDE)')
-                    ->setFrom('nepasrepondre@fonctionpublique.gouv.sn')
+//                    ->setSender('Fonction publique')
+                    ->setFrom($this->container->getParameter('mailer_user'),
+                        $this->container->getParameter('sender_name'))
                     ->setTo($userdatum->getUtilisateur()->getEmail())
                     ->setBody(
                         $this->renderView(

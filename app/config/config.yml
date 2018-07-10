@@ -182,7 +182,7 @@ fos_user:
 
         address: "nepasrepondre@fonctionpublique.gouv.sn"
 
-        sender_name: "Fonction publique"
+        sender_name: "%sender_name%"
 
     registration:
 
