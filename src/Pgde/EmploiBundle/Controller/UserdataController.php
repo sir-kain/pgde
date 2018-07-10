@@ -99,7 +99,7 @@ class UserdataController extends Controller
             $this->get('session')->getFlashBag()->add('username', $userdatum->getUtilisateur()->getUsername());
 
 //            ENVOI DE MAIL
-//            if ($ajout) {
+            if ($ajout) {
                 $transport = \Swift_SmtpTransport::newInstance()
                     ->setHost('smtp-appli.gouv.sn');
 
@@ -122,7 +122,7 @@ class UserdataController extends Controller
                     )
                 ;
                 $mailer->send($message);
-//            }
+            }
             $response = $this->forward('PgdeEmploiBundle:Userdata:reussi', array(
                 'ajout'  => $ajout
             ));
