@@ -109,7 +109,7 @@ class UserdataController extends Controller
                     ->setSubject('Votre demande d\'emploi a été soumise avec succès - 
                 Plateforme de Gestion des Demandes d\'Emploi (PGDE)')
 //                    ->setSender('Fonction publique')
-                    ->setFrom($this->container->getParameter('mailer_address'),
+                    ->setFrom($this->container->getParameter('sender_address'),
                         $this->container->getParameter('sender_name'))
                     ->setTo($userdatum->getUtilisateur()->getEmail())
                     ->setBody(
