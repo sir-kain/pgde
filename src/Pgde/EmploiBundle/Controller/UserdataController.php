@@ -99,7 +99,7 @@ class UserdataController extends Controller
             $this->get('session')->getFlashBag()->add('username', $userdatum->getUtilisateur()->getUsername());
 
 //            ENVOI DE MAIL
-            if ($ajout) {
+//            if ($ajout) {
                 $transport = \Swift_SmtpTransport::newInstance()
                     ->setHost('smtp-appli.gouv.sn');
 
@@ -109,7 +109,7 @@ class UserdataController extends Controller
                     ->setSubject('Votre demande d\'emploi a été soumise avec succès - 
                 Plateforme de Gestion des Demandes d\'Emploi (PGDE)')
 //                    ->setSender('Fonction publique')
-                    ->setFrom($this->container->getParameter('mailer_user'),
+                    ->setFrom($this->container->getParameter('mailer_address'),
                         $this->container->getParameter('sender_name'))
                     ->setTo($userdatum->getUtilisateur()->getEmail())
                     ->setBody(
@@ -122,7 +122,7 @@ class UserdataController extends Controller
                     )
                 ;
                 $mailer->send($message);
-            }
+//            }
             $response = $this->forward('PgdeEmploiBundle:Userdata:reussi', array(
                 'ajout'  => $ajout
             ));

@@ -180,7 +180,7 @@ fos_user:
 
     from_email:
 
-        address: "nepasrepondre@fonctionpublique.gouv.sn"
+        address: "sender_address"
 
         sender_name: "%sender_name%"
 
