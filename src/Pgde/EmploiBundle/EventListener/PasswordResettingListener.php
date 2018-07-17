@@ -9,10 +9,8 @@ namespace Pgde\EmploiBundle\EventListener;
 
 
 use Doctrine\ORM\EntityManager;
-use FOS\UserBundle\Event\FilterUserResponseEvent;
 use FOS\UserBundle\Event\FormEvent;
 use FOS\UserBundle\Event\GetResponseUserEvent;
-use FOS\UserBundle\Event\UserEvent;
 use FOS\UserBundle\FOSUserEvents;
 use Pgde\EmploiBundle\Entity\Userdata;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;

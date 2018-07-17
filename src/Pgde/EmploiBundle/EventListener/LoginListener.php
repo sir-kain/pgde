@@ -8,42 +8,44 @@
 
 namespace Pgde\EmploiBundle\EventListener;
 
-use Doctrine\ORM\EntityManager;
 use FOS\UserBundle\Model\UserManagerInterface;
-use Pgde\EmploiBundle\Entity\Userdata;
-use Symfony\Component\HttpFoundation\Session\Session;
+use Symfony\Component\HttpFoundation\RedirectResponse;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Security\Core\Exception\AuthenticationException;
+use Symfony\Component\Security\Http\Authentication\AuthenticationFailureHandlerInterface;
 use Symfony\Component\Security\Http\Event\InteractiveLoginEvent;
 
 
-class LoginListener
+class LoginListener implements AuthenticationFailureHandlerInterface
 {
     protected $userManager;
-    protected $session;
-    protected $entityManager;
 
-    public function __construct(UserManagerInterface $userManager, Session $session, EntityManager $entityManager)
+    public function __construct(UserManagerInterface $userManager)
     {
         $this->userManager = $userManager;
-        $this->session = $session;
-        $this->entityManager = $entityManager;
-
     }
 
     public function onSecurityInteractiveLogin(InteractiveLoginEvent $event)
     {
-        $user = $event->getAuthenticationToken()->getUser();
+        $token = $event->getAuthenticationToken();
+        $request = $event->getRequest();
+        $user = $token->getUser();
+        dump($user);
+        dump('ok');
+        $this->onAuthenticationFailure($request, null);
+    }
 
-        $urlavatar = $this->entityManager->getRepository(Userdata::class)
-            ->get_gravatar($user->getEmail(), 80);
-        $this->session->getFlashBag()
-            ->add('login', true);
-        $this->session->getFlashBag()
-            ->add('message', 'Bienvenue');
-        $this->session->getFlashBag()
-            ->add('class', 'gritter');
-        $this->session->getFlashBag()
-            ->add('urlavatar', $urlavatar);
-        $this->session->getFlashBag()
-            ->add('username', $user->getUsername());
+    /**
+     * This is called when an interactive authentication attempt fails. This is
+     * called by authentication listeners inheriting from
+     * AbstractAuthenticationListener.
+     *
+     * @return Response The response to return, never null
+     */
+    public function onAuthenticationFailure(Request $request, AuthenticationException $exception)
+    {
+        // TODO: Implement onAuthenticationFailure() method.
+        return new Response();
     }
 }

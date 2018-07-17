@@ -61,6 +61,8 @@
 
 {% block security_content %} {% endblock %}
 
+{% block error_content %} {% endblock %}
+
 
 {% for logout in app.session.flashBag.get('logout') %}
     {% for class in app.session.flashBag.get('class') %}
