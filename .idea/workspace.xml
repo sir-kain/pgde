@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1ebb74a-ac28-408f-8f32-da61b7191281" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error404.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/error.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error500.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/services.yml" afterPath="$PROJECT_DIR$/app/config/services.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/LoginListener.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/LoginListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/PasswordResettingListener.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/PasswordResettingListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error404.html.twig" afterPath="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error404.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,16 +43,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error404.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="error404.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error404.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            <state relative-caret-position="192">
+              <caret line="6" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="14" />
               <folding>
                 <element signature="e#12#44#0#Twig" expanded="true" />
-                <element signature="e#110#263#0#HTML" expanded="false" />
-                <element signature="e#494#867#0#HTML" expanded="false" />
-                <element signature="e#876#1117#0#HTML" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error500.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error500.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <folding>
+                <element signature="e#12#44#0#Twig" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+              <folding>
+                <element signature="e#12#44#0#Twig" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Service/PgdeService.php" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/notifications_for_demande.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Tests/Controller/DefaultControllerTest.php" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Tests/Controller/UserdataControllerTest.php" />
@@ -121,7 +138,6 @@
         <option value="$PROJECT_DIR$/web/js/main.js" />
         <option value="$PROJECT_DIR$/web/js/register.js" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/register.html.twig" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/security.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/ChangePassword/change_password.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Resetting/reset.html.twig" />
@@ -144,6 +160,8 @@
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/error.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error404.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error500.html.twig" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig" />
       </list>
     </option>
   </component>
@@ -208,23 +226,6 @@
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="TwigBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="TwigBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="TwigBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Exception" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
@@ -396,15 +397,16 @@
       <workItem from="1531730964893" duration="2010000" />
       <workItem from="1531820645952" duration="1655000" />
       <workItem from="1531824363815" duration="8000" />
-      <workItem from="1531824529672" duration="891000" />
+      <workItem from="1531824529672" duration="3524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="960220000" />
+    <option name="totallyTimeSpent" value="962853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-4" width="1305" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26370135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -413,7 +415,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6687403" sideWeight="0.484585" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6687403" sideWeight="0.484585" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -466,13 +468,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4704">
-          <caret line="367" column="28" lean-forward="false" selection-start-line="367" selection-start-column="24" selection-end-line="367" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/register.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1344">
@@ -805,16 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="5" column="138" lean-forward="false" selection-start-line="5" selection-start-column="130" selection-end-line="5" selection-end-column="138" />
-          <folding>
-            <element signature="e#312#337#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Page/error.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -825,15 +810,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error404.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error500.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        <state relative-caret-position="192">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding>
             <element signature="e#12#44#0#Twig" expanded="true" />
-            <element signature="e#110#263#0#HTML" expanded="false" />
-            <element signature="e#494#867#0#HTML" expanded="false" />
-            <element signature="e#876#1117#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error404.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="e#12#44#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+          <folding>
+            <element signature="e#12#44#0#Twig" expanded="true" />
           </folding>
         </state>
       </provider>
