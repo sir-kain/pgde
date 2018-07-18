@@ -54,3 +54,9 @@
         </form>
 
     {% endblock fos_user_content %}
+
+{% block javascripts %}
+{#for security layout#}
+<script src="{{ asset('assets/js/ekko-lightbox.min.js') }}"></script>
+{#endfor security layout#}
+{% endblock %}

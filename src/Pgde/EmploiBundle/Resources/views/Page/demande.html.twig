@@ -35,3 +35,12 @@
     </div>
     <!-- END WRAPPER -->
 {% endblock %}
+
+{% block javascripts %}
+{#for demande layout#}
+<script src="{{ asset('assets/js/plugins/select2/select2.min.js') }}"></script>
+<script src="{{ asset('assets/js/plugins/jquery-maskedinput/jquery.masked-input.min.js') }}"></script>
+<script src="{{ asset('assets/js/plugins/bootstrap-datepicker/bootstrap-datepicker.js') }}"></script>
+
+{#endfor demande layout#}
+{% endblock %}

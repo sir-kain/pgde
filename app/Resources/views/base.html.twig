@@ -5,13 +5,13 @@
 <html class="no-js">
 <head>
     <title>{% block title %}PGDE{% endblock %}</title>
-    {% block stylesheets %}{% endblock %}
     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"/>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="PGDE - Plateforme de Gestion des Demandes d'Emploi">
     <meta name="author" content="Ministère Fonction Publique du Sénégal">
+    {% block stylesheets %}{% endblock %}
     <!-- CSS -->
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
     {#<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">#}
@@ -87,17 +87,16 @@
         crossorigin="anonymous"></script>
 <script src="{{ asset('assets/js/bootstrap/bootstrap.js') }}"></script>
 <script src="{{ asset('assets/js/plugins/modernizr/modernizr.js') }}"></script>
-<script src="{{ asset('assets/js/plugins/bootstrap-tour/bootstrap-tour.custom.js') }}"></script>
-<script src="{{ asset('assets/js/plugins/jquery-slimscroll/jquery.slimscroll.min.js') }}"></script>
-<script src="{{ asset('assets/js/king-common.js') }}"></script>
-<script src="{{ asset('assets/js/plugins/stat/jquery.easypiechart.min.js') }}"></script>
-<script src="{{ asset('assets/js/plugins/raphael/raphael-2.1.0.min.js') }}"></script>
-<script src="{{ asset('assets/js/plugins/stat/flot/jquery.flot.min.js') }}"></script>
-<script src="{{ asset('assets/js/plugins/stat/flot/jquery.flot.resize.min.js') }}"></script>
-<script src="{{ asset('assets/js/plugins/stat/flot/jquery.flot.time.min.js') }}"></script>
-<script src="{{ asset('assets/js/plugins/stat/flot/jquery.flot.pie.min.js') }}"></script>
-<script src="{{ asset('assets/js/plugins/stat/flot/jquery.flot.tooltip.min.js') }}"></script>
-<script src="{{ asset('assets/js/plugins/jquery-sparkline/jquery.sparkline.min.js') }}"></script>
+{#<script src="{{ asset('assets/js/plugins/bootstrap-tour/bootstrap-tour.custom.js') }}"></script>#}
+{#<script src="{{ asset('assets/js/plugins/jquery-slimscroll/jquery.slimscroll.min.js') }}"></script>#}
+{#<script src="{{ asset('assets/js/plugins/stat/jquery.easypiechart.min.js') }}"></script>#}
+{#<script src="{{ asset('assets/js/plugins/raphael/raphael-2.1.0.min.js') }}"></script>#}
+{#<script src="{{ asset('assets/js/plugins/stat/flot/jquery.flot.min.js') }}"></script>#}
+{#<script src="{{ asset('assets/js/plugins/stat/flot/jquery.flot.resize.min.js') }}"></script>#}
+{#<script src="{{ asset('assets/js/plugins/stat/flot/jquery.flot.time.min.js') }}"></script>#}
+{#<script src="{{ asset('assets/js/plugins/stat/flot/jquery.flot.pie.min.js') }}"></script>#}
+{#<script src="{{ asset('assets/js/plugins/stat/flot/jquery.flot.tooltip.min.js') }}"></script>#}
+{#<script src="{{ asset('assets/js/plugins/jquery-sparkline/jquery.sparkline.min.js') }}"></script>#}
 {#<script src="{{ asset('assets/js/plugins/datatable/jquery.dataTables.min.js') }}"></script>#}
 {#<script src="{{ asset('assets/js/plugins/datatable/dataTables.bootstrap.js') }}"></script>#}
 {#<script src="{{ asset('assets/js/plugins/jquery-mapael/jquery.mapael.js') }}"></script>#}
@@ -105,12 +104,8 @@
 {#<script src="{{ asset('assets/js/king-chart-stat.js') }}"></script>#}
 {#<script src="{{ asset('assets/js/king-table.js') }}"></script>#}
 <script src="{{ asset('assets/js/plugins/jquery-gritter/jquery.gritter.min.js') }}"></script>
-<script src="{{ asset('assets/js/plugins/select2/select2.min.js') }}"></script>
-<script src="{{ asset('assets/js/plugins/jquery-maskedinput/jquery.masked-input.min.js') }}"></script>
-<script src="{{ asset('assets/js/plugins/bootstrap-datepicker/bootstrap-datepicker.js') }}"></script>
-<script src="{{ asset('assets/js/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js') }}"></script>
-<script src="{{ asset('assets/js/ekko-lightbox.min.js') }}"></script>
 
+{#<script src="{{ asset('assets/js/king-common.js') }}"></script>#}
 {#Rubytabs js#}
 <!-- Script - begin
    ======================================================================== -->
@@ -120,6 +115,9 @@
 <script src="{{ asset('assets/ruby/ruby/rubytabs.js') }}"></script> <!-- RubyTabs Plugins -->
 <!-- Script - end
 ======================================================================== -->
+
+{#for input type number#}
+<script src="{{ asset('assets/js/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js') }}"></script>
 
 <script src="{{ asset('assets/js/king-components.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>
