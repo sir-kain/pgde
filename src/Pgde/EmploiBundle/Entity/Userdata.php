@@ -34,7 +34,7 @@ class Userdata
      * @var string
      *
      * @ORM\Column(name="lieuresidence", type="string", length=255)
-     * @Assert\NotBlank(message="Merci de renseigner votre lieu de naissance")
+     * @Assert\NotBlank(message="Merci de renseigner votre lieu de residence")
      */
     private $lieuresidence;
 
@@ -86,7 +86,8 @@ class Userdata
     /**
      * @var string
      *
-     * @ORM\Column(name="diplome", type="string", length=255)
+     * @ORM\Column(name="diplome", type="string", length=255, nullable=true)
+     *
      */
     private $diplome;
 
