@@ -11,25 +11,57 @@
             obligatoires)</em></p>
     <div class="col-sm-6">
         <div class="form-group">
-            {#{{ form_label(form.numberid) }}#}
-            {{ form_row(form.numberid) }}
-            <span id="matchIdCard" class="requis"></span>
+            {{ form_label(form.numberid) }}
+            <span id="matchIdCard" class="red-font"></span>
+            <div class="input-group form-group">
+                {{ form_widget(form.numberid) }}
+                <span class="input-group-addon"><i class="fa fa-id-card-o"></i></span>
+            </div>
         </div>
-        {{ form_row(form.firstname) }}
-        <span id="firstnamecheck" class="requis"></span>
-        {{ form_row(form.lastname) }}
-        <span id="lastnamecheck" class="requis"></span>
-        {{ form_row(form.username) }}
-        <span id="usernamecheck" class="requis"></span>
+        {#{{ form_row(form.firstname) }}#}
+        {#<span id="firstnamecheck" class="requis"></span>#}
+        {{ form_label(form.firstname) }}
+        <span id="firstnamecheck" class="red-font"></span>
+        <div class="input-group form-group">
+            {{ form_widget(form.firstname) }}
+            <span class="input-group-addon"><i class="fa fa-user-o"></i></span>
+        </div>
+        {{ form_label(form.lastname) }}
+        <span id="lastnamecheck" class="red-font"></span>
+        <div class="input-group form-group">
+            {{ form_widget(form.lastname) }}
+            <span class="input-group-addon"><i class="fa fa-user-o"></i></span>
+        </div>
+        {{ form_label(form.username) }}
+        <span id="usernamecheck" class="red-font"></span>
+        <div class="input-group form-group">
+            {{ form_widget(form.username) }}
+            <span class="input-group-addon"><i class="fa fa-user-o"></i></span>
+        </div>
     </div>
     <div class="col-sm-6">
-        {{ form_row(form.email) }}
-        <div class="form-group">
-            <label for="repeatemail"> Répéter votre email </label>
+        {{ form_label(form.email) }}
+        <div class="input-group form-group">
+            {{ form_widget(form.email) }}
+            <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
+        </div>
+        <label for="repeatemail"> Répéter votre email </label>
+        <div class="input-group form-group">
             <input type="email" class="form-control" name="repeatemail" id="repeatemail">
+            <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
             <span id="matchemail" class="requis"></span>
         </div>
-        {{ form_row(form.plainPassword) }}
+        {{ form_label(form.plainPassword.first) }}
+        <div class="input-group form-group">
+            {{ form_widget(form.plainPassword.first) }}
+            <span class="input-group-addon"><i class="fa fa-key"></i></span>
+        </div>
+        {{ form_label(form.plainPassword.first) }}
+        <div class="input-group form-group">
+            {{ form_widget(form.plainPassword.second) }}
+            <span class="input-group-addon"><i class="fa fa-key"></i></span>
+        </div>
+        {#{{ form_row(form.plainPassword) }}#}
         <span id="matchpasswd" class="requis"></span>
     </div>
     <button class="btn btn-custom-bleu btn-lg btn-block btn-auth" id="register_button">
