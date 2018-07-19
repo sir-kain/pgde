@@ -34,7 +34,7 @@ class Userdata
      * @var string
      *
      * @ORM\Column(name="lieuresidence", type="string", length=255)
-     * @Assert\NotBlank(message="Merci de renseigner votre lieu de naissance")
+     * @Assert\NotBlank(message="Merci de renseigner votre lieu de residence")
      */
     private $lieuresidence;
 
@@ -49,6 +49,7 @@ class Userdata
      * @var string
      *
      * @ORM\Column(name="genre", type="string", length=10)
+     * @Assert\NotBlank(message="Merci de renseigner votre genre")
      */
     private $genre;
 
@@ -56,6 +57,7 @@ class Userdata
      * @var string
      *
      * @ORM\Column(name="situationmatrimoniale", type="string", length=255)
+     * @Assert\NotBlank(message="Merci de renseigner votre situation matrimoniale")
      */
     private $situationmatrimoniale;
 
@@ -63,6 +65,7 @@ class Userdata
      * @var string
      *
      * @ORM\Column(name="telephone1", type="string", length=45)
+     * @Assert\NotBlank(message="Merci de renseigner votre numero téléphone")
      */
     private $telephone1;
 
@@ -83,7 +86,8 @@ class Userdata
     /**
      * @var string
      *
-     * @ORM\Column(name="diplome", type="string", length=255)
+     * @ORM\Column(name="diplome", type="string", length=255, nullable=true)
+     *
      */
     private $diplome;
 

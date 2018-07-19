@@ -256,13 +256,15 @@ body {
 }
 
 .footer-row-1 .footer-row-2 {
+    margin: 0;
     padding: .5em 0 1em 0;
 }
 
 .footer-row-1 li {
     display: inline-block;
     list-style: none;
-    padding: 0 2em;
+    margin: 0;
+    padding: 0 .8em;
 }
 
 .footer-row-1 a {
@@ -272,16 +274,21 @@ body {
     /*font-style: italic;*/
     font-weight: 800;
     text-decoration: none;
-    color: #434343;
+    color: #0c253d;
+    opacity: 0.8;
 }
 
 .footer-row-2 li {
     display: inline-block;
     list-style: none;
-    padding: 1em 1em;
+    margin: 0;
+    padding: 0 1em;
+    color: #0c253d;
 }
 
 .footer-row-2 a {
+    margin: 0;
+    padding: 0;
     text-decoration: none;
     font-weight: 100;
     color: #000;
@@ -292,9 +299,14 @@ body {
     margin: 2em -1.5em -1.3em -1.5em;
     padding: 1em 0;
 }
+.footer-row-1 a, .footer-row-2 a, .footer-row-3 {
+    font-family: "MyriadPro-Regular","Helvetica Neue'",Roboto,Arial,sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+}
 
 .border-r {
-    border-right: 1.5px solid #434343;
+    border-right: 1.2px solid #0c253d;
 }
 
 .form-group select {
@@ -362,6 +374,16 @@ body {
 .btn {
     font-family: "MyriadPro-Regular","Helvetica Neue'",Roboto,Arial,sans-serif;
     /*font-size: 1em;*/
+    font-weight: normal;
+    line-height: 1.5;
+}
+form {
+    font-family: "MyriadPro-Regular","Helvetica Neue'",Roboto,Arial,sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+}
+.links a{
+    font-family: "MyriadPro-Regular","Helvetica Neue'",Roboto,Arial,sans-serif;
     font-weight: normal;
     line-height: 1.5;
 }
