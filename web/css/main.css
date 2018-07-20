@@ -131,6 +131,11 @@ body {
 .grid h3 {
     /*   // position: absolute; <- remove !!!
       // float: right; <- remove !!! */
+    font-family: "MyriadPro-Regular","Helvetica Neue'",Roboto,Arial,sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.001px;
+    word-spacing: 0.01px;
     display: inline-block;
     vertical-align: center;
     margin: 0 auto;
@@ -302,7 +307,7 @@ body {
 .footer-row-1 a, .footer-row-2 a, .footer-row-3 {
     font-family: "MyriadPro-Regular","Helvetica Neue'",Roboto,Arial,sans-serif;
     font-weight: normal;
-    line-height: 1.5;
+    line-height: 1;
 }
 
 .border-r {
