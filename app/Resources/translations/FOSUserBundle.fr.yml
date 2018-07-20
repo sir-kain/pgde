@@ -82,6 +82,6 @@ form:
     email: 'Adresse e-mail:'
     current_password: 'Mot de passe actuel:'
     password: 'Choisissez un mot de passe:'
-    password_confirmation: 'Répéter le mot de passe choisi:'
+    password_confirmation: 'Répétez le mot de passe choisi:'
     new_password: 'Choisissez un nouveau mot de passe:'
-    new_password_confirmation: 'Répéter le nouveau mot de passe choisi:'
+    new_password_confirmation: 'Répétez le nouveau mot de passe choisi:'
