@@ -91,7 +91,7 @@ class PasswordResettingListener implements EventSubscriberInterface
         $this->session->getFlashBag()
             ->add('urlavatar', $urlavatar);
         $this->session->getFlashBag()
-            ->add('user', $userdata);
+            ->add('username', $userdata->getUtilisateur()->getUsername());
     }
 
 

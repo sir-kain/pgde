@@ -180,7 +180,7 @@ fos_user:
 
     from_email:
 
-        address: "sender_address"
+        address: "%sender_address%"
 
         sender_name: "%sender_name%"
 
