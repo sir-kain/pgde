@@ -35,6 +35,38 @@ class UserdataController extends Controller
     }
 
     /**
+     * Lists all userdatum entities.
+     *
+     * @Route("/lorem", name="userdata_index1")
+     * @Method("GET")
+     */
+    public function index1Action()
+    {
+//        Update
+        ini_set('max_execution_time', 5000);
+        ini_set('memory_limit', '-1');
+        $em = $this->getDoctrine()->getManager();
+        $repository = $this->getDoctrine()
+            ->getRepository(Userdata::class);
+        $userdatas = $repository->findAll();
+        foreach ($userdatas as $usd) {
+            $departResid = $usd->getDepartementresidence();
+            $departNaiss = $usd->getDepartementnaiss();
+            if ($departResid !== null) {
+                $regionResid = $departResid->getRegion();
+                $usd->setRegionresidence($regionResid);
+            }
+            if ($departNaiss !== null) {
+                $regionNaiss = $departNaiss->getRegion();
+                $usd->setRegionnaiss($regionNaiss);
+            }
+        }
+        $em->flush();
+
+        return $this->render('userdata/index.html.twig');
+    }
+
+    /**
      * Creates a new userdatum entity.
      *
      * @Route("/new", name="userdata_new")
@@ -55,25 +87,7 @@ class UserdataController extends Controller
         $avatar = $repository->get_gravatar($userconnecter->getEmail());
         $ajout = false;
 
-//        Update
         $em = $this->getDoctrine()->getManager();
-//        $userdatas = $repository->findAll();
-//        foreach ($userdatas as $usd) {
-//            $departResid = $usd->getDepartementresidence();
-//            $departNaiss = $usd->getDepartementnaiss();
-//            if ($departResid !== null) {
-//                $regionResid = $departResid->getRegion();
-//                $usd->setRegionresidence($regionResid);
-//            }
-//            if ($departNaiss !== null) {
-//                $regionNaiss = $departNaiss->getRegion();
-//                $usd->setRegionnaiss($regionNaiss);
-//            }
-//        }
-//        $em->flush();
-
-
-
 
         if ($userdatum == null) {
             $ajout = true;
