@@ -141,7 +141,7 @@ class UserdataType extends AbstractType
                 ]
             ])
             ->add('regionResidence', EntityType::class, [
-                'mapped' => false,
+//                'mapped' => false,
                 'label' => 'Région de Residence',
                 'class' => 'Pgde\EmploiBundle\Entity\Region',
                 'choice_label' => 'libelle',
