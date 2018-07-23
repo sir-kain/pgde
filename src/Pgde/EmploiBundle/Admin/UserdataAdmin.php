@@ -1,6 +1,10 @@
 <?php
 
 namespace Pgde\EmploiBundle\Admin;
+use Pgde\EmploiBundle\Entity\Departement;
+use Pgde\EmploiBundle\Entity\Region;
+use Pgde\EmploiBundle\Entity\Utilisateur;
+use Pgde\EmploiBundle\Form\DepartementType;
 use Pgde\EmploiBundle\Form\RegistrationType;
 use Pgde\EmploiBundle\Form\UtilisateurType;
 use Sonata\AdminBundle\Admin\AbstractAdmin;
@@ -21,11 +25,16 @@ class UserdataAdmin extends AbstractAdmin
                 'disabled'  =>  true
             ])
             ->add('utilisateur.numberid', null, [
-                'label' =>  'Numéro d\'identité'
+                'label' =>  'Numéro d\'identité',
+                'disabled'  =>  true
+            ])
+            ->add('utilisateur.email', null, [
+                'label' =>  'Adresse e-mail'
             ])
             ->add('utilisateur.enabled', CheckboxType::class, [
                 'label' =>  'Active'
             ])
+//            ->add('utilisateur', UtilisateurType::class)
 
 
             // if no type is specified, SonataAdminBundle tries to guess it
@@ -80,15 +89,24 @@ class UserdataAdmin extends AbstractAdmin
             ->add('situationmatrimoniale', null, [
                 'label' =>  'Situation matrimoniale'
             ])
+            ->add('departementNaiss', null, [
+                'label' =>  'Département de naissance'
+            ])
             ->add('regionNaiss', null, [
                 'label' =>  'Région de naissance'
             ])
             ->add('lieunaiss', null, [
                 'label' =>  'Lieu de naissance'
             ])
-            ->add('regionResidence')
+//            ->add('regionResidence')
             ->add('lieuresidence', null, [
                 'label' =>  'Lieu de résidence'
+            ])
+            ->add('departementResidence', null, [
+                'label' =>  'Département de residence'
+            ])
+            ->add('regionresidence', null, [
+                'label' =>  'Région de residence'
             ])
             ->add('telephone1', null, [
                 'label' =>  'Téléphone'

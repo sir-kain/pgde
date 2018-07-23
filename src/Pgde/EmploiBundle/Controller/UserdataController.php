@@ -54,6 +54,27 @@ class UserdataController extends Controller
         $userdatum = $repository->findOneBy(['utilisateur' => $userconnecter]);
         $avatar = $repository->get_gravatar($userconnecter->getEmail());
         $ajout = false;
+
+//        Update
+        $em = $this->getDoctrine()->getManager();
+        $userdatas = $repository->findAll();
+        foreach ($userdatas as $usd) {
+            $departResid = $usd->getDepartementresidence();
+            $departNaiss = $usd->getDepartementnaiss();
+            if ($departResid !== null) {
+                $regionResid = $departResid->getRegion();
+                $usd->setRegionresidence($regionResid);
+            }
+            if ($departNaiss !== null) {
+                $regionNaiss = $departNaiss->getRegion();
+                $usd->setRegionnaiss($regionNaiss);
+            }
+        }
+        $em->flush();
+
+
+
+
         if ($userdatum == null) {
             $ajout = true;
             $userdatum = new Userdata();
@@ -63,7 +84,6 @@ class UserdataController extends Controller
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
-            $em = $this->getDoctrine()->getManager();
             $dataemail = $this->getDoctrine()->getRepository(Userdata::class)
                 ->checkEmail($form->getData()->getUtilisateur()->getEmail());
             $majeur = $this->getDoctrine()->getRepository(Userdata::class)

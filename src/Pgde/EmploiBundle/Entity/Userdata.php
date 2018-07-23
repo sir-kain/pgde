@@ -158,11 +158,28 @@ class Userdata
 
     /**
      *
+     * @ORM\ManyToOne(targetEntity="Pgde\EmploiBundle\Entity\Region")
+     * @ORM\JoinColumn(nullable=true)
+     * @Assert\NotBlank(message="Merci de renseigner votre region de naissance")
+     */
+    private $regionnaiss;
+
+    /**
+     *
      * @ORM\ManyToOne(targetEntity="Pgde\EmploiBundle\Entity\Departement")
      * @ORM\JoinColumn(nullable=true)
      * @Assert\NotBlank(message="Merci de renseigner votre departement de residence")
      */
     private $departementresidence;
+
+    /**
+     *
+     * @ORM\ManyToOne(targetEntity="Pgde\EmploiBundle\Entity\Region")
+     * @ORM\JoinColumn(nullable=true)
+     * @Assert\NotBlank(message="Merci de renseigner votre region de residence")
+     */
+    private $regionresidence;
+
 
     /**
      *
@@ -786,5 +803,53 @@ class Userdata
     public function getUtilisateur()
     {
         return $this->utilisateur;
+    }
+
+    /**
+     * Set regionnaiss.
+     *
+     * @param \Pgde\EmploiBundle\Entity\Region|null $regionnaiss
+     *
+     * @return Userdata
+     */
+    public function setRegionnaiss(\Pgde\EmploiBundle\Entity\Region $regionnaiss = null)
+    {
+        $this->regionnaiss = $regionnaiss;
+
+        return $this;
+    }
+
+    /**
+     * Get regionnaiss.
+     *
+     * @return \Pgde\EmploiBundle\Entity\Region|null
+     */
+    public function getRegionnaiss()
+    {
+        return $this->regionnaiss;
+    }
+
+    /**
+     * Set regionresidence.
+     *
+     * @param \Pgde\EmploiBundle\Entity\Region|null $regionresidence
+     *
+     * @return Userdata
+     */
+    public function setRegionresidence(\Pgde\EmploiBundle\Entity\Region $regionresidence = null)
+    {
+        $this->regionresidence = $regionresidence;
+
+        return $this;
+    }
+
+    /**
+     * Get regionresidence.
+     *
+     * @return \Pgde\EmploiBundle\Entity\Region|null
+     */
+    public function getRegionresidence()
+    {
+        return $this->regionresidence;
     }
 }

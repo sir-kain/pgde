@@ -130,7 +130,7 @@ class UserdataType extends AbstractType
                 'label' => 'Etablissement d\'obtention du dernier diplôme: '
             ])
             ->add('regionNaiss', EntityType::class, [
-                'mapped' => false,
+//                'mapped' => false,
                 'label' => 'Région de naissance',
                 'class' => 'Pgde\EmploiBundle\Entity\Region',
                 'choice_label' => 'libelle',
