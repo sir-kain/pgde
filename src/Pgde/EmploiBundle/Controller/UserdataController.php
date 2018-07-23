@@ -57,20 +57,20 @@ class UserdataController extends Controller
 
 //        Update
         $em = $this->getDoctrine()->getManager();
-        $userdatas = $repository->findAll();
-        foreach ($userdatas as $usd) {
-            $departResid = $usd->getDepartementresidence();
-            $departNaiss = $usd->getDepartementnaiss();
-            if ($departResid !== null) {
-                $regionResid = $departResid->getRegion();
-                $usd->setRegionresidence($regionResid);
-            }
-            if ($departNaiss !== null) {
-                $regionNaiss = $departNaiss->getRegion();
-                $usd->setRegionnaiss($regionNaiss);
-            }
-        }
-        $em->flush();
+//        $userdatas = $repository->findAll();
+//        foreach ($userdatas as $usd) {
+//            $departResid = $usd->getDepartementresidence();
+//            $departNaiss = $usd->getDepartementnaiss();
+//            if ($departResid !== null) {
+//                $regionResid = $departResid->getRegion();
+//                $usd->setRegionresidence($regionResid);
+//            }
+//            if ($departNaiss !== null) {
+//                $regionNaiss = $departNaiss->getRegion();
+//                $usd->setRegionnaiss($regionNaiss);
+//            }
+//        }
+//        $em->flush();
 
 
 
