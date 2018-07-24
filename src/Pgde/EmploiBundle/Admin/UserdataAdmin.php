@@ -3,8 +3,8 @@
 namespace Pgde\EmploiBundle\Admin;
 use Pgde\EmploiBundle\Entity\Departement;
 use Pgde\EmploiBundle\Entity\Region;
+use Pgde\EmploiBundle\Entity\Userdata;
 use Pgde\EmploiBundle\Entity\Utilisateur;
-use Pgde\EmploiBundle\Form\DepartementType;
 use Pgde\EmploiBundle\Form\RegistrationType;
 use Pgde\EmploiBundle\Form\UtilisateurType;
 use Sonata\AdminBundle\Admin\AbstractAdmin;
@@ -21,6 +21,7 @@ class UserdataAdmin extends AbstractAdmin
     protected function configureFormFields(FormMapper $formMapper)
     {
         $formMapper
+            ->with('Modifier', ['class' => 'col-md-9'])
             ->add('utilisateur.id', null, [
                 'label' =>  'Numéro Fonction Publique',
                 'disabled'  =>  true
@@ -35,13 +36,25 @@ class UserdataAdmin extends AbstractAdmin
             ->add('utilisateur.enabled', CheckboxType::class, [
                 'label' =>  'Active'
             ])
-//            ->add('utilisateur', UtilisateurType::class)
-
-
-            // if no type is specified, SonataAdminBundle tries to guess it
-//            ->add('body')
-
-            // ...
+            ->end()
+            ->with('Meta data', ['class' => 'col-md-3'])
+            ->add('utilisateur.firstname', null, [
+                'label' =>  'Nom',
+                'disabled'  =>  true
+            ])
+            ->add('utilisateur.lastname', null, [
+                'label' =>  'Nom',
+                'disabled'  =>  true
+            ])
+            ->add('telephone1', null, [
+                'label' =>  'Telephone',
+                'disabled'  =>  true
+            ])
+            ->add('datenaiss', null, [
+                'label' =>  'Date de naissance',
+                'disabled'  =>  true
+            ])
+            ->end()
         ;
     }
 
@@ -184,4 +197,10 @@ class UserdataAdmin extends AbstractAdmin
         ;
     }
 
+    public function toString($object)
+    {
+        return $object instanceof Userdata
+            ? 'DEMANDEUR: '. $object->getUtilisateur()->getUsername() .' - NUMERO FP: '. $object->getUtilisateur()->getId()
+            : 'DEMANDEUR'; // shown in the breadcrumb on the create view
+    }
 }
