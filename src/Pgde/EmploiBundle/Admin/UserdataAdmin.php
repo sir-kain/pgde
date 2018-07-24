@@ -12,6 +12,7 @@ use Sonata\AdminBundle\Show\ShowMapper;
 use Sonata\AdminBundle\Form\FormMapper;
 use Sonata\AdminBundle\Datagrid\ListMapper;
 use Sonata\AdminBundle\Datagrid\DatagridMapper;
+use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
 
 class UserdataAdmin extends AbstractAdmin
@@ -48,11 +49,67 @@ class UserdataAdmin extends AbstractAdmin
     protected function configureDatagridFilters(DatagridMapper $datagridMapper)
     {
         $datagridMapper
-            ->add('lieunaiss')
-            ->add('telephone1')
-            ->add('genre')
-            ->add('situationmatrimoniale')
-//            ->add('utilisateur')
+            ->add('utilisateur.id', null, [
+                'label' =>  'Numéro Fonction Publique'
+            ])
+            ->add('utilisateur.numberid', null, [
+                'label' =>  'Numéro d\'identité'
+            ])
+            ->add('utilisateur.username', null, [
+                'label' =>  'Nom d\'utilisateur'
+            ])
+            ->add('utilisateur.firstname', null, [
+                'label' =>  'Prenom'
+            ])
+            ->add('utilisateur.lastname', null, [
+                'label' =>  'Nom'
+            ])
+            ->add('datenaiss', null, [
+                'label' =>  'Date de naissance',
+                'format'    =>  'd-m-Y'
+            ])
+            ->add('specialite', null, [
+                'label' =>  'Spécialité'
+            ])
+            ->add('genre', null, [
+                'label' =>  'Genre'
+            ])
+            ->add('situationmatrimoniale', null, [
+                'label' =>  'Situation matrimoniale'
+            ])
+            ->add('departementnaiss', null, [
+                'label' =>  'Département de naissance',
+            ], EntityType::class, [
+                'class' =>  Departement::class,
+                'choice_label'  =>  'libelle'
+            ])
+            ->add('regionnaiss', null, [
+                'label' =>  'Région de naissance'
+            ], EntityType::class, [
+                'class' =>  Region::class,
+                'choice_label'  =>  'libelle'
+            ])
+            ->add('lieunaiss', null, [
+                'label' =>  'Lieu de naissance'
+            ])
+            ->add('lieuresidence', null, [
+                'label' =>  'Lieu de résidence'
+            ])
+            ->add('departementresidence', null, [
+                'label' =>  'Département de résidence',
+            ], EntityType::class, [
+                'class' =>  Departement::class,
+                'choice_label'  =>  'libelle'
+            ])
+            ->add('regionresidence', null, [
+                'label' =>  'Département de résidence',
+            ], EntityType::class, [
+                'class' =>  Region::class,
+                'choice_label'  =>  'libelle'
+            ])
+            ->add('telephone1', null, [
+                'label' =>  'Téléphone'
+            ])
 
         ;
     }
@@ -98,7 +155,6 @@ class UserdataAdmin extends AbstractAdmin
             ->add('lieunaiss', null, [
                 'label' =>  'Lieu de naissance'
             ])
-//            ->add('regionResidence')
             ->add('lieuresidence', null, [
                 'label' =>  'Lieu de résidence'
             ])
