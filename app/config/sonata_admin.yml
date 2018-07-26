@@ -1,3 +1,0 @@
-sonata_admin:
-    templates:
-        dashboard: '@PgdeEmploi/Admin/admin.html.twig'

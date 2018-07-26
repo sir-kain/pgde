@@ -2,6 +2,7 @@
 
 namespace Pgde\EmploiBundle\Admin;
 use Pgde\EmploiBundle\Entity\Departement;
+use Pgde\EmploiBundle\Entity\Emploi;
 use Pgde\EmploiBundle\Entity\Region;
 use Pgde\EmploiBundle\Entity\Userdata;
 use Pgde\EmploiBundle\Entity\Utilisateur;
@@ -84,6 +85,18 @@ class UserdataAdmin extends AbstractAdmin
             ->add('specialite', null, [
                 'label' =>  'Spécialité'
             ])
+            ->add('emploi1', null, [
+                'label' =>  'Emploi 1',
+            ], EntityType::class, [
+                'class' =>  Emploi::class,
+                'choice_label'  =>  'libelle'
+            ])
+            ->add('emploi2', null, [
+                'label' =>  'Emploi 2',
+            ], EntityType::class, [
+                'class' =>  Emploi::class,
+                'choice_label'  =>  'libelle'
+            ])
             ->add('genre', null, [
                 'label' =>  'Genre'
             ])
@@ -134,24 +147,61 @@ class UserdataAdmin extends AbstractAdmin
             ->addIdentifier('utilisateur.id', null, [
                 'label' =>  'Numéro Fonction Publique'
             ])
-            ->add('utilisateur.numberid', null, [
-                'label' =>  'Numéro d\'identité'
-            ])
-            ->add('utilisateur.username', null, [
-                'label' =>  'Nom d\'utilisateur'
-            ])
             ->add('utilisateur.firstname', null, [
                 'label' =>  'Prenom'
             ])
             ->add('utilisateur.lastname', null, [
                 'label' =>  'Nom'
             ])
+            ->add('utilisateur.numberid', null, [
+                'label' =>  'Numéro d\'identité'
+            ])
+            ->add('utilisateur.username', null, [
+                'label' =>  'Nom d\'utilisateur'
+            ])
+            ->add('utilisateur.dateInscription', null, [
+                'label' =>  'Date d\'inscription',
+                'format'    =>  'd-m-Y'
+            ])
             ->add('datenaiss', null, [
                 'label' =>  'Date de naissance',
                 'format'    =>  'd-m-Y'
             ])
+            ->add('lieunaiss', null, [
+                'label' =>  'Lieu de naissance'
+            ])
+            ->add('telephone1', null, [
+                'label' =>  'Téléphone'
+            ])
+            ->add('emploi1', null, [
+                'label' =>  'Emploi 1'
+            ])
+            ->add('anneeexperience1', null, [
+                'label' =>  'Experience 1'
+            ])
+            ->add('emploi2', null, [
+                'label' =>  'Emploi 2'
+            ])
+            ->add('anneeexperience2', null, [
+                'label' =>  'Experience 2'
+            ])
+            ->add('diplome', null, [
+                'label' =>  'Diplome'
+            ])
+            ->add('academic', null, [
+                'label' =>  'Niveau academique'
+            ])
+            ->add('anneediplome', null, [
+                'label' =>  'Année obtention diplome'
+            ])
+            ->add('etablissementdiplome', null, [
+                'label' => 'Etablissement d\'obtention du dernier diplôme: '
+            ])
             ->add('specialite', null, [
                 'label' =>  'Spécialité'
+            ])
+            ->add('experiences', null, [
+                'label' =>  'Expériences professionnelles'
             ])
             ->add('genre', null, [
                 'label' =>  'Genre'
@@ -165,9 +215,6 @@ class UserdataAdmin extends AbstractAdmin
             ->add('regionNaiss', null, [
                 'label' =>  'Région de naissance'
             ])
-            ->add('lieunaiss', null, [
-                'label' =>  'Lieu de naissance'
-            ])
             ->add('lieuresidence', null, [
                 'label' =>  'Lieu de résidence'
             ])
@@ -176,9 +223,6 @@ class UserdataAdmin extends AbstractAdmin
             ])
             ->add('regionresidence', null, [
                 'label' =>  'Région de residence'
-            ])
-            ->add('telephone1', null, [
-                'label' =>  'Téléphone'
             ])
 //            ->add('numberid', UtilisateurType::class)
 //            ->add('lieunaiss')
@@ -195,6 +239,16 @@ class UserdataAdmin extends AbstractAdmin
             ->add('genre')
 //            ->add('utilisateur')
         ;
+    }
+
+    //You can also hide an action from the dashboard by unsetting it:
+    public function getDashboardActions()
+    {
+        $actions = parent::getDashboardActions();
+
+        unset($actions['list']);
+
+        return $actions;
     }
 
     public function toString($object)

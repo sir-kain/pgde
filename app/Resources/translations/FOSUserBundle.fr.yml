@@ -78,7 +78,7 @@ layout:
     logged_in_as: 'Connecté en tant que %username%'
 form:
     group_name: 'Nom du groupe '
-    username: 'Nom d''utilisateur:'
+    username: 'Choisissez un nom d''utilisateur:'
     email: 'Adresse e-mail:'
     current_password: 'Mot de passe actuel:'
     password: 'Choisissez un mot de passe:'

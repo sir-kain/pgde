@@ -4,6 +4,10 @@
   font-family: "MyriadPro-Regular";
   src: url("../fonts/MyriadPro-Regular.otf") format('otf');
 }
+@font-face {
+  font-family: "MyriadProBoldCond";
+  src: url("../fonts/MyriadProBoldCondensed.ttf") format('ttf');
+}
 .has-switch {
   display: inline-block;
   cursor: pointer;

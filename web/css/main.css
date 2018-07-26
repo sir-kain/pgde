@@ -1,4 +1,12 @@
 /*Form step*/
+@font-face {
+    font-family: "MyriadPro-Regular";
+    src: url("../assets/fonts/MyriadPro-Regular.otf") format('otf');
+}
+@font-face {
+    font-family: "MyriadProBoldCond";
+    src: url("../assets/fonts/MyriadProBoldCondensed.ttf") format('ttf');
+}
 body {
     background-color: #ffffff;
 }
@@ -121,26 +129,29 @@ body {
     margin: 0 auto;
     text-align: center;
     line-height: 100px;
-    font-family: "MyriadPro-Regular","Helvetica Neue'",Roboto,Arial,sans-serif;
 }
 .contentt a {
     text-decoration: none !important;
-    color: #626262;
+    color: #000;
 }
 
-.grid h3 {
+.grid h1 {
     /*   // position: absolute; <- remove !!!
       // float: right; <- remove !!! */
-    font-family: "MyriadPro-Regular","Helvetica Neue'",Roboto,Arial,sans-serif;
-    font-weight: bold;
-    line-height: 1;
-    letter-spacing: 0.001px;
+    font-family: "latobold";
+    font-weight: 900;
+    font-style: normal;
+    line-height: 22px;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    /*-webkit-text-size-adjust: 100%;*/
     word-spacing: 0.01px;
     display: inline-block;
     vertical-align: center;
     margin: 0 auto;
     padding-left: 50px;
     padding-right: 50px;
+    text-transform: uppercase;
 }
 
 .grid img {

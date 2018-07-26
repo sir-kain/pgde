@@ -68,3 +68,15 @@ services:
     sonata.user.admin.group:
         abstract: true
         public: false
+
+
+    sonata.admin.block.statsss:
+        class: Sonata\AdminBundle\Block\AdminStatsBlockService
+        arguments:
+           - "sonata.admin.block.stats"
+           - "@sonata.templating"
+           - "@sonata.admin.pool"
+#           - "@doctrine.orm.entity_manager"
+#           - "@sonata.admin.security.handler"
+        tags:
+            - { name: sonata.block }
