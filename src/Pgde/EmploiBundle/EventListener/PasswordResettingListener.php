@@ -69,7 +69,6 @@ class PasswordResettingListener implements EventSubscriberInterface
             ->findOneBy(['utilisateur' => $event->getUser()]);
         $urlavatar = $this->entityManager->getRepository(Userdata::class)
             ->get_gravatar($event->getUser()->getEmail());
-        dump($userdata);
         $this->twig->addGlobal('urlavatar', $urlavatar);
         $this->twig->addGlobal('userdatum', $userdata);
     }
