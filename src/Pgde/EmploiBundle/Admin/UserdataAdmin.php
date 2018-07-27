@@ -9,12 +9,15 @@ use Pgde\EmploiBundle\Entity\Utilisateur;
 use Pgde\EmploiBundle\Form\RegistrationType;
 use Pgde\EmploiBundle\Form\UtilisateurType;
 use Sonata\AdminBundle\Admin\AbstractAdmin;
+use Sonata\AdminBundle\Route\RouteCollection;
 use Sonata\AdminBundle\Show\ShowMapper;
 use Sonata\AdminBundle\Form\FormMapper;
 use Sonata\AdminBundle\Datagrid\ListMapper;
 use Sonata\AdminBundle\Datagrid\DatagridMapper;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
+use Symfony\Component\Form\Extension\Core\Type\RepeatedType;
+use Symfony\Component\Form\Extension\Core\Type\TextType;
 
 class UserdataAdmin extends AbstractAdmin
 {
@@ -34,6 +37,15 @@ class UserdataAdmin extends AbstractAdmin
             ->add('utilisateur.email', null, [
                 'label' =>  'Adresse e-mail'
             ])
+            ->add('utilisateur.plainPassword', RepeatedType::class, array(
+                    'type' => 'password',
+                    'options' => array('translation_domain' => 'FOSUserBundle'),
+                    'first_options' => array('label' => 'form.password'),
+                    'second_options' => array('label' => 'form.password_confirmation'),
+                    'invalid_message' => 'fos_user.password.mismatch',
+                    'required'    => false,
+                )
+            )
             ->add('utilisateur.enabled', CheckboxType::class, [
                 'label' =>  'Active'
             ])
@@ -246,9 +258,15 @@ class UserdataAdmin extends AbstractAdmin
     {
         $actions = parent::getDashboardActions();
 
-        unset($actions['list']);
+        unset($actions['create']);
 
         return $actions;
+    }
+
+    public function configureRoutes(RouteCollection $collection)
+    {
+        $collection->remove('create');
+        $collection->remove('delete');
     }
 
     public function toString($object)
@@ -256,5 +274,24 @@ class UserdataAdmin extends AbstractAdmin
         return $object instanceof Userdata
             ? 'DEMANDEUR: '. $object->getUtilisateur()->getUsername() .' - NUMERO FP: '. $object->getUtilisateur()->getId()
             : 'DEMANDEUR'; // shown in the breadcrumb on the create view
+    }
+
+    public function prePersist($object) {
+        parent::prePersist($object);
+        $this->updateUser($object->getUtilisateur());
+    }
+
+    public function preUpdate($object) {
+        parent::preUpdate($object);
+        $this->updateUser($object->getUtilisateur());
+    }
+
+    public function updateUser(Utilisateur $u) {
+        if ($u->getPlainPassword()) {
+            $u->setPlainPassword($u->getPlainPassword());
+        }
+
+        $um = $this->getConfigurationPool()->getContainer()->get('fos_user.user_manager');
+        $um->updateUser($u, false);
     }
 }

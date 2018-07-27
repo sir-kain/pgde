@@ -155,9 +155,6 @@ swiftmailer:
 #    sender_address: '%sender_address%'
 
 
-
-
-
 fos_user:
 
     db_driver:     orm
@@ -228,6 +225,8 @@ sonata_user:
 
 
 sonata_admin:
+    title: PGDE
+    title_logo: /img/logogris.png
     dashboard:
         blocks:
             -
@@ -235,9 +234,9 @@ sonata_admin:
                 position: top                        # zone in the dashboard
                 type:     sonata.admin.block.stats   # block id
                 settings:
-                    code:  sonata.admin.pool # admin code - service id
+                    code:  admin.userdata # admin code - service id
                     icon:  fa-magic                  # font awesome icon
-                    text:  Edited Pages
-                    color: bg-yellow                 # colors: bg-green, bg-red and bg-aqua
+                    text:  Demandeurs
+                    color: bg-blue                 # colors: bg-green, bg-red and bg-aqua
                     filters:                         # filter values
                         edited: { value: 1 }
