@@ -235,7 +235,7 @@ sonata_admin:
                 type:     sonata.admin.block.stats   # block id
                 settings:
                     code:  admin.userdata # admin code - service id
-                    icon:  fa-magic                  # font awesome icon
+                    icon:  fa-user                  # font awesome icon
                     text:  Demandeurs
                     color: bg-blue                 # colors: bg-green, bg-red and bg-aqua
                     filters:                         # filter values

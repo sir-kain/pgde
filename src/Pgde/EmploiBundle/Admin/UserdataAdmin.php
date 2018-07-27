@@ -212,9 +212,6 @@ class UserdataAdmin extends AbstractAdmin
             ->add('specialite', null, [
                 'label' =>  'Spécialité'
             ])
-            ->add('experiences', null, [
-                'label' =>  'Expériences professionnelles'
-            ])
             ->add('genre', null, [
                 'label' =>  'Genre'
             ])
@@ -293,5 +290,36 @@ class UserdataAdmin extends AbstractAdmin
 
         $um = $this->getConfigurationPool()->getContainer()->get('fos_user.user_manager');
         $um->updateUser($u, false);
+    }
+
+    //Pour exporter
+    public function getExportFields()
+    {
+        return [
+            'Numero Inscription' => 'utilisateur.id',
+            'Numero CIN / Passport' => 'utilisateur.numberId',
+            'Prenom' => 'utilisateur.firstname',
+            'Nom' => 'utilisateur.lastname',
+            'Nom d\'utilisateur' => 'utilisateur.username',
+            'Email' => 'utilisateur.email',
+            'Date inscription' => 'utilisateur.dateInscription',
+            'Date de naissance' => 'dateNaiss',
+            'Lieu de naissance' => 'lieunaiss',
+            'Telephone' => 'telephone1',
+            'Emploi 1' => 'emploi1',
+            'Emploi 2' => 'emploi2',
+            'Intitulé du diplome' => 'diplome',
+            'Niveau academique' => 'academic',
+            'Année dernier diplome' => 'anneediplome',
+            'Specialité' => 'specialite',
+            'Etablissement obtention diplome' => 'etablissementdiplome',
+            'CV' => 'experiences',
+        ];
+    }
+
+//    les formats
+    public function getExportFormats()
+    {
+        return ['xls', 'csv'];
     }
 }

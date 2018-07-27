@@ -223,7 +223,8 @@ $(document).ready(function () {
                     title: usernameLogout,
                     text: messageLogout,
                     image: urlavatarLogout,
-                    sticky: true,
+                    // sticky: true,
+                    time: 2000,
                 });
             }
         }
@@ -242,7 +243,7 @@ $(document).ready(function () {
                     title: usernameLogin,
                     text: messageLogin,
                     image: urlavatarLogin,
-                    sticky: true,
+                    time: 2000,
                 });
             }
         }
@@ -263,7 +264,7 @@ $(document).ready(function () {
                     title: usernamemodifdemand,
                     text: messagemodifdemand,
                     image: urlavatarmodifdemand,
-                    sticky: true,
+                    time: 2000,
                 });
             }
         }
