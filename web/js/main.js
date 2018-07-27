@@ -224,7 +224,7 @@ $(document).ready(function () {
                     text: messageLogout,
                     image: urlavatarLogout,
                     // sticky: true,
-                    time: 2000,
+                    time: 2500,
                 });
             }
         }
