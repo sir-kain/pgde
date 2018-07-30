@@ -204,7 +204,7 @@ fos_user:
 
 
 sonata_block:
-
+#    default_contexts: [cms]
     blocks:
 
 #         enable the SonataAdminBundle block
@@ -214,6 +214,7 @@ sonata_block:
             contexts: [admin]
 
         sonata.admin.block.stats: ~
+        admin.block.service.stats: ~
 
 sonata_user:
 
@@ -236,7 +237,28 @@ sonata_admin:
                 settings:
                     code:  admin.userdata # admin code - service id
                     icon:  fa-user                  # font awesome icon
-                    text:  Demandeurs
+                    text:  Utilisateurs
                     color: bg-blue                 # colors: bg-green, bg-red and bg-aqua
                     filters:                         # filter values
                         edited: { value: 1 }
+            -
+                class:    col-lg-3 col-xs-6          # twitter bootstrap responsive code
+                position: top                        # zone in the dashboard
+                type:     admin.block.service.stats   # block id
+                settings:
+                    entity: Pgde\EmploiBundle\Entity\Userdata
+                    repository_method : demandeursValide
+                    title : Demandeurs
+                    css_class : bg-green
+                    icon : fa-users
+
+            -
+                class:    col-lg-3 col-xs-6          # twitter bootstrap responsive code
+                position: top                        # zone in the dashboard
+                type:     admin.block.service.stats   # block id
+                settings:
+                    entity: Pgde\EmploiBundle\Entity\Userdata
+                    repository_method : inscriptionIncomplete
+                    title : Inscriptions incomplètes
+                    css_class : bg-red
+                    icon : fa-users

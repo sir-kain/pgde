@@ -54,21 +54,40 @@ services:
     pgde_emploi.login_listener:
         class: Pgde\EmploiBundle\EventListener\LoginListener
         arguments: ['@fos_user.user_manager']
-
-    admin.userdata:
-        class: Pgde\EmploiBundle\Admin\UserdataAdmin
+    admin.utilisateur:
+        class: Pgde\EmploiBundle\Admin\UtilisateurAdmin
         tags:
-            - { name: sonata.admin, manager_type: orm, label: "Demandeurs" }
+            - { name: sonata.admin, manager_type: orm, label: "Utilisateurs" }
         arguments:
             - ~
-            - Pgde\EmploiBundle\Entity\Userdata
+            - Pgde\EmploiBundle\Entity\Utilisateur
             - ~
         public: true
+
+    admin.userdata:
+        class: Pgde\EmploiBundle\Admin\UtilisateurAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: "Utilisateurs" }
+        arguments:
+            - ~
+            - Pgde\EmploiBundle\Entity\Utilisateur
+            - ~
+        public: true
+
+    admin.block.service.stats:
+        class: Pgde\EmploiBundle\Admin\Block\CustomServices
+        arguments: ["admin.block.service.stats", "@sonata.templating", "@doctrine.orm.entity_manager"]
+        public: true
+        tags:
+            - {name: "sonata.block"}
 
     sonata.user.admin.group:
         abstract: true
         public: false
 
+    bundle.admin.stats:
+        class: Pgde\EmploiBundle\Admin\StatsAdmin
+        arguments: [~, ~, PgdeEmploiBundle:StatsCRUD]
 
 #    sonata.admin.block.stats:
 #        class: Sonata\AdminBundle\Block\AdminStatsBlockService

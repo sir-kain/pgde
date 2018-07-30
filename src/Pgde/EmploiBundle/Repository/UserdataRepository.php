@@ -60,4 +60,40 @@ class UserdataRepository extends \Doctrine\ORM\EntityRepository
         }
         return true;
     }
+
+    public function inscriptionIncomplete() {
+        $cnx = $this->_em->getConnection();
+        $statement1 = $cnx->prepare('
+                SELECT COUNT( ud.id ) 
+                FROM userdata ud
+                WHERE ud.emploi1_id IS NULL
+            ');
+        $statement1->execute();
+        $res1 = $statement1->fetchColumn();
+        $statement2 = $cnx->prepare('
+                SELECT COUNT( u.id ) 
+                FROM utilisateur u
+                WHERE u.id NOT 
+                IN (
+                SELECT utilisateur_id
+                FROM userdata
+                )
+            ');
+        $statement2->execute();
+        $res2 = $statement2->fetchColumn();
+
+        return $res1 + $res2;
+    }
+
+    public function demandeursValide() {
+        $cnx = $this->_em->getConnection();
+        $statement = $cnx->prepare('
+                SELECT COUNT(u.id)
+                FROM userdata u
+                WHERE u.emploi1_id IS NOT NULL 
+            ');
+        $statement->execute();
+        $res = $statement->fetchColumn();
+        return $res;
+    }
 }

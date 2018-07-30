@@ -322,4 +322,11 @@ class UserdataAdmin extends AbstractAdmin
     {
         return ['xls', 'csv'];
     }
+
+    public function getDataSourceIterator()
+    {
+        $iterator = parent::getDataSourceIterator();
+        $iterator->setDateTimeFormat('d/m/Y'); //change this to suit your needs
+        return $iterator;
+    }
 }
