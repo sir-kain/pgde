@@ -230,12 +230,23 @@ sonata_admin:
     title_logo: /img/logogris.png
     dashboard:
         blocks:
+#            -
+#                class:    col-lg-3 col-xs-6          # twitter bootstrap responsive code
+#                position: top                        # zone in the dashboard
+#                type:     sonata.admin.block.stats   # block id
+#                settings:
+#                    code:  admin.userdata # admin code - service id
+#                    icon:  fa-user                  # font awesome icon
+#                    text:  Userdata
+#                    color: bg-blue                 # colors: bg-green, bg-red and bg-aqua
+#                    filters:                         # filter values
+#                        edited: { value: 1 }
             -
                 class:    col-lg-3 col-xs-6          # twitter bootstrap responsive code
                 position: top                        # zone in the dashboard
                 type:     sonata.admin.block.stats   # block id
                 settings:
-                    code:  admin.userdata # admin code - service id
+                    code:  admin.utilisateur # admin code - service id
                     icon:  fa-user                  # font awesome icon
                     text:  Utilisateurs
                     color: bg-blue                 # colors: bg-green, bg-red and bg-aqua
@@ -251,6 +262,7 @@ sonata_admin:
                     title : Demandeurs
                     css_class : bg-green
                     icon : fa-users
+                    route: admin_pgde_emploi_userdata_list
 
             -
                 class:    col-lg-3 col-xs-6          # twitter bootstrap responsive code
@@ -262,3 +274,4 @@ sonata_admin:
                     title : Inscriptions incomplètes
                     css_class : bg-red
                     icon : fa-users
+                    route: admin_pgde_emploi_userdata_list

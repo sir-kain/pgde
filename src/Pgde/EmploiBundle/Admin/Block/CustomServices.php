@@ -49,6 +49,7 @@ class CustomServices extends AbstractBlockService
             'css_class' => 'bg-blue',
             'icon' => 'fa-users',
             'template' => 'block_stats.html.twig',
+            'route' =>  'route'
         ));
     }
 
@@ -64,6 +65,7 @@ class CustomServices extends AbstractBlockService
                 array('title', 'text', array('required' => false)),
                 array('css_class', 'text', array('required' => false)),
                 array('icon', 'text', array('required' => false)),
+                array('route', 'text', array('required' => false)),
             ),
         ));
     }

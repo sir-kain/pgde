@@ -36,9 +36,21 @@ class UtilisateurAdmin extends AbstractAdmin
     protected function configureListFields(ListMapper $listMapper)
     {
         $listMapper
-            ->add('username')
-            ->add('firstname')
-            ->add('lastname')
+            ->add('id', null, [
+                'label' =>  'Numéro FP'
+            ])
+            ->add('numberid', null, [
+                'label' =>  'Numéro CIN / Passport'
+            ])
+            ->add('username', null, [
+                'label' =>  'Nom d\'utilisateur'
+            ])
+            ->add('firstname', null, [
+                'label' =>  'Prénom'
+            ])
+            ->add('lastname', null, [
+                'label' =>  'Nom'
+            ])
             ->add('enabled')
             ;
     }

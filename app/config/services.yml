@@ -65,14 +65,14 @@ services:
         public: true
 
     admin.userdata:
-        class: Pgde\EmploiBundle\Admin\UtilisateurAdmin
+        class: Pgde\EmploiBundle\Admin\UserdataAdmin
         tags:
-            - { name: sonata.admin, manager_type: orm, label: "Utilisateurs" }
+            - { name: sonata.admin, manager_type: orm }
         arguments:
             - ~
-            - Pgde\EmploiBundle\Entity\Utilisateur
+            - Pgde\EmploiBundle\Entity\Userdata
             - ~
-        public: true
+#        public: true
 
     admin.block.service.stats:
         class: Pgde\EmploiBundle\Admin\Block\CustomServices
