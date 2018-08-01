@@ -54,10 +54,11 @@ services:
     pgde_emploi.login_listener:
         class: Pgde\EmploiBundle\EventListener\LoginListener
         arguments: ['@fos_user.user_manager']
+
     admin.utilisateur:
         class: Pgde\EmploiBundle\Admin\UtilisateurAdmin
         tags:
-            - { name: sonata.admin, manager_type: orm, label: "Utilisateurs" }
+            - { name: sonata.admin, manager_type: orm, label: Utilisateurs}
         arguments:
             - ~
             - Pgde\EmploiBundle\Entity\Utilisateur
@@ -67,7 +68,7 @@ services:
     admin.userdata:
         class: Pgde\EmploiBundle\Admin\UserdataAdmin
         tags:
-            - { name: sonata.admin, manager_type: orm }
+            - { name: sonata.admin, manager_type: orm, label: Userdata, show_in_dashboard: false }
         arguments:
             - ~
             - Pgde\EmploiBundle\Entity\Userdata

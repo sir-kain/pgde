@@ -6,8 +6,6 @@ use Pgde\EmploiBundle\Entity\Emploi;
 use Pgde\EmploiBundle\Entity\Region;
 use Pgde\EmploiBundle\Entity\Userdata;
 use Pgde\EmploiBundle\Entity\Utilisateur;
-use Pgde\EmploiBundle\Form\RegistrationType;
-use Pgde\EmploiBundle\Form\UtilisateurType;
 use Sonata\AdminBundle\Admin\AbstractAdmin;
 use Sonata\AdminBundle\Route\RouteCollection;
 use Sonata\AdminBundle\Show\ShowMapper;
@@ -17,10 +15,23 @@ use Sonata\AdminBundle\Datagrid\DatagridMapper;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
 use Symfony\Component\Form\Extension\Core\Type\RepeatedType;
-use Symfony\Component\Form\Extension\Core\Type\TextType;
 
 class UserdataAdmin extends AbstractAdmin
 {
+
+    /**
+     * @param string $context
+     * @return object
+     */
+    public function createQuery($context = 'list')
+    {
+        $query = parent::createQuery($context);
+        $query->andWhere(
+            $query->expr()->neq($query->getRootAliases()[0] . '.emploi1', ':my_param')
+        );
+        $query->setParameter('my_param', 'null');
+        return $query;
+    }
     // Fields to be shown on create/edit forms
     protected function configureFormFields(FormMapper $formMapper)
     {
@@ -254,9 +265,7 @@ class UserdataAdmin extends AbstractAdmin
     public function getDashboardActions()
     {
         $actions = parent::getDashboardActions();
-
         unset($actions['create']);
-
         return $actions;
     }
 

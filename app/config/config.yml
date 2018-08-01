@@ -217,12 +217,14 @@ sonata_block:
         admin.block.service.stats: ~
 
 sonata_user:
-
     class:
-
         user: Application\Sonata\UserBundle\Entity\User
-
         group: Application\Sonata\UserBundle\Entity\Group
+#    admin:                  # Admin Classes
+#        user:
+#            class:          Pgde\EmploiBundle\Admin\UtilisateurAdmin
+#            controller:     SonataAdminBundle:CRUD
+#            translation:    SonataUserBundle
 
 
 sonata_admin:
@@ -242,7 +244,7 @@ sonata_admin:
 #                    filters:                         # filter values
 #                        edited: { value: 1 }
             -
-                class:    col-lg-3 col-xs-6          # twitter bootstrap responsive code
+                class:    col-md-offset-1 col-lg-3 col-xs-6          # twitter bootstrap responsive code
                 position: top                        # zone in the dashboard
                 type:     sonata.admin.block.stats   # block id
                 settings:
@@ -263,6 +265,7 @@ sonata_admin:
                     css_class : bg-green
                     icon : fa-users
                     route: admin_pgde_emploi_userdata_list
+
 
             -
                 class:    col-lg-3 col-xs-6          # twitter bootstrap responsive code

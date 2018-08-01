@@ -96,4 +96,9 @@ class UserdataRepository extends \Doctrine\ORM\EntityRepository
         $res = $statement->fetchColumn();
         return $res;
     }
+
+    public function customList() {
+        $list = $this->findBy(['lieuresidence'  =>  'dakar']);
+        return $list;
+    }
 }
