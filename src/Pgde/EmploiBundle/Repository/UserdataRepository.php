@@ -101,4 +101,16 @@ class UserdataRepository extends \Doctrine\ORM\EntityRepository
         $list = $this->findBy(['lieuresidence'  =>  'dakar']);
         return $list;
     }
+
+    public function ageMoyenCandidat() {
+        $cnx = $this->_em->getConnection();
+        $statement = $cnx->prepare('
+            SELECT avg(YEAR(NOW()) - YEAR(datenaiss)) 
+            FROM userdata
+            ');
+        $statement->execute();
+        $res = $statement->fetchColumn();
+        $moyen = round($res);
+        return $moyen;
+    }
 }

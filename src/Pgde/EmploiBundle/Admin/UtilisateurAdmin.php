@@ -54,6 +54,26 @@ class UtilisateurAdmin extends AbstractAdmin
     // Fields to be shown on filter forms
     protected function configureDatagridFilters(DatagridMapper $datagridMapper)
     {
+        $datagridMapper
+            ->add('id', null, [
+                'label' =>  'Numéro Fonction Publique'
+            ])
+            ->add('numberid', null, [
+                'label' =>  'Numéro d\'identité'
+            ])
+            ->add('username', null, [
+                'label' =>  'Nom d\'utilisateur'
+            ])
+            ->add('firstname', null, [
+                'label' =>  'Prenom'
+            ])
+            ->add('lastname', null, [
+                'label' =>  'Nom'
+            ])
+            ->add('enabled', null, [
+                'label' =>  'Actif'
+            ])
+        ;
     }
 
     // Fields to be shown on lists

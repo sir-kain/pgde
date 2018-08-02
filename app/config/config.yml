@@ -251,3 +251,15 @@ sonata_admin:
                     css_class : bg-red
                     icon : fa-users
                     route: admin_pgde_emploi_utilisateur_list
+
+            -
+                class:    col-md-offset-1 col-lg-3 col-xs-6          # twitter bootstrap responsive code
+                position: top                        # zone in the dashboard
+                type:     admin.block.service.stats   # block id
+                settings:
+                    entity: Pgde\EmploiBundle\Entity\Userdata
+                    repository_method : ageMoyenCandidat
+                    title : Age moyen des demandeurs
+                    css_class : bg-aqua
+                    icon : fa-users
+                    route: admin_pgde_emploi_userdata_list
