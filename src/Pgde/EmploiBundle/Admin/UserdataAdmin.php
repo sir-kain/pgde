@@ -15,6 +15,7 @@ use Sonata\AdminBundle\Datagrid\DatagridMapper;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
 use Symfony\Component\Form\Extension\Core\Type\RepeatedType;
+use Symfony\Component\HttpFoundation\RequestStack;
 
 class UserdataAdmin extends AbstractAdmin
 {
@@ -26,10 +27,10 @@ class UserdataAdmin extends AbstractAdmin
     public function createQuery($context = 'list')
     {
         $query = parent::createQuery($context);
-        $query->andWhere(
-            $query->expr()->neq($query->getRootAliases()[0] . '.emploi1', ':my_param')
-        );
-        $query->setParameter('my_param', 'null');
+            $query->andWhere(
+                $query->expr()->neq($query->getRootAliases()[0] . '.emploi1', ':my_param')
+            );
+            $query->setParameter('my_param', 'null');
         return $query;
     }
     // Fields to be shown on create/edit forms

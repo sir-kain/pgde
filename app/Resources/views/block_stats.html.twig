@@ -1,3 +1,9 @@
+{% if settings.route == 'admin_pgde_emploi_userdata_list' %}
+    {% set dmd = '' %}
+{% else %}
+    {% set dmd = '?dmd=dmdinv' %}
+{% endif %}
+
 <div id="cms-block-{{ block.id }}" class="cms-block cms-block-element">
     <div class="small-box {{ settings.css_class }}">
         <div class="inner">
@@ -8,7 +14,7 @@
         <div class="icon">
             <i class="fa {{ settings.icon }}"></i>
         </div>
-        <a href="{{ path(settings.route) }}" class="small-box-footer">
+        <a href="{{ path(settings.route) }}{{ dmd }}" class="small-box-footer">
             voir plus <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
         </a>
     </div>

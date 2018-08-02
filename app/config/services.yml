@@ -63,6 +63,8 @@ services:
             - ~
             - Pgde\EmploiBundle\Entity\Utilisateur
             - ~
+            - '@request_stack'
+            - '@doctrine.orm.entity_manager'
         public: true
 
     admin.userdata:

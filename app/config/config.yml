@@ -156,67 +156,40 @@ swiftmailer:
 
 
 fos_user:
-
     db_driver:     orm
-
     firewall_name: main
-
     user_class:    Pgde\EmploiBundle\Entity\Utilisateur
-
     group:
-
-        group_class:   Sonata\UserBundle\Entity\Group
-
+        group_class:   Sonata\UserBundle\Entity\BaseGroup
         group_manager: sonata.user.orm.group_manager # If you're using doctrine orm (use sonata.user.mongodb.group_manager for mongodb)
 
-
-
     service:
-
         mailer: fos_user.mailer.twig_swift # this lines
-
     from_email:
-
         address: "%sender_address%"
-
         sender_name: "%sender_name%"
-
     registration:
-
         form:
-
             type: Pgde\EmploiBundle\Form\RegistrationType
-
         confirmation:
-
             enabled: true
-
             template:   '@PgdeEmploi/Email/confirmcompte.email.twig'
-
     resetting:
-
         email:
-
             template:   '@PgdeEmploi/Email/password_resetting.email.twig'
-
-
-
-
 
 sonata_block:
 #    default_contexts: [cms]
     blocks:
-
 #         enable the SonataAdminBundle block
-
         sonata.admin.block.admin_list:
-
             contexts: [admin]
-
         sonata.admin.block.stats: ~
         admin.block.service.stats: ~
 
 sonata_user:
+    security_acl: true
+    manager_type: orm
     class:
         user: Application\Sonata\UserBundle\Entity\User
         group: Application\Sonata\UserBundle\Entity\Group
@@ -277,4 +250,4 @@ sonata_admin:
                     title : Inscriptions incomplètes
                     css_class : bg-red
                     icon : fa-users
-                    route: admin_pgde_emploi_userdata_list
+                    route: admin_pgde_emploi_utilisateur_list
