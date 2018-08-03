@@ -17,7 +17,7 @@ parameters:
 
 
 framework:
-
+#    ide: 'myide://open?url=file://%%f&line=%%l'
     #esi: ~
 
     translator: { fallbacks: ['%locale%'] }
@@ -186,6 +186,9 @@ sonata_block:
             contexts: [admin]
         sonata.admin.block.stats: ~
         admin.block.service.stats: ~
+#        sonata.admin.block.search_resul:
+#            contexts: [admin]
+#        sonata_admin_search: ~
 
 sonata_user:
     security_acl: true
@@ -201,9 +204,16 @@ sonata_user:
 
 
 sonata_admin:
+#    templates:
+#        search: @search
+#        search_result_block: @sonata.admin.block.search_result
     title: PGDE
     title_logo: /img/logogris.png
     dashboard:
+        groups:
+            default:
+                on_top: true
+                label: Utilisateur
         blocks:
 #            -
 #                class:    col-lg-3 col-xs-6          # twitter bootstrap responsive code
@@ -217,7 +227,7 @@ sonata_admin:
 #                    filters:                         # filter values
 #                        edited: { value: 1 }
             -
-                class:    col-md-offset-1 col-lg-3 col-xs-6          # twitter bootstrap responsive code
+                class:    col-lg-offset-1 col-lg-5 col-xs-6          # twitter bootstrap responsive code
                 position: top                        # zone in the dashboard
                 type:     sonata.admin.block.stats   # block id
                 settings:
@@ -228,7 +238,7 @@ sonata_admin:
                     filters:                         # filter values
                         edited: { value: 1 }
             -
-                class:    col-lg-3 col-xs-6          # twitter bootstrap responsive code
+                class:    col-lg-5 col-xs-6          # twitter bootstrap responsive code
                 position: top                        # zone in the dashboard
                 type:     admin.block.service.stats   # block id
                 settings:
@@ -241,7 +251,7 @@ sonata_admin:
 
 
             -
-                class:    col-lg-3 col-xs-6          # twitter bootstrap responsive code
+                class:    col-lg-offset-1 col-lg-5 col-xs-6          # twitter bootstrap responsive code
                 position: top                        # zone in the dashboard
                 type:     admin.block.service.stats   # block id
                 settings:
@@ -253,7 +263,7 @@ sonata_admin:
                     route: admin_pgde_emploi_utilisateur_list
 
             -
-                class:    col-md-offset-1 col-lg-3 col-xs-6          # twitter bootstrap responsive code
+                class:    col-lg-5 col-xs-6          # twitter bootstrap responsive code
                 position: top                        # zone in the dashboard
                 type:     admin.block.service.stats   # block id
                 settings:

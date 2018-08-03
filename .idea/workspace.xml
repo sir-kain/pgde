@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1ebb74a-ac28-408f-8f32-da61b7191281" name="Default" comment="" />
+    <list default="true" id="b1ebb74a-ac28-408f-8f32-da61b7191281" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/SonataAdminBundle/views/standard_layout.html.twig" afterPath="$PROJECT_DIR$/app/Resources/SonataAdminBundle/views/standard_layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/services.yml" afterPath="$PROJECT_DIR$/app/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UserdataAdmin.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UserdataAdmin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/UtilisateurRepository.php" afterPath="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/UtilisateurRepository.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,19 +40,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserdataRepository.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/UserdataRepository.php">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="847">
-              <caret line="107" column="27" lean-forward="false" selection-start-line="107" selection-start-column="27" selection-end-line="107" selection-end-column="27" />
-              <folding>
-                <marker date="1533223645281" expanded="true" signature="1570:1655" ph="SELECT u.id utilisateur" />
-                <marker date="1533223645281" expanded="true" signature="2229:2328" ph="SELECT COUNT... userdata" />
-                <marker date="1533223645281" expanded="true" signature="2475:2670" ph="SELECT COUNT... utilisateur" />
-                <marker date="1533223645281" expanded="true" signature="2601:2652" ph="SELECT utili... userdata" />
-                <marker date="1533223645281" expanded="true" signature="2939:3036" ph="SELECT COUNT... userdata" />
-                <marker date="1533223645281" expanded="true" signature="3416:3484" ph="SELECT avg(Y... userdata" />
-              </folding>
+            <state relative-caret-position="527">
+              <caret line="229" column="41" lean-forward="false" selection-start-line="229" selection-start-column="41" selection-end-line="229" selection-end-column="41" />
+              <caret line="253" column="41" lean-forward="false" selection-start-line="253" selection-start-column="41" selection-end-line="253" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_block.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/sonata-project/user-bundle/src/Resources/views/Admin/Core/user_block.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-63">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="45" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,14 +65,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>eq</find>
-      <find>emplo</find>
-      <find>emploi1</find>
-      <find>admin</find>
-      <find>configure</find>
-      <find>cus</find>
-      <find>setU</find>
-      <find>doctrin</find>
       <find>user</find>
       <find>utili</find>
       <find>in</find>
@@ -84,6 +87,14 @@
       <find>fos_user</find>
       <find>date</find>
       <find>web</find>
+      <find>show</find>
+      <find>utilisa</find>
+      <find>fram</find>
+      <find>did</find>
+      <find>userd</find>
+      <find>on_t</find>
+      <find>heade</find>
+      <find>sonata.ad</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle</dir>
@@ -98,11 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/partials/alert_message.html.twig" />
-        <option value="$PROJECT_DIR$/app/config/sonata_admin.yml" />
-        <option value="$PROJECT_DIR$/app/config/packages/sonata_admin.yaml" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Admin/admin.html.twig" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/DepartementType.php" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Entity/Userdata.php" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/UserdataController.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -119,7 +125,6 @@
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Resources/views/Registration/register.html.twig" />
         <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/EventListener/PasswordResettingListener.php" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
-        <option value="$PROJECT_DIR$/vendor/sonata-project/admin-bundle/src/Admin/Pool.php" />
         <option value="$PROJECT_DIR$/web/css/main.css" />
         <option value="$PROJECT_DIR$/web/bundles/sonataadmin/css/styles.css" />
         <option value="$PROJECT_DIR$/vendor/sonata-project/admin-bundle/src/Admin/AbstractAdmin.php" />
@@ -136,19 +141,25 @@
         <option value="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php" />
         <option value="$PROJECT_DIR$/vendor/sonata-project/admin-bundle/src/Resources/views/standard_layout.html.twig" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
-        <option value="$PROJECT_DIR$/app/config/services.yml" />
         <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/Group.php" />
         <option value="$PROJECT_DIR$/vendor/sonata-project/user-bundle/src/DependencyInjection/SonataUserExtension.php" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Entity/User.php" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UtilisateurAdmin.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/aba105bb-a1ef-46db-a1a7-e70310f96ab5/console.sql" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/UserdataRepository.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/block_stats.html.twig" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
-        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UserdataAdmin.php" />
         <option value="$PROJECT_DIR$/web/bundles/sonataadmin/treeview.js" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/UserdataRepository.php" />
         <option value="$PROJECT_DIR$/web/bundles/sonataadmin/css/tree.css" />
+        <option value="$PROJECT_DIR$/vendor/sonata-project/admin-bundle/src/Admin/Pool.php" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UserdataAdmin.php" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/UtilisateurRepository.php" />
+        <option value="$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UtilisateurAdmin.php" />
+        <option value="$PROJECT_DIR$/app/config/services.yml" />
+        <option value="$PROJECT_DIR$/vendor/sonata-project/admin-bundle/src/Resources/views/Core/user_block.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/SonataAdminBundle/views/standard_layout.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/SonataAdminBundle/views/user_block.html.twig" />
+        <option value="$PROJECT_DIR$/vendor/sonata-project/user-bundle/src/Resources/views/Admin/Core/user_block.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
       </list>
     </option>
   </component>
@@ -188,13 +199,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
               <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgde" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="pgde" type="b2602c69:ProjectViewProjectNode" />
@@ -227,6 +255,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,12 +265,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Resources/views" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin" />
       <recent name="$PROJECT_DIR$/web/assets/fonts" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/Resources/views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -381,12 +410,13 @@
       <workItem from="1533169238100" duration="893000" />
       <workItem from="1533204577499" duration="10954000" />
       <workItem from="1533224761832" duration="4531000" />
-      <workItem from="1533291597361" duration="2429000" />
+      <workItem from="1533291597361" duration="8822000" />
+      <workItem from="1533301324636" duration="4410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1194770000" />
+    <option name="totallyTimeSpent" value="1205573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-4" width="1307" height="780" extended-state="6" />
@@ -453,48 +483,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/StatsAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/sonata-project/admin-bundle/src/Datagrid/ListMapper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/sonatacore/vendor/components-font-awesome/less/stacked.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/stats.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Controller/StatsCRUDController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Form/UserdataType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Application/Sonata/UserBundle/Document/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -527,13 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="199" column="37" lean-forward="true" selection-start-line="199" selection-start-column="37" selection-end-line="206" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/SonataAdminBundle/views/standard_layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12255">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -612,13 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
           <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="66" column="43" lean-forward="false" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1231,13 +1205,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/4a00d4ed/aba105bb-a1ef-46db-a1a7-e70310f96ab5/pgde.utilisateur">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/sonata-project/user-bundle/src/DependencyInjection/SonataUserExtension.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1275,20 +1242,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UtilisateurAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="73" column="34" lean-forward="false" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/4a00d4ed/aba105bb-a1ef-46db-a1a7-e70310f96ab5/pgde.userdata">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/aba105bb-a1ef-46db-a1a7-e70310f96ab5/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1307,6 +1260,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3264">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1314,127 +1268,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
           <caret line="106" column="6" lean-forward="true" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/sonataadmin/css/tree.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="133" column="1" lean-forward="false" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UserdataAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="e#1290#1357#0#PHP" expanded="false" />
-            <element signature="e#1290#1509#0#PHP" expanded="false" />
-            <element signature="e#1400#1508#0#PHP" expanded="false" />
-            <element signature="e#1290#1661#0#PHP" expanded="false" />
-            <element signature="e#1558#1660#0#PHP" expanded="false" />
-            <element signature="e#1290#1768#0#PHP" expanded="false" />
-            <element signature="e#1707#1767#0#PHP" expanded="false" />
-            <element signature="e#1290#2275#0#PHP" expanded="false" />
-            <element signature="e#1837#2261#0#PHP" expanded="false" />
-            <element signature="e#1290#2391#0#PHP" expanded="false" />
-            <element signature="e#2338#2390#0#PHP" expanded="false" />
-            <element signature="e#1290#2468#0#PHP" expanded="false" />
-            <element signature="e#1290#2606#0#PHP" expanded="false" />
-            <element signature="e#2518#2605#0#PHP" expanded="false" />
-            <element signature="e#1290#2743#0#PHP" expanded="false" />
-            <element signature="e#2655#2742#0#PHP" expanded="false" />
-            <element signature="e#1290#2876#0#PHP" expanded="false" />
-            <element signature="e#2782#2875#0#PHP" expanded="false" />
-            <element signature="e#1290#3016#0#PHP" expanded="false" />
-            <element signature="e#2914#3015#0#PHP" expanded="false" />
-            <element signature="e#3190#3749#0#PHP" expanded="false" />
-            <element signature="e#3190#3988#0#PHP" expanded="false" />
-            <element signature="e#3931#3987#0#PHP" expanded="false" />
-            <element signature="e#3190#4205#0#PHP" expanded="false" />
-            <element signature="e#4024#4079#0#PHP" expanded="false" />
-            <element signature="e#4100#4204#0#PHP" expanded="false" />
-            <element signature="e#3190#4422#0#PHP" expanded="false" />
-            <element signature="e#4241#4296#0#PHP" expanded="false" />
-            <element signature="e#4317#4421#0#PHP" expanded="false" />
-            <element signature="e#3190#4508#0#PHP" expanded="false" />
-            <element signature="e#4456#4507#0#PHP" expanded="false" />
-            <element signature="e#3190#4627#0#PHP" expanded="false" />
-            <element signature="e#4558#4626#0#PHP" expanded="false" />
-            <element signature="e#3190#4874#0#PHP" expanded="false" />
-            <element signature="e#4672#4743#0#PHP" expanded="false" />
-            <element signature="e#4764#4873#0#PHP" expanded="false" />
-            <element signature="e#3190#5105#0#PHP" expanded="false" />
-            <element signature="e#4914#4979#0#PHP" expanded="false" />
-            <element signature="e#5000#5104#0#PHP" expanded="false" />
-            <element signature="e#3190#5207#0#PHP" expanded="false" />
-            <element signature="e#5143#5206#0#PHP" expanded="false" />
-            <element signature="e#3190#5313#0#PHP" expanded="false" />
-            <element signature="e#5249#5312#0#PHP" expanded="false" />
-            <element signature="e#3190#5564#0#PHP" expanded="false" />
-            <element signature="e#5362#5433#0#PHP" expanded="false" />
-            <element signature="e#5454#5563#0#PHP" expanded="false" />
-            <element signature="e#3190#5805#0#PHP" expanded="false" />
-            <element signature="e#5608#5679#0#PHP" expanded="false" />
-            <element signature="e#5700#5804#0#PHP" expanded="false" />
-            <element signature="e#3190#5900#0#PHP" expanded="false" />
-            <element signature="e#5844#5899#0#PHP" expanded="false" />
-            <element signature="e#5958#8901#0#PHP" expanded="false" />
-            <element signature="e#6035#7389#0#PHP" expanded="false" />
-            <element signature="e#6035#7493#0#PHP" expanded="false" />
-            <element signature="e#6035#7583#0#PHP" expanded="false" />
-            <element signature="e#7529#7582#0#PHP" expanded="false" />
-            <element signature="e#6035#7684#0#PHP" expanded="false" />
-            <element signature="e#7620#7683#0#PHP" expanded="false" />
-            <element signature="e#6035#7795#0#PHP" expanded="false" />
-            <element signature="e#7725#7794#0#PHP" expanded="false" />
-            <element signature="e#6035#7937#0#PHP" expanded="false" />
-            <element signature="e#7844#7936#0#PHP" expanded="false" />
-            <element signature="e#6035#8033#0#PHP" expanded="false" />
-            <element signature="e#7976#8032#0#PHP" expanded="false" />
-            <element signature="e#6035#8119#0#PHP" expanded="false" />
-            <element signature="e#8067#8118#0#PHP" expanded="false" />
-            <element signature="e#6035#8238#0#PHP" expanded="false" />
-            <element signature="e#8169#8237#0#PHP" expanded="false" />
-            <element signature="e#6035#8354#0#PHP" expanded="false" />
-            <element signature="e#8283#8353#0#PHP" expanded="false" />
-            <element signature="e#6035#8460#0#PHP" expanded="false" />
-            <element signature="e#8394#8459#0#PHP" expanded="false" />
-            <element signature="e#6035#8566#0#PHP" expanded="false" />
-            <element signature="e#8502#8565#0#PHP" expanded="false" />
-            <element signature="e#6035#8686#0#PHP" expanded="false" />
-            <element signature="e#8615#8685#0#PHP" expanded="false" />
-            <element signature="e#6035#8796#0#PHP" expanded="false" />
-            <element signature="e#8730#8795#0#PHP" expanded="false" />
-            <element signature="e#8948#9212#0#PHP" expanded="false" />
-            <element signature="e#9025#9067#0#PHP" expanded="false" />
-            <element signature="e#9025#9102#0#PHP" expanded="false" />
-            <element signature="e#9025#9134#0#PHP" expanded="false" />
-            <element signature="e#9025#9161#0#PHP" expanded="false" />
-            <element signature="e#9453#9603#0#PHP" expanded="false" />
-            <element signature="e#9609#9894#0#PHP" expanded="false" />
-            <element signature="e#9900#10034#0#PHP" expanded="false" />
-            <element signature="e#10040#10172#0#PHP" expanded="false" />
-            <element signature="e#10178#10462#0#PHP" expanded="false" />
-            <element signature="e#10231#10328#0#PHP" expanded="false" />
-            <element signature="e#10488#11452#0#PHP" expanded="false" />
-            <element signature="e#10543#11445#0#PHP" expanded="false" />
-            <element signature="e#11476#11553#0#PHP" expanded="false" />
-            <element signature="e#11559#11769#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1442,7 +1275,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="33" column="49" lean-forward="false" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1450,7 +1282,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1466,15 +1297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1482,25 +1304,214 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding>
-            <element signature="e#7#254#0#PHP" expanded="true" />
-            <element signature="e#298#338#0#PHP" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/4a00d4ed/aba105bb-a1ef-46db-a1a7-e70310f96ab5/pgde.userdata">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/4a00d4ed/aba105bb-a1ef-46db-a1a7-e70310f96ab5/pgde.utilisateur">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/UserdataRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="847">
-          <caret line="107" column="27" lean-forward="false" selection-start-line="107" selection-start-column="27" selection-end-line="107" selection-end-column="27" />
+        <state relative-caret-position="79">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/sonataadmin/css/tree.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="133" column="1" lean-forward="false" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sonata-project/admin-bundle/src/Admin/Pool.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="270" column="5" lean-forward="false" selection-start-line="270" selection-start-column="5" selection-end-line="270" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sonata-project/admin-bundle/src/Resources/views/Core/search.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UserdataAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="79" column="46" lean-forward="false" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
           <folding>
-            <marker date="1533223645281" expanded="true" signature="1570:1655" ph="SELECT u.id utilisateur" />
-            <marker date="1533223645281" expanded="true" signature="2229:2328" ph="SELECT COUNT... userdata" />
-            <marker date="1533223645281" expanded="true" signature="2475:2670" ph="SELECT COUNT... utilisateur" />
-            <marker date="1533223645281" expanded="true" signature="2601:2652" ph="SELECT utili... userdata" />
-            <marker date="1533223645281" expanded="true" signature="2939:3036" ph="SELECT COUNT... userdata" />
-            <marker date="1533223645281" expanded="true" signature="3416:3484" ph="SELECT avg(Y... userdata" />
+            <element signature="e#42#83#0#PHP" expanded="false" />
+            <element signature="e#1404#1471#0#PHP" expanded="false" />
+            <element signature="e#1404#2615#0#PHP" expanded="false" />
+            <element signature="e#3381#3940#0#PHP" expanded="false" />
+            <element signature="e#3381#4179#0#PHP" expanded="false" />
+            <element signature="e#4122#4178#0#PHP" expanded="false" />
+            <element signature="e#3381#4396#0#PHP" expanded="false" />
+            <element signature="e#4215#4270#0#PHP" expanded="false" />
+            <element signature="e#4291#4395#0#PHP" expanded="false" />
+            <element signature="e#3381#4613#0#PHP" expanded="false" />
+            <element signature="e#4432#4487#0#PHP" expanded="false" />
+            <element signature="e#4508#4612#0#PHP" expanded="false" />
+            <element signature="e#3381#4699#0#PHP" expanded="false" />
+            <element signature="e#4647#4698#0#PHP" expanded="false" />
+            <element signature="e#3381#4818#0#PHP" expanded="false" />
+            <element signature="e#4749#4817#0#PHP" expanded="false" />
+            <element signature="e#3381#5065#0#PHP" expanded="false" />
+            <element signature="e#4863#4934#0#PHP" expanded="false" />
+            <element signature="e#4955#5064#0#PHP" expanded="false" />
+            <element signature="e#3381#5296#0#PHP" expanded="false" />
+            <element signature="e#5105#5170#0#PHP" expanded="false" />
+            <element signature="e#5191#5295#0#PHP" expanded="false" />
+            <element signature="e#3381#5398#0#PHP" expanded="false" />
+            <element signature="e#5334#5397#0#PHP" expanded="false" />
+            <element signature="e#3381#5504#0#PHP" expanded="false" />
+            <element signature="e#5440#5503#0#PHP" expanded="false" />
+            <element signature="e#3381#5755#0#PHP" expanded="false" />
+            <element signature="e#5553#5624#0#PHP" expanded="false" />
+            <element signature="e#5645#5754#0#PHP" expanded="false" />
+            <element signature="e#3381#5996#0#PHP" expanded="false" />
+            <element signature="e#5799#5870#0#PHP" expanded="false" />
+            <element signature="e#5891#5995#0#PHP" expanded="false" />
+            <element signature="e#3381#6091#0#PHP" expanded="false" />
+            <element signature="e#6035#6090#0#PHP" expanded="false" />
+            <element signature="e#6149#9092#0#PHP" expanded="false" />
+            <element signature="e#6226#7580#0#PHP" expanded="false" />
+            <element signature="e#6226#7684#0#PHP" expanded="false" />
+            <element signature="e#6226#7774#0#PHP" expanded="false" />
+            <element signature="e#7720#7773#0#PHP" expanded="false" />
+            <element signature="e#6226#7875#0#PHP" expanded="false" />
+            <element signature="e#7811#7874#0#PHP" expanded="false" />
+            <element signature="e#6226#7986#0#PHP" expanded="false" />
+            <element signature="e#7916#7985#0#PHP" expanded="false" />
+            <element signature="e#6226#8128#0#PHP" expanded="false" />
+            <element signature="e#8035#8127#0#PHP" expanded="false" />
+            <element signature="e#6226#8224#0#PHP" expanded="false" />
+            <element signature="e#8167#8223#0#PHP" expanded="false" />
+            <element signature="e#6226#8310#0#PHP" expanded="false" />
+            <element signature="e#8258#8309#0#PHP" expanded="false" />
+            <element signature="e#6226#8429#0#PHP" expanded="false" />
+            <element signature="e#8360#8428#0#PHP" expanded="false" />
+            <element signature="e#6226#8545#0#PHP" expanded="false" />
+            <element signature="e#8474#8544#0#PHP" expanded="false" />
+            <element signature="e#6226#8651#0#PHP" expanded="false" />
+            <element signature="e#8585#8650#0#PHP" expanded="false" />
+            <element signature="e#6226#8757#0#PHP" expanded="false" />
+            <element signature="e#8693#8756#0#PHP" expanded="false" />
+            <element signature="e#6226#8877#0#PHP" expanded="false" />
+            <element signature="e#8806#8876#0#PHP" expanded="false" />
+            <element signature="e#6226#8987#0#PHP" expanded="false" />
+            <element signature="e#8921#8986#0#PHP" expanded="false" />
+            <element signature="e#9139#9403#0#PHP" expanded="false" />
+            <element signature="e#9216#9258#0#PHP" expanded="false" />
+            <element signature="e#9216#9293#0#PHP" expanded="false" />
+            <element signature="e#9216#9325#0#PHP" expanded="false" />
+            <element signature="e#9216#9352#0#PHP" expanded="false" />
+            <element signature="e#9644#9794#0#PHP" expanded="false" />
+            <element signature="e#9800#10085#0#PHP" expanded="false" />
+            <element signature="e#10091#10225#0#PHP" expanded="false" />
+            <element signature="e#10231#10363#0#PHP" expanded="false" />
+            <element signature="e#10369#10653#0#PHP" expanded="false" />
+            <element signature="e#10422#10519#0#PHP" expanded="false" />
+            <element signature="e#10679#11643#0#PHP" expanded="false" />
+            <element signature="e#10734#11636#0#PHP" expanded="false" />
+            <element signature="e#11667#11744#0#PHP" expanded="false" />
+            <element signature="e#11750#11960#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/user_block.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/SonataAdminBundle/views/standard_layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="213" column="94" lean-forward="false" selection-start-line="213" selection-start-column="84" selection-end-line="213" selection-end-column="94" />
+          <folding>
+            <element signature="e#6188#7038#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Repository/UtilisateurRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding>
+            <marker date="1533298688235" expanded="true" signature="396:495" ph="SELECT COUNT... userdata" />
+            <marker date="1533298688235" expanded="true" signature="642:837" ph="SELECT COUNT... utilisateur" />
+            <marker date="1533298688235" expanded="true" signature="768:819" ph="SELECT utili... userdata" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pgde/EmploiBundle/Admin/UtilisateurAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="82" column="17" lean-forward="false" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="1" selection-end-line="104" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sonata-project/admin-bundle/src/Resources/views/Core/user_block.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sonata-project/user-bundle/src/Resources/views/Admin/Core/user_block.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="45" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="229" column="41" lean-forward="false" selection-start-line="229" selection-start-column="41" selection-end-line="229" selection-end-column="41" />
+          <caret line="253" column="41" lean-forward="false" selection-start-line="253" selection-start-column="41" selection-end-line="253" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>

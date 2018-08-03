@@ -14,7 +14,9 @@ use Sonata\AdminBundle\Datagrid\ListMapper;
 use Sonata\AdminBundle\Datagrid\DatagridMapper;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
+use Symfony\Component\Form\Extension\Core\Type\DateType;
 use Symfony\Component\Form\Extension\Core\Type\RepeatedType;
+use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\HttpFoundation\RequestStack;
 
 class UserdataAdmin extends AbstractAdmin
@@ -38,15 +40,15 @@ class UserdataAdmin extends AbstractAdmin
     {
         $formMapper
             ->with('Modifier', ['class' => 'col-md-9'])
-            ->add('utilisateur.id', null, [
+            ->add('utilisateur.id', TextType::class, [
                 'label' =>  'Numéro Fonction Publique',
                 'disabled'  =>  true
             ])
-            ->add('utilisateur.numberid', null, [
+            ->add('utilisateur.numberid', TextType::class, [
                 'label' =>  'Numéro d\'identité',
                 'disabled'  =>  true
             ])
-            ->add('utilisateur.email', null, [
+            ->add('utilisateur.email', TextType::class, [
                 'label' =>  'Adresse e-mail'
             ])
             ->add('utilisateur.plainPassword', RepeatedType::class, array(
@@ -63,19 +65,19 @@ class UserdataAdmin extends AbstractAdmin
             ])
             ->end()
             ->with('Meta data', ['class' => 'col-md-3'])
-            ->add('utilisateur.firstname', null, [
+            ->add('utilisateur.firstname', TextType::class, [
                 'label' =>  'Nom',
                 'disabled'  =>  true
             ])
-            ->add('utilisateur.lastname', null, [
+            ->add('utilisateur.lastname', TextType::class, [
                 'label' =>  'Nom',
                 'disabled'  =>  true
             ])
-            ->add('telephone1', null, [
+            ->add('telephone1', TextType::class, [
                 'label' =>  'Telephone',
                 'disabled'  =>  true
             ])
-            ->add('datenaiss', null, [
+            ->add('datenaiss', DateType::class, [
                 'label' =>  'Date de naissance',
                 'disabled'  =>  true
             ])

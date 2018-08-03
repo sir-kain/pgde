@@ -92,13 +92,15 @@ services:
         class: Pgde\EmploiBundle\Admin\StatsAdmin
         arguments: [~, ~, PgdeEmploiBundle:StatsCRUD]
 
-#    sonata.admin.block.stats:
-#        class: Sonata\AdminBundle\Block\AdminStatsBlockService
-#        arguments:
-#           - "sonata.admin.block.stats"
-#           - "@sonata.templating"
-#           - "@sonata.admin.pool"
-##           - "@doctrine.orm.entity_manager"
-##           - "@sonata.admin.security.handler"
+#    sonata.admin.userdata:
+#        class: Pgde\EmploiBundle\Admin\UserdataAdmin
 #        tags:
-#            - { name: sonata.block }
+#            - { name: sonata.admin, manager_type: orm, label: Utilisateurs}
+#        arguments:
+#            - ~
+#            - Pgde\EmploiBundle\Entity\Userdata
+#            - ~
+#            - '@request_stack'
+#            - '@doctrine.orm.entity_manager'
+#        public: true
+

@@ -10,4 +10,29 @@ namespace Pgde\EmploiBundle\Repository;
  */
 class UtilisateurRepository extends \Doctrine\ORM\EntityRepository
 {
+
+    public function inscriptionIncomplete() {
+        $cnx = $this->_em->getConnection();
+        $statement1 = $cnx->prepare('
+                SELECT COUNT( ud.id ) 
+                FROM userdata ud
+                WHERE ud.emploi1_id IS NULL
+            ');
+        $statement1->execute();
+        $res1 = $statement1->fetchColumn();
+        $statement2 = $cnx->prepare('
+                SELECT COUNT( u.id ) 
+                FROM utilisateur u
+                WHERE u.id NOT 
+                IN (
+                SELECT utilisateur_id
+                FROM userdata
+                )
+            ');
+        $statement2->execute();
+        $res2 = $statement2->fetchColumn();
+
+        return $res1 + $res2;
+    }
+
 }
