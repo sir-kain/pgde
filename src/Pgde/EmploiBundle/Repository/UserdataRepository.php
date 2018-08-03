@@ -107,6 +107,7 @@ class UserdataRepository extends \Doctrine\ORM\EntityRepository
         $statement = $cnx->prepare('
             SELECT avg(YEAR(NOW()) - YEAR(datenaiss)) 
             FROM userdata
+            WHERE emploi1_id IS NOT NULL 
             ');
         $statement->execute();
         $res = $statement->fetchColumn();
