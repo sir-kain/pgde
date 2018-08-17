@@ -45,6 +45,7 @@ class UtilisateurAdmin extends AbstractAdmin
         }
         return $query;
     }
+
     // Fields to be shown on create/edit forms
     protected function configureFormFields(FormMapper $formMapper)
     {
@@ -80,7 +81,7 @@ class UtilisateurAdmin extends AbstractAdmin
     protected function configureListFields(ListMapper $listMapper)
     {
         $listMapper
-            ->add('id', null, [
+            ->addIdentifier('id', null, [
                 'label' =>  'Numéro FP'
             ])
             ->add('numberid', null, [

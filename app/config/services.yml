@@ -103,4 +103,15 @@ services:
 #            - '@request_stack'
 #            - '@doctrine.orm.entity_manager'
 #        public: true
-
+#
+#    sonata.user.admin.user:
+#        class: Pgde\EmploiBundle\Admin\UtilisateurAdmin
+#        tags:
+#            - { name: sonata.admin, manager_type: orm, label: Utilisateurs}
+#        arguments:
+#            - ~
+#            - Pgde\EmploiBundle\Entity\Utilisateur
+#            - ~
+#            - '@request_stack'
+#            - '@doctrine.orm.entity_manager'
+#        public: true

@@ -210,10 +210,10 @@ sonata_admin:
     title: PGDE
     title_logo: /img/logogris.png
     dashboard:
-        groups:
-            default:
-                on_top: true
-                label: Utilisateur
+#        groups:
+#            default:
+#                on_top: true
+#                label: Utilisateur
         blocks:
 #            -
 #                class:    col-lg-3 col-xs-6          # twitter bootstrap responsive code
